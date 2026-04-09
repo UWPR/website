@@ -1,0 +1,39 @@
+# Ignore everything by default
+*
+
+# But descend into directories (needed so whitelisted files below are found)
+!*/
+
+# Whitelist file types we want to keep
+!*.php
+!*.html
+!*.htm
+!*.css
+!*.js
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.pdf
+!*.xlsx
+!*.xls
+!*.doc
+!*.docx
+
+# Keep .gitignore itself
+!.gitignore
+
+# Directory exclusions (must come AFTER whitelist to override)
+/protocols06/18MixPublicDatasets/
+/dist/
+/protocols06/unused/
+
+# Ignore temporary files
+/docs/tmp/
+
+/unused/
+
+# Ignore the lorikeet repo directory
+/lorikeet/
+
+/net/
