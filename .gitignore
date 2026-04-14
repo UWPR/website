@@ -20,6 +20,16 @@
 !*.doc
 !*.docx
 
+# Jekyll files
+!*.yml
+!*.yaml
+!*.md
+!*.markdown
+!*.scss
+!*.sass
+!Gemfile
+!Gemfile.lock
+
 # Keep .gitignore itself
 !.gitignore
 

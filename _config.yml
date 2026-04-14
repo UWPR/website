@@ -1,0 +1,52 @@
+title: "University of Washington Proteomics Resource"
+description: "Web site for the University of Washington's Proteomics Resource"
+url: "https://vagisha.github.io"
+baseurl: "/website"
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+plugins:
+  - jekyll-include-cache
+
+# Tell Jekyll to read _pages/ directory
+include:
+  - _pages
+
+# Exclude PHP files and other non-Jekyll content from the build
+exclude:
+  - "*.php"
+  - "commands.txt"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor"
+  - "internal"
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
+      sidebar: false
+
+# Navigation (top menu bar)
+header_pages: []
+
+# Main navigation links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Collaborate"
+    url: /collaborate/
+  - title: "Resources"
+    url: /resources/
+  - title: "Methods"
+    url: /methods/
+  - title: "Tools"
+    url: /tools/
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /contact/
