@@ -1,9 +1,9 @@
 ---
 title: "Sequest"
-permalink: /protocols06/sequest.php
+permalink: /protocols06/sequest/
 ---
 
-[![background](/images/sequest.jpg){width="600" height="180"}](#)
+[![background]({{ site.baseurl }}/images/sequest.jpg){width="600" height="180"}](#)
 
 ## SEQUEST^®^
 

@@ -1,14 +1,14 @@
 ---
 title: "Peptide separation protocols"
-permalink: /protocols04/peptideseparation.php
+permalink: /protocols04/peptideseparation/
 ---
 
-**Trypsin Digestion and TMT Labeling (from Ref 4)**\
+**Trypsin Digestion and TMT Labeling (from Ref 4)**
 
-Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.\
-Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention eppendorf tubes.\
+Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.
+Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention eppendorf tubes.
 
-Materials\
+Materials
 
 1.  Low retention eppendorf tubes.
 2.  Dissolution buffer: 100 mM triethyl ammonium bicarbonate (TEAB) (pH 8.0), 0.5 % (w/v) SDS. Aliquot and store at -20 ^o^C.
@@ -33,9 +33,9 @@ Method
 
 Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptide separation protocol like SCX or high pH reversed phase chromatography, to separate the peptides in addition to the cleanup.
 
-**Strong Cation Exchange Chromatography (from Ref 4)**\
+**Strong Cation Exchange Chromatography (from Ref 4)**
 
-SCX is used here to remove excess TMT reagents and SDS and to fractionate the TMT-labeled plasma peptides.\
+SCX is used here to remove excess TMT reagents and SDS and to fractionate the TMT-labeled plasma peptides.
 
 Materials
 
@@ -59,9 +59,9 @@ Method
 7.  To ensure the removal of the volatile salt used for SCX, resuspend the samples in Buffer B and re-lyophilize to dryness.
 8.  Store samples at -80 ^o^C until further analysis.
 
-**Title (from Ref n)**\
+**Title (from Ref n)**
 
-Materials\
+Materials
 
 1.  
 

@@ -1,13 +1,13 @@
 ---
 title: "LTQ XL with ETD option (LTQ-ETD)"
-permalink: /instruments/ltqetd.php
+permalink: /instruments/ltqetd/
 ---
 
 The LTQ XL™ extends the legendary MSn performance of the LTQ™, incorporating more techniques to generate structural information through innovations in ion trap technology.  The LTQ XL is the only mass spectrometer that offers multiple dissociation techniques,CID, PQD and ETD.  Electron Transfer Dissociation (ETD) enables peptide dissociation by transferring electrons to positively charged peptides, leading to a rich ladder of sequence ions derived from cleavage at the amide groups along the peptide backbone. Amino acid side chains and important modifications such as phosphorylation are left intact.
 
-![](/images/ltqetd.jpg)
+![]({{ site.baseurl }}/instruments/images/ltqetd.jpg)
 
-8/28/2007 Installed\
+8/28/2007 Installed
 1/24/2013 Retired
 
 - **Mass range**
@@ -35,4 +35,4 @@ The LTQ XL™ extends the legendary MSn performance of the LTQ™, incorporating
 <!-- -->
 
 - **Instrument control software**
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

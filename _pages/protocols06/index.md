@@ -1,26 +1,28 @@
 ---
 title: "Data Analysis Tools"
-permalink: /protocols06/index.php
+permalink: /protocols06/
 ---
+
+*A collection of computational tools and links*
 
 ### Online Tools/Calculators
 
-- [MS/MS fragmentation calculator](/cgi-bin/fragment.cgi)
-- [Protein sequence digestion calculator](/cgi-bin/digest.cgi)
-- [Isotope distribution calculator](/cgi-bin/calcisotopes.cgi)
-- [Elemental mass calculator](/cgi-bin/element.cgi)
-- [Peptide motif finder](/cgi-bin/motif_search.cgi)
-- [Lorikeet Spectrum viewer](/lorikeet/)
-- [Koina (Prosit, ms2pip, AlphaPeptDeep) spectrum prediction viewer](/lorikeet/html/specview-koina.html)
-- [Table of relevant masses (amino acids, elements)](masses.php)
+- [MS/MS fragmentation calculator]({{ site.baseurl }}/cgi-bin/fragment.cgi)
+- [Protein sequence digestion calculator]({{ site.baseurl }}/cgi-bin/digest.cgi)
+- [Isotope distribution calculator]({{ site.baseurl }}/cgi-bin/calcisotopes.cgi)
+- [Elemental mass calculator]({{ site.baseurl }}/cgi-bin/element.cgi)
+- [Peptide motif finder]({{ site.baseurl }}/cgi-bin/motif_search.cgi)
+- [Lorikeet Spectrum viewer](https://proteomicsresource.washington.edu/lorikeet/)
+- [Koina (Prosit, ms2pip, AlphaPeptDeep) spectrum prediction viewer](https://proteomicsresource.washington.edu/lorikeet/html/specview-koina.html)
+- [Table of relevant masses (amino acids, elements)]({{ site.baseurl }}/protocols06/masses/)
 
 ### MS/MS database search tools
 
 Various MS/MS database search tools are available at our UWPR systems. Search results are typically processed through the Trans-Proteomic Pipeline.
 
-- [Comet](https://uwpr.github.io/Comet/) ([local linux commands](/protocols06/comet_commands.php))
-- [X!Tandem](xtandem.php)
-- [Crux](http://cruxtoolkit.sourceforge.net) ([local run info](/protocols06/crux.php))
+- [Comet](https://uwpr.github.io/Comet/) ([local linux commands]({{ site.baseurl }}/protocols06/comet_commands/))
+- [X!Tandem]({{ site.baseurl }}/protocols06/xtandem/)
+- [Crux](http://cruxtoolkit.sourceforge.net) ([local run info]({{ site.baseurl }}/protocols06/crux/))
 
 ### Software tools and protocols from other resources:
 
@@ -35,14 +37,14 @@ Various MS/MS database search tools are available at our UWPR systems. Search re
 
 ### Miscellaneous
 
-- [A quick primer](/protocols06/primer/) on how to interpret peptide ID results processed at UWPR
-- [Simple .ms2 to .dta command line converter (zip of source + binaries)](/docs/ms22dta.zip)
-- [Simple .ms2 to .mgf command line converter (C source)](/docs/ms22mgf.c)
-- [Here are TPP Libra condition files](/docs/libra_condition_files.zip) for iTRAQ and TMT.
-- [ReAdW under Wine](/protocols06/wine/) Thermo to mzXML conversions under linux.
-- [RawMeat](/protocols06/RawMeat_1007.exe) is a nice Thermo raw file diagnostic tool developed by the now defunct Vast Scientific. RawMeat requires Thermo's MSFileReader library to be installed. MSFileReader can be downloaded by creating an account with [ThermoFischer Scientific](https://thermo.flexnetoperations.com/control/thmo/login). Once registered you will find the software under "Other Software Releases".
-- [Instructions on running Abacus](/protocols06/Abacus/) spectral count tool on UWPR systems. Here is [ChatGPT's description of what ADJNSAF is](adjnsaf.php).
-- [zip file containing contaminant protein sequences](/protocols06/uniprot.contam.zip) based on the [GPM's cRAP database](https://www.thegpm.org/crap/). Updated 2022/06/21 to current UniProt sequences. Separated into bovine, human, yeast, chicken, E. coli, and others.
+- [A quick primer]({{ site.baseurl }}/protocols06/primer/) on how to interpret peptide ID results processed at UWPR
+- [Simple .ms2 to .dta command line converter (zip of source + binaries)](https://proteomicsresource.washington.edu/docs/ms22dta.zip)
+- [Simple .ms2 to .mgf command line converter (C source)]({{ site.baseurl }}/docs/ms22mgf.c)
+- [Here are TPP Libra condition files](https://proteomicsresource.washington.edu/docs/libra_condition_files.zip) for iTRAQ and TMT.
+- [ReAdW under Wine]({{ site.baseurl }}/protocols06/wine/) Thermo to mzXML conversions under linux.
+- [RawMeat]({{ site.baseurl }}/protocols06/RawMeat_1007.exe) is a nice Thermo raw file diagnostic tool developed by the now defunct Vast Scientific. RawMeat requires Thermo's MSFileReader library to be installed. MSFileReader can be downloaded by creating an account with [ThermoFischer Scientific](https://thermo.flexnetoperations.com/control/thmo/login). Once registered you will find the software under "Other Software Releases".
+- [Instructions on running Abacus]({{ site.baseurl }}/protocols06/Abacus/) spectral count tool on UWPR systems. Here is [ChatGPT's description of what ADJNSAF is]({{ site.baseurl }}/protocols06/adjnsaf/).
+- [zip file containing contaminant protein sequences](https://proteomicsresource.washington.edu/protocols06/uniprot.contam.zip) based on the [GPM's cRAP database](https://www.thegpm.org/crap/). Updated 2022/06/21 to current UniProt sequences. Separated into bovine, human, yeast, chicken, E. coli, and others.
 - Historic public datasets from ISB. These both include 18 protein mixture datasets as published in [Keller et al., Omics, 2002](https://pubmed.ncbi.nlm.nih.gov/12143966/) ([dataset1](https://proteomicsresource.washington.edu/protocols06/18MixPublicDatasets/2002_Omics_mixture/)) and [Klimek et al., JPR, 2008](https://pubmed.ncbi.nlm.nih.gov/17711323/) ([dataset2](https://proteomicsresource.washington.edu/protocols06/18MixPublicDatasets/StandardProteinMix/)). These files are not posted online for direct download in order to avoid constant download from data crawlers so contact us for a link to the files.
 
 ### MS/MS database search info:

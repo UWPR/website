@@ -1,13 +1,13 @@
 ---
 title: "LTQ-Orbitrap XL"
-permalink: /instruments/ltqorbitrap.php
+permalink: /instruments/ltqorbitrap/
 ---
 
 The new LTQ Orbitrap XL hybrid FT mass spectrometer combines a linear ion trap MS and the Orbitrap mass analyzer. It is the ultimate protein identification and biomarker discovery platform featuring unsurpassed sensitivity in MS and MSn, rapid scan rate, high mass accuracy and up to 100K resolution power. The LTQ Orbitrap XL features the new HCD collision cell for increased flexibility in MS/MS fragmentation applications including iTRAQ™-based peptide quantitation and PTM analysis.
 
-![](/images/ltqorbitrap.jpg)
+![]({{ site.baseurl }}/instruments/images/ltqorbitrap.jpg)
 
-7/17/07 LTQ-OT 1 (SN01323B) Installed, 9/1/2020 Retired\
+7/17/07 LTQ-OT 1 (SN01323B) Installed, 9/1/2020 Retired
 8/16/07 LTQ-OT 2 (SN01322B) Installed, 10/1/2015 Retired
 
 - **Mass range**
@@ -41,4 +41,4 @@ The new LTQ Orbitrap XL hybrid FT mass spectrometer combines a linear ion trap M
 <!-- -->
 
 - **Instrument control software**
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

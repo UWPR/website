@@ -1,7 +1,9 @@
 ---
 title: "Parallel Reaction Monitoring (PRM)"
-permalink: /protocols05/PRM.php
+permalink: /protocols05/PRM/
 ---
+
+*Targeted Proteomics by Parallel-Reaction Monitoring*
 
 Parallel reaction monitoring (PRM)-based targeted mass spectrometry is comparable in performance to selected reaction monitoring (SRM) but requires much less investment in assay development for targeted proteomics applications.
 
@@ -9,7 +11,7 @@ PRM methodology uses the quadrupole of the Q Exactive or Fusion mass spectromete
 
 PRM provides high selectivity, high sensitivity, and high-throughput quantification with confident targeted peptide confirmation. It is most suitable for quantifying tens to hundreds of targeted proteins in complex matrices with attomole-level limits of detection.
 
-![](/images/PRM_01.png)
+![]({{ site.baseurl }}/images/PRM_01.png)
 
 ## PRM assay development
 
@@ -42,10 +44,10 @@ There are several excellent webinars and tutorials provided by the Skyline Team.
   - Avoid missed cleavage sites
   - Avoid ragged ends: two enzymatic sites sequential to each other
   - For heavy labeled peptides check with vendor for restrictions
-  - Avoid frequently modified amino acids (Met oxidation, deamidation, alkylation, phosphorylation, glycosylation sites, proteolysis, etc)\
-    some chemically induced modifications:\
-    - Met and Trp: oxidation\
-    - N-term Glu: pyroglutamic acid under acidic conditions\
+  - Avoid frequently modified amino acids (Met oxidation, deamidation, alkylation, phosphorylation, glycosylation sites, proteolysis, etc)
+    some chemically induced modifications:
+    - Met and Trp: oxidation
+    - N-term Glu: pyroglutamic acid under acidic conditions
     - Asn and Gln: deamidation to Asp and Glu, particularly if followed in sequence by Gly and Pro
   - Check for known protein modifications (signal peptide, isoforms, cleavage sites etc)
 
@@ -61,7 +63,7 @@ There are several excellent webinars and tutorials provided by the Skyline Team.
 
   Figure 2 shows how to estimate total cycle time based on the orbitrap resolving power (for the Fusion and QExactive) and the number of targets. To obtain the fastest cycle time for any given resolution, the maximum allowed fill time should not exceed the detection time, because the instrument fills the HCD cell while the orbitrap mass analyzer is acquiring the MS2 scan. It is important to understand that higher resolution does not always result in better mass accuracy. Higher resolution increases your ability to distinguish between m/z ions. As you can see in the table below, there is a trade of higher resolution with time. On the QE 17,500 is the lowest resolution setting, with the fastest scan speed of \~13 Hz, the highest resolution setting is 140K, on the QE plus with enhanced resolution mode its 280K.
 
-  ![](/images/PRM_02.png)
+  ![]({{ site.baseurl }}/images/PRM_02.png)
 
   **Fusion**
 
@@ -166,118 +168,61 @@ Approx. scan speed \[Hz\]
 3.  So the maximum number of targeted precursors is basically the duty cycle divided by the scan time.
 4.  If the retention times are known scheduling may be an option as well.
 
-QE plus: Resolution of 17500, max IT 50 ms, we get a scan speed of \~ 12 Hz.\
+QE plus: Resolution of 17500, max IT 50 ms, we get a scan speed of \~ 12 Hz.
 Fusion/Lumos: Resolution of 15000, max IT 22 ms, we get a scan speed of \~ 18 Hz.
 
-**Cycle Time**
+****Cycle Time****
 
-**QE plus**
+| sec | \# of scans | \# of scans |
+|:---:|:-----------:|:-----------:|
+|  1  |     12      |     18      |
+|  2  |     24      |     36      |
+|  3  |     36      |     54      |
+|  4  |     48      |     72      |
+|  5  |     60      |     90      |
+|  6  |     72      |     108     |
+|  7  |     84      |     126     |
+|  8  |     96      |     144     |
+|  9  |     108     |     162     |
+| 10  |     120     |     180     |
 
-**Fusion/Lumos**
+UWPR Guide to setup PRM method on QE plus: [PRM_QExactive (pdf)]({{ site.baseurl }}/docs/protocols05/PRM_QExactive.pdf)
 
-sec
+UWPR Guide to setup PRM method on Fusion/Lumos: [PRM_FusionLumos_SW3_1 (pdf)]({{ site.baseurl }}/docs/protocols05/PRM_FusionLumos_SW3_1.pdf)
 
-\# of scans
+For additional resources search the Planet Orbitrap library: [Planet Orbitrap](https://planetorbitrap.com/)
 
-\# of scans
-
-1
-
-12
-
-18
-
-2
-
-24
-
-36
-
-3
-
-36
-
-54
-
-4
-
-48
-
-72
-
-5
-
-60
-
-90
-
-6
-
-72
-
-108
-
-7
-
-84
-
-126
-
-8
-
-96
-
-144
-
-9
-
-108
-
-162
-
-10
-
-120
-
-180
-
-UWPR Guide to setup PRM method on QE plus: [PRM_QExactive (pdf)](/docs/protocols05/PRM_QExactive.pdf)
-
-UWPR Guide to setup PRM method on Fusion/Lumos: [PRM_FusionLumos_SW3_1 (pdf)](/docs/protocols05/PRM_FusionLumos_SW3_1.pdf)
-
-For additional resources search the Planet Orbitrap library: [Planet Orbitrap](https://planetorbitrap.com/)\
-
-Check out this Technical Guide on Thermo's Planet Orbitrap website\
+Check out this Technical Guide on Thermo's Planet Orbitrap website
 [How to best utilize your QE/QE Plus for maximum peptide IDs and for peptide quantitation](http://planetorbitrap.com/library?t=QTE0OTBlODg0OWE1NWYzYw%3D%3D&keywords=A1490#tab:keywords) for more information
 
 **Skyline a free software tool to build and analyze SRM, PRM and DIA assays**
 
 Skyline is a freely-available Windows client application for building Selected Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM - Targeted MS/MS and DIA/SWATH) and targeted DDA with MS1 quantitative methods and analyzing the resulting mass spectrometer data. It aims to employ cutting-edge technologies for creating and iteratively refining targeted methods for large-scale proteomics studies.
 
-[![skyline](/images/Skyline.png)Click here](https://skyline.gs.washington.edu/labkey/project/home/software/Skyline/begin.view) to go to the skyline website to download the latest version.\
+[![skyline]({{ site.baseurl }}/images/Skyline.png)Click here](https://skyline.gs.washington.edu/labkey/project/home/software/Skyline/begin.view) to go to the skyline website to download the latest version.
 
 ## Glossary
 
-- **SRM**\
-  Selected Reaction Monitoring\
+- **SRM**
+  Selected Reaction Monitoring
   Method used in tandem mass spectrometry in which an ion of a particular mass is selected in the first stage of a tandem mass spectrometer and an ion product of a fragmentation reaction of the precursor ion is selected in the second mass spectrometer stage for detection
-- **MRM**\
-  Multiple Reaction Monitoring\
+- **MRM**
+  Multiple Reaction Monitoring
   The application of SRM to multiple product ions from one or more precursor ions
-- **PRM**\
-  Parallel Reaction Monitoring\
+- **PRM**
+  Parallel Reaction Monitoring
   targeted MS/MS analyses, in which full fragment ion spectrum of each precursors in a target list is recorded continuously throughout the entire LC separation
-- **Transition**\
+- **Transition**
   Precursor/product ion pair
-- **Specificity**\
+- **Specificity**
   Ability to discriminate and quantify a particular protein sequence in a mixture without interferences from other components (Ref. \[20\])
-- **Accuracy**\
+- **Accuracy**
   Refers to how close the average results are to the true quantity value. It is affected by systematic biases that consistently affect the measurement in the same direction (Ref. \[20\]).
-- **Precision**\
+- **Precision**
   Degree to which repeated measurements of the target protein(s) under unchanged conditions (instrument settings, operator, apparatus and laboratory) show the same results, within a short interval of time. Precision is affected by random errors, and unpredictable fluctuations around the true value. Precision can be expressed as coefficient of variation (CV) which corresponds to the standard deviation of repeated measurements divided by the mean, with results typically expressed as per cent (%CV). The CV represents therefore a standardization of the standard deviation that allows to compare the variability of the measurement regardless of the magnitude of analyte concentration, in the working range of the assay (Ref. \[20\]).
-- **Limit of quantification (LOQ)**\
+- **Limit of quantification (LOQ)**
   Minimal concentration or amount of a protein that can be confidently quantified
-- **Limit of Detection (LOD)**\
+- **Limit of Detection (LOD)**
   Smallest concentration or amount of a protein that can be confidently detected
 
 **References**

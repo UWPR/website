@@ -1,6 +1,6 @@
 ---
 title: "Index"
-permalink: /protocols06/isotopic/index.php
+permalink: /protocols06/isotopic/
 ---
 
 

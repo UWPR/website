@@ -1,6 +1,6 @@
 ---
 title: "Minpeaks"
-permalink: /misc/minpeaks.php
+permalink: /misc/minpeaks/
 ---
 
 ## Effect of minimum peaks count
@@ -11,8 +11,8 @@ As a non-conclusive and very brief test of this (controlled by the "minimum_peak
 
 Searches were evaluated in two ways. First, results were analyzed by Percolator version 1.17. At a q-value cutoff of \<= 0.01, the resulting number of unique peptide identifications for 5, 30, 75, and 100 minimum peaks, respectively, were 1063, 1040, 1031, 1016. Unique peptide identifications gradually decrease as the minimum peak count filter increases.
 
-A second analysis uses the same set of search results but plots FDR as a function of expectation score. Here's the resulting plot showing a minimum peak count of 5 doing a little better than the other settings. Curiously the 30, 75, and 100 plots all overlap; I did double check and the searches were run correctly. ![](minpeaks-evalue.png)
+A second analysis uses the same set of search results but plots FDR as a function of expectation score. Here's the resulting plot showing a minimum peak count of 5 doing a little better than the other settings. Curiously the 30, 75, and 100 plots all overlap; I did double check and the searches were run correctly. ![]({{ site.baseurl }}/misc/minpeaks-evalue.png)
 
 So for *this* dataset using *this* analysis, it turns out that a conservative minimum peaks count filter works best. Differences I'm seeing are minimal though and may not be statistically significant. There could be some optimal value between 5 and 30 but I'm not interested enough to test these.
 
-[Supporting files](minpeaks.zip) (search results, Percolator output).
+[Supporting files](https://proteomicsresource.washington.edu/misc/minpeaks.zip) (search results, Percolator output).

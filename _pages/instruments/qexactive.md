@@ -1,15 +1,15 @@
 ---
 title: "Q Exactive Plus (Q)"
-permalink: /instruments/qexactive.php
+permalink: /instruments/qexactive/
 ---
 
 The Thermo Scientific Q Exactive Plus benchtop LC-MS/MS combines high-performance quadrupole precursor selection with high resolution, accurate-mass (HR/AM) Orbitrap detection to deliver high performance and tremendous versatility. With a fast scan speed and multiplexing capabilities, the Q Exactive Plus mass spectrometer is an outstanding detector for fast chromatography separation techniques. The superior quality of Q Exactive Plus MS/MS data enables identification and quantitation of more compounds with greater confidence. The Q Exactive Plus LC-MS/MS system not only offers broad screening capabilities but also excels at targeted quantitation experiments.
 
-![](/images/qexactive_04.jpg)
+![]({{ site.baseurl }}/instruments/images/qexactive_04.jpg)
 
 Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) for more information
 
-11/19/2013 QE Plus Installed\
+11/19/2013 QE Plus Installed
 6/6/2012 QE Installed, 11/14/2013 retired
 
 - **Scan Rate**
@@ -47,4 +47,4 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) f
 <!-- -->
 
 - **Instrument control software**
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

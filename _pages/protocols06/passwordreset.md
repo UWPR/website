@@ -1,6 +1,6 @@
 ---
 title: "Password Reset"
-permalink: /protocols06/passwordreset.php
+permalink: /protocols06/passwordreset/
 # TODO: define sidebar nav in _data/navigation.yml
 # sidebar:
 #   nav: "SIDEBAR_NAME"
@@ -14,11 +14,11 @@ Here's the [direct link to the password reset page](https://proteomicsresource.w
 
 ## UWPR links
 
-- [Resource members Contact page](/contact.php)
-- [Methods page](/methods.php)
-- [UWPR guidelines (pdf)](/docs/UWPR_Guidelines.pdf)
-- [LC-MS commonly used consumables (xls)](/docs/protocols05/LC_MS_Consumables.xls)
-- [Sample Submission Form (xls)](/pr/costcenter_resources/UWPR%20sample%20submission%20form.xlsx)
-- [UWPR publications page](/publications.php)
+- [Resource members Contact page]({{ site.baseurl }}/contact/)
+- [Methods page]({{ site.baseurl }}/methods/)
+- [UWPR guidelines (pdf)]({{ site.baseurl }}/docs/UWPR_Guidelines.pdf)
+- [LC-MS commonly used consumables (xls)]({{ site.baseurl }}/docs/protocols05/LC_MS_Consumables.xls)
+- [Sample Submission Form (xls)](https://proteomicsresource.washington.edu/pr/costcenter_resources/UWPR%20sample%20submission%20form.xlsx)
+- [UWPR publications page]({{ site.baseurl }}/publications/)
 - [ABRF guidelines for authorship](https://abrf.org/authorship-guidelines)
-- [Local core facilities page](/corefacilities.php)
+- [Local core facilities page]({{ site.baseurl }}/corefacilities/)

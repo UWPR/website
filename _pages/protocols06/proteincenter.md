@@ -1,6 +1,6 @@
 ---
 title: "Proxeon's ProteinCenter"
-permalink: /protocols06/proteincenter.php
+permalink: /protocols06/proteincenter/
 ---
 
 - [UWPR ProteinCenter login](http://uwpr.proteincenter.proxeon.com/)

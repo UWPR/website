@@ -1,7 +1,9 @@
 ---
 title: "Comet commands"
-permalink: /protocols06/comet_commands.php
+permalink: /protocols06/comet_commands/
 ---
+
+*Instructions for account setup and running Comet on UWPR systems*
 
 Cliff notes version to run a Comet search. If you are not in the Dept. of Genome Sciences, this page is not for you.
 

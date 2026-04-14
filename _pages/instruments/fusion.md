@@ -1,13 +1,13 @@
 ---
 title: "Orbitrap Fusion Tribrid MS"
-permalink: /instruments/fusion.php
+permalink: /instruments/fusion/
 ---
 
 The Thermo Scientific^™^ Orbitrap Fusion^™^ Tribrid^™^ mass spectrometer combines the best of quadrupole, Orbitrap, and ion trap mass analysis in a revolutionary Tribrid architecture that delivers unprecedented depth of analysis. It enables life scientists analyzing even the most challenging low-abundance, high-complexity, or difficult samples to identify more compounds more quickly, quantify more accurately, and elucidate structures more thoroughly.
 
-![](/images/fusion_03.jpg)
+![]({{ site.baseurl }}/instruments/images/fusion_03.jpg)
 
-Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion) for more information\
+Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion) for more information
 and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Transform2013_Fusion) for some nice animations
 
 12/5/2013 Fusion Installed
@@ -41,4 +41,4 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 <!-- -->
 
 - **Instrument control software**
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

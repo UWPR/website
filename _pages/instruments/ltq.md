@@ -1,13 +1,13 @@
 ---
 title: "LTQ"
-permalink: /instruments/ltq.php
+permalink: /instruments/ltq/
 ---
 
 The LTQ offers legendary MSn performance, incorporating more techniques to generate structural information through innovations in ion trap technology.  The LTQ offers two dissociation techniques, CID and PQD.  Pulsed Q Collision Induced Dissociation (PQD) is a patented technique that eliminates the low mass cut-off concern inherent with all ion traps.  This results in extensive coverage for predicted and unpredicted metabolites, and the ability to perform peptide quantification using iTRAQ™ labels.
 
-![](/images/ltq.jpg)
+![]({{ site.baseurl }}/instruments/images/ltq.jpg)
 
-9/13/2006 Installed\
+9/13/2006 Installed
 6/1/2012 Retired
 
 - **Mass range**
@@ -29,4 +29,4 @@ The LTQ offers legendary MSn performance, incorporating more techniques to gener
 <!-- -->
 
 - **Instrument control software**
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

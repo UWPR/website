@@ -1,16 +1,16 @@
 ---
 title: "ESI Common Background Ions"
-permalink: /protocols05/esi_background_ions.php
+permalink: /protocols05/esi_background_ions/
 ---
 
-![](/images/esi_background_01.png)\
+![]({{ site.baseurl }}/images/esi_background_01.png)
 
 There are several good sources online, here are just a few:
 
 - [Contamination Search Tools at the University of Leiden](http://www.lc-ms.nl/)
 - [pdf document from Waters](http://www.waters.com/webassets/cms/support/docs/bkgrnd_ion_mstr_list.pdf)
-- Mass Spec Background Ions: Repeating Units [go to page](https://proteomicsresource.washington.edu/protocols05/esi_background_ions_repeat_units.php)
-- UWPR_CommonMassSpecContaminants spreadsheet [xls](/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
+- Mass Spec Background Ions: Repeating Units [go to page]({{ site.baseurl }}/protocols05/esi_background_ions_repeat_units/)
+- UWPR_CommonMassSpecContaminants spreadsheet [xls]({{ site.baseurl }}/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
 
 **Mono mass \[M+H\]^+^**
 

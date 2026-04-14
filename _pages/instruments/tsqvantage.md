@@ -1,18 +1,20 @@
 ---
 title: "TSQ Vantage"
-permalink: /instruments/tsqvantage.php
+permalink: /instruments/tsqvantage/
 # TODO: define sidebar nav in _data/navigation.yml
 # sidebar:
 #   nav: "SIDEBAR_NAME"
 ---
 
-![](/images/tsqvantage01a.png)\
+*Triple Quadrupole Mass Spectrometer*
+
+![]({{ site.baseurl }}/instruments/images/tsqvantage01a.png)
 
 The TSQ Vantage, a triple quadrupole mass spectrometer, includes a Qualitative Enhanced Data scanning function (QED). This proprietary scan function allows the instrument to make data-dependent decisions in response to the sample signals and produce qualitative information in addition to the precise and sensitive quantitative information. The specificity provided by H-SRM followed by QED MS/MS provides uncompromised quantitation performance at low levels followed by a fast, highly-specific full MS/MS scan for confirmation. The patented G2 ion optics (S-lens) provides better transfer (less loss) of more ions to the detector giving better sensitivity, bigger peaks, and better reproducibility in the low end. Additionally, the standard hyperbolic (HyperQuad™ ) quadrupole mass filters reduce chemical noise (H-SRM).
 
 10/8/2009 TSQ Vantage (TQU02360) Installed
 
-## Specifications {#specs}
+## Specifications 
 
 - **Mass range**
 - m/z 10 to 1 500 Da
@@ -38,19 +40,17 @@ The TSQ Vantage, a triple quadrupole mass spectrometer, includes a Qualitative E
 
 <!-- -->
 
-- ## Instrument control software {#software}
+- ## Instrument control software 
 
-  \
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+## Instrument calibrations 
 
-## Instrument calibrations {#calis}
+- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)](/docs/Calibrations.xlsx)
+## Collision Energy Calculation 
 
-## Collision Energy Calculation {#collisionenergy}
-
-For collision energy calculation check out our MRM/SRM overview [page](/protocols05/MRM.php).
+For collision energy calculation check out our MRM/SRM overview [page]({{ site.baseurl }}/protocols05/MRM/).
 
 Base Collision Energy (CE) Equations (Ref\[1\]):
 
@@ -59,27 +59,27 @@ Base Collision Energy (CE) Equations (Ref\[1\]):
 - TSQ Vantage (1.5 mTorr) 2 + peptide: CE = 0.030 x m/z + 2.905
 - TSQ Vantage (1.5 mTorr) 3 + peptide: CE = 0.038 x m/z + 2.281
 
-## HPLC setup {#hplc}
+## HPLC setup 
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
-- [LC-MS setup procedure EASYnLC(pdf)](/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)](/docs/protocols05/UWPR_LC_MS_setup.pdf)
+- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Peptide Standards {#standards}
+## Peptide Standards 
 
-- [Simple peptide standards for LC-MS (xlsx)](/docs/protocols05/AngioNeuroStandard.xlsx)\
-  \
-- [Skyline AngioNeuro_QQQ_SRM (zip)](/docs/protocols05/AngioNeuro_QQQ_SRM.sky.zip)
-- [Skyline Promega 6x5_LCMS_Standard_Hela_QQQ_SRM (zip)](/docs/protocols05/Promega_6x5_LCMS_Standard_Hela_QQQ_SRM.sky.zip)
-- [Skyline for TSQ Altis method template "PRTC Hela" SRM (zip)](/docs/protocols05/AltisMethodTemplate_PRTC_Hela.sky.zip)
-- [Skyline for TSQ Altis method template "PRTC heavy" SRM (zip)](/docs/protocols05/AltisMethodTemplate_PRTCheavy.sky.zip)\
-  \
-- [Skyline AngioNeuro_Orbitrap_PRM (zip)](/docs/protocols05/AngioNeuro_Orbitrap_PRM.sky.zip)
-- [Skyline Promega 6x5_LCMS_Standard_Orbitrap_PRM (zip)](/docs/protocols05/Promega_6x5_LCMS_Standard_Orbitrap_PRM.sky.zip)
-- [Skyline Promega 6x5_LCMS_Standard_Hela_Orbitrap_PRM (zip)](/docs/protocols05/Promega_6x5_LCMS_Standard_Hela_Orbitrap_PRM.sky.zip)
-- [Skyline Sigma MSQC1_Orbitrap_PRM (zip)](/docs/protocols05/Sigma_MSQC1_Orbitrap_PRM.sky.zip)
-- [Skyline Hela_Orbitrap_PRM (zip)](/docs/protocols05/Hela_Orbitrap_PRM.sky.zip)
+- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
+
+- [Skyline AngioNeuro_QQQ_SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AngioNeuro_QQQ_SRM.sky.zip)
+- [Skyline Promega 6x5_LCMS_Standard_Hela_QQQ_SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Promega_6x5_LCMS_Standard_Hela_QQQ_SRM.sky.zip)
+- [Skyline for TSQ Altis method template "PRTC Hela" SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AltisMethodTemplate_PRTC_Hela.sky.zip)
+- [Skyline for TSQ Altis method template "PRTC heavy" SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AltisMethodTemplate_PRTCheavy.sky.zip)
+
+- [Skyline AngioNeuro_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AngioNeuro_Orbitrap_PRM.sky.zip)
+- [Skyline Promega 6x5_LCMS_Standard_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Promega_6x5_LCMS_Standard_Orbitrap_PRM.sky.zip)
+- [Skyline Promega 6x5_LCMS_Standard_Hela_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Promega_6x5_LCMS_Standard_Hela_Orbitrap_PRM.sky.zip)
+- [Skyline Sigma MSQC1_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Sigma_MSQC1_Orbitrap_PRM.sky.zip)
+- [Skyline Hela_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Hela_Orbitrap_PRM.sky.zip)
 
 ## Quick links
 
@@ -93,10 +93,10 @@ the following documents are guidelines to setup the capillary trap/column on our
 
 ## UWPR documents and pages
 
-- [LC-MS setup procedure EASYnLC(pdf)](/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [Instrument control software (.xls)](/docs/InstrumentSoftwareVersions.xls)
-- [Calibrations (.xlsx)](/docs/Calibrations.xlsx)
-- [Simple peptide standards for LC-MS (xlsx)](/docs/protocols05/AngioNeuroStandard.xlsx)
-- [MRM/SRM page](/protocols05/MRM.php)
-- [PRM page](/protocols05/PRM.php)
-- [DIA page](/protocols05/DIA.php)
+- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
+- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
+- [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
+- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
+- [MRM/SRM page]({{ site.baseurl }}/protocols05/MRM/)
+- [PRM page]({{ site.baseurl }}/protocols05/PRM/)
+- [DIA page]({{ site.baseurl }}/protocols05/DIA/)

@@ -1,7 +1,9 @@
 ---
 title: "OMSSA"
-permalink: /protocols06/omssa.php
+permalink: /protocols06/omssa/
 ---
+
+*The Open Mass Spectrometry Search Algorithm*
 
 OMSSA was developed by Lewis Geer at NCBI/NIH. This page is my OMSSA help page resource. Given that all parameters are specified on the omssacl command line, I wanted a single page where they are all listed for easy reference. The help text for OMSSA version 2.1.9 are listed below. Actually the download unpacks a 2.1.9 directory but the version output states 2.1.8. I'll assume they forgot to update the version string in the linux binary as the other distributions also unpack to a 2.1.9 directory.
 

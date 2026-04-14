@@ -2,13 +2,13 @@ main:
   - title: "Home"
     url: /
   - title: "Collaborate"
-    url: /collaborate/
+    url: /collab/
   - title: "Resources"
     url: /resources/
   - title: "Methods"
     url: /methods/
   - title: "Tools"
-    url: /tools/
+    url: /protocols06/
   - title: "Publications"
     url: /publications/
   - title: "Contact"

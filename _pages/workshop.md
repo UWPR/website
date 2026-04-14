@@ -23,7 +23,7 @@ title: "Proteomics Workshop
 
 	
 	Registration"
-permalink: /workshop.php
+permalink: /workshop/
 ---
 
 **Our July workshop is full!! If you would like to be on the waiting list (in case someone cancels) and/or be added to the mailing list for future workshops please follow the instructions below.**
@@ -36,29 +36,29 @@ Prerequisite for participation in the course is interest in proteomics, a basic 
 
 To Register please fill out the form below and e-mail it to priska@uw.edu.
 
-[Workshop_Registration (doc)](docs/UWPR%20Workshop%20Registration.doc)
+[Workshop_Registration (doc)]({{ site.baseurl }}/docs/UWPR%20Workshop%20Registration.doc)
 
 Workshop outline:
 
-- **Day 1**\
-  10 am to noon: Proteomics Introduction (room C123B)\
+- **Day 1**
+  10 am to noon: Proteomics Introduction (room C123B)
   1 pm to 3 pm: Lab work in groups of 3-4 (B59)
-- **Day 2**\
-  10 am to noon: Data Analysis Introduction (room C123B)\
+- **Day 2**
+  10 am to noon: Data Analysis Introduction (room C123B)
   1 pm to 3 pm: Lab work in groups of 3-4 (B59)
-- **Day 3**\
-  10 am to noon: Data analysis; please bring your personal notebook/laptop (room C123B)\
-  **Lunch sponsored by ThermoFisherScientific**\
+- **Day 3**
+  10 am to noon: Data analysis; please bring your personal notebook/laptop (room C123B)
+  **Lunch sponsored by ThermoFisherScientific**
   1 pm to 3 pm: Instructors will be available to answer any questions (room C123B and B59)
 
 Thank you for your time and interest!
 
-Download and share our Flyer!\
-[Workshop_Flyer (pdf)](docs/UWPRWorkshop_Flyer.pdf)
+Download and share our Flyer!
+[Workshop_Flyer (pdf)]({{ site.baseurl }}/docs/UWPRWorkshop_Flyer.pdf)
 
-Workshop slides:\
-[Proteomics Introduction slides (pdf)](docs/20120709_UWPRworkshop_Intro.pdf)\
-[Data analysis slides (pdf)](docs/20120710-UWPR-Workshop-data-anal.pdf)
+Workshop slides:
+[Proteomics Introduction slides (pdf)]({{ site.baseurl }}/docs/20120709_UWPRworkshop_Intro.pdf)
+[Data analysis slides (pdf)]({{ site.baseurl }}/docs/20120710-UWPR-Workshop-data-anal.pdf)
 
-Workshop Survey:\
+Workshop Survey:
 [Click here to take survey](http://www.surveymonkey.com/s/8NXX3RX)

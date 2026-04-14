@@ -1,21 +1,23 @@
 ---
 title: "Orbitrap Elite"
-permalink: /instruments/orbitrapelite.php
+permalink: /instruments/orbitrapelite/
 # TODO: define sidebar nav in _data/navigation.yml
 # sidebar:
 #   nav: "SIDEBAR_NAME"
 ---
 
-![](/images/OTElite_02.png)\
+*Hybrid Ion Trap Mass Spectrometer*
+
+![]({{ site.baseurl }}/instruments/images/OTElite_02.png)
 
 The Thermo Scientific^™^ Orbitrap Elite^™^ mass spectrometer combines a dual linear ion trap (VelosPro) with a high-field orbitrap mass analyzer. The Velos Pro ion trap contributes enhanced ion optics that increase sensitivity and reliability, a greater dynamic range for better precursor detection, and the power of MSn identification. The high-field Orbitrap mass analyzer geometry and advanced signal processing technologies enable resolution of \>240,000, superior spectral quality, and higher scan speed. The superior resolution and spectral quality, as well as the higher scan speed, increase proteome coverage in complex samples even with very low sample amounts.
 
 Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-elite) for more information and for some nice animations
 
-2011 Velos Orbitrap (SN03313B) Installed\
+2011 Velos Orbitrap (SN03313B) Installed
 2012 Elite upgrade
 
-## Specifications {#specs}
+## Specifications 
 
 - **Scan Rate**
 - Orbitrap MSn 4 Hz at 60,000 resolution
@@ -42,38 +44,38 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-elite) fo
 - Parallel MS and MSn analysis for enhanced duty cycle
 - Velos Pro ion trap generation II ion optics with neutral blocking technology increase robustness
 
-## Instrument control software {#software}
+## Instrument control software 
 
-- [Instrument control software (.xls)](/docs/InstrumentSoftwareVersions.xls)
+- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
-## Instrument calibrations {#calis}
+## Instrument calibrations 
 
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)](/docs/Calibrations.xlsx)
+- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Resolving Power and Transient Length {#resolution}
+## Resolving Power and Transient Length 
 
-Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~7.7 Hz. The highest resolution setting is 240K that is \~1.2 Hz.\
+Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~7.7 Hz. The highest resolution setting is 240K that is \~1.2 Hz.
 
-   OT Res. at m/z 200   OT Elite Res. at m/z 200   Transient length \[ms\]   Approx. scan speed \[Hz\]
-  -------------------- -------------------------- ------------------------- ---------------------------
-                                 15,000                      48                         7.7
-         7,500                   30,000                      96                         6.9
-         15,000                  60,000                      192                        4.0
-         30,000                 120,000                      384                        2.3
-         60,000                 240,000                      768                        1.2
-        100,000                                                             
+| OT Res. at m/z 200 | OT Elite Res. at m/z 200 | Transient length \[ms\] | Approx. scan speed \[Hz\] |
+|:--:|:--:|:--:|:--:|
+|  | 15,000 | 48 | 7.7 |
+| 7,500 | 30,000 | 96 | 6.9 |
+| 15,000 | 60,000 | 192 | 4.0 |
+| 30,000 | 120,000 | 384 | 2.3 |
+| 60,000 | 240,000 | 768 | 1.2 |
+| 100,000 |  |  |  |
 
-## HPLC setup {#hplc}
+## HPLC setup 
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
-- [LC-MS setup procedure nanoAcquity (pdf)](/docs/protocols05/UWPR_LC_MS_setup.pdf)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Instrument Settings {#settings}
+## Instrument Settings 
 
-The table below lists some of the instrument method settings we tested on our Elite.\
-We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Dr Maisch C18AQ 100Å 5μm) and trap column (3cm x 100μm, Dr Maisch C18AQ 100Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a HeLa cell whole cell tryptic digest (ThermoPierce), 100 ng on column injection.\
-The results below are based on the number of unique peptides with Comet search and peptide prophet p\>0.9.\
+The table below lists some of the instrument method settings we tested on our Elite.
+We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Dr Maisch C18AQ 100Å 5μm) and trap column (3cm x 100μm, Dr Maisch C18AQ 100Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a HeLa cell whole cell tryptic digest (ThermoPierce), 100 ng on column injection.
+The results below are based on the number of unique peptides with Comet search and peptide prophet p\>0.9.
 
 Best Result (100%)
 
@@ -95,9 +97,9 @@ IT MS2
 
 OT MS2 ( %)
 
-## Precursor m/z and charge state distribution {#m/z}
+## Precursor m/z and charge state distribution 
 
-The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a peptide prophet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![](/images/fusion_mz_charge.png)\
+The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a peptide prophet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![]({{ site.baseurl }}/instruments/images/fusion_mz_charge.png)
 m/z and charge state distribution
 
 ## Quick links
@@ -113,9 +115,9 @@ m/z and charge state distribution
 
 ## UWPR documents and pages
 
-- [Instrument control software (.xls)](/docs/InstrumentSoftwareVersions.xls)
-- [Calibrations (.xlsx)](/docs/Calibrations.xlsx)
-- [LC-MS setup procedure nanoAcquity (pdf)](/docs/protocols05/UWPR_LC_MS_setup.pdf)
-- [PRM page](/protocols05/PRM.php)
-- [DIA page](/protocols05/DIA.php)
-- [MRM/SRM page](/protocols05/MRM.php)
+- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
+- [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
+- [PRM page]({{ site.baseurl }}/protocols05/PRM/)
+- [DIA page]({{ site.baseurl }}/protocols05/DIA/)
+- [MRM/SRM page]({{ site.baseurl }}/protocols05/MRM/)

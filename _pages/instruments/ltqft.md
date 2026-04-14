@@ -1,13 +1,13 @@
 ---
 title: "LTQ-FT Ultra™"
-permalink: /instruments/ltqft.php
+permalink: /instruments/ltqft/
 ---
 
-The LTQ FT Ultra system is a fully integrated hydrid mass spectrometer consisting of a Linear Ion Trap Mass spectrometer, LTQ, combined with a Fourier Transform Ion Cyclotron Resonance Mass Spectrometer, with a 7 T actively shielded superconducting magnet. The novel ICR cell design, the Ultra Cell produces enhanced sensitivity and greater dynamic range. The linear excitation characteristics of the cell allow larger cyclotron radii which significantly reduces space charge effects. These performance gains are achieved without the costs and difficulties associated with a higher field magnet. In the ECD method, multiply charged ions are irradiated with low energy electrons produced by an emitter cathode located behind the ICR cell. Upon capture of electrons, reduced radical cations \[M+nH\](n-1)+· are generated which dissociate by fast and facile fragmentation of the N-Ca bond of the peptide chain, producing mainly c and z· fragment ions. Due to the nature of the ECD mechanism, co- and post-translational modifications (PTMs) such as phosphorylation, O- and N-linked glycosylation, and sulfation are preserved, allowing site-specific analyses. InfraRed MultiPhoton Dissociation (IRMPD) occurs in the ICR cell, and provides structural and peptide-sequencing information. For peptides, b and y ions are generated after a short irradiation laser pulse. IRMPD can also be used to study structural information of organic compounds.
+The LTQ FT Ultra system is a fully integrated hydrid mass spectrometer consisting of a Linear Ion Trap Mass spectrometer, LTQ, combined with a Fourier Transform Ion Cyclotron Resonance Mass Spectrometer, with a 7 T actively shielded superconducting magnet. The novel ICR cell design, the Ultra Cell produces enhanced sensitivity and greater dynamic range. The linear excitation characteristics of the cell allow larger cyclotron radii which significantly reduces space charge effects. These performance gains are achieved without the costs and difficulties associated with a higher field magnet. In the ECD method, multiply charged ions are irradiated with low energy electrons produced by an emitter cathode located behind the ICR cell. Upon capture of electrons, reduced radical cations \[M+nH\]({{ site.baseurl }}/instruments/n-1)+· are generated which dissociate by fast and facile fragmentation of the N-Ca bond of the peptide chain, producing mainly c and z· fragment ions. Due to the nature of the ECD mechanism, co- and post-translational modifications (PTMs) such as phosphorylation, O- and N-linked glycosylation, and sulfation are preserved, allowing site-specific analyses. InfraRed MultiPhoton Dissociation (IRMPD) occurs in the ICR cell, and provides structural and peptide-sequencing information. For peptides, b and y ions are generated after a short irradiation laser pulse. IRMPD can also be used to study structural information of organic compounds.
 
-![](/images/ltqft.jpg)
+![]({{ site.baseurl }}/instruments/images/ltqft.jpg)
 
-2/5/07 Installed\
+2/5/07 Installed
 10/5/07 Upgrade to Ultra cell
 
 - **Mass range**
@@ -43,10 +43,10 @@ The LTQ FT Ultra system is a fully integrated hydrid mass spectrometer consistin
 <!-- -->
 
 - **Instrument control software**
-- [see spreadsheet (.xls format)](/docs/InstrumentSoftwareVersions.xls)
+- [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
 <!-- -->
 
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)](/docs/Calibrations.xlsx)\
-- [LTQ-FT Ultra ECD and IRPMD optimization (pdf)](/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_optimization.pdf)
-- [LTQ-FT Ultra ECD and IRPMD maintenance (pdf)](/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_maintenance.pdf)
+- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
+- [LTQ-FT Ultra ECD and IRPMD optimization (pdf)]({{ site.baseurl }}/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_optimization.pdf)
+- [LTQ-FT Ultra ECD and IRPMD maintenance (pdf)]({{ site.baseurl }}/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_maintenance.pdf)

@@ -1,10 +1,12 @@
 ---
 title: "nanoAcquity"
-permalink: /instruments/nanoacquity.php
+permalink: /instruments/nanoacquity/
 # TODO: define sidebar nav in _data/navigation.yml
 # sidebar:
 #   nav: "SIDEBAR_NAME"
 ---
+
+*nano scale chromatography system*
 
 The nanoAcquity UPLC is a platform specifically designed for applications that depend on nano-scale separations such as biomolecule identification, post-translational modifications and biomarker discovery.
 
@@ -17,14 +19,14 @@ The nanoAcquity UPLC is a platform specifically designed for applications that d
 - nanoAcquity 7 ( nSM E09NPS551M, nBSM E09NPB591N/ UW tag 2019658), Installed 2009
 - nanoAcquity 8 ( nSM K10NPS841M, nBSM L10NPB006N/ UW tag 2019640), Installed 2010
 
-## HPLC setup {#hplcsetup}
+## HPLC setup 
 
-[Back to Top](#top)\
+[Back to Top](#top)
 
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 
-- [LC-MS setup procedure nanoAcquity (pdf)](/docs/instruments/UWPR_LC_MS_setup.pdf)
-- [Simple peptide standards for LC-MS (xlsx)](/docs/protocols05/AngioNeuroStandard.xlsx)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)
+- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
 ## Quick Links
 
@@ -32,6 +34,6 @@ the following document includes guidelines to setup the capillary trap/column on
 
 ## Guides
 
-- [nanoACQUITY Brochure (pdf)](/docs/nanoACQUITY-UPLC-Brochure.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)](/docs/instruments/UWPR_LC_MS_setup.pdf)
-- [Simple peptide standards for LC-MS (xlsx)](/docs/protocols05/AngioNeuroStandard.xlsx)
+- [nanoACQUITY Brochure (pdf)]({{ site.baseurl }}/docs/nanoACQUITY-UPLC-Brochure.pdf)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)
+- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)

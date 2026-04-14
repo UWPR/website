@@ -1,15 +1,15 @@
 ---
 title: "RapiGest SF Surfactant Protocol"
-permalink: /protocols03/RapiGestSurfactant.php
+permalink: /protocols03/RapiGestSurfactant/
 ---
 
-Use the RapiGest SF Surfactant from RapiGest Surfactant [from Waters](https://www.waters.com/nextgen/us/en/products/standards-and-reagents/rapigest-sf-surfactant.html) to extract and solubilize hydrophobic proteins and improve in-solution enzymatic digestions of proteins.\
+Use the RapiGest SF Surfactant from RapiGest Surfactant [from Waters](https://www.waters.com/nextgen/us/en/products/standards-and-reagents/rapigest-sf-surfactant.html) to extract and solubilize hydrophobic proteins and improve in-solution enzymatic digestions of proteins.
 
 RapiGest SF Surfactant is a reagent used to enhance enzymatic digestion of proteins, both in-gel and in-solution. RapiGest SF helps solubilize proteins, making them more susceptible to enzymatic cleavage without inhibiting enzyme activity. Unlike other commonly used denaturants, such as SDS or urea, RapiGest SF does not modify peptides or suppress protease activity. It is compatible with enzymes such as Trypsin, Lys-C, Asp-N, Glu-C, PNGaseF, and other enzymes.
 
-**Materials**\
-All solvents should be HPLC grade, NEVER use pipette tips when transferring acids \>2% in concentration!\
-[Avoid Contaminations (pdf)](/docs/protocols05/Avoid%20Contaminations.pdf)
+**Materials**
+All solvents should be HPLC grade, NEVER use pipette tips when transferring acids \>2% in concentration!
+[Avoid Contaminations (pdf)]({{ site.baseurl }}/docs/protocols05/Avoid%20Contaminations.pdf)
 
 1.  RapiGest SF Powder (Waters Corporation, 5 Pack of 1 ml Vials, 186001860)
 2.  50 mM Ammonium bicarbonate (Fisher, part \# A643-500) in H~2~O (79.1g/mol): 3.955g/100ml)(pH 7.8) make fresh
@@ -20,11 +20,11 @@ All solvents should be HPLC grade, NEVER use pipette tips when transferring acid
 7.  Water (Fisher, part \# W6-4 optima LCMS grade)
 8.  Eppendorf LoBind Microcentrifuge Tubes: Protein (Fisher, part \# 13-698-794)
 
-**Avoid contamination from plasticizers**\
+**Avoid contamination from plasticizers**
 
-To avoid contamination from plasticizers, use all fresh solvents. Never use any plastic pipettes to transfer solvents from the original bottles, instead poor the solvent into a beaker. Repeated exposure of solvents to plastics will contaminate the stock solvents with plasticizers. Never use plastic pipettes when handling concentrated (\>2%) acids, use glass pipettes or Hamilton syringes (rinse the syringe with water after using it for concentrated acids to avoid corrosion of the metal needle). If you don't know whether your stock solvents already are contaminated, buy new solvents and make sure no one is contaminating them! Keep your solvents in glass bottles, preferably with Teflon lined lids. Never use bottle lids that have foil backed cardboard liners!\
+To avoid contamination from plasticizers, use all fresh solvents. Never use any plastic pipettes to transfer solvents from the original bottles, instead poor the solvent into a beaker. Repeated exposure of solvents to plastics will contaminate the stock solvents with plasticizers. Never use plastic pipettes when handling concentrated (\>2%) acids, use glass pipettes or Hamilton syringes (rinse the syringe with water after using it for concentrated acids to avoid corrosion of the metal needle). If you don't know whether your stock solvents already are contaminated, buy new solvents and make sure no one is contaminating them! Keep your solvents in glass bottles, preferably with Teflon lined lids. Never use bottle lids that have foil backed cardboard liners!
 
-**Method**\
+**Method**
 
 1.  Make 0.2% RapiGest diluted in 50 mM Ammonium Bicarbonate pH 7.8 (1 mg RapiGest per 500 μl 50 mM Ammonium Bicarbonate pH 7.8).
 2.  Using low adhesion microcentrifuge tubes, add 100 μl 0.2% RapiGest per 100 μl protein mixture (1:1) \[final concentration of RapiGest should be 0.1% (w/v)\]. If protein is in pellet, add 25-50 μl of 0.1% RapiGest.
@@ -34,7 +34,7 @@ To avoid contamination from plasticizers, use all fresh solvents. Never use any 
 6.  Cool the sample to room temperature.
 7.  Add IAA to a final concentration of 15mM.
 8.  Place sample in dark at room temperature for 30 minutes.
-9.  Add trypsin for a final concentration of 1:50 enzyme:protein.\
+9.  Add trypsin for a final concentration of 1:50 enzyme:protein.
     If total amount of protein is very low just add 1-2 μg of trypsin.
 10. Incubate 4h with shaking at 37^o^C.
 11. Prior to mass spectrometry run, add HCl to a final concentration of 200 mM.

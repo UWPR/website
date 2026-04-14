@@ -1,9 +1,11 @@
 ---
 title: "X!Tandem"
-permalink: /protocols06/xtandem.php
+permalink: /protocols06/xtandem/
 ---
 
-To run Tandem:
+*Instructions for running X!Tandem on UWPR systems*
+
+    To run Tandem:
 
     1) You will need a Genome Sciences user account. Contact https://www.gs.washington.edu/computing/
        to set one up if you don't have such an account.  Once your

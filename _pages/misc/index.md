@@ -1,6 +1,6 @@
 ---
 title: "Index"
-permalink: /misc/index.php
+permalink: /misc/
 ---
 
 Oops

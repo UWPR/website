@@ -1,21 +1,23 @@
 ---
 title: "Fusion"
-permalink: /instruments/orbitrapfusion.php
+permalink: /instruments/orbitrapfusion/
 # TODO: define sidebar nav in _data/navigation.yml
 # sidebar:
 #   nav: "SIDEBAR_NAME"
 ---
 
-![](/images/fusion_05c.png)\
+*Orbitrap Fusion Tribrid MS*
+
+![]({{ site.baseurl }}/instruments/images/fusion_05c.png)
 
 The Thermo Scientific^™^ Orbitrap Fusion^™^ Tribrid^™^ mass spectrometer combines the best of quadrupole, Orbitrap, and ion trap mass analysis in a revolutionary Tribrid architecture that delivers unprecedented depth of analysis. It enables life scientists analyzing even the most challenging low-abundance, high-complexity, or difficult samples to identify more compounds more quickly, quantify more accurately, and elucidate structures more thoroughly.
 
-Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion) for more information\
+Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion) for more information
 and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Transform2013_Fusion) for some nice animations.
 
 12/5/2013 Fusion (FSN10134 / UW tag 2019653) Installed
 
-## Specifications {#specs}
+## Specifications 
 
 - **Scan Rate**
 - Orbitrap MSn up to 15 Hz (18 Hz max for OT MS2 with sw v1.1)
@@ -43,55 +45,55 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 - Spectral multiplexing for enhanced duty cycle
 - Synchronous Precursor Selection Up to 15 precursors per MS2 scan, for MS3 analysis only
 
-## Instrument control software {#software}
+## Instrument control software 
 
-- [Instrument control software (.xls)](/docs/InstrumentSoftwareVersions.xls)
-- [Tips for upgrading to Win10 LTSC 2019 on TNG instruments (pdf)](/docs/protocols05/UWPR_Win10LTSC_upgrade.pdf)
-- [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)](/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
+- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
+- [Tips for upgrading to Win10 LTSC 2019 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSC_upgrade.pdf)
+- [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
 
-## Instrument calibrations {#calis}
+## Instrument calibrations 
 
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)](/docs/Calibrations.xlsx)
+- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Parallelization on the Orbitrap Fusion {#parallelization}
+## Parallelization on the Orbitrap Fusion 
 
-To improve the spectral acquisition rate the acquisition process on the Fusion is extensively parallelized. The figure below shows a schematic of parallel execution and event pipelining: Precursors identified in the Orbitrap full scan (top row) are fragmented and accumulated in the IRM (middle row) concurrent with LT acquisition of the previous MS/MS (bottom row). (The use of parallelizable time was further improved in sw v1.1.) ![](/images/fusion_04a.png)\
+To improve the spectral acquisition rate the acquisition process on the Fusion is extensively parallelized. The figure below shows a schematic of parallel execution and event pipelining: Precursors identified in the Orbitrap full scan (top row) are fragmented and accumulated in the IRM (middle row) concurrent with LT acquisition of the previous MS/MS (bottom row). (The use of parallelizable time was further improved in sw v1.1.) ![]({{ site.baseurl }}/instruments/images/fusion_04a.png)
 Senko MW et al. Novel parallelized quadrupole/linear ion trap/Orbitrap tribrid mass spectrometer improving proteome coverage and peptide identification rates. Anal Chem 85(24), 11710 - 4 (2013)
 
-## AGC control on Orbitrap Fusion Series Instruments {#agc}
+## AGC control on Orbitrap Fusion Series Instruments 
 
-Ion population control is an important concept for all trapping instruments. To ensure proper functioning of the Orbitrap and Linear Ion trap analyzers, the ion populations are regulated at a given target level, in a process referred to as automatic gain control (AGC). The mechanism for the regulation is a fast ion trap full scan referred to as the "prescan". This scan is "hidden", and is not recorded in the raw file. The prescan makes a measurement of the ion flux, and from this information, the injection time for subsequent scans can be set to deliver the target number of ions.\
-For **data dependent experiments**, the prescan uses the same settings as the MS master scan. The prescan is executed immediately before the master scan, and the total ion current (TIC) from the prescan is used to set the injection time for the master scan. The identities (m/z and charge) of the precursors for the dependent scans are extracted from the previous master scan, but the injection times for these dependent scans are calculated from the intensities in the prescan.\
+Ion population control is an important concept for all trapping instruments. To ensure proper functioning of the Orbitrap and Linear Ion trap analyzers, the ion populations are regulated at a given target level, in a process referred to as automatic gain control (AGC). The mechanism for the regulation is a fast ion trap full scan referred to as the "prescan". This scan is "hidden", and is not recorded in the raw file. The prescan makes a measurement of the ion flux, and from this information, the injection time for subsequent scans can be set to deliver the target number of ions.
+For **data dependent experiments**, the prescan uses the same settings as the MS master scan. The prescan is executed immediately before the master scan, and the total ion current (TIC) from the prescan is used to set the injection time for the master scan. The identities (m/z and charge) of the precursors for the dependent scans are extracted from the previous master scan, but the injection times for these dependent scans are calculated from the intensities in the prescan.
 For **targeted experiments**, the prescan analyzes the mass range spanning the smallest target up to the largest target, and the injection times for each target are calculated from intensities in the prescan. In the context of LC-MS, analyte intensity varies considerably as each compound elutes from the column, making the length of time between prescan and subsequent scans an important factor to consider. When the list of targeted scans is large, the time between execution of the prescan and execution of the later targeted scans could become significant, negatively affecting the accuracy of the ion population regulation. For this reason, the Loop Control mechanism was added to the targeted experiment methods. For example, when Loop Control is set to Time, the prescan will be executed at a period less than or equal to the specified time period, ensuring a certain proximity between prescan and targeted scans, which in turn can improve the accuracy of the calculated injection times, and hence the quality of the acquired data.
 
-## Resolving Power and Transient Length {#resolution}
+## Resolving Power and Transient Length 
 
-Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~15 Hz. On the Fusion, the highest resolution setting is 450K that is \<1 Hz.\
-To fully take advantage of the parallel fill and detect capabilities of the Fusion, we need to balance the max fill times with the transient length. For resolving power 30,000, detection time is about 64 ms. There is always a small amount of inter-scan delay. Up to 54 ms can be used to fill the C-trap with ions- and without increasing cycle time.\
-In SW version 2.1 50k resolution OT scans for TMT 10plex experiments shows a \~10% improvement over 60k resolution. We successfully used 30k resolution as well.\
+Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~15 Hz. On the Fusion, the highest resolution setting is 450K that is \<1 Hz.
+To fully take advantage of the parallel fill and detect capabilities of the Fusion, we need to balance the max fill times with the transient length. For resolving power 30,000, detection time is about 64 ms. There is always a small amount of inter-scan delay. Up to 54 ms can be used to fill the C-trap with ions- and without increasing cycle time.
+In SW version 2.1 50k resolution OT scans for TMT 10plex experiments shows a \~10% improvement over 60k resolution. We successfully used 30k resolution as well.
 
-   Res. at m/z 200   Transient length \[ms\]   Approx. scan speed \[Hz\]   "Free" ion time \[ms\]
-  ----------------- ------------------------- --------------------------- --------------------------
-       15,000                  32                         na                          22
-       30,000                  64                         15                          54
-       50,000                  96                         na                          86
-       60,000                  128                        7.5                        118
-       120,000                 256                         4                         246
-       240,000                 512                         2                         502
-       450,000                1024                        \<1                        1014
+| Res. at m/z 200 | Transient length \[ms\] | Approx. scan speed \[Hz\] | "Free" ion time \[ms\] |
+|:--:|:--:|:--:|:--:|
+| 15,000 | 32 | na | 22 |
+| 30,000 | 64 | 15 | 54 |
+| 50,000 | 96 | na | 86 |
+| 60,000 | 128 | 7.5 | 118 |
+| 120,000 | 256 | 4 | 246 |
+| 240,000 | 512 | 2 | 502 |
+| 450,000 | 1024 | \<1 | 1014 |
 
-## HPLC setup {#hplc}
+## HPLC setup 
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
-- [LC-MS setup procedure EASYnLC(pdf)](/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)](/docs/protocols05/UWPR_LC_MS_setup.pdf)
+- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Instrument Settings {#settings}
+## Instrument Settings 
 
-The table below lists some of the instrument method settings we tested on our Fusion.\
-We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Magic C18AQ 100Å 5μm) and trap column (3cm x 100μm, Magic C18AQ 200Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a Ramos cell whole cell tryptic digest (Thanks to Dr. Richard G. James, Seattle Children's), 100 ng on column injection. We typically get \~19000 unique peptides with Comet search and PeptideProphet p\>0.9,\
-The results below are based on the number of unique peptides with Comet search and PeptideProphet p\>0.9.\
+The table below lists some of the instrument method settings we tested on our Fusion.
+We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Magic C18AQ 100Å 5μm) and trap column (3cm x 100μm, Magic C18AQ 200Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a Ramos cell whole cell tryptic digest (Thanks to Dr. Richard G. James, Seattle Children's), 100 ng on column injection. We typically get \~19000 unique peptides with Comet search and PeptideProphet p\>0.9,
+The results below are based on the number of unique peptides with Comet search and PeptideProphet p\>0.9.
 
 Best Result (100%)
 
@@ -281,54 +283,156 @@ unique ID's: ITMS2 APD(100%), ITMS2(85.3%), OTMS2 APD(91.1%), OTMS2(69.2%)
 
 PSM's: ITMS2 APD(99.4%), ITMS2(100%), OTMS2 APD(83.8%), OTMS2(68.2%)
 
-## TMT instrument Orbitrap Fusion settings (Tune3.3) {#TMTsettings}
+## TMT instrument Orbitrap Fusion settings (Tune3.3) 
 
-The table below lists instrument method settings recommended by Thermo for the Lumos with Tune 3.3.\
-with APD (Advanced Peak Detection) on\
-based on this document: [TMT/TMTpro Instrument Acquisition Parameter Settings](https://assets.thermofisher.com/TFS-Assets/BID/Reference-Materials/tmt-tmtpro-instrument-acquisition.pdf)\
+The table below lists instrument method settings recommended by Thermo for the Lumos with Tune 3.3.
+with APD (Advanced Peak Detection) on
+based on this document: [TMT/TMTpro Instrument Acquisition Parameter Settings](https://assets.thermofisher.com/TFS-Assets/BID/Reference-Materials/tmt-tmtpro-instrument-acquisition.pdf)
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------
-  Properties                                             SPS 120 min TMT 11plex   SPS 120 min TMT 16plex    MS2 120 min TMT 11plex   MS2 120 min TMT 16plex
-  ----------------------------------------------------- ------------------------ ------------------------- ------------------------ ------------------------
-  Resolution Full MS                                            120,000                   120,000                  120,000                  120,000
+<table data-border="0" data-cellpadding="4" style="background-color:#EBEBF5">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left; background-color: #9999CC;">Properties</th>
+<th style="text-align: center; background-color: #9999CC;">SPS 120 min TMT 11plex</th>
+<th style="text-align: center; background-color: #9999CC;">SPS 120 min TMT 16plex</th>
+<th style="text-align: center; background-color: #9999CC;">MS2 120 min TMT 11plex</th>
+<th style="text-align: center; background-color: #9999CC;">MS2 120 min TMT 16plex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Resolution Full MS</td>
+<td style="text-align: center;">120,000</td>
+<td style="text-align: center;">120,000</td>
+<td style="text-align: center;">120,000</td>
+<td style="text-align: center;">120,000</td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">AGC target Full MS</td>
+<td style="text-align: center; background-color: #D6D6EB;">100% (4e5)</td>
+<td style="text-align: center; background-color: #D6D6EB;">100% (4e5)</td>
+<td style="text-align: center; background-color: #D6D6EB;">100% (4e5)</td>
+<td style="text-align: center; background-color: #D6D6EB;">100% (4e5)</td>
+</tr>
+<tr>
+<td style="text-align: left;">MS max IT, ms</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">Scan range, m/z</td>
+<td style="text-align: center; background-color: #D6D6EB;">400 - 1400</td>
+<td style="text-align: center; background-color: #D6D6EB;">400 - 1400</td>
+<td style="text-align: center; background-color: #D6D6EB;">400 - 1400</td>
+<td style="text-align: center; background-color: #D6D6EB;">400 - 1400</td>
+</tr>
+<tr>
+<td style="text-align: left;">Top Speed, s</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">MS2 max IT, ms</td>
+<td style="text-align: center; background-color: #D6D6EB;">50</td>
+<td style="text-align: center; background-color: #D6D6EB;">50 (custom)</td>
+<td style="text-align: center; background-color: #D6D6EB;">105</td>
+<td style="text-align: center; background-color: #D6D6EB;">120</td>
+</tr>
+<tr>
+<td style="text-align: left;">MS2 Isolation window, Th</td>
+<td style="text-align: center;">1.2(2)-0.7(3)-0.5(4+)</td>
+<td style="text-align: center;">0.7</td>
+<td style="text-align: center;">0.7(2-3)-0.5(4+)</td>
+<td style="text-align: center;">0.7</td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">MS2 NCE, %</td>
+<td style="text-align: center; background-color: #D6D6EB;">35</td>
+<td style="text-align: center; background-color: #D6D6EB;">30</td>
+<td style="text-align: center; background-color: #D6D6EB;">38-40</td>
+<td style="text-align: center; background-color: #D6D6EB;">35</td>
+</tr>
+<tr>
+<td style="text-align: left;">MS2 Intensity threshold</td>
+<td style="text-align: center;">5e3</td>
+<td style="text-align: center;">5e3</td>
+<td style="text-align: center;">5e4</td>
+<td style="text-align: center;">5e4</td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">Dynamic exclusion, s</td>
+<td style="text-align: center; background-color: #D6D6EB;">60, single charge</td>
+<td style="text-align: center; background-color: #D6D6EB;">60, single charge</td>
+<td style="text-align: center; background-color: #D6D6EB;">60, single charge</td>
+<td style="text-align: center; background-color: #D6D6EB;">60, single charge</td>
+</tr>
+<tr>
+<td style="text-align: left;">MS2 Resolution</td>
+<td style="text-align: center;">turbo</td>
+<td style="text-align: center;">rapid</td>
+<td style="text-align: center;">50,000</td>
+<td style="text-align: center;">50,000</td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">MS2 AGC target</td>
+<td style="text-align: center; background-color: #D6D6EB;">100% ( 1e4 )</td>
+<td style="text-align: center; background-color: #D6D6EB;">100% ( 1e4 )</td>
+<td style="text-align: center; background-color: #D6D6EB;">200% ( 1e5 )</td>
+<td style="text-align: center; background-color: #D6D6EB;">200% ( 1e5 )</td>
+</tr>
+<tr>
+<td style="text-align: left;">MS3 AGC target</td>
+<td style="text-align: center;">200% ( 1e5 )</td>
+<td style="text-align: center;">200% ( 1e5 )</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">SPS Isolation window, Th</td>
+<td style="text-align: center; background-color: #D6D6EB;">1.3(2)-0.7(3)-0.5(4+)</td>
+<td style="text-align: center; background-color: #D6D6EB;">0.7</td>
+<td style="text-align: center; background-color: #D6D6EB;"></td>
+<td style="text-align: center; background-color: #D6D6EB;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">SPS NCE, %</td>
+<td style="text-align: center;">65</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left; background-color: #D6D6EB;">SPS max IT, ms</td>
+<td style="text-align: center; background-color: #D6D6EB;">105 (custom)</td>
+<td style="text-align: center; background-color: #D6D6EB;">120 (custom)</td>
+<td style="text-align: center; background-color: #D6D6EB;"></td>
+<td style="text-align: center; background-color: #D6D6EB;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">SPS settings: # notches, mass range, Tag Exclusion</td>
+<td style="text-align: center;">5 - 10 - 10<br />
+m/z 110-500, TMT</td>
+<td style="text-align: center;">10 m/z 110-500, TMT pro</td>
+<td style="text-align: center;">m/z 110</td>
+<td style="text-align: center;">m/z 110</td>
+</tr>
+</tbody>
+</table>
 
-  AGC target Full MS                                           100% (4e5)               100% (4e5)                100% (4e5)               100% (4e5)
+## Precursor m/z and charge state distribution 
 
-  MS max IT, ms                                                    50                       50                        50                       50
-
-  Scan range, m/z                                              400 - 1400               400 - 1400                400 - 1400               400 - 1400
-
-  Top Speed, s                                                     3                         3                        3                        3
-
-  MS2 max IT, ms                                                   50                   50 (custom)                  105                      120
-
-  MS2 Isolation window, Th                               1.2(2)-0.7(3)-0.5(4+)              0.7                0.7(2-3)-0.5(4+)               0.7
-
-  MS2 NCE, %                                                       35                       30                      38-40                      35
-
-  MS2 Intensity threshold                                         5e3                       5e3                      5e4                      5e4
-
-  Dynamic exclusion, s                                     60, single charge         60, single charge        60, single charge        60, single charge
-
-  MS2 Resolution                                                 turbo                     rapid                    50,000                   50,000
-
-  MS2 AGC target                                              100% ( 1e4 )             100% ( 1e4 )              200% ( 1e5 )             200% ( 1e5 )
-
-  MS3 AGC target                                              200% ( 1e5 )             200% ( 1e5 )                                 
-
-  SPS Isolation window, Th                               1.3(2)-0.7(3)-0.5(4+)              0.7                                     
-
-  SPS NCE, %                                                       65                       55                                      
-
-  SPS max IT, ms                                              105 (custom)             120 (custom)                                 
-
-  SPS settings: \# notches, mass range, Tag Exclusion         5 - 10 - 10\        10 m/z 110-500, TMT pro          m/z 110                  m/z 110
-                                                            m/z 110-500, TMT                                                        
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Precursor m/z and charge state distribution {#m/z}
-
-The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a PeptideProphet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![](/images/fusion_mz_charge.png)\
+The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a PeptideProphet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![]({{ site.baseurl }}/instruments/images/fusion_mz_charge.png)
 m/z and charge state distribution
 
 ## Quick links
@@ -347,11 +451,11 @@ m/z and charge state distribution
 
 ## UWPR documents and pages
 
-- [Instrument control software (.xls)](/docs/InstrumentSoftwareVersions.xls)
-- [Tips for upgrading to Win10 LTSB 2016 (pdf)](/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
-- [Calibrations (.xlsx)](/docs/Calibrations.xlsx)
-- [LC-MS setup procedure EASYnLC(pdf)](/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [PRM page](/protocols05/PRM.php)
-- [DIA page](/protocols05/DIA.php)
-- [Isotopic Labeling page](/protocols03/isotopic_labeling.php)
-- [MRM/SRM page](/protocols05/MRM.php)
+- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
+- [Tips for upgrading to Win10 LTSB 2016 (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
+- [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
+- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
+- [PRM page]({{ site.baseurl }}/protocols05/PRM/)
+- [DIA page]({{ site.baseurl }}/protocols05/DIA/)
+- [Isotopic Labeling page]({{ site.baseurl }}/protocols03/isotopic_labeling/)
+- [MRM/SRM page]({{ site.baseurl }}/protocols05/MRM/)

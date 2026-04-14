@@ -1,31 +1,31 @@
 ---
 title: "ESI Common Background Ions: Repeating Units"
-permalink: /protocols05/esi_background_ions_repeat_units.php
+permalink: /protocols05/esi_background_ions_repeat_units/
 ---
 
 There are several good sources online, here are just a few:
 
 - [Contamination Search Tools at the University of Leiden](http://www.lc-ms.nl/)
 - [pdf document from Waters](http://www.waters.com/webassets/cms/support/docs/bkgrnd_ion_mstr_list.pdf)
-- Common Mass Spec Background Ions [go to page](https://proteomicsresource.washington.edu/protocols05/esi_background_ions.php)
-- UWPR_CommonMassSpecContaminants spreadsheet [xls](/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
+- Common Mass Spec Background Ions [go to page]({{ site.baseurl }}/protocols05/esi_background_ions/)
+- UWPR_CommonMassSpecContaminants spreadsheet [xls]({{ site.baseurl }}/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
 
-**Polydimethylcyclosiloxanes**\
+**Polydimethylcyclosiloxanes**
 
-![](/images/esi_background_02.png)\
-Polydimethylcyclosiloxanes, widespread compound in industrial products, e.g. deodorants. They are ubiquitously present in ambient air. (Mass difference 74.018793)\
+![]({{ site.baseurl }}/images/esi_background_02.png)
+Polydimethylcyclosiloxanes, widespread compound in industrial products, e.g. deodorants. They are ubiquitously present in ambient air. (Mass difference 74.018793)
 
 **Polysiloxanes**
 
-**Mono mass**\
+**Mono mass**
 \[M+H\]^+^
 
-**+17 Da**\
-ammonium\
+**+17 Da**
+ammonium
 adducts
 
-**-16 Da**\
-loss of\
+**-16 Da**
+loss of
 methane
 
 **Formula**
@@ -300,8 +300,8 @@ Cesium iodide clusters, used as calibration
 
 SDS (sodium dodecylsulfate) adducts (CH3(CH2)11OSO3Na)
 
-**Phthalates** ![](/images/esi_background_03.png)\
-391 and 419 are typically very prominent in ESI\
+**Phthalates** ![]({{ site.baseurl }}/images/esi_background_03.png)
+391 and 419 are typically very prominent in ESI
 
 **Avg Mass**
 

@@ -1,9 +1,9 @@
 ---
 title: "MassSpecUtils (a.k.a \"TagTraq\")"
-permalink: /protocols06/MassSpecUtils/index.php
+permalink: /protocols06/MassSpecUtils/
 ---
 
-**Install:** [setup.exe](setup.exe)   **Documentation:** [MassSpecUtilsUserGuide.docx](MassSpecUtilsUserGuide.docx)
+**Install:** [setup.exe]({{ site.baseurl }}/protocols06/MassSpecUtils/setup.exe)   **Documentation:** [MassSpecUtilsUserGuide.docx]({{ site.baseurl }}/protocols06/MassSpecUtils/MassSpecUtilsUserGuide.docx)
 
 MassSpecUtils is a tool that provides a graphical user interface to perform the following tasks:
 
@@ -23,12 +23,12 @@ If you have questions, please contact Tahmina 'Eva' Jahan at the UWPR (tabaker@u
 - [ProteoWizard](http://proteowizard.sourceforge.net/)
 - [Hardklör](http://proteome.gs.washington.edu/software/hardklor/)
 - To access MSFileReader, go [here](https://thermo.flexnetoperations.com/control/thmo/login) to register an account with Thermo and login. You will find MSFileReader under "Utility Software".
-- Deprecated as of 01/2016, [old (original) MassSpecUtils Version 2.0.1.4](2.0.4.1/).
+- Deprecated as of 01/2016, [old (original) MassSpecUtils Version 2.0.1.4]({{ site.baseurl }}/protocols06/MassSpecUtils/2.0.4.1/).
 
 <!-- -->
 
 - **MassSpecUtils Versions**
-- [Latest Version 2.0.1.4](http://proteomicsresource.washington.edu/dist/eva/MassSpecUtilsInstallationFiles/)
+- [Latest Version 2.0.1.4](https://proteomicsresource.washington.edu/dist/eva/MassSpecUtilsInstallationFiles/)
   - Incorporated the latest [ProteoWizard binaries](http://proteowizard.sourceforge.net/downloads.shtml) as of 11/17/2014.
   - Turned of both 32-bit encoding and zlib peak compression for RAW \--\> mzXML conversions.
   - Fixed some bugs in the file converter related to file extentions.

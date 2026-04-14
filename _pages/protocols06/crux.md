@@ -1,6 +1,6 @@
 ---
 title: "Running Crux at UWPR"
-permalink: /protocols06/crux.php
+permalink: /protocols06/crux/
 ---
 
 1) Do not run Crux on the 'tephra' head node of our cluster.  You should 'ssh' into sage

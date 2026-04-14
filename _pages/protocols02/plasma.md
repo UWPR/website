@@ -1,15 +1,17 @@
 ---
 title: "Plasma and Serum"
-permalink: /protocols02/plasma.php
+permalink: /protocols02/plasma/
 # TODO: define sidebar nav in _data/navigation.yml
 # sidebar:
 #   nav: "SIDEBAR_NAME"
 ---
 
-## Plasma vs Serum {#plasmavsserum}
+*Plasma and Serum sample preparation*
 
-Blood from a single donation or sample can be separated into different components: proteins, red blood cells, white blood cells, clotting factors, etc., and used for their individual purposes. Similarly, plasma and serum are obtained from the blood by centrifugation.\
-Plasma is produced when whole blood is collected in tubes that are treated with an anticoagulant. The blood does not clot in the plasma tube. The cells are removed by centrifugation and the supernatant is designated plasma.\
+## Plasma vs Serum 
+
+Blood from a single donation or sample can be separated into different components: proteins, red blood cells, white blood cells, clotting factors, etc., and used for their individual purposes. Similarly, plasma and serum are obtained from the blood by centrifugation.
+Plasma is produced when whole blood is collected in tubes that are treated with an anticoagulant. The blood does not clot in the plasma tube. The cells are removed by centrifugation and the supernatant is designated plasma.
 Serum is the liquid fraction of whole blood that is collected after the blood is allowed to clot. The clot is removed by centrifugation and the resulting supernatant is designated serum.
 
 ## Immunodepletion
@@ -25,9 +27,9 @@ The wide dynamic range of protein concentrations present in serum and plasma rep
 - [Pierce™ Albumin Depletion Kit](https://www.thermofisher.com/order/catalog/product/85160) from ThermoPierce
 - [Pierce™ Top 2 Abundant Protein Depletion Spin Columns](https://www.thermofisher.com/order/catalog/product/85161) from ThermoPierce
 
-![](/images/plasma01.png) adapted from Ref 3\
+![]({{ site.baseurl }}/images/plasma01.png) adapted from Ref 3
 
-**Immunodepletion of High Abundance Serum Proteins (from Ref 4)**\
+**Immunodepletion of High Abundance Serum Proteins (from Ref 4)**
 
 Materials
 
@@ -53,9 +55,9 @@ Method
 9.  Combine concentrated triplicate samples of the same PC time group. The volume of the combined filtrates should be approximately 150 μl.
 10. Determine protein concentration of each immunodepleted serum sample using the Bradford microtiter plate assay, as described in step 1 above (Depletion of the serum or plasma will result in the removal of greater than 90 % of the twelve most abundant proteins. If higher levels of depletion are required, the sample should be concentrated (5,000 Da MWCO spin concentrator) and depleted a second time. The depleted sample will be in a buffer of PBS with 0.02 % sodium azide. Spin concentrators are recommended if desalting is required).
 
-## Lectin Affinity Chromatography (from Ref 4) {#lectin}
+## Lectin Affinity Chromatography (from Ref 4) 
 
-The most common application of lectin affinity chromatography is to separate glycoproteins from non-glycosylated proteins, or one glycoform from another glycoform.\
+The most common application of lectin affinity chromatography is to separate glycoproteins from non-glycosylated proteins, or one glycoform from another glycoform.
 
 Materials
 
@@ -93,12 +95,12 @@ Method
 20. Repeat steps 17 - 19 . Collect eluate in the same collection tube containing eluate from the fi rst elution. Store eluted glycoprotein fraction on ice for immediate use or freeze for later analysis.
 21. Determine protein concentration of both glycoprotein and non-glycoprotein fractions using the Bradford microtiter plate assay, step 1 above.
 
-## Trypsin Digestion and TMT Labeling (from Ref 4) {#trypsin}
+## Trypsin Digestion and TMT Labeling (from Ref 4) 
 
-Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.\
-Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention Eppendorf tubes.\
+Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.
+Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention Eppendorf tubes.
 
-Materials\
+Materials
 
 1.  Low retention Eppendorf tubes.
 2.  Dissolution buffer: 100 mM triethyl ammonium bicarbonate (TEAB) (pH 8.0), 0.5 % (w/v) SDS. Aliquot and store at -20 ^o^C.
@@ -121,11 +123,11 @@ Method
 7.  Quench reactions by adding 8 μL of quenching solution and incubate for 15 min at room temperature.
 8.  Combine samples at equal amounts and dry down in a SpeedVac.
 
-Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptide separation protocol like SCX or high pH reversed phase chromatography, to separate the peptides in addition to the cleanup.\
+Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptide separation protocol like SCX or high pH reversed phase chromatography, to separate the peptides in addition to the cleanup.
 
-## Plasma Peptidome {#peptidome}
+## Plasma Peptidome 
 
-- [Purification of Serum Peptides](http://www.emdmillipore.com/US/en/life-science-research/protein-sample-preparation/protein-concentration/amicon-ultra-centrifugal-filters/Protein-Sample-Ultrafiltration/Ultrafiltration-Protocols/pxKb.qB.JP8AAAFY_eRPw9_u,nav)\
+- [Purification of Serum Peptides](http://www.emdmillipore.com/US/en/life-science-research/protein-sample-preparation/protein-concentration/amicon-ultra-centrifugal-filters/Protein-Sample-Ultrafiltration/Ultrafiltration-Protocols/pxKb.qB.JP8AAAFY_eRPw9_u,nav)
   scroll to the bottom of the page to find the protocol
 - Characterization of the Low-Molecular-Weight Human Plasma Peptidome David W. Greening, Richard J. Simpson [link](https://link.springer.com/protocol/10.1007%2F978-1-4939-7057-5_6)
 - [Amicon Ultra Centrifugal Filters](http://www.emdmillipore.com/US/en/product/Amicon-Ultra-Centrifugal-Filters,MM_NF-C134281)
