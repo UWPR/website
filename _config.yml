@@ -5,6 +5,8 @@ baseurl: "/website"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
+search: true
+
 plugins:
   - jekyll-include-cache
 
