@@ -30,6 +30,9 @@
 !Gemfile
 !Gemfile.lock
 
+# Jekyll build output
+_site/
+
 # Keep .gitignore itself
 !.gitignore
 
