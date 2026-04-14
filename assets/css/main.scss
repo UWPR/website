@@ -38,26 +38,22 @@
   }
 }
 
-/* Minimal Mistakes reserves padding-right on .page for the author sidebar
-   even on pages that don't show one — so the body text renders narrower
-   than the masthead. Also remove the default content-area inset so body
-   width matches the masthead. Pages that include an actual author-profile
-   sidebar will re-add the gutter via their own layout rules. */
-.page {
-  float: none;
-  width: 100%;
-  padding-right: 0;
-  @media (min-width: 64em) {  /* $large */
-    padding-right: 0;
-  }
-  @media (min-width: 80em) {  /* $x-large */
-    padding-right: 0;
-  }
-}
+/* Minimal Mistakes reserves padding-right on .page for an author profile
+   sidebar even when the page doesn't show one — so the body renders
+   narrower than the masthead. We only want that behaviour on pages that
+   actually have a left-nav sidebar; otherwise let .page expand.
 
-/* Some MM layouts wrap content in .archive; same treatment. */
-.archive {
+   Uses :has() to detect the sidebar layout. Supported in all modern
+   evergreen browsers (Chrome/Edge/Safari/Firefox 2023+). Falls back to
+   MM's default on older browsers — acceptable for an internal site. */
+#main:not(:has(.sidebar.sticky)) .page {
   float: none;
   width: 100%;
   padding-right: 0;
+  @media (min-width: 64em) {
+    padding-right: 0;
+  }
+  @media (min-width: 80em) {
+    padding-right: 0;
+  }
 }
