@@ -1,6 +1,6 @@
 title: "University of Washington Proteomics Resource"
 description: "Web site for the University of Washington's Proteomics Resource"
-url: "https://vagisha.github.io"
+url: "https://uwpr.github.io"
 baseurl: "/website"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
