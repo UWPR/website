@@ -1,0 +1,63 @@
+---
+# Jekyll front-matter so this SCSS file is processed.
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ===================================================================
+   UWPR width override.
+
+   Minimal Mistakes caps the main content and masthead at $max-width
+   (1280px default), which looks narrow on modern wide screens. We let
+   the layout grow with the viewport while keeping a readable cap on
+   very wide displays.
+
+     - Small screens: MM handles mobile via its own breakpoints.
+     - Medium+:       use 90% of the viewport.
+     - Large (1280+): use 75% of the viewport.
+     - Huge (1920+):  cap at 1600px so line lengths don't get absurd.
+   =================================================================== */
+
+.masthead__inner-wrap,
+#main {
+  max-width: 90%;
+}
+
+@media (min-width: 80em) {  /* 1280px+ */
+  .masthead__inner-wrap,
+  #main {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 120em) {  /* 1920px+ */
+  .masthead__inner-wrap,
+  #main {
+    max-width: 1600px;
+  }
+}
+
+/* Minimal Mistakes reserves padding-right on .page for the author sidebar
+   even on pages that don't show one — so the body text renders narrower
+   than the masthead. Also remove the default content-area inset so body
+   width matches the masthead. Pages that include an actual author-profile
+   sidebar will re-add the gutter via their own layout rules. */
+.page {
+  float: none;
+  width: 100%;
+  padding-right: 0;
+  @media (min-width: 64em) {  /* $large */
+    padding-right: 0;
+  }
+  @media (min-width: 80em) {  /* $x-large */
+    padding-right: 0;
+  }
+}
+
+/* Some MM layouts wrap content in .archive; same treatment. */
+.archive {
+  float: none;
+  width: 100%;
+  padding-right: 0;
+}
