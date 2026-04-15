@@ -27,7 +27,7 @@
 
                 <p><h2 id="sampleprep">Sample Preparation Overviews </h2>
 				<br>
-				<br>Workflow for Protein Mass Spectrometry from Thermo<a target="new" href="https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html">page</a>
+				<br>Workflow for Protein Mass Spectrometry from Thermo <a target="new" href="https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html">page</a>
 				<br>Protein Sample Preparation for Mass Spectrometry <a target="new" href="https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/sample-preparation-mass-spectrometry.html">page</a>
 				<br>Mass Spectrometry Sample Preparation Handbook <a target="new" href="https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-mass-spectrometry.html">page</a>
 				<br>Protein Purification and Isolation Support Center <a target="new" href="https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/protein-purification-isolation-support-center.html">page</a>

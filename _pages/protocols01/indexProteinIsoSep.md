@@ -15,7 +15,7 @@ Detergent-based lysis is more popular due to ease of use, low cost and efficient
 
 ## Sample Preparation Overviews {#sampleprep}
 
-Workflow for Protein Mass Spectrometry from Thermo[page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html)  
+Workflow for Protein Mass Spectrometry from Thermo [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html)  
 Protein Sample Preparation for Mass Spectrometry [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/sample-preparation-mass-spectrometry.html)  
 Mass Spectrometry Sample Preparation Handbook [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-mass-spectrometry.html)  
 Protein Purification and Isolation Support Center [page](https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/protein-purification-isolation-support-center.html)  
