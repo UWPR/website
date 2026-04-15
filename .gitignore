@@ -14,6 +14,7 @@
 !*.jpg
 !*.jpeg
 !*.gif
+!*.ico
 !*.pdf
 !*.xlsx
 !*.xls
