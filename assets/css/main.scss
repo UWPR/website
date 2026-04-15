@@ -58,27 +58,102 @@
   }
 }
 
-/* Shrink the right-side TOC gutter on pages with toc: true. MM reserves
-   ~200px at 64em+ and ~300px at 80em+; those are oversized for the
-   narrow TOC text, which just leaves the body cramped. Halve the
-   reservation so content gets more width. */
+/* Move MM's auto-TOC from the right rail to the LEFT rail, so it matches
+   the position and feel of manual sidebars (e.g. the contact page). MM's
+   default places `.sidebar__right` absolute-positioned at right:0 of
+   `.page`, with `.page` getting padding-right to reserve space. We flip
+   the axis: reserve padding on the LEFT of `.page`, and position the
+   TOC block at the left edge.
+
+   Same breakpoints MM uses for the gutter (64em / 80em). */
 .page:has(.sidebar__right),
 .page:has(.toc) {
-  /* MM floats .page right with width: calc(100% - X) to leave room for a
-     left author-profile sidebar we don't use. Align to the left and
-     expand .page to the full masthead width, so the TOC (which is
-     absolutely positioned at the right edge of .page) sits flush with
-     the search icon in the masthead. Keep MM's default TOC width. */
   float: left;
   margin-left: 0;
   width: 100%;
 
   @media (min-width: 64em) {
-    padding-right: 200px;
+    padding-left: 200px;
+    padding-right: 0;
   }
   @media (min-width: 80em) {
-    padding-right: 300px;
+    padding-left: 300px;
+    padding-right: 0;
   }
+}
+
+/* Flip .sidebar__right (which is misnamed now but still the class MM
+   emits) to the left side on >=large screens. Mirrors the rules in
+   _sass/minimal-mistakes/_sidebar.scss. */
+.sidebar__right {
+  @media (min-width: 64em) {  /* $large */
+    right: auto;
+    left: 0;
+    margin-right: 0;
+    margin-left: -200px;
+    padding-left: 0;
+    padding-right: 1em;
+
+    &.sticky {
+      float: left;
+    }
+  }
+  @media (min-width: 80em) {  /* $x-large */
+    margin-left: -300px;
+  }
+}
+
+/* Pull the TOC up so it starts level with the top of the article
+   (right under the masthead), matching where the manual `.sidebar.sticky`
+   sits on /contact/. The TOC is rendered inside `.page__content`, which
+   sits below `.page__title` in the flow — and because `.sidebar__right`
+   uses `position: sticky` (not absolute), changing the positioning
+   context doesn't move it. Negative margin-top shifts its flow position
+   up past the title. The offset roughly matches `.page__title`'s height
+   + bottom margin. */
+.sidebar__right {
+  @media (min-width: 64em) {
+    margin-top: -2em;
+  }
+}
+
+/* Restyle the TOC header to match the manual sidebar's group titles
+   ("PARKING, SHUTTLE" on /contact/). MM's `.toc .nav__title` sets a
+   solid primary-colored background with white text and a rounded top —
+   we want plain text, uppercase, with just a bottom border (what MM
+   uses for `.nav__sub-title`). */
+.sidebar__right .nav__title,
+.toc .nav__title {
+  background: transparent;
+  color: inherit;
+  border-radius: 0;
+  border-bottom: 1px solid $border-color;
+  text-transform: uppercase;
+  padding: 0.25rem 0;
+
+  /* Drop the file-alt icon MM injects — keeps the header typographically
+     consistent with the manual sidebar's group titles. */
+  .fas {
+    display: none;
+  }
+}
+
+/* MM wraps the TOC list in `.toc` with a primary-colored border and a
+   box-shadow that clashes with the flat look of the manual sidebar.
+   Strip the chrome so the TOC reads as plain type like the contact
+   sidebar's grouped nav. */
+.toc {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* Lighten the TOC item font-weight and color so they read like the
+   manual sidebar's nav items rather than the heavier default MM
+   applies to `.toc__menu a`. */
+.toc__menu a {
+  color: $muted-text-color;
+  font-weight: normal;
 }
 
 /* Bump up the masthead site title (shows "UWPR" via masthead_title). */
