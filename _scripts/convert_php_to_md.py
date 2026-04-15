@@ -554,8 +554,11 @@ def html_to_markdown(html_content: str, source_dir: str = "/") -> str:
         if any(bare_url.startswith(p) for p in UW_HOSTED_PREFIXES):
             return f"[{text}]({UW_HOST}{bare_url}{anchor})"
 
-        # .zip files anywhere -> UW server (absolute paths only)
-        if bare_url.endswith(".zip") and bare_url.startswith("/"):
+        # Binary downloads not tracked by the repo whitelist (.gitignore
+        # only keeps source-ish assets) -> UW server. Covers .zip installers
+        # as well as .exe binaries (e.g. /protocols06/RawMeat_1007.exe on
+        # protocols06/index.php).
+        if bare_url.startswith("/") and bare_url.lower().endswith((".zip", ".exe")):
             return f"[{text}]({UW_HOST}{bare_url}{anchor})"
 
         # In-repo absolute asset paths -> baseurl-prefixed

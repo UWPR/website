@@ -3,7 +3,7 @@ title: "MassSpecUtils (a.k.a \"TagTraq\")"
 permalink: /protocols06/MassSpecUtils/
 ---
 
-**Install:** [setup.exe]({{ site.baseurl }}/protocols06/MassSpecUtils/setup.exe)   **Documentation:** [MassSpecUtilsUserGuide.docx]({{ site.baseurl }}/protocols06/MassSpecUtils/MassSpecUtilsUserGuide.docx)
+**Install:** [setup.exe](https://proteomicsresource.washington.edu/protocols06/MassSpecUtils/setup.exe)   **Documentation:** [MassSpecUtilsUserGuide.docx]({{ site.baseurl }}/protocols06/MassSpecUtils/MassSpecUtilsUserGuide.docx)
 
 MassSpecUtils is a tool that provides a graphical user interface to perform the following tasks:
 
