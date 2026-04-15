@@ -1,0 +1,9 @@
+# Production overrides, layered on top of _config.yml.
+# Used only by the CI build that targets the UW server:
+#   bundle exec jekyll build --config _config.yml,_config.production.yml
+#
+# The live site lives at the apex of proteomicsresource.washington.edu,
+# so baseurl is empty (unlike the GitHub Pages preview, which serves
+# under /website/).
+url: "https://proteomicsresource.washington.edu"
+baseurl: ""

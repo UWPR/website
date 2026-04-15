@@ -1,0 +1,54 @@
+name: Build and deploy to UW server
+
+# Build the Jekyll site and force-push the built output to the `deploy`
+# branch. The production server pulls from `deploy`.
+
+on:
+  # While we're still on the migration branch, trigger there. Flip this
+  # to `main` once jekyll-migration is merged.
+  push:
+    branches:
+      - jekyll-migration
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+
+# Only one deploy at a time; cancel any in-flight build if a new push arrives.
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+permissions:
+  contents: write  # needed to force-push to the deploy branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # github-pages gem pins to a Ruby version; 3.3 is current stable.
+          ruby-version: "3.3"
+          bundler-cache: true  # runs bundle install + caches gems
+
+      - name: Build site (production config)
+        run: |
+          bundle exec jekyll build \
+            --config _config.yml,_config.production.yml \
+            --destination _site
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to `deploy` branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: deploy
+          # Force-push a single flat commit every time — deploy branch
+          # is treated as a build artifact, not a history to preserve.
+          force_orphan: true
+          commit_message: "Deploy ${{ github.sha }}"
