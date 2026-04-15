@@ -16,31 +16,27 @@ The TSQ Vantage, a triple quadrupole mass spectrometer, includes a Qualitative E
 
 ## Specifications 
 
-- **Mass range**
+**Mass range**
+
 - m/z 10 to 1 500 Da
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 7500 (FWHM) at m/z 508 of polytyrosine, resolution is continuously adjustable to better than 0.1 Da peak width (FWHM) across the entire mass range
 
-<!-- -->
+**Scan speed**
 
-- **Scan speed**
 - 5,000 amu/sec
 
-<!-- -->
+**Available activation**
 
-- **Available activation**
 - Collision induced dissociation (CID)
 - 3000 times SRMs (T-SRMs)
 - QED-MS/MS - Simultaneous quantitation and structural confirmation
 - iSRM - Intelligent SRM
 - H-SRM - Highly Selective Reaction Monitoring
 
-<!-- -->
-
-- ## Instrument control software 
+## Instrument control software 
 
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
@@ -88,7 +84,6 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [Specifications](#specs)
 - [Software](#software)
 - [Calibrations](#calis)
-
 - [Collision Energy](#collisionenergy)
 - [HPLC setup](#hplc)
 - [Peptide Standards](#standards)

@@ -19,24 +19,22 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 
 ## Specifications 
 
-- **Scan Rate**
+**Scan Rate**
+
 - Orbitrap MSn up to 15 Hz (18 Hz max for OT MS2 with sw v1.1)
 - Ion trap MSn up to 20 Hz
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 15,000-450,000 (FWHM) at m/z 200
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS using external calibration
 - \< 1 ppm RMS using internal calibration
 
-<!-- -->
+**Features**
 
-- **Features**
 - CID/HCD/ETD(/EThcD with sw v1.1) detected by the Ion Trap or Orbitrap at any level of MSn for maximum experimental flexibility
 - ETD for fragmentation and internal calibrant
 - S-Lens ion source for increased sensitivity
@@ -444,7 +442,6 @@ m/z and charge state distribution
 - [Calibrations](#calis)
 - [Parallelization](#parallelization)
 - [AGC control](#agc)
-
 - [Resolution/Transient](#resolution)
 - [HPLC setup](#hplc)
 - [Instrument settings](#settings)

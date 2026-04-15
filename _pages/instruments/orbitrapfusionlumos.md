@@ -18,24 +18,22 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion-lu
 
 ## Specifications 
 
-- **Scan Rate**
+**Scan Rate**
+
 - Orbitrap MSn up to 20 Hz
 - Ion trap MSn up to 20 Hz
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 15,000-500,000 (FWHM) at m/z 200
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS using external calibration
 - \< 1 ppm RMS using internal calibration
 
-<!-- -->
+**Features**
 
-- **Features**
 - CID/HCD Fragmentation
 - High Capacity Transfer Tube (HCTT) and Electrodynamic Ion Funnel (EIDF) for increased ion flux and lower limits of detection
 - Segmented quadrupole mass filter allows for 0.4 u to 1200 u precursor isolation
@@ -423,7 +421,6 @@ TIC (total ion chromatogram) of the different concentrations overlay, normalized
 - [Parallelization](#parallelization)
 - [AGC control](#agc)
 - [Resolution/Transient](#resolution)
-
 - [HPLC setup](#hplc)
 - [Instrument settings](#settings)
 - [TMT instrument settings](#TMTsettings)

@@ -32,7 +32,6 @@ permalink: /methods/
 - [Proteomics]({{ site.baseurl }}/protocols01/)
 - [Protein Preparation and Separation]({{ site.baseurl }}/protocols02/)
 - [Protein Digestion]({{ site.baseurl }}/protocols03/)
-
 - [Peptide Separation]({{ site.baseurl }}/protocols04/)
 - [LC-MS]({{ site.baseurl }}/protocols05/)
 - [UWPR Safety]({{ site.baseurl }}/safety/)

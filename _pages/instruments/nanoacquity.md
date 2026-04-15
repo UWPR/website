@@ -18,8 +18,6 @@ The nanoAcquity UPLC is a platform specifically designed for applications that d
 
 ## HPLC setup 
 
-[Back to Top](#top)
-
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)
@@ -30,6 +28,8 @@ the following document includes guidelines to setup the capillary trap/column on
 ## Quick Links
 
 - [HPLC column setup](#hplcsetup)
+
+<!-- -->
 
 ## Guides
 

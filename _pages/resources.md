@@ -27,7 +27,6 @@ Additionally, the Proteomics Resource has access to dedicated servers for comput
 - [Exploris480 1 and 2]({{ site.baseurl }}/instruments/orbitrapexploris480/)
 - [VanquishNeo]({{ site.baseurl }}/instruments/VanquishNeo/)
 - [EASY-nLC™ 1200]({{ site.baseurl }}/instruments/EASYnLC/)
-
 - [Fusion Lumos]({{ site.baseurl }}/instruments/orbitrapfusionlumos/)
 - [Fusion]({{ site.baseurl }}/instruments/orbitrapfusion/)
 - [TSQ Altis]({{ site.baseurl }}/instruments/tsqaltis/)

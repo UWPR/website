@@ -19,24 +19,22 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-elite) fo
 
 ## Specifications 
 
-- **Scan Rate**
+**Scan Rate**
+
 - Orbitrap MSn 4 Hz at 60,000 resolution
 - Ion trap MSn up to 10 Hz
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 15,000-240,000 (FWHM) at m/z 400
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS using external calibration
 - \< 1 ppm RMS using internal calibration
 
-<!-- -->
+**Features**
 
-- **Features**
 - High Field Orbitrap mass analyzer with resolving power up to 240,000 FWHM
 - Advanced Signal processing
 - S-Lens ion source for increased sensitivity
@@ -109,7 +107,6 @@ m/z and charge state distribution
 - [Specifications](#specs)
 - [Software](#software)
 - [Calibrations](#calis)
-
 - [HPLC setup](#hplc)
 - [Instrument settings](#settings)
 - [Resolution/Transient](#resolution)

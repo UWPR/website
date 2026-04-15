@@ -19,31 +19,28 @@ Visit the [Planet Orbitrap website](https://planetorbitrap.com/orbitrap-exploris
 
 ## Specifications 
 
-- **Scan Rate**
+**Scan Rate**
+
 - Up to 40 Hz at resolution setting 7500 at m/z 200
 - Multiplexity: up to 20 precursors/scan
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - up to 480 000 at m/z 200
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS drift over 24 hours using external calibration
 - \< 1 ppm RMS drift over 24 hours using internal calibration
 
-<!-- -->
+**Sensitivity**
 
-- **Sensitivity**
 - Dynamic range \> 5000 within a single Orbitrap mass analyzer spectrum
 - MS/MS: 50 fg reserpine on column S/N 100:1
 - SIM: 50 fg reserpine on column S/N 150:1
 
-<!-- -->
+**Features**
 
-- **Features**
 - Higher Energy Collisional Dissociation (HCD)
 - EASY-IC™ (internal calibration) source
 - Quadrupole mass filter
@@ -142,7 +139,6 @@ The results below are based on the number of unique peptide ID's with Comet sear
 - [Software](#software)
 - [Calibrations](#calis)
 - [Resolution/Transient](#resolution)
-
 - [TMT instrument settings](#TMTsettings)
 - [HPLC setup](#hplc)
 - [Instrument settings](#settings)

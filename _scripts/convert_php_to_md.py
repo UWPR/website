@@ -132,10 +132,59 @@ def strip_outer_wrappers(html_content: str) -> str:
     content = re.sub(r'<div\s+class="content">', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<div\s+class="major">', '', content, flags=re.IGNORECASE)
 
-    # Remove <section> and <header class="major"> wrappers
-    content = re.sub(r'</?section>', '', content, flags=re.IGNORECASE)
+    # Remove <section> and <header class="major"> wrappers.
+    # The original template also uses `<section class="6u">` with no closing
+    # `</section>`, so allow attributes on the opening tag.
+    content = re.sub(r'<section[^>]*>', '', content, flags=re.IGNORECASE)
+    content = re.sub(r'</section>', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<header\s+class="major">', '', content, flags=re.IGNORECASE)
     content = re.sub(r'</header>', '', content, flags=re.IGNORECASE)
+
+    # Lift `<strong>Label</strong>` that sits as a direct child of <ul>
+    # (before any <li>) out into a preceding paragraph. Several instrument
+    # pages (e.g. tsqvantage.php's Specifications) use the pattern
+    # `<ul><strong>Mass range</strong><li>m/z 10 ...</li></ul>` — the
+    # label isn't inside an <li>, so in the browser it renders as
+    # un-bulleted bold text above the list. Pandoc instead treats it as
+    # an implicit list item and we get "• Mass range" as a bullet.
+    # Rewriting it to `<p><strong>Label</strong></p><ul><li>...</li></ul>`
+    # preserves the visual grouping.
+    content = re.sub(
+        r'<ul[^>]*>\s*<strong>([^<]+)</strong>\s*(?=<li[\s>])',
+        r'<p><strong>\1</strong></p><ul>',
+        content,
+        flags=re.IGNORECASE,
+    )
+
+    # Same class of bug: `<h2>Heading</h2>` (or h3/h4) that sits as a
+    # direct child of <ul>, before the first <li>. tsqvantage.php has
+    # `<ul><h2 id="software">Instrument control software</h2><li>see
+    # spreadsheet</li></ul>`. Pandoc treats the heading as an implicit
+    # list item, so the heading renders as a bullet. Lift it out.
+    content = re.sub(
+        r'<ul[^>]*>\s*(<h[1-6][^>]*>.*?</h[1-6]>)\s*',
+        r'\1<ul>',
+        content,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+    # Merge adjacent <ul> blocks. The original PHP wrapped link groups in
+    # `<section class="6u">` blocks to display them in side-by-side columns;
+    # after section stripping, two <ul>s end up separated by only whitespace,
+    # which pandoc renders as two distinct lists with a visible gap. Fuse
+    # them into a single <ul> so the output reads as one flat list.
+    #
+    # Only merge when the second <ul> opens directly with an <li> — this
+    # skips cases where the author put a <strong>label</strong> before the
+    # first <li> as a pseudo-heading (see instruments/tsqvantage.php's
+    # "Specifications" section). Merging those would drop the labels into
+    # the list stream and lose the visual grouping.
+    content = re.sub(
+        r'</ul>\s*<ul[^>]*>\s*(?=<li[\s>])',
+        '',
+        content,
+        flags=re.IGNORECASE,
+    )
 
     # Remove the title h1 (we put it in front matter)
     content = re.sub(r'<h1[^>]*>.*?</h1>', '', content, flags=re.IGNORECASE | re.DOTALL)
@@ -411,8 +460,10 @@ def html_to_markdown(html_content: str, source_dir: str = "/") -> str:
     # carry theme-specific classes over from the old site.
     md = re.sub(r'\{[.#][^}]*\}', '', md)
 
-    # Remove "Back to Top" links (anchor to old wrapper div)
-    md = re.sub(r'\[Back to Top\]\(#page\)\s*\\?\s*', '', md)
+    # Remove "Back to Top" links. Original PHP used several anchor targets
+    # (#page, #top, #content, ...). MM's floating TOC replaces the need
+    # for these, so strip them regardless of target.
+    md = re.sub(r'\[Back to Top\]\(#[^)]*\)[ \t]*\\?[ \t]*', '', md, flags=re.IGNORECASE)
 
     # Fix escaped quotes
     md = md.replace('\\"', '"')

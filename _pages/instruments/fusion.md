@@ -12,24 +12,22 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 
 12/5/2013 Fusion Installed
 
-- **Scan Rate**
+**Scan Rate**
+
 - Orbitrap MSn up to 15 Hz
 - Ion trap MSn up to 20 Hz
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 15,000-450,000 (FWHM) at m/z 200
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS using external calibration
 - \< 1 ppm RMS using internal calibration
 
-<!-- -->
+**Features**
 
-- **Features**
 - CID/HCD/ETD detected by the Ion Trap or Orbitrap at any level of MSn for maximum experimental flexibility
 - ETD for fragmentation and internal calibrant
 - S-Lens ion source for increased sensitivity
@@ -38,7 +36,6 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 - Spectral multiplexing for enhanced duty cycle
 - Synchronous Precursor Selection Up to 15 precursors per MS2 scan, for MS3 analysis only
 
-<!-- -->
+**Instrument control software**
 
-- **Instrument control software**
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

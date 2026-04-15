@@ -10,29 +10,26 @@ The LTQ XL™ extends the legendary MSn performance of the LTQ™, incorporating
 8/28/2007 Installed  
 1/24/2013 Retired
 
-- **Mass range**
+**Mass range**
+
 - m/z 15 to 200 Da
 - m/z 50 to 2 000 Da
 - m/z 200 to 4 000 Da
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - Down to 0.05 FWHM (full width half maximum with Ultra ZoomScan)
 
-<!-- -->
+**Polarity Switching**
 
-- **Polarity Switching**
 - 100 msec between positive and negative
 
-<!-- -->
+**Available scan functions**
 
-- **Available scan functions**
 - Collision induced dissociation (CID)
 - Pulsed Q collision induced dissociation (PQD)
 - Electron Transfer Dissociation (ETD)
 
-<!-- -->
+**Instrument control software**
 
-- **Instrument control software**
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

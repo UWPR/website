@@ -17,25 +17,21 @@ The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible
 
 ## System specifications 
 
-[Back to Top](#top)
+**System pressure**
 
-- **System pressure**
 - up to 1500 bar (21,750 psi)
 
-<!-- -->
+**Flow range**
 
-- **Flow range**
 - 1 nL/min -- 100 μL/min, in 1 nL increments
 - 100 nL/min -- 100 μL/min, recommended
 
-<!-- -->
+**Injection volume range**
 
-- **Injection volume range**
 - 0.01--25 μL
 
-<!-- -->
+**Injection volume precision**
 
-- **Injection volume precision**
 - From 0.05 to 0.20 µL: ≤5.0% RSD
 - From 0.20 to 0.50 µL: ≤1.5% RSD
 - From 0.50 to 2.00 µL: ≤0.5% RSD
@@ -43,7 +39,6 @@ The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible
 
 ## Plate configuration 
 
-[Back to Top](#top)  
 Sample capacity (standard): 4 racks of 54 vials (≤ 1.5 mL) each  
 96-well plates with optional orientation barcoding to ensure the correct position in the autosampler and charger unit when loading and running the analytical sequence. Plates cannot be accepted in the wrong orientation.  
 Barcoded 96-well plate, V shaped well, 10-190 µl, 10pk 60180-217B (Fisher 03-255-015)  
@@ -61,16 +56,12 @@ You can also print/label the well plates yourself. Here are a couple of document
 
 ## Consumables
 
-[Back to Top](#top)
-
 the following document includes part numbers for AS vials, columns trap cartridges etc needed to use the VanquishNeo
 
 - [Consumables needed to setup the VanquishNeo (xlsx)]({{ site.baseurl }}/docs/instruments/LC_MS_Consumables_VanquishNeo.xlsx)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
 ## HPLC setup 
-
-[Back to Top](#top)
 
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 
@@ -79,13 +70,11 @@ the following document includes guidelines to setup the capillary trap/column on
 
 ## Instrument Method setup guidelines 
 
-[Back to Top](#top)
-
 Detailed guide how to setup the VanquishNeo method [see pdf]({{ site.baseurl }}/docs/instruments/VanquishNeo_MethodSetup.pdf)
 
 Thermo Video: [Simple and Intelligent Method Creation](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Simple%20and%20Intelligent%20Method%20Creation)
 
-**Setup the Gradient** [Back to Top](#top)
+**Setup the Gradient** 
 
 - Note the buffer composition used on the VanquishNeo:
 - Buffer A: 0.1 % Formic Acid in Water (Fisher Water with 0.1% Formic Acid (v/v), Optima™ LC/MS Grade, LS118)
@@ -109,13 +98,9 @@ Application Note: [Improving Retention Time Precision and Chromatography of Earl
 
 ## Installing SII for xcalibur and VanquishNeo software 
 
-[Back to Top](#top)
-
 - [Installing and configuring VanquishNeo software (pdf)]({{ site.baseurl }}/docs/instruments/VanquishNeo_install_software.pdf)
 
 ## Troubleshooting
-
-[Back to Top](#top)
 
 This video from Thermo describes how to Replace the Sample Loop, Needle Unit, and Needle Seat [Vanquish HPLC/UHPLC Maintenance Videos: How to Replace the Sample Loop, Needle Unit, and Needle Seat](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Vanquish%20HPLC%2FUHPLC%20Maintenance%20Videos%3A%20How%20to%20Replace%20the%20Sample%20Loop%2C%20Needle%20Unit%2C%20and%20Needle%20Seat)
 
@@ -128,8 +113,6 @@ This video from Thermo describes how to Replace the Check Valves [Vanquish HPLC/
 TIPS AND TRICKS: ISSUE 1: [How to avoid and recover from autosampler blockages (pdf)](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=vanquishneotripsandtricksissue1)
 
 ## Convert bar to psi 
-
-[Back to Top](#top)
 
 Formula for bar to psi conversion: 1 bar = 14.5038 psi or (bar x 14.5038 = psi) or 0.0689475729 bars in 1 psi.
 
@@ -172,7 +155,6 @@ To convert bar to psi follow this link: [UnitConverters.net: Convert bar to psi]
 - [Plate Configuration](#plateconfiguration)
 - [Software Install](#softwareupgrade)
 - [Troubleshooting](#troubleshooting)
-
 - [HPLC consumables](#consumables)
 - [HPLC column setup](#hplcsetup)
 - [Method setup](#methodsetup)

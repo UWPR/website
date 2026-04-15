@@ -19,32 +19,29 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) f
 
 ## Specifications 
 
-- **Scan Rate**
+**Scan Rate**
+
 - Up to 12 Hz at resolution setting of 17,500 at m/z 200
 - Multiplexity: up to 10 precursors/scan
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 280 000 at m/z 200 option on the QE Plus
 - 140 000 at m/z 200 at a scan repetition rate of 1 Hz
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS error with external calibration
 - \< 1 ppm RMS error with internal calibration
 
-<!-- -->
+**Sensitivity**
 
-- **Sensitivity**
 - Intra-scan dynamic range \> 5000:1
 - Full MS: 500fg Buspirone on column S/N 100:1
 - SIM: 50fg Buspirone on column S/N 100:1
 
-<!-- -->
+**Features**
 
-- **Features**
 - Higher Energy Collisional Dissociation (HCD)
 - S-Lens ion source for increased sensitivity
 - Quadrupole mass filter
@@ -121,10 +118,11 @@ TIC (total ion chromatogram) of the different concentrations overlay, normalized
 
 ![]({{ site.baseurl }}/instruments/images/qexactive_Hela_02.png)
 
-- ## Useful resources 
+## Useful resources 
+
+- 
 
 - [Q Exactive Tutorial videos by Ben Orsburn](http://proteomicsnews.blogspot.com/p/q-exactive-tutorial-videos.html)
-
 - [Q Exactive Calibration & Maintenance](https://documents.thermofisher.com/TFS-Assets/CMD/Reference-Materials/WS-MS-Q-Exactive-Calibration-Maintenance-iQuan2016-EN.pdf)
 
 ------------------------------------------------------------------------
@@ -136,7 +134,6 @@ TIC (total ion chromatogram) of the different concentrations overlay, normalized
 - [Calibrations](#calis)
 - [Method parameters](#parameters)
 - [HPLC setup](#hplc)
-
 - [Instrument settings](#settings)
 - [TMT instrument settings](#TMTsettings)
 - [Resolution/Transient](#resolution)

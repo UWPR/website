@@ -18,15 +18,15 @@ TSQ Altis (TSQ-A-10306 / UW tag 2033410), Installed 10/16/2018
 
 ## Specifications 
 
-- **Mass range**
+**Mass range**
+
 - m/z 5 to 2000 Da
 - 600 SRMs/sec
 - Selectivity 0.2 Da FWHM for high resolutions SRM
 - Sensitivity 500 000 : 1
 
-<!-- -->
+**Available scan functions**
 
-- **Available scan functions**
 - Collision induced dissociation (CID)
 - 3000 times SRMs (T-SRMs)
 - QED-MS/MS - Simultaneous quantitation and structural confirmation
@@ -78,7 +78,6 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [Specifications](#specs)
 - [Software](#software)
 - [Calibrations](#calis)
-
 - [Collision Energy](#collisionenergy)
 - [HPLC setup](#hplc)
 - [Peptide Standards](#standards)

@@ -152,7 +152,6 @@ Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptid
 - [Immunodepletion](#immunodepletion)
 - [Lectin Affinity](#lectin)
 - [Trypsin Digestion and TMT Labeling](#trypsin)
-
 - [Plasma Peptidome](#peptidome)
 - [Resources](#resources)
 - [References](#references)

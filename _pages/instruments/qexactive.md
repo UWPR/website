@@ -12,39 +12,35 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) f
 11/19/2013 QE Plus Installed  
 6/6/2012 QE Installed, 11/14/2013 retired
 
-- **Scan Rate**
+**Scan Rate**
+
 - Up to 12 Hz at resolution setting of 17,500 at m/z 200
 - Multiplexity: up to 10 precursors/scan
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 280 000 at m/z 200 option on the QE Plus
 - 140 000 at m/z 200 at a scan repetition rate of 1 Hz
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 3 ppm RMS error with external calibration
 - \< 1 ppm RMS error with internal calibration
 
-<!-- -->
+**Sensitivity**
 
-- **Sensitivity**
 - Intra-scan dynamic range \> 5000:1
 - Full MS: 500fg Buspirone on column S/N 100:1
 - SIM: 50fg Buspirone on column S/N 100:1
 
-<!-- -->
+**Features**
 
-- **Features**
 - Higher Energy Collisional Dissociation (HCD)
 - S-Lens ion source for increased sensitivity
 - Quadrupole mass filter
 - Orbitrap mass analyzer
 - Spectral multiplexing for enhanced duty cycle
 
-<!-- -->
+**Instrument control software**
 
-- **Instrument control software**
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

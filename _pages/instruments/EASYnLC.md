@@ -29,8 +29,6 @@ The EASY-nLC combines simplicity and high-throughput capacity in a nano-flow UHP
 
 ## Virtual Display 
 
-[Back to Top](#top)
-
 The EASY-nLC can be controlled directly via the-built in touchscreen. You can also setup the virtual display on the pc so it can be controlled from the pc, this is particularly useful if you wish to remotely control the system.
 
 **How to restart the virtual display (e.g. after rebooting the PC):**  
@@ -63,8 +61,6 @@ The EASY-nLC can be controlled directly via the-built in touchscreen. You can al
 
 ## Switch between Trapping and No-trapping mode 
 
-[Back to Top](#top)
-
 Detailed guide how to switch between trapping and no-trapping mode [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SwitchBetweenTrappingAndNoTrap.pdf)
 
 - Looking at the EASY-nLC home page you can see if the system is in trapping or no-trapping mode. It either displays the trap before the analytical column or not.
@@ -91,8 +87,6 @@ Detailed guide how to switch between trapping and no-trapping mode [see pdf]({{ 
 - e.g. if you load 4 µl of sample: 2 x 4 µl + 2 µl = 10 µl
 
 ## Changing the plate configuration 
-
-[Back to Top](#top)
 
 Detailed guide how to change the plate configuration [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_ChangingPlateConfiguration.pdf)
 
@@ -124,8 +118,6 @@ Detailed guide how to change the plate configuration [see pdf]({{ site.baseurl }
 
 ## LogViewer
 
-[Back to Top](#top)
-
 the following document describes how to use the LogViewer to view the EASYnLC pressure trace.
 
 - [Log Viewer usage(pdf)]({{ site.baseurl }}/docs/instruments/EASYnLC_LogViewer.pdf)
@@ -136,8 +128,6 @@ You can download the zip file containing the log viewer.
 
 ## Consumables
 
-[Back to Top](#top)
-
 the following document includes part numbers for AS vials, columns trap cartridges etc needed to use the VanquishNeo
 
 - [LC-MS commonly used consumables for EASYnLC (xlsx)]({{ site.baseurl }}/docs/instruments/LC_MS_Consumables_EASYnLC.xlsx)
@@ -145,16 +135,12 @@ the following document includes part numbers for AS vials, columns trap cartridg
 
 ## HPLC setup 
 
-[Back to Top](#top)
-
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_EASYnLC.pdf)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
 ## Instrument Method setup guidelines 
-
-[Back to Top](#top)
 
 Detailed guide how to setup the EASY-nLC method [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_MethodSetup.pdf)
 
@@ -165,7 +151,7 @@ Detailed guide how to setup the EASY-nLC method [see pdf]({{ site.baseurl }}/doc
 - e.g. if you load 4 µl of sample: 2 x 4 µl + 2 µl = 10 µl
 - The basic method provided by UWPR will have a loading volume of 20 µl to allow for 1-8 µl sample injection volumes (set in Xcalibur sequence list)
 
-**Setup the Gradient** [Back to Top](#top)
+**Setup the Gradient** 
 
 - Note the buffer composition used on the EASY-nLC:
 - Buffer A: 0.1 % Formic Acid in Water (Fisher Water with 0.1% Formic Acid (v/v), Optima™ LC/MS Grade, LS118)
@@ -189,21 +175,15 @@ Application Note: [Improving Retention Time Precision and Chromatography of Earl
 
 ## Solvent filters 
 
-[Back to Top](#top)
-
 We noticed air leaks originating from the original solvent filter cartridges. So we decided to replace them with a different setup:  
 Guide how to setup alternate EASY-nLC solvent filters [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SolventBottleFilters.pdf)
 
 ## Upgrading Software/Firmware on the EASYnLC 1200 
 
-[Back to Top](#top)
-
 This document describes how to upgrade software on an EASYnLC from SW 4.1 to SW 4.2: [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SoftwareUpgrade.pdf)  
 Note it also describes how to change the password in Putty (in case you don't like the Master Key)
 
 ## Troubleshooting
-
-[Back to Top](#top)
 
 This guide from Thermo describes the maintenance and troubleshooting procedures required to maintain the EASY-nLC™ instrument in optimal working condition. [Thermo Troubleshooting and Maintenance Guide pdf](https://assets.thermofisher.com/TFS-Assets/CMD/manuals/Man-60053-97274-EASY-nLC-1200-Troubleshoot-Man6005397274-EN.pdf)
 
@@ -212,8 +192,6 @@ This document contains tips to manually troubleshoot air leaks in the checkvalve
 Easy nLC 1200 Key Changes over the 1000 Series: [Easy nLC 1200 Key Changes over the 1000 Series pdf]({{ site.baseurl }}/docs/instruments/EasynLC1200_%20KeyChangesOverThe1000series_Rev%202.pdf)
 
 ## Convert bar to psi 
-
-[Back to Top](#top)
 
 Formula for bar to psi conversion: 1 bar = 14.5038 psi or (bar x 14.5038 = psi) or 0.0689475729 bars in 1 psi.
 
@@ -258,7 +236,6 @@ To convert bar to psi follow this link: [UnitConverters.net: Convert bar to psi]
 - [Log Viewer](#logviewer)
 - [Solvent Filters](#solventfilters)
 - [Software Upgrade](#softwareupgrade)
-
 - [Troubleshooting](#troubleshooting)
 - [Consumables](#consumables)
 - [HPLC column setup](#hplcsetup)

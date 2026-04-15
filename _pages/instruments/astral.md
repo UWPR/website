@@ -18,32 +18,29 @@ Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-
 
 ## Specifications 
 
-- **Scan Rate**
+**Scan Rate**
+
 - MS/MS acquisition rates of up to 200 Hz in the Astral mass analyzer with 80,000 resolution at m/z 524 with a maximum injection time of 3 ms
 - MS/MS acquisition rates of up to 40 Hz with 7,500 resolution at m/z 200 for the Orbitrap mass analyzer
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - Maximum Astral mass analyzer resolution up to 80,000 FWHM at m/z 524 enabling resolution of TMTpro™ 18-plex reporter ions
 - Maximum Orbitrap mass analyzer resolution of up to 480,000 FWHM at m/z 200
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - Astral \< 5 ppm RMS drift over 24 hours using external calibration
 - Orbitrap \< 3 ppm RMS drift over 24 hours using external calibration
 - Orbitrap \< 1 ppm RMS drift over 24 hours using internal calibration
 
-<!-- -->
+**Sensitivity**
 
-- **Sensitivity**
 - Orbitrap dynamic range \> 5000 within a single Orbitrap mass analyzer spectrum
 - Astral dynamic range \>1,000 within a single microscan Astral mass spectrum
 
-<!-- -->
+**Features**
 
-- **Features**
 - Higher Energy Collisional Dissociation (HCD)
 - EASY-IC™ (internal calibration) source
 - Quadrupole mass filter
@@ -161,7 +158,6 @@ Different concentrations of Pierce HeLa Protein Digest Standard (10, 20, 30, 40,
 - [Software](#software)
 - [Calibrations](#calis)
 - [Resolution/Transient](#resolution)
-
 - [PC configuration](#pcconfig)
 - [HPLC setup](#hplc)
 - [Method Templates](#templates)

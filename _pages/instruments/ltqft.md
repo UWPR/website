@@ -10,43 +10,36 @@ The LTQ FT Ultra system is a fully integrated hydrid mass spectrometer consistin
 2/5/07 Installed  
 10/5/07 Upgrade to Ultra cell
 
-- **Mass range**
+**Mass range**
+
 - 50 to 4,000 Da (FT detection)
 - 50 to 2,000 Da (Ion Trap detection)
 
-<!-- -->
+**Resolution**
 
-- **Resolution**
 - 100,000 at m/z 400 at 1 s per scan (broadband mode)
 - \> 750,000 at m/z 400 at slower scan repetition rates (broadband mode)
 
-<!-- -->
+**Mass accuracy**
 
-- **Mass accuracy**
 - \< 1.2 ppm RMS error with external calibration (using the calibration range and settings only)
 - \< 1 ppm RMS error with internal calibration
 
-<!-- -->
+**Sensitivity**
 
-- **Sensitivity**
 - Attomole range for peptides
 - Intrascan dynamic range: \> 4,000
 
-<!-- -->
+**Available scan functions**
 
-- **Available scan functions**
 - Collision induced dissociation (CID)
 - Pulsed Q collision induced dissociation (PQD)
 - Electron capture dissociation (ECD)
 - Infrared multi photon dissociation (IRMPD) (SYNRAD firestar series V20, Model FSV20SFB, 20 Watts continuous power output, Wavelength 10.57-10.63 microns)
 
-<!-- -->
+**Instrument control software**
 
-- **Instrument control software**
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
-
-<!-- -->
-
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)  
 - [LTQ-FT Ultra ECD and IRPMD optimization (pdf)]({{ site.baseurl }}/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_optimization.pdf)
 - [LTQ-FT Ultra ECD and IRPMD maintenance (pdf)]({{ site.baseurl }}/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_maintenance.pdf)

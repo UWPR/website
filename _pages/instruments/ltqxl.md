@@ -10,7 +10,8 @@ The LTQ offers legendary MSn performance, incorporating more techniques to gener
 10/8/2018 Installed (LTQ20607)  
 10/8/2018 Retired
 
-- **Mass range**
+**Mass range**
+
 - m/z 15 to 200 Da
 - m/z 50 to 2 000 Da
 - m/z 200 to 4 000 Da
@@ -23,11 +24,11 @@ The LTQ offers legendary MSn performance, incorporating more techniques to gener
 |   Zoom    |         0.15         |         0.3         |         1111         |
 | Ultrazoom |         0.15         |        0.15         |          28          |
 
-- **Available scan functions**
+**Available scan functions**
+
 - Collision induced dissociation (CID)
 - Pulsed Q collision induced dissociation (PQD)
 
-<!-- -->
+**Instrument control software**
 
-- **Instrument control software**
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)

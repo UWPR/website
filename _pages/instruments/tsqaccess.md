@@ -8,20 +8,19 @@ The TSQ Quantum Access, a triple quadrupole mass spectrometer, offers versatilit
 6/20/07 TSQ Access (TQU01311) Installed  
 9/30/2018 Retired
 
-- **Mass range**
+**Mass range**
+
 - m/z 30 to 3 000 Da
 
-<!-- -->
+**Available scan functions**
 
-- **Available scan functions**
 - Collision induced dissociation (CID)
 - 3000 times SRMs (T-SRMs)
 - QED-MS/MS - Simultaneous quantitation and structural confirmation
 - iSRM - intelligent SRM
 
-<!-- -->
+**Instrument control software**
 
-- **Instrument control software**
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
 For collision energy calculation check out our MRM/SRM overview [page]({{ site.baseurl }}/protocols05/MRM/).
