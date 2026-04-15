@@ -15,7 +15,7 @@ The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible
 - Neo 1 (SYS830520 (SN 8346660 and SN 8347102)/ UW tag 2045623), Installed January/2023
 - Neo 2 (SYS831576/ UW tag 2045624), Installed 8/7/2024
 
-## System specifications 
+## System specifications {#specifications}
 
 **System pressure**
 
@@ -37,7 +37,7 @@ The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible
 - From 0.50 to 2.00 µL: ≤0.5% RSD
 - Above 2 µL: ≤0.25% RSD
 
-## Plate configuration 
+## Plate configuration {#plateconfiguration}
 
 Sample capacity (standard): 4 racks of 54 vials (≤ 1.5 mL) each  
 96-well plates with optional orientation barcoding to ensure the correct position in the autosampler and charger unit when loading and running the analytical sequence. Plates cannot be accepted in the wrong orientation.  
@@ -61,14 +61,14 @@ the following document includes part numbers for AS vials, columns trap cartridg
 - [Consumables needed to setup the VanquishNeo (xlsx)]({{ site.baseurl }}/docs/instruments/LC_MS_Consumables_VanquishNeo.xlsx)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
-## HPLC setup 
+## HPLC setup {#hplcsetup}
 
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
-## Instrument Method setup guidelines 
+## Instrument Method setup guidelines {#methodsetup}
 
 Detailed guide how to setup the VanquishNeo method [see pdf]({{ site.baseurl }}/docs/instruments/VanquishNeo_MethodSetup.pdf)
 
@@ -96,7 +96,7 @@ Application Note: [Improving Retention Time Precision and Chromatography of Earl
 |        9        |     11.25      |     |       90        |       na       |
 |       10        |      12.5      |     |       100       |       na       |
 
-## Installing SII for xcalibur and VanquishNeo software 
+## Installing SII for xcalibur and VanquishNeo software {#softwareupgrade}
 
 - [Installing and configuring VanquishNeo software (pdf)]({{ site.baseurl }}/docs/instruments/VanquishNeo_install_software.pdf)
 
@@ -112,7 +112,7 @@ This video from Thermo describes how to Replace the Check Valves [Vanquish HPLC/
 
 TIPS AND TRICKS: ISSUE 1: [How to avoid and recover from autosampler blockages (pdf)](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=vanquishneotripsandtricksissue1)
 
-## Convert bar to psi 
+## Convert bar to psi {#bartopsi}
 
 Formula for bar to psi conversion: 1 bar = 14.5038 psi or (bar x 14.5038 = psi) or 0.0689475729 bars in 1 psi.
 

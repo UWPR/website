@@ -10,7 +10,7 @@ toc_sticky: true
 
 Here you'll find protocols and tips related to LC-MS analyses
 
-## Column preparation 
+## Column preparation {#column}
 
 At UWPR we use capillary columns, they are commercially available but can also easily be packed in your lab to save \$\$\$
 
@@ -25,7 +25,7 @@ At UWPR we use capillary columns, they are commercially available but can also e
 - [Making a fritted fused silica (pdf)]({{ site.baseurl }}/docs/protocols05/Fritted_Fused_Silica.pdf)
 - FlashPack: Fast and simple preparation of ultra-high performance capillary columns for LC-MS. Kovalchuk SI, Jensen ON, Rogowska-Wrzesinska A. *Mol Cell Proteomics.* 2018 Oct 29. [link](https://www.ncbi.nlm.nih.gov/pubmed/30373789)
 
-## HPLC setup 
+## HPLC setup {#setup}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
@@ -34,7 +34,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)  
 - [LC plumbing examples (pdf)]({{ site.baseurl }}/docs/protocols05/LC_plumbing.pdf)
 
-## Mass spec related information and protocols 
+## Mass spec related information and protocols {#massspec}
 
 - [Avoid Contaminations (pdf)]({{ site.baseurl }}/docs/protocols05/Avoid%20Contaminations.pdf)
 
@@ -63,7 +63,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [Skyline Pierce (7 x 5 Mix) (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Pierce_7x5Mix.sky.zip)
 - [Skyline Pierce (7 x 5 Mix)\_Hela (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Pierce_7x5Mix_Hela.sky.zip)
 
-## Hardware for LC-MS 
+## Hardware for LC-MS {#hardware}
 
 - [UWPR nanospray ionization source]({{ site.baseurl }}/protocols05/nsisource/)
 

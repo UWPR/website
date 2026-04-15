@@ -50,7 +50,7 @@ In addition detergent removal also leads to sample loss!
 Starting out with clean HPLC grade solvents and keeping them clean is very important.  
 [Avoid Contaminations (pdf)]({{ site.baseurl }}/docs/protocols05/Avoid%20Contaminations.pdf)
 
-## Enzymatic Digestion Protocols 
+## Enzymatic Digestion Protocols {#digestion}
 
 List of enzymes and specificity [Expasy Peptide Cutter Page](http://web.expasy.org/peptide_cutter/peptidecutter_enzymes.html)
 
@@ -131,7 +131,7 @@ List of enzymes and specificity [Expasy Peptide Cutter Page](http://web.expasy.o
   [Sigma Protease Profiler™ Kit](http://www.sigmaaldrich.com/catalog/product/sigma/pp0500?lang=en&region=US&cm_sp=Insite-_-prodRecCold_xviews-_-prodRecCold10-5) provides four proven alternative proteases in addition to Proteomics Grade Trypsin
 - **[Sigma PProteolytic Enzymes](http://www.sigmaaldrich.com/life-science/biochemicals/biochemical-products.html?TablePage=14573351)**
 
-## Chemical cleavage 
+## Chemical cleavage {#chemicalcleavage}
 
 - CNBr: Cyanogen bromide hydrolyzes peptide bonds at the C-terminus of methionine residues converting Met to Homoserine
 - BNPS-Skatole: BNPS-skatole \[2-(2-nitrophenylsulfenyl)-3-methylindole\] is a mild oxidant and brominating reagent that cleaves at the C-terminus of tryptophan
@@ -140,7 +140,7 @@ List of enzymes and specificity [Expasy Peptide Cutter Page](http://web.expasy.o
 - Iodosobenzoic acid: Cleaves at the C-terminus of Trp
 - NTCB +Ni (2-nitro-5-thiocyanobenzoic acid ): Cleaves at the N-terminus of Cys
 
-## Isotopic labeling 
+## Isotopic labeling {#isotopiclabeling}
 
 There are various chemical labeling strategies for concurrent peptide identification and multiplexed proteomics quantitation by mass spectrometry. Most quantitative proteomics reagents incorporate stable isotopes into the isobaric tag portion of the reagents and are used to label at the protein or peptide level. Check out their protocols, most start with the digestion followed by labeling:
 
@@ -158,7 +158,7 @@ There are various chemical labeling strategies for concurrent peptide identifica
 
 - Planet Orbitrap TMT Overview (Tandem Mass Tag) Reagents [page](http://planetorbitrap.com/tmt#.VGpsdPnF9hE)
 
-## Peptide cleanup protocols for LC-MS 
+## Peptide cleanup protocols for LC-MS {#peptidecleanup}
 
 [Protemics sample prep: S-Trap](https://protifi.com/pages/s-trap)  
 S-Trap™ sample processing begins with sample lysis and solubilization in 5% SDS. Proteins are further denatured by acidification to pH \< 1 and subsequent exposure to a high concentration of methanol.  

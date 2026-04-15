@@ -17,7 +17,7 @@ Visit the [Planet Orbitrap website](https://planetorbitrap.com/orbitrap-exploris
 12/1/2020 Exploris480 system 1 (SN MA10302C, UW tag 2033415) Installed  
 3/23/2023 Exploris480 system 2 (SN MA10852C, UW tag 2033420) Installed
 
-## Specifications 
+## Specifications {#specs}
 
 **Scan Rate**
 
@@ -48,16 +48,16 @@ Visit the [Planet Orbitrap website](https://planetorbitrap.com/orbitrap-exploris
 - Orbitrap mass analyzer
 - Broader range of experiments with multiple scan modes: data-dependent acquisition (DDA), data-independent acquisition (DIA), spectral multiplexing (MSX), TopN and new TopSpeed (TopS), BoxCar DIA and DDA experiments, tSIM, tSIM MSX, ddMS/MS, targeted MS/MS
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 - [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Resolving Power and Transient Length 
+## Resolving Power and Transient Length {#resolution}
 
 Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. The Exploris480 allows acquisition of transients at resolution settings ranging from 7500 to 480,000 at m/z 200 (16 and 1024 ms transients, respectively).  
 To fully take advantage of the parallel fill and detect capabilities of the Exploris480, we need to balance the max fill times with the transient length. For resolving power 15,000, detection time is about 32 ms. There is always a small amount of inter-scan delay. Up to 22 ms can be used to fill the C-trap with ions- and without increasing cycle time.
@@ -74,7 +74,7 @@ To fully take advantage of the parallel fill and detect capabilities of the Expl
 | 240,000 | 512 | 1.5 | 502 |
 | 480,000 | 1024 | 0.7 | 1014 |
 
-## TMT instrument Orbitrap Exploris480 (Tune1.1) 
+## TMT instrument Orbitrap Exploris480 (Tune1.1) {#TMTsettings}
 
 The table below lists instrument method settings recommended by Thermo for the Lumos with Tune 3.3.  
 with APD (Advanced Peak Detection) on  
@@ -96,7 +96,7 @@ based on this document: [TMT/TMTpro Instrument Acquisition Parameter Settings](h
 | MS2 AGC target           |      200% ( 1e5 )      |      200% ( 1e5 )      |
 | First mass               |        m/z 110         |        m/z 110         |
 
-## HPLC setup 
+## HPLC setup {#hplc}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
@@ -104,7 +104,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Instrument Settings 
+## Instrument Settings {#settings}
 
 The table below lists some of the instrument method settings we tested on our Exploris480.  
 We use a EASYnLC UPLC with home made columns (35cm x 75μm, Reprosil Pur C18AQ 120Å 5μm) and trap column (3cm x 100μm, Reprosil Purc C18AQ 120Å 5μm), with 6-36% B (80% ACN, 0.1%FA) in 90min gradient. The sample is a Hela cell whole cell tryptic digest (ThermoFisher), 100 ng on column injection. We typically get \~22000 unique peptide ID's and 30000 PSM's with Comet search and PeptideProphet p\>0.9,  

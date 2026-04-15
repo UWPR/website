@@ -16,7 +16,7 @@ The nanoAcquity UPLC is a platform specifically designed for applications that d
 - nanoAcquity 7 ( nSM E09NPS551M, nBSM E09NPB591N/ UW tag 2019658), Installed 2009
 - nanoAcquity 8 ( nSM K10NPS841M, nBSM L10NPB006N/ UW tag 2019640), Installed 2010
 
-## HPLC setup 
+## HPLC setup {#hplcsetup}
 
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 

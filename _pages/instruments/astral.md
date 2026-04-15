@@ -16,7 +16,7 @@ Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-
 
 8/15/2024 Astral (SN# OA10191, UW tag 2045625) Installed
 
-## Specifications 
+## Specifications {#specs}
 
 **Scan Rate**
 
@@ -49,21 +49,21 @@ Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-
 - Astral (Asymmetric Track Lossless) mass analyzer
 - Extensive pre-built method templates for data-dependent acquisition (DDA), data-independent acquisition (DIA), TMT, and SureQuant for multiple application areas including plasma and single cell proteomics
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 - [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## PC configuration 
+## PC configuration {#pcconfig}
 
 - [Tips for upgrading to Win10 LTSC 2019 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSC_upgrade.pdf)
 - [Tips configuring Win10 LTSC 2019 on Thermo instrument PC (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSC_PC_configuration.pdf)
 
-## Resolving Power and Transient Length 
+## Resolving Power and Transient Length {#resolution}
 
 Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~15 Hz. On the Fusion, the highest resolution setting is 450K that is \<1 Hz.  
 To fully take advantage of the parallel fill and detect capabilities of the Fusion, we need to balance the max fill times with the transient length. For resolving power 30,000, detection time is about 64 ms. There is always a small amount of inter-scan delay. Up to 54 ms can be used to fill the C-trap with ions- and without increasing cycle time.  
@@ -90,7 +90,7 @@ In SW version 2.1 50k resolution OT scans for TMT 10plex experiments shows a \~1
 |  Up to 80,000   |            20            |        25         |
 |  Up to 80,000   |            40            |       12.5        |
 
-## HPLC setup 
+## HPLC setup {#hplc}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
@@ -98,7 +98,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Method Templates 
+## Method Templates {#templates}
 
 The following pdf documents summarize some of parameters from the method templates provided by Thermo in their method editor:
 
@@ -115,7 +115,7 @@ The following pdf documents summarize some of parameters from the method templat
 |    2-5 ng     |           8            |          14           |
 |    5-10 ng    |           5            |          10           |
 
-## Instrument Settings 
+## Instrument Settings {#settings}
 
 The table below lists some of the instrument method settings we tested on our Astral.  
 We use a EASYnLC UPLC or VanquishNeo with home made columns (35cm x 75μm, Reprosil Pur C18AQ 120Å 5μm) and trap column (EASYnLC: 3cm x 100μm, Reprosil Purc C18AQ 120Å 5μm, VanquishNeo: Thermo trap cartridge ), with 6-45% B (80% ACN, 0.1%FA) in 90min linear gradient. The sample is a Hela cell whole cell tryptic digest (ThermoFisher), 100 ng on column injection. Using the Astral for MS2, we typically get \~30000 unique peptide ID's and 70000 PSM's with Comet search and peptide prophet p\>0.9.  
@@ -146,7 +146,7 @@ The results below are based on the number of unique peptide ID's with Comet sear
 | Exploris 480 90 min (100%), unique ID's | Astral 120 min (144%), **90 min (136%)**, 60 min (118%), 30 min (91%) |
 | Exploris 480 90 min (100%), unique PSM's | Astral 120 min (279%), **90 min (246%)**, 60 min (193%), 30 min (133%) |
 
-## Hela digest concentration curve 
+## Hela digest concentration curve {#hela}
 
 Different concentrations of Pierce HeLa Protein Digest Standard (10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500 ng) were injected and separated with a 6-35% Buffer B (80% ACN) gradient over 60 min Peptides were identified with our standard DDA method and search tools. ![]({{ site.baseurl }}/instruments/images/Astral_Hela_01.png)
 

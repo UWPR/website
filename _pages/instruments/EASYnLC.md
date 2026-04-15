@@ -27,7 +27,7 @@ The EASY-nLC combines simplicity and high-throughput capacity in a nano-flow UHP
 - EASY-nLC 7 (LC-031114 / UW tag 2033419), Installed 12/15/2020  
   MasterKey: Z8CaplMxt0ImZkfm
 
-## Virtual Display 
+## Virtual Display {#virtualdisplay}
 
 The EASY-nLC can be controlled directly via the-built in touchscreen. You can also setup the virtual display on the pc so it can be controlled from the pc, this is particularly useful if you wish to remotely control the system.
 
@@ -59,7 +59,7 @@ The EASY-nLC can be controlled directly via the-built in touchscreen. You can al
   **Initial setup of Putty and the virtual display (e.g. on a new PC):**  
   [Guide how to initially setup the virtual display (pdf)]({{ site.baseurl }}/docs/instruments/EASYnLC_setup_virtual_display.pdf)
 
-## Switch between Trapping and No-trapping mode 
+## Switch between Trapping and No-trapping mode {#trapping}
 
 Detailed guide how to switch between trapping and no-trapping mode [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SwitchBetweenTrappingAndNoTrap.pdf)
 
@@ -86,7 +86,7 @@ Detailed guide how to switch between trapping and no-trapping mode [see pdf]({{ 
 - But always use a minimum of 6 µl (1-2 µl of sample volume)
 - e.g. if you load 4 µl of sample: 2 x 4 µl + 2 µl = 10 µl
 
-## Changing the plate configuration 
+## Changing the plate configuration {#plateconfiguration}
 
 Detailed guide how to change the plate configuration [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_ChangingPlateConfiguration.pdf)
 
@@ -133,14 +133,14 @@ the following document includes part numbers for AS vials, columns trap cartridg
 - [LC-MS commonly used consumables for EASYnLC (xlsx)]({{ site.baseurl }}/docs/instruments/LC_MS_Consumables_EASYnLC.xlsx)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
-## HPLC setup 
+## HPLC setup {#hplcsetup}
 
 the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_EASYnLC.pdf)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 
-## Instrument Method setup guidelines 
+## Instrument Method setup guidelines {#methodsetup}
 
 Detailed guide how to setup the EASY-nLC method [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_MethodSetup.pdf)
 
@@ -173,12 +173,12 @@ Application Note: [Improving Retention Time Precision and Chromatography of Earl
 |        9        |     11.25      |     |       90        |       na       |
 |       10        |      12.5      |     |       100       |       na       |
 
-## Solvent filters 
+## Solvent filters {#solventfilters}
 
 We noticed air leaks originating from the original solvent filter cartridges. So we decided to replace them with a different setup:  
 Guide how to setup alternate EASY-nLC solvent filters [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SolventBottleFilters.pdf)
 
-## Upgrading Software/Firmware on the EASYnLC 1200 
+## Upgrading Software/Firmware on the EASYnLC 1200 {#softwareupgrade}
 
 This document describes how to upgrade software on an EASYnLC from SW 4.1 to SW 4.2: [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SoftwareUpgrade.pdf)  
 Note it also describes how to change the password in Putty (in case you don't like the Master Key)
@@ -191,7 +191,7 @@ This document contains tips to manually troubleshoot air leaks in the checkvalve
 
 Easy nLC 1200 Key Changes over the 1000 Series: [Easy nLC 1200 Key Changes over the 1000 Series pdf]({{ site.baseurl }}/docs/instruments/EasynLC1200_%20KeyChangesOverThe1000series_Rev%202.pdf)
 
-## Convert bar to psi 
+## Convert bar to psi {#bartopsi}
 
 Formula for bar to psi conversion: 1 bar = 14.5038 psi or (bar x 14.5038 = psi) or 0.0689475729 bars in 1 psi.
 

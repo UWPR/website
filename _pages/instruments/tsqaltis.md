@@ -16,7 +16,7 @@ Visit the [Thermo TSQ Altis website](https://www.thermofisher.com/order/catalog/
 
 TSQ Altis (TSQ-A-10306 / UW tag 2033410), Installed 10/16/2018
 
-## Specifications 
+## Specifications {#specs}
 
 **Mass range**
 
@@ -32,16 +32,16 @@ TSQ Altis (TSQ-A-10306 / UW tag 2033410), Installed 10/16/2018
 - QED-MS/MS - Simultaneous quantitation and structural confirmation
 - iSRM - intelligent SRM
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 - [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Collision Energy Calculation 
+## Collision Energy Calculation {#collisionenergy}
 
 For collision energy calculation check out our MRM/SRM overview [page]({{ site.baseurl }}/protocols05/MRM/).
 
@@ -50,13 +50,13 @@ Base Collision Energy (CE) Equations TSQ Altis (based on template method from Th
 - TSQ Altis (1.5 mTorr) 2 + peptide: CE = 0.0339 x m/z + 2.3398
 - TSQ Altis (1.5 mTorr) 3 + peptide: CE = 0.0295 x m/z + 1.4831
 
-## HPLC setup 
+## HPLC setup {#hplc}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
 
-## Peptide Standards 
+## Peptide Standards {#standards}
 
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 

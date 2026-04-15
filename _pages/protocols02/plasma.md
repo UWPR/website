@@ -8,7 +8,7 @@ toc_sticky: true
 
 *Plasma and Serum sample preparation*
 
-## Plasma vs Serum 
+## Plasma vs Serum {#plasmavsserum}
 
 Blood from a single donation or sample can be separated into different components: proteins, red blood cells, white blood cells, clotting factors, etc., and used for their individual purposes. Similarly, plasma and serum are obtained from the blood by centrifugation.  
 Plasma is produced when whole blood is collected in tubes that are treated with an anticoagulant. The blood does not clot in the plasma tube. The cells are removed by centrifugation and the supernatant is designated plasma.  
@@ -55,7 +55,7 @@ Method
 9.  Combine concentrated triplicate samples of the same PC time group. The volume of the combined filtrates should be approximately 150 μl.
 10. Determine protein concentration of each immunodepleted serum sample using the Bradford microtiter plate assay, as described in step 1 above (Depletion of the serum or plasma will result in the removal of greater than 90 % of the twelve most abundant proteins. If higher levels of depletion are required, the sample should be concentrated (5,000 Da MWCO spin concentrator) and depleted a second time. The depleted sample will be in a buffer of PBS with 0.02 % sodium azide. Spin concentrators are recommended if desalting is required).
 
-## Lectin Affinity Chromatography (from Ref 4) 
+## Lectin Affinity Chromatography (from Ref 4) {#lectin}
 
 The most common application of lectin affinity chromatography is to separate glycoproteins from non-glycosylated proteins, or one glycoform from another glycoform.
 
@@ -95,7 +95,7 @@ Method
 20. Repeat steps 17 - 19 . Collect eluate in the same collection tube containing eluate from the fi rst elution. Store eluted glycoprotein fraction on ice for immediate use or freeze for later analysis.
 21. Determine protein concentration of both glycoprotein and non-glycoprotein fractions using the Bradford microtiter plate assay, step 1 above.
 
-## Trypsin Digestion and TMT Labeling (from Ref 4) 
+## Trypsin Digestion and TMT Labeling (from Ref 4) {#trypsin}
 
 Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.  
 Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention Eppendorf tubes.
@@ -125,7 +125,7 @@ Method
 
 Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptide separation protocol like SCX or high pH reversed phase chromatography, to separate the peptides in addition to the cleanup.
 
-## Plasma Peptidome 
+## Plasma Peptidome {#peptidome}
 
 - [Purification of Serum Peptides](http://www.emdmillipore.com/US/en/life-science-research/protein-sample-preparation/protein-concentration/amicon-ultra-centrifugal-filters/Protein-Sample-Ultrafiltration/Ultrafiltration-Protocols/pxKb.qB.JP8AAAFY_eRPw9_u,nav)  
   scroll to the bottom of the page to find the protocol

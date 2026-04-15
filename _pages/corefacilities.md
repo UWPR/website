@@ -5,7 +5,7 @@ permalink: /corefacilities/
 
 *Proteomics and Mass Spectrometry Facilities*
 
-## Local Facilities 
+## Local Facilities {#local}
 
 The Seattle area facilities below are available to service your proteomics needs.  
 If you provide fee-for-service proteomics work and would like to be linked from this page, [send me an email](mailto:engj@u.washington.edu).
@@ -25,7 +25,7 @@ If you provide fee-for-service proteomics work and would like to be linked from 
 - The **Quantitative and Functional Proteomics Core**, is located at the University of Washington School of Medicine, South Lake Union (SLU). They use UWPR instrumentation to provide proteomics services to Diabetes Research Center affiliate investigators.  
   [Diabetes Research Center Proteomics and Bioinformatics Core](https://depts.washington.edu/diabetes/proteomics-and-bioinformatics/)
 
-## Commercial Facilities 
+## Commercial Facilities {#commercial}
 
 Here are links to some commercial Proteomics Service Facilities:
 

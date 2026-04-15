@@ -14,7 +14,7 @@ The TSQ Vantage, a triple quadrupole mass spectrometer, includes a Qualitative E
 
 10/8/2009 TSQ Vantage (TQU02360) Installed
 
-## Specifications 
+## Specifications {#specs}
 
 **Mass range**
 
@@ -36,15 +36,15 @@ The TSQ Vantage, a triple quadrupole mass spectrometer, includes a Qualitative E
 - iSRM - Intelligent SRM
 - H-SRM - Highly Selective Reaction Monitoring
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [see spreadsheet (.xls format)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Collision Energy Calculation 
+## Collision Energy Calculation {#collisionenergy}
 
 For collision energy calculation check out our MRM/SRM overview [page]({{ site.baseurl }}/protocols05/MRM/).
 
@@ -55,14 +55,14 @@ Base Collision Energy (CE) Equations (Ref\[1\]):
 - TSQ Vantage (1.5 mTorr) 2 + peptide: CE = 0.030 x m/z + 2.905
 - TSQ Vantage (1.5 mTorr) 3 + peptide: CE = 0.038 x m/z + 2.281
 
-## HPLC setup 
+## HPLC setup {#hplc}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Peptide Standards 
+## Peptide Standards {#standards}
 
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
 

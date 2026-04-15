@@ -13,7 +13,7 @@ Protein extraction is an important step in any proteomics experiment. It often s
 Many techniques are available for the disruption of cells, including physical and detergent-based methods. Historically, physical lysis has been the method of choice for cell disruption; however, physical methods often require expensive equipment (french prss, homogenizer, cryogrinding).  
 Detergent-based lysis is more popular due to ease of use, low cost and efficient protocols. However, many detergents interfere with the downstream LC-MS analysis. A list of MS compatible detergents can be found on our protein digestion page.
 
-## Sample Preparation Overviews 
+## Sample Preparation Overviews {#sampleprep}
 
 Workflow for Protein Mass Spectrometry from Thermo[page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html)  
 Protein Sample Preparation for Mass Spectrometry [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/sample-preparation-mass-spectrometry.html)  
@@ -24,7 +24,7 @@ Detergent based cell lysis [page](https://www.thermofisher.com/us/en/home/life-s
 Sigma's Proteomics [page](https://www.sigmaaldrich.com/life-science/proteomics.html)  
 Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute.org/proteomics/tutorials-and-workshops)
 
-## Cell culture related protocols 
+## Cell culture related protocols {#cellculture}
 
 - [Protein Extraction for Mass Spectrometry Page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/sample-prep-mass-spectrometry/protein-extraction-mass-spectrometry.html) lists different kits for either total protein extraction or isolation of proteins from specific cellular fractions.
 
@@ -37,7 +37,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 - Protocols for cell lysis and subcellular fractionation [go to page]({{ site.baseurl }}/protocols01/cellfractionation/)
 - [ProteoExtract Subcellular Proteomie Extraction Kit](https://www.sigmaaldrich.com/US/en/product/mm/539790) from Sigma
 
-## Protein Extraction from Tissues and Plants 
+## Protein Extraction from Tissues and Plants {#tissueplants}
 
 - [EasyPep Mini MS Sample Prep Kit](https://www.thermofisher.com/order/catalog/product/A40006) from Thermo takes you from cell pellet and tissues to mass spec ready peptides in one simple kit
 
@@ -51,7 +51,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 - [Plant Proteomics Kits](https://www.preomics.com/plant) from PreOmics.
 - [Plant Proteomics](https://www.sigmaaldrich.com/life-science/molecular-biology/plant-biotechnology/plant-proteomics.html) from Sigma.
 
-## Protein preparation from Serum, Plasma and Biofluids 
+## Protein preparation from Serum, Plasma and Biofluids {#biofluids}
 
 - The Seppro Depletion Technology from Sigma enables removal of interfering highly abundant proteins from a variety of biological samples, check out our [Immunodepletion](#immunodepletion) section below for links.
 
@@ -66,7 +66,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 - [Urine Protein Extraction (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_UrineProteinExtraction.xlsx)  
   Purify/extract proteins from urine samples
 
-## Isotopic labelling strategies 
+## Isotopic labelling strategies {#isotopiclabelling}
 
 - [Protein Quantitation Using Mass Spectrometry](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/protein-quantitation-mass-spectrometry.html) Overview from Thermo
 - [Stable Isotope Labeled Products for Biomolecular Mass Spectrometry](https://www.sigmaaldrich.com/chemistry/stable-isotopes-isotec/stable-isotope-products.html?TablePage=11594563) Overview from MilliporeSigma
@@ -91,7 +91,7 @@ There are various chemical labeling strategies for concurrent peptide identifica
 - [Sigma iTRAQ (Isobaric Tags for Relative and Absolute Quantification)](http://www.sigmaaldrich.com/life-science/molecular-biology/molecular-biology-products.html?TablePage=112006408)  
   Amine-reactive, 8-plex reagents
 
-## Crosslinking strategies 
+## Crosslinking strategies {#crosslinking}
 
 - [Protein Interaction Crosslinking for Mass Spectrometry](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/sample-prep-mass-spectrometry/protein-interaction-crosslinking-mass-spectrometry.html) from Thermo
 - [Crosslinking Protein Interaction Analysis Overview](http://www.piercenet.com/method/crosslinking-protein-interaction-analysis#overview) from Thermo
@@ -114,7 +114,7 @@ Alternatively, sample complexity can also be effectively reduced using enrichmen
 Enrichment can also be directed toward a specific characteristic of proteins for example toward glycoproteins \[Ref 2\], phoshoproteins or newly synthesized proteins \[Ref 3\].  
 Proteins can also be separated by gels (SDS-PAGE), chromatography (FPLC and HPLC) or Gel-Free separations.
 
-## Affinity-activity based protein enrichment 
+## Affinity-activity based protein enrichment {#affinity}
 
 Proteins can be enriched based on a specific interactions. Either the bait or the protein of interest are immobilized to extract the proteins of interest. All those methods have to be carefully optimized in terms of bait and sample load with appropriate positive and negative controls.
 
@@ -122,7 +122,7 @@ Proteins can be enriched based on a specific interactions. Either the bait or th
 - [Kinase Enrichment Kit with ATP Probe](https://www.thermofisher.com/order/catalog/product/88310) from Thermo
 - [ActivX TAMRA-FP Serine Hydrolase Probe](https://www.thermofisher.com/order/catalog/product/88318)
 
-## Immunoprecipitation protocols 
+## Immunoprecipitation protocols {#immunoprecipitation}
 
 Immunoprecipitation (IP) is the most commonly used affinity purification of antigen using a specific antibody. For MS analyses the strategy of immobilizing the antibody by covalently crosslinking it to the beads works very well as it reduces the amount of contaminating antibody.
 
@@ -158,7 +158,7 @@ The wide dynamic range of protein concentrations present in serum and plasma rep
 - [Pierce™ Albumin Depletion Kit](https://www.thermofisher.com/order/catalog/product/85160) from ThermoPierce
 - Protocols for plasma and serum protein preparation for shotgun proteomics [go to page]({{ site.baseurl }}/protocols02/plasma/)
 
-## Tag based affinity protocols 
+## Tag based affinity protocols {#tagaffinity}
 
 Affinity tag and tandem affinity tag (TAP) allow to isolate specific proteins of interest and proteins associated with them. Commonly used affinity tools are the FLAG-tag, HA tag, or GFP tag used in combination with an antibody towards either of these tags. Proteins tagged with biotin can be enriched using streptavidin or neutravidin beads.
 
@@ -173,7 +173,7 @@ Affinity tag and tandem affinity tag (TAP) allow to isolate specific proteins of
   Here is a collection of protocols that were developed based on initial work done by Hui Zhang (Ass.Prof. Johns Hopkins) and Kelly Vaughn, while they were in Ruedi Aebersolds lab \[Ref 2\].  
   [Glycopeptide Isolation (xlsx)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_Glycopeptide_Isolation.xlsx)
 
-## Cell Fractionation (organellar proteomics) 
+## Cell Fractionation (organellar proteomics) {#cellfractionation}
 
 When fractionating proteins based on their cellular localization all possible precautions should be taken to isolate the desired organelle. Contaminating proteins from other cytosol or other organelles should be expected. Repeated analyses with strong statistical tests are often needed to differentiate contaminating proteins from true organellar proteins. Another (undesired) organelle can serve as a good negative control.
 
@@ -183,7 +183,7 @@ When fractionating proteins based on their cellular localization all possible pr
 - [TissuePrep_and_CellFractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)  
   Microsomal membrane protein enrichment protocol from tissue samples
 
-## Protein separation 1D and 2D Gel 
+## Protein separation 1D and 2D Gel {#gel}
 
 Sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) is a very common method for separating proteins based on their molecular weight. Protein separation by SDS-PAGE can be used to estimate relative molecular mass, to determine the relative abundance of major proteins in a sample, and to determine the distribution of proteins among fractions. SDS-PAGE can also be used as a tool to assess purity of protein samples and to monitor the progress of a fractionation or purification procedure. Two-dimensional (2D) electrophoresis separated proteins first by their isoelectric point and then by their molecular weight.  
 Different staining methods can be used like Coomassie Blue ( range) and Silver stain (range) to visualize the protein bands. Techniques such as Western blotting are used to detect specific proteins or protein modification.  
@@ -191,7 +191,7 @@ To identify proteins by LC-MS, proteins can be digested in the gel or on the mem
 
 - [In-gel digest page]({{ site.baseurl }}/protocols03/ingeldigestion/) for information about in-gel-digestion
 
-## Chromatography HPLC or FPLC 
+## Chromatography HPLC or FPLC {#hplc}
 
 Traditional column chromatography or using an HPLC (High-performance liquid chromatography) or FPLC (Fast protein liquid chromatography) can be used to separate proteins based on their physiochemical properties like size, charge and hydrophobicity; Size exclusion, cation or anion exchange, reversed phase (C4) are some of the commonly used chemistries.
 

@@ -455,10 +455,18 @@ def html_to_markdown(html_content: str, source_dir: str = "/") -> str:
     # Remove {style="..."} span attributes
     md = re.sub(r'\{style="[^"]*"\}', '', md)
 
-    # Remove pandoc attribute blocks like {.image .featured} or {#id .class}
-    # These are CSS-class hints pandoc emits to preserve HTML classes; we don't
-    # carry theme-specific classes over from the old site.
-    md = re.sub(r'\{[.#][^}]*\}', '', md)
+    # Strip pandoc attribute blocks like {.image .featured} or {#id .class}.
+    # We drop CSS-class hints (theme-specific, don't carry over), but preserve
+    # `#id` fragments so explicit anchor IDs on headings survive — old pages
+    # use them as link targets (e.g. protocols01/index.php links `[DDA](#DDA)`
+    # to `<h2 id="DDA">`).
+    def _attr_block(match):
+        body = match.group(0)[1:-1].strip()
+        id_match = re.search(r'#([\w-]+)', body)
+        if id_match:
+            return '{#' + id_match.group(1) + '}'
+        return ''
+    md = re.sub(r'\{[.#][^}]*\}', _attr_block, md)
 
     # Remove "Back to Top" links. Original PHP used several anchor targets
     # (#page, #top, #content, ...). MM's floating TOC replaces the need

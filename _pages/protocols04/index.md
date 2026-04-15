@@ -8,7 +8,7 @@ toc_sticky: true
 
 *Divide and conquer*
 
-## Strong cation-exchange (SCX) chromatography 
+## Strong cation-exchange (SCX) chromatography {#scx}
 
 SCX has been used extensively for the fractionation of proteins and peptides based on charge. The SCX stationary phase usually contains aliphatic sulfonic acid groups that are negatively charged in aqueous solution, therefore tightly binding any strongly basic analytes. To recover the analyte, the resin is then washed with a solvent neutralizing this ionic interaction. Most tryptic peptides in acidic pH are characterized by a net charge of +2 and above, and they can be therefore separated by SCX from peptides possessing a net charge of +1, such as trypsin-generated phosphopeptides, C-terminal peptides, or peptides with blocked N-termini (i.e., peptides with blocked N-terminal free amine group, for instance, by N-acetylation), as well as from peptides containing higher charges, including ones containing missed cleavages and therefore more arginine and lysine residues. SCX fractionation can also be performed in a solid-phase extraction cartridge format for a rapid but lower resolution fractionation. SCX can also be conducted in microscale solid-phase extraction format (i.e. after IMAC) by utilizing a stage tip packed with an SCX disk.
 
@@ -30,7 +30,7 @@ SCX has been used extensively for the fractionation of proteins and peptides bas
 - Biotinylation by antibody recognition-a method for proximity labeling. Bar DZ, Atkatsh K, Tavarez U, Erdos MR, Gruenbaum Y, Collins FS. *Nat Methods.* 2018 Feb;15(2):127-133. [link](https://www.ncbi.nlm.nih.gov/pubmed/29256494)
 - Direct detection of biotinylated proteins by mass spectrometry. Schiapparelli LM, McClatchy DB, Liu HH, Sharma P, Yates JR 3rd, Cline HT. *J Proteome Res.* 2014 Sep 5;13(9):3966-78. [link](https://www.ncbi.nlm.nih.gov/pubmed/25117199)
 
-## Phosphopeptide enrichment with IMAC (Immobilized Metal Affinity Chromatography) 
+## Phosphopeptide enrichment with IMAC (Immobilized Metal Affinity Chromatography) {#phospho}
 
 To achieve robust MS results, enrichment of phosphopeptide samples is essential because of low abundance and poor ionization relative to non-phosphorylated peptides. Phosphopeptide enrichment reduces sample complexity and enables effective identification and characterization of phosphorylated peptides by MS.
 
@@ -47,7 +47,7 @@ Edelman WC, Haas KM, Hsu JI, Lawrence RT, Villén J. *Methods Mol Biol.* 2014;11
 
 - [The Pierce Graphite Spin Columns](https://www.thermofisher.com/order/catalog/product/88302?ICID=search-product) improve phosphopeptide analysis by efficiently binding hydrophilic peptides and efficiently removing urea, salts and other contaminants before MS analysis. The C18 resins and C18 tips that are commonly used to desalt peptides are excellent for use with hydrophobic peptides but do not efficiently capture hydrophilic peptides, like phosphopeptides, resulting in enrichment of only hydrophobic fragments.
 
-## Glycopeptide 
+## Glycopeptide {#glyco}
 
 - This review covers several glycoprotein/peptide enrichment strategies:  
   Quantitative mass spectrometric analysis of glycoproteins combined with enrichment methods. Ahn YH, Kim JY, Yoo JS. *Mass Spectrom Rev.* 2015 Mar-Apr;34(2):148-65. doi: 10.1002/mas.21428. Epub 2014 Jun 2. [link](https://www.ncbi.nlm.nih.gov/pubmed/24889823)  
@@ -56,7 +56,7 @@ Edelman WC, Haas KM, Hsu JI, Lawrence RT, Villén J. *Methods Mol Biol.* 2014;11
 - [Thermo aminoxyTMTsixplex Label Reagents](https://www.thermofisher.com/order/catalog/product/90401)  
   The carbonyl-reactive Thermo Scientific™ aminoxyTMT™ (Tandem Mass Tag™) Label Reagents enable multiplexed characterization and quantitation of carbonyl-containing biomolecules (carbohydrates, steroids, oxidized proteins) by mass spectrometry (MS).
 
-## Peptide cleanup protocols for LC-MS 
+## Peptide cleanup protocols for LC-MS {#cleanup}
 
 [C18 Columns & Peptide Desalting for Mass Spectrometry](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/sample-prep-mass-spectrometry/c18-columns-peptide-clean-up-mass-spectrometry.html)  
 After isolation of peptides, salts and buffers can be removed using reversed phase (RP) resins, of which the C18 matrix is the most ideal for the capture of hydrophobic peptides. The peptides bind to reverse-phase columns in high-aqueous mobile phase, salts and buffers are washed off, and the peptides are eluted using a high-organic mobile phase.

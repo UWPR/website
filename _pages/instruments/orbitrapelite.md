@@ -17,7 +17,7 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-elite) fo
 2011 Velos Orbitrap (SN03313B) Installed  
 2012 Elite upgrade
 
-## Specifications 
+## Specifications {#specs}
 
 **Scan Rate**
 
@@ -42,15 +42,15 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-elite) fo
 - Parallel MS and MSn analysis for enhanced duty cycle
 - Velos Pro ion trap generation II ion optics with neutral blocking technology increase robustness
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Resolving Power and Transient Length 
+## Resolving Power and Transient Length {#resolution}
 
 Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~7.7 Hz. The highest resolution setting is 240K that is \~1.2 Hz.
 
@@ -63,13 +63,13 @@ Here is a full table of the available resolution settings. Note: higher resoluti
 | 60,000 | 240,000 | 768 | 1.2 |
 | 100,000 |  |  |  |
 
-## HPLC setup 
+## HPLC setup {#hplc}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Instrument Settings 
+## Instrument Settings {#settings}
 
 The table below lists some of the instrument method settings we tested on our Elite.  
 We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Dr Maisch C18AQ 100Å 5μm) and trap column (3cm x 100μm, Dr Maisch C18AQ 100Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a HeLa cell whole cell tryptic digest (ThermoPierce), 100 ng on column injection.  
@@ -95,7 +95,7 @@ IT MS2
 
 OT MS2 ( %)
 
-## Precursor m/z and charge state distribution 
+## Precursor m/z and charge state distribution {#m}
 
 The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a peptide prophet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![]({{ site.baseurl }}/instruments/images/fusion_mz_charge.png)  
 m/z and charge state distribution

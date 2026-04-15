@@ -17,7 +17,7 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) f
 11/19/2013 QE Plus (SN03039L / UW tag 2019655) Installed  
 6/6/2012 QE (SN01284L) Installed, 11/14/2013 retired
 
-## Specifications 
+## Specifications {#specs}
 
 **Scan Rate**
 
@@ -48,16 +48,16 @@ Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) f
 - Orbitrap mass analyzer
 - Spectral multiplexing for enhanced duty cycle
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 - [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Method parameters 
+## Method parameters {#parameters}
 
 **Method parameters for peptide identification on the QEplus**  
 Check out this Technical Guide on Thermo's Planet Orbitrap website  
@@ -109,7 +109,7 @@ The results below are based on the number of unique peptides with Sequest search
 | SNCE 20/25/30 |     0.5                 2.5       2.3       2.8     4.2     2.8     1.9     5.7       1.7 |
 | Loading amount on column | 1000 ng (96.2%), 500 ng (100%), 250 ng (96.7%), 100 ng (96.8%) |
 
-## Hela digest concentration curve 
+## Hela digest concentration curve {#hela}
 
 Different concentrations of Pierce HeLa Protein Digest Standard (50, 100, 200, 500, 800, 1000 ng) were injected and separated with a 90 min 5-35% acetonitrile gradient over 90 min. Peptides were identified with our standard DDA method and search tools.  
 ![]({{ site.baseurl }}/instruments/images/qexactive_Hela.png)
@@ -118,7 +118,7 @@ TIC (total ion chromatogram) of the different concentrations overlay, normalized
 
 ![]({{ site.baseurl }}/instruments/images/qexactive_Hela_02.png)
 
-## Useful resources 
+## Useful resources {#resources}
 
 - 
 

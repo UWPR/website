@@ -17,7 +17,7 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 
 12/5/2013 Fusion (FSN10134 / UW tag 2019653) Installed
 
-## Specifications 
+## Specifications {#specs}
 
 **Scan Rate**
 
@@ -43,28 +43,28 @@ and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Trans
 - Spectral multiplexing for enhanced duty cycle
 - Synchronous Precursor Selection Up to 15 precursors per MS2 scan, for MS3 analysis only
 
-## Instrument control software 
+## Instrument control software {#software}
 
 - [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
 - [Tips for upgrading to Win10 LTSC 2019 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSC_upgrade.pdf)
 - [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
 
-## Instrument calibrations 
+## Instrument calibrations {#calis}
 
 - This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
-## Parallelization on the Orbitrap Fusion 
+## Parallelization on the Orbitrap Fusion {#parallelization}
 
 To improve the spectral acquisition rate the acquisition process on the Fusion is extensively parallelized. The figure below shows a schematic of parallel execution and event pipelining: Precursors identified in the Orbitrap full scan (top row) are fragmented and accumulated in the IRM (middle row) concurrent with LT acquisition of the previous MS/MS (bottom row). (The use of parallelizable time was further improved in sw v1.1.) ![]({{ site.baseurl }}/instruments/images/fusion_04a.png)  
 Senko MW et al. Novel parallelized quadrupole/linear ion trap/Orbitrap tribrid mass spectrometer improving proteome coverage and peptide identification rates. Anal Chem 85(24), 11710 - 4 (2013)
 
-## AGC control on Orbitrap Fusion Series Instruments 
+## AGC control on Orbitrap Fusion Series Instruments {#agc}
 
 Ion population control is an important concept for all trapping instruments. To ensure proper functioning of the Orbitrap and Linear Ion trap analyzers, the ion populations are regulated at a given target level, in a process referred to as automatic gain control (AGC). The mechanism for the regulation is a fast ion trap full scan referred to as the "prescan". This scan is "hidden", and is not recorded in the raw file. The prescan makes a measurement of the ion flux, and from this information, the injection time for subsequent scans can be set to deliver the target number of ions.  
 For **data dependent experiments**, the prescan uses the same settings as the MS master scan. The prescan is executed immediately before the master scan, and the total ion current (TIC) from the prescan is used to set the injection time for the master scan. The identities (m/z and charge) of the precursors for the dependent scans are extracted from the previous master scan, but the injection times for these dependent scans are calculated from the intensities in the prescan.  
 For **targeted experiments**, the prescan analyzes the mass range spanning the smallest target up to the largest target, and the injection times for each target are calculated from intensities in the prescan. In the context of LC-MS, analyte intensity varies considerably as each compound elutes from the column, making the length of time between prescan and subsequent scans an important factor to consider. When the list of targeted scans is large, the time between execution of the prescan and execution of the later targeted scans could become significant, negatively affecting the accuracy of the ion population regulation. For this reason, the Loop Control mechanism was added to the targeted experiment methods. For example, when Loop Control is set to Time, the prescan will be executed at a period less than or equal to the specified time period, ensuring a certain proximity between prescan and targeted scans, which in turn can improve the accuracy of the calculated injection times, and hence the quality of the acquired data.
 
-## Resolving Power and Transient Length 
+## Resolving Power and Transient Length {#resolution}
 
 Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~15 Hz. On the Fusion, the highest resolution setting is 450K that is \<1 Hz.  
 To fully take advantage of the parallel fill and detect capabilities of the Fusion, we need to balance the max fill times with the transient length. For resolving power 30,000, detection time is about 64 ms. There is always a small amount of inter-scan delay. Up to 54 ms can be used to fill the C-trap with ions- and without increasing cycle time.  
@@ -80,14 +80,14 @@ In SW version 2.1 50k resolution OT scans for TMT 10plex experiments shows a \~1
 | 240,000 | 512 | 2 | 502 |
 | 450,000 | 1024 | \<1 | 1014 |
 
-## HPLC setup 
+## HPLC setup {#hplc}
 
 the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
 
 - [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
-## Instrument Settings 
+## Instrument Settings {#settings}
 
 The table below lists some of the instrument method settings we tested on our Fusion.  
 We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Magic C18AQ 100Å 5μm) and trap column (3cm x 100μm, Magic C18AQ 200Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a Ramos cell whole cell tryptic digest (Thanks to Dr. Richard G. James, Seattle Children's), 100 ng on column injection. We typically get \~19000 unique peptides with Comet search and PeptideProphet p\>0.9,  
@@ -281,7 +281,7 @@ unique ID's: ITMS2 APD(100%), ITMS2(85.3%), OTMS2 APD(91.1%), OTMS2(69.2%)
 
 PSM's: ITMS2 APD(99.4%), ITMS2(100%), OTMS2 APD(83.8%), OTMS2(68.2%)
 
-## TMT instrument Orbitrap Fusion settings (Tune3.3) 
+## TMT instrument Orbitrap Fusion settings (Tune3.3) {#TMTsettings}
 
 The table below lists instrument method settings recommended by Thermo for the Lumos with Tune 3.3.  
 with APD (Advanced Peak Detection) on  
@@ -428,7 +428,7 @@ m/z 110-500, TMT</td>
 </tbody>
 </table>
 
-## Precursor m/z and charge state distribution 
+## Precursor m/z and charge state distribution {#m}
 
 The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a PeptideProphet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![]({{ site.baseurl }}/instruments/images/fusion_mz_charge.png)  
 m/z and charge state distribution
