@@ -230,15 +230,6 @@
                               
                            </div>
                         </section>
-                        <section>
-                           <header class="major">
-                              <h2>UWPR pages and downloads</h2>
-                           </header>
-                           <ul class="default">
-                              <li><a href="#"> </a></li>
-                              
-                           </ul>
-                        </section>
                      </div>
                      
                   </div>

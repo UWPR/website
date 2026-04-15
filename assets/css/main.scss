@@ -20,12 +20,14 @@
    =================================================================== */
 
 .masthead__inner-wrap,
+.breadcrumbs,
 #main {
   max-width: 90%;
 }
 
 @media (min-width: 80em) {  /* 1280px+ */
   .masthead__inner-wrap,
+  .breadcrumbs,
   #main {
     max-width: 75%;
   }
@@ -33,6 +35,7 @@
 
 @media (min-width: 120em) {  /* 1920px+ */
   .masthead__inner-wrap,
+  .breadcrumbs,
   #main {
     max-width: 1600px;
   }
@@ -159,6 +162,31 @@
 /* Bump up the masthead site title (shows "UWPR" via masthead_title). */
 .site-title {
   font-size: 1.5em;
+}
+
+/* Left-align the breadcrumb trail under "UWPR". MM:
+     - wraps `.breadcrumbs` to full viewport width with 1em side padding
+     - floats the inner `ol` right at >=$large, constraining its width
+       so it lines up with the article column (which has a right rail)
+   We match `.breadcrumbs` to the same centered max-width as the
+   masthead (above), drop its side padding so the `ol` starts flush with
+   the masthead title, and undo the float/width on the `ol`. */
+/* The custom breadcrumbs include uses Liquid whitespace-trim tags to
+   keep the output readable, which also strips the inter-element space
+   that would normally render between the "/" separator and the next
+   crumb. Restore that gap with margin. */
+.breadcrumbs .sep {
+  margin: 0 0.25em;
+}
+
+.breadcrumbs ol {
+  @media (min-width: 64em) {
+    float: none;
+    width: auto;
+  }
+  @media (min-width: 80em) {
+    width: auto;
+  }
 }
 
 /* Zebra striping for all tables in page content. MM doesn't stripe by

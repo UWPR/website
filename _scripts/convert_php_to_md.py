@@ -752,8 +752,43 @@ def compute_output_path(filepath: Path) -> Path:
     return PAGES_DIR / md_name
 
 
+# Front-matter keys the converter sets itself. Any other keys found in an
+# existing .md output file are considered manual additions and carried
+# through to the regenerated output (e.g. `parent:` for breadcrumb overrides).
+CONVERTER_FM_KEYS = {"title", "permalink", "toc", "toc_label", "toc_sticky"}
+
+
+def read_preserved_front_matter(output_path: Path) -> list[str]:
+    """Return raw front-matter lines to preserve across a regen.
+
+    Reads the existing .md file (if present) and keeps any top-level
+    `key: value` lines whose key is NOT in CONVERTER_FM_KEYS. The raw
+    line is preserved verbatim so quoting/formatting round-trips. Only
+    simple scalar-on-one-line keys are supported; multi-line YAML values
+    won't parse correctly but we don't use those here.
+    """
+    if not output_path.exists():
+        return []
+    try:
+        text = output_path.read_text(encoding="utf-8")
+    except Exception:
+        return []
+    # Front matter is the block between the first two `---` lines at the
+    # top of the file.
+    match = re.match(r'^---\r?\n(.*?)\r?\n---\r?\n', text, flags=re.DOTALL)
+    if not match:
+        return []
+    preserved = []
+    for line in match.group(1).splitlines():
+        key_match = re.match(r'^([A-Za-z_][\w-]*)\s*:', line)
+        if key_match and key_match.group(1) not in CONVERTER_FM_KEYS:
+            preserved.append(line)
+    return preserved
+
+
 def generate_front_matter(title: str, permalink: str, sidebar: bool,
-                          heading_count: int = 0) -> str:
+                          heading_count: int = 0,
+                          preserved: list[str] | None = None) -> str:
     """Generate Jekyll front matter.
 
     A TOC is emitted only when the page originally had a sidebar AND has
@@ -775,6 +810,8 @@ def generate_front_matter(title: str, permalink: str, sidebar: bool,
         lines.append("toc: true")
         lines.append('toc_label: "On this page"')
         lines.append("toc_sticky: true")
+    if preserved:
+        lines.extend(preserved)
     lines.append("---")
     return "\n".join(lines)
 
@@ -869,9 +906,14 @@ def convert_file(filepath: Path, write: bool = False) -> dict:
         # the TOC on pages with too few sections to be worth navigating.
         heading_count = len(re.findall(r'^##\s+\S', markdown, flags=re.MULTILINE))
 
-    # Generate front matter
+    # Generate front matter. Preserve any manual front-matter keys already
+    # present in the existing .md output (e.g. `parent:` for breadcrumbs),
+    # so hand-edits survive regeneration.
     permalink = compute_permalink(filepath)
-    front_matter = generate_front_matter(title, permalink, sidebar, heading_count)
+    output_path = compute_output_path(filepath)
+    preserved = read_preserved_front_matter(output_path)
+    front_matter = generate_front_matter(title, permalink, sidebar, heading_count,
+                                         preserved=preserved)
 
     # Add PHP logic warning if needed
     warning = ""
@@ -886,7 +928,6 @@ def convert_file(filepath: Path, write: bool = False) -> dict:
     result["status"] = "converted"
 
     # Write or preview
-    output_path = compute_output_path(filepath)
     result["output"] = str(output_path.relative_to(REPO_ROOT))
 
     if write:

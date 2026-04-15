@@ -1,6 +1,7 @@
 ---
 title: "Protein Preparation and Separation"
 permalink: /protocols02/
+parent: /methods/
 toc: true
 toc_label: "On this page"
 toc_sticky: true

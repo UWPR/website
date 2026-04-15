@@ -4,6 +4,7 @@ permalink: /protocols04/
 toc: true
 toc_label: "On this page"
 toc_sticky: true
+parent: /methods/
 ---
 
 *Divide and conquer*
@@ -119,7 +120,3 @@ Peptide separation techniques
   this document contains several different peptide cleanup/separation protocols incl. C18, SCX, Avidin\...
 
 ------------------------------------------------------------------------
-
-## UWPR pages and downloads
-
-- [](#)

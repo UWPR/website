@@ -6,6 +6,12 @@ baseurl: "/website"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
+# Enable MM's breadcrumb trail on every page (except the home page).
+# The include at _includes/breadcrumbs.html overrides the theme default
+# so intermediate labels come from each page's `title` front matter
+# instead of a capitalized URL slug (e.g. "LC-MS" not "Protocols05").
+breadcrumbs: true
+
 search: true
 search_full_content: true
 search_provider: lunr

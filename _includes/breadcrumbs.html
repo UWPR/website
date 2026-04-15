@@ -1,0 +1,117 @@
+{%- comment -%}
+  Override of Minimal Mistakes' _includes/breadcrumbs.html.
+
+  Builds the crumb list from two complementary sources:
+
+   (A) The current page's `parent` front matter, followed recursively
+       (up to 5 levels). Use this when the URL doesn't reflect the
+       logical hierarchy — e.g. `/proteomics/` with `parent: /methods/`
+       renders "Home / Methods / Proteomics".
+
+   (B) The URL path segments of `page.url`. For each intermediate
+       prefix we look up a page by permalink and also follow that
+       page's OWN `parent` chain — so a child like
+       `/protocols05/DIA/` picks up LC-MS's declared parent (Methods)
+       and renders "Home / Methods / LC-MS / DIA" even though only
+       the index page carries the `parent:` key.
+
+  Duplicates across (A) and (B) are de-duplicated via a pipe-delimited
+  accumulator.
+{%- endcomment -%}
+
+{%- assign crumb_urls = "|" -%}
+
+{%- comment -%} (A) Current page's parent chain, root-first. {%- endcomment -%}
+{%- assign chain_a = "" -%}
+{%- assign cursor = page.parent -%}
+{%- for _ in (1..5) -%}
+  {%- if cursor == blank -%}{%- break -%}{%- endif -%}
+  {%- assign chain_a = cursor | append: "|" | append: chain_a -%}
+  {%- assign parent_page = site.pages | where: "permalink", cursor | first -%}
+  {%- assign cursor = parent_page.parent | default: "" -%}
+{%- endfor -%}
+{%- assign crumb_urls = crumb_urls | append: chain_a -%}
+
+{%- comment -%} (B) URL walk; expand each intermediate's own parent chain. {%- endcomment -%}
+{%- assign crumbs = page.url | split: '/' -%}
+{%- assign path = '' -%}
+{%- for crumb in crumbs offset: 1 -%}
+  {%- assign crumb_trim = crumb | strip -%}
+  {%- if crumb_trim.size > 0 -%}
+    {%- assign path = path | append: '/' | append: crumb_trim -%}
+    {%- assign target = path | append: '/' -%}
+    {%- unless target == page.url -%}
+      {%- assign inter = site.pages | where: "permalink", target | first -%}
+
+      {%- comment -%} Insert intermediate's own parent chain (root-first, deduped). {%- endcomment -%}
+      {%- assign chain_b = "" -%}
+      {%- assign cursor = inter.parent -%}
+      {%- for _ in (1..5) -%}
+        {%- if cursor == blank -%}{%- break -%}{%- endif -%}
+        {%- assign chain_b = cursor | append: "|" | append: chain_b -%}
+        {%- assign pm = site.pages | where: "permalink", cursor | first -%}
+        {%- assign cursor = pm.parent | default: "" -%}
+      {%- endfor -%}
+      {%- assign chain_items = chain_b | split: "|" -%}
+      {%- for item in chain_items -%}
+        {%- assign item_trim = item | strip -%}
+        {%- if item_trim.size > 0 -%}
+          {%- assign marker = "|" | append: item_trim | append: "|" -%}
+          {%- unless crumb_urls contains marker -%}
+            {%- assign crumb_urls = crumb_urls | append: item_trim | append: "|" -%}
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- assign marker = "|" | append: target | append: "|" -%}
+      {%- unless crumb_urls contains marker -%}
+        {%- assign crumb_urls = crumb_urls | append: target | append: "|" -%}
+      {%- endunless -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign final_urls = crumb_urls | split: "|" -%}
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{ site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" }}</span></a>
+      <meta itemprop="position" content="1" />
+    </li>
+
+    {%- assign position = 1 -%}
+
+    {%- for url in final_urls -%}
+      {%- assign url_trim = url | strip -%}
+      {%- if url_trim.size > 0 and url_trim != "/" -%}
+        {%- assign url = url_trim -%}
+        {%- assign match = site.pages | where: "permalink", url | first -%}
+        {%- if match -%}
+          {%- assign label = match.title -%}
+        {%- else -%}
+          {%- assign last_seg = url | split: '/' | last -%}
+          {%- assign label = last_seg | url_decode | replace: '-', ' ' | capitalize -%}
+        {%- endif -%}
+        {%- assign position = position | plus: 1 -%}
+        <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
+        {%- if match -%}
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="{{ url | relative_url }}" itemprop="item"><span itemprop="name">{{ label }}</span></a>
+            <meta itemprop="position" content="{{ position }}" />
+          </li>
+        {%- else -%}
+          {%- comment -%}
+            Intermediate URL with no matching page — render as plain text
+            so we don't link to a 404 (happens when a parent directory
+            lacks an index.md).
+          {%- endcomment -%}
+          <li>{{ label }}</li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
+    <li class="current"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</li>
+  </ol>
+</nav>
