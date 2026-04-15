@@ -7,7 +7,7 @@ The Thermo Scientific^™^ Orbitrap Fusion^™^ Tribrid^™^ mass spectrometer c
 
 ![]({{ site.baseurl }}/instruments/images/fusion_03.jpg)
 
-Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion) for more information
+Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-fusion) for more information  
 and the [Fusion intro site](http://event1.thermoscientific.com/content/CMD_Transform2013_Fusion) for some nice animations
 
 12/5/2013 Fusion Installed

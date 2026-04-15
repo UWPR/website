@@ -1,9 +1,6 @@
 ---
 title: "nanoAcquity"
 permalink: /instruments/nanoacquity/
-toc: true
-toc_label: "On this page"
-toc_sticky: true
 ---
 
 *nano scale chromatography system*
@@ -27,6 +24,8 @@ the following document includes guidelines to setup the capillary trap/column on
 
 - [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)
 - [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
+
+------------------------------------------------------------------------
 
 ## Quick Links
 

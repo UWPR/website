@@ -12,20 +12,20 @@ There are several good sources online, here are just a few:
 
 **Polydimethylcyclosiloxanes**
 
-![]({{ site.baseurl }}/images/esi_background_02.png)
+![]({{ site.baseurl }}/images/esi_background_02.png)  
 Polydimethylcyclosiloxanes, widespread compound in industrial products, e.g. deodorants. They are ubiquitously present in ambient air. (Mass difference 74.018793)
 
 **Polysiloxanes**
 
-**Mono mass**
+**Mono mass**  
 \[M+H\]^+^
 
-**+17 Da**
-ammonium
+**+17 Da**  
+ammonium  
 adducts
 
-**-16 Da**
-loss of
+**-16 Da**  
+loss of  
 methane
 
 **Formula**
@@ -300,7 +300,7 @@ Cesium iodide clusters, used as calibration
 
 SDS (sodium dodecylsulfate) adducts (CH3(CH2)11OSO3Na)
 
-**Phthalates** ![]({{ site.baseurl }}/images/esi_background_03.png)
+**Phthalates** ![]({{ site.baseurl }}/images/esi_background_03.png)  
 391 and 419 are typically very prominent in ESI
 
 **Avg Mass**

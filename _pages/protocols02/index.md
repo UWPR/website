@@ -10,18 +10,18 @@ toc_sticky: true
 
 Protein extraction is an important step in any proteomics experiment. It often starts with cell lysis and cell fractionation, followed by specific enrichment and/or isolation of a particular protein of interest (affinity purification), or removal of interfering or contaminating substances (i.e. immunodepletion).
 
-Many techniques are available for the disruption of cells, including physical and detergent-based methods. Historically, physical lysis has been the method of choice for cell disruption; however, physical methods often require expensive equipment (french prss, homogenizer, cryogrinding).
+Many techniques are available for the disruption of cells, including physical and detergent-based methods. Historically, physical lysis has been the method of choice for cell disruption; however, physical methods often require expensive equipment (french prss, homogenizer, cryogrinding).  
 Detergent-based lysis is more popular due to ease of use, low cost and efficient protocols. However, many detergents interfere with the downstream LC-MS analysis. A list of MS compatible detergents can be found on our protein digestion page.
 
 ## Sample Preparation Overviews 
 
-Workflow for Protein Mass Spectrometry from Thermo[page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html)
-Protein Sample Preparation for Mass Spectrometry [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/sample-preparation-mass-spectrometry.html)
-Mass Spectrometry Sample Preparation Handbook [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-mass-spectrometry.html)
-Protein Purification and Isolation Support Center [page](https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/protein-purification-isolation-support-center.html)
-Physical cell lysis [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/traditional-methods-cell-lysis.html)
-Detergent based cell lysis [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/detergents-cell-lysis-protein-extraction.html)
-Sigma's Proteomics [page](https://www.sigmaaldrich.com/life-science/proteomics.html)
+Workflow for Protein Mass Spectrometry from Thermo[page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/workflow-protein-mass-spectrometry.html)  
+Protein Sample Preparation for Mass Spectrometry [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/sample-preparation-mass-spectrometry.html)  
+Mass Spectrometry Sample Preparation Handbook [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-mass-spectrometry.html)  
+Protein Purification and Isolation Support Center [page](https://www.thermofisher.com/us/en/home/technical-resources/technical-reference-library/protein-purification-isolation-support-center.html)  
+Physical cell lysis [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/traditional-methods-cell-lysis.html)  
+Detergent based cell lysis [page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/detergents-cell-lysis-protein-extraction.html)  
+Sigma's Proteomics [page](https://www.sigmaaldrich.com/life-science/proteomics.html)  
 Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute.org/proteomics/tutorials-and-workshops)
 
 ## Cell culture related protocols 
@@ -41,7 +41,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 
 - [EasyPep Mini MS Sample Prep Kit](https://www.thermofisher.com/order/catalog/product/A40006) from Thermo takes you from cell pellet and tissues to mass spec ready peptides in one simple kit
 
-- [TissuePrep_and_Cell Fractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)
+- [TissuePrep_and_Cell Fractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)  
   Microsomal membrane protein enrichment protocol from tissue.
 
 - [Tissue and formalin fixed (FFPE) tissue Proteomics Kits](https://www.preomics.com/sample-types/ffpe) from PreOmics.
@@ -64,7 +64,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 - [Urine Protein Concentration with Vivaproducts Concentrators](https://www.vivaproducts.com/downloads/urine-protein-concentration-w-concentrators.pdf) from vivaproducts.
 - [Urine Protein Concentration Calculator App](https://www.vivaproducts.com/calculator.html) from vivaproducts.
 
-- [Urine Protein Extraction (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_UrineProteinExtraction.xlsx)
+- [Urine Protein Extraction (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_UrineProteinExtraction.xlsx)  
   Purify/extract proteins from urine samples
 
 ## Isotopic labelling strategies 
@@ -83,13 +83,13 @@ SILAC (stable isotope labeling using amino acids in cell culture) is a metabolic
 
 There are various chemical labeling strategies for concurrent peptide identification and multiplexed proteomics quantitation by mass spectrometry. Most quantitative proteomics reagents incorporate stable isotopes into the isobaric tag portion of the reagents and are used to label at the protein or peptide level:
 
-- [ThermoPierce TMT Overview (Tandem Mass Tag) Reagents](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/protein-quantitation-mass-spectrometry/tandem-mass-tag-systems.html)
-  [Amine-reactive, 6-plex Tandem Mass Tag Reagents](https://www.thermofisher.com/order/catalog/product/90061)
-  [Amine-reactive, 10-plex Tandem Mass Tag Reagents](https://www.thermofisher.com/order/catalog/product/90110)
-  [Cysteine-Reactive, 6-plex Tandem Mass Tag Reagents](https://www.thermofisher.com/order/catalog/product/90101)
+- [ThermoPierce TMT Overview (Tandem Mass Tag) Reagents](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/protein-quantitation-mass-spectrometry/tandem-mass-tag-systems.html)  
+  [Amine-reactive, 6-plex Tandem Mass Tag Reagents](https://www.thermofisher.com/order/catalog/product/90061)  
+  [Amine-reactive, 10-plex Tandem Mass Tag Reagents](https://www.thermofisher.com/order/catalog/product/90110)  
+  [Cysteine-Reactive, 6-plex Tandem Mass Tag Reagents](https://www.thermofisher.com/order/catalog/product/90101)  
   [Carbonyl-reactive, 6-plex aminoxyTMT Reagents](https://www.thermofisher.com/order/catalog/product/90401)
 
-- [Sigma iTRAQ (Isobaric Tags for Relative and Absolute Quantification)](http://www.sigmaaldrich.com/life-science/molecular-biology/molecular-biology-products.html?TablePage=112006408)
+- [Sigma iTRAQ (Isobaric Tags for Relative and Absolute Quantification)](http://www.sigmaaldrich.com/life-science/molecular-biology/molecular-biology-products.html?TablePage=112006408)  
   Amine-reactive, 8-plex reagents
 
 ## Crosslinking strategies 
@@ -109,10 +109,10 @@ There are various chemical labeling strategies for concurrent peptide identifica
 
 ## Protein Separation and Enrichment
 
-The most challenging proteomics studies are those that try to identify and quantify global proteomes. Many experiments require a reduction of protein complexity by separating the proteins.
-One approach is to focus on the subproteome of an organelle using classical subcellular fractionation techniques.
-Alternatively, sample complexity can also be effectively reduced using enrichment techniques like immunoprecipitations or activity- or affinity-based approaches.
-Enrichment can also be directed toward a specific characteristic of proteins for example toward glycoproteins \[Ref 2\], phoshoproteins or newly synthesized proteins \[Ref 3\].
+The most challenging proteomics studies are those that try to identify and quantify global proteomes. Many experiments require a reduction of protein complexity by separating the proteins.  
+One approach is to focus on the subproteome of an organelle using classical subcellular fractionation techniques.  
+Alternatively, sample complexity can also be effectively reduced using enrichment techniques like immunoprecipitations or activity- or affinity-based approaches.  
+Enrichment can also be directed toward a specific characteristic of proteins for example toward glycoproteins \[Ref 2\], phoshoproteins or newly synthesized proteins \[Ref 3\].  
 Proteins can also be separated by gels (SDS-PAGE), chromatography (FPLC and HPLC) or Gel-Free separations.
 
 ## Affinity-activity based protein enrichment 
@@ -129,13 +129,13 @@ Immunoprecipitation (IP) is the most commonly used affinity purification of anti
 
 - Check out Thermo's [Immunoprecipitation Kit Selection Guide](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-assays-analysis/immunoprecipitation.html) under the Protuct selection tab
 - [The Thermo Scientific Pierce MS-Compatible Magnetic IP Kit (Protein A/G)](https://www.thermofisher.com/order/catalog/product/90409) provides mass spectrometry-friendly reagents and an optimized protocol to enable highly effective and efficient immunoprecipitation and co-immunoprecipitation of target antigens upstream of LC-MS analysis.
-- For MS analyses the strategy of immobilizing the antibody by covalently crosslinking it to the Protein A/G-bound supports works very well as it reduces the amount of contaminating antibody.
-  [Pierce Crosslink IP Kit](https://www.thermofisher.com/order/catalog/product/26147) adapts the traditional IP method to include reagents and protocol for crosslinking IP antibodies to Protein A/G agarose to enable antigen immunoprecipitation without antibody contamination.
+- For MS analyses the strategy of immobilizing the antibody by covalently crosslinking it to the Protein A/G-bound supports works very well as it reduces the amount of contaminating antibody.  
+  [Pierce Crosslink IP Kit](https://www.thermofisher.com/order/catalog/product/26147) adapts the traditional IP method to include reagents and protocol for crosslinking IP antibodies to Protein A/G agarose to enable antigen immunoprecipitation without antibody contamination.  
   [Pierce Crosslink Magnetic IP Kit](https://www.thermofisher.com/order/catalog/product/88805) uses crosslinking chemistry to covalently immobilize IP antibodies onto premium-quality Protein A/G Magnetic Beads.
 - [Cross-linking immunoprecipitation (CLIP) Protocol using Dynabeads](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-assays-analysis/immunoprecipitation/dynabeads-immunoprecipitation-crosslinking-protocol.html) combines UV cross-linking with Dynabeads immunoprecipitation.
 - Protein Enrichment & Clean Up for Mass Spectrometry [go to page](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/sample-prep-mass-spectrometry/protein-enrichment-clean-up-mass-spectrometry.html)
 - [Dynabeads Antibody Coupling Kit](https://www.thermofisher.com/order/catalog/product/14311D) allows easy coupling of an antibody of your choice to the surface of uniform, 2.8 µm superparamagnetic Dynabeads M-270 Epoxy beads.
-- [Dynabeads Co-Immunoprecipitation Kit](https://www.thermofisher.com/order/catalog/product/14321D) allows easy coupling of an antibody of your choice to the surface of uniform, 2.8 µm superparamagnetic Dynabeads M-270 Epoxy beads.
+- [Dynabeads Co-Immunoprecipitation Kit](https://www.thermofisher.com/order/catalog/product/14321D) allows easy coupling of an antibody of your choice to the surface of uniform, 2.8 µm superparamagnetic Dynabeads M-270 Epoxy beads.  
   [Dynabead G IP on bead digestion protocol for mass spectrometry analysis (pdf)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_DynabeadG_IP_onBeadDigest.pdf)
 - [The Thermo Scientific Pierce Direct IP Kit](https://www.thermofisher.com/order/catalog/product/26148) uses an activated resin to covalently immobilize IP antibodies (any species or class) on agarose beads without the aid of Protein A/G, enabling immunoprecipitation without antibody interference.
 - [Thermo Scientific Pierce Direct Magnetic IP/Co-IP Kit](https://www.thermofisher.com/order/catalog/product/88828) uses NHS-chemistry to covalently immobilize IP antibodies onto magnetic beads for effective immunoprecipitation and co-immunoprecipitation.
@@ -154,14 +154,14 @@ Tips:
 
 ## Tag based affinity protocols 
 
-Affinity tag and tandem affinity tag (TAP) allow to isolate specific proteins of interest and proteins associated with them. Commonly used affinity tags used in combination with an antibody towards either of these tags include:
-FLAG; peptide sequence DYKDDDDK
-c-Myc; peptide sequence EQKLISEEDL
-Hemagglutinin (HA); peptide sequence YPYDVPDYA
-V5; peptide sequence GKPIPNPLLGLDST
-Green fluorescent protein (GFP)
-Poly His tag
-GST tag
+Affinity tag and tandem affinity tag (TAP) allow to isolate specific proteins of interest and proteins associated with them. Commonly used affinity tags used in combination with an antibody towards either of these tags include:  
+FLAG; peptide sequence DYKDDDDK  
+c-Myc; peptide sequence EQKLISEEDL  
+Hemagglutinin (HA); peptide sequence YPYDVPDYA  
+V5; peptide sequence GKPIPNPLLGLDST  
+Green fluorescent protein (GFP)  
+Poly His tag  
+GST tag  
 Proteins tagged with biotin can be enriched using streptavidin or neutravidin beads.
 
 - [Thermo Agarose Co-IP and Pull-Down Kits](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-assays-analysis/immunoprecipitation/immunoprecipitation-agarose-other-resins/agarose-co-ip-pull-down-kits.html) For Tag-based IP and pull-down strategies utilize a "bait" protein instead of an antibody to capture protein-interaction targets by utilizing an affinity resin to the bait protein that is biotinylated his-, GST-, c-Myc or HA-tagged.
@@ -181,11 +181,11 @@ Proteins tagged with biotin can be enriched using streptavidin or neutravidin be
 - [ChromoTek iST V5-Trap™ Kit](https://www.ptglab.com/products/iST-V5-Trap-Kit-v5tak-iST.htm) from proteintech
 - [ChromoTek iST GFP-Trap Kit](https://www.ptglab.com/products/iST-GFP-Trap-Kit-for-AP-MS-sample-preparation-of-GFP-fusion-proteins-gtak-iST.htm) from proteintech for AP-MS sample preparation of GFP-fusion proteins
 - [Ni-NTA Reagent Kit](https://www.sigmaaldrich.com/US/en/product/mm/acr5000nt) from Sigma for His-tagged protein purification.
-- Modification, one example is glycoprotein isolation enriching specifically N-glycosylated proteins.
-  Here is a collection of protocols that were developed based on initial work done by Hui Zhang (Associate Prof. Johns Hopkins) and Kelly Vaughn, while they were in Ruedi Aebersolds lab \[Ref 2\].
+- Modification, one example is glycoprotein isolation enriching specifically N-glycosylated proteins.  
+  Here is a collection of protocols that were developed based on initial work done by Hui Zhang (Associate Prof. Johns Hopkins) and Kelly Vaughn, while they were in Ruedi Aebersolds lab \[Ref 2\].  
   [Glycopeptide Isolation (xlsx)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_Glycopeptide_Isolation.xlsx)
 
-- Gingras lab protocols [go to page](https://gingraslab.org/resources/#protocols)
+- Gingras lab protocols [go to page](https://gingraslab.org/resources/#protocols)  
   Anne-Claude Gingras is a TAP-tag wizard check out her website for protocols
 
 ## Immunodepletion
@@ -210,13 +210,13 @@ When fractionating proteins based on their cellular localization all possible pr
 - [ProteoExtract Subcellular Proteomie Extraction Kit](https://www.sigmaaldrich.com/US/en/product/mm/539790) from Sigma
 - [Subcellular Protein Fractionation Kit for Cultured Cells](https://www.thermofisher.com/order/catalog/product/78840) from Thermo
 - [Subcellular Protein Fractionation Kit for Tissue](https://www.thermofisher.com/order/catalog/product/87790) from Thermo
-- [TissuePrep_and_CellFractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)
+- [TissuePrep_and_CellFractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)  
   Microsomal membrane protein enrichment protocol from tissue samples
 
 ## Protein separation 1D and 2D Gel 
 
-Sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) is a very common method for separating proteins based on their molecular weight. Protein separation by SDS-PAGE can be used to estimate relative molecular mass, to determine the relative abundance of major proteins in a sample, and to determine the distribution of proteins among fractions. SDS-PAGE can also be used as a tool to assess purity of protein samples and to monitor the progress of a fractionation or purification procedure. Two-dimensional (2D) electrophoresis separated proteins first by their isoelectric point and then by their molecular weight.
-Different staining methods can be used like Coomassie Blue ( range) and Silver stain (range) to visualize the protein bands. Techniques such as Western blotting are used to detect specific proteins or protein modification.
+Sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) is a very common method for separating proteins based on their molecular weight. Protein separation by SDS-PAGE can be used to estimate relative molecular mass, to determine the relative abundance of major proteins in a sample, and to determine the distribution of proteins among fractions. SDS-PAGE can also be used as a tool to assess purity of protein samples and to monitor the progress of a fractionation or purification procedure. Two-dimensional (2D) electrophoresis separated proteins first by their isoelectric point and then by their molecular weight.  
+Different staining methods can be used like Coomassie Blue ( range) and Silver stain (range) to visualize the protein bands. Techniques such as Western blotting are used to detect specific proteins or protein modification.  
 To identify proteins by LC-MS, proteins can be digested in the gel or on the membrane (western blot) and peptides can be extracted for analysis.
 
 - [In-gel digest page]({{ site.baseurl }}/protocols03/ingeldigestion/) for information about in-gel-digestion
@@ -225,7 +225,7 @@ To identify proteins by LC-MS, proteins can be digested in the gel or on the mem
 
 Traditional column chromatography or using an HPLC (High-performance liquid chromatography) or FPLC (Fast protein liquid chromatography) can be used to separate proteins based on their physiochemical properties like size, charge and hydrophobicity; Size exclusion, cation or anion exchange, reversed phase (C4) are some of the commonly used chemistries.
 
-**Gel-Free (Free-Flow-Electrophoresis**
+**Gel-Free (Free-Flow-Electrophoresis**  
 less common and a bit tricky.. BD recently made the decision to exit the Free Flow Electrophoresis (FFE) business, but Expedeon (now purchase by Abcam) has a "Gelfree 8100 fractionation system" that might still be available.
 
 ## References
@@ -235,22 +235,7 @@ less common and a bit tricky.. BD recently made the decision to exit the Free Fl
 3.  Dopaminergic modulation of the hippocampal neuropil proteome identified by bio-orthogonal non-canonical amino-acid tagging (BONCAT). J.J. Hodas et al., *Proteomics* 12, 2464-2476 (2012). [link](http://www.ncbi.nlm.nih.gov/pubmed/22744909)
 4.  Proteomics of human plasma: A critical comparison of analytical workflows in terms of effort, throughput and outcome. Loȉc Dayon, Martin Kussmann *EuPA Open Proteomics* Volume 1, 2013, Pages 8-16 12, 2464-2476 (2012). [link](http://www.sciencedirect.com/science/article/pii/S2212968513000044)
 
-## On this page
-
-- [Sample prep overview sites](#sampleprep)
-- [Cell culture](#cellculture)
-- [Tissue and Plant](#tissueplants)
-- [Biofluids](#biofluids)
-- [Isotopic labelling](#isotopiclabelling)
-- [Crosslinking](#crosslinking)
-- [Affinity protein enrichment](#affinity)
-- [Immunoprecipitation](#immunoprecipitation)
-- [Immunodepletion](#immunodepletion)
-- [Tag based affinity](#tagaffinity)
-- [Cellular fractionation](#cellfractionation)
-- [Gel separation](#gel)
-- [HPLC/FPLC separation](#hplc)
-- [References](#references)
+------------------------------------------------------------------------
 
 ## UWPR links and downloads
 

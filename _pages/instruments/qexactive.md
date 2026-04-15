@@ -9,7 +9,7 @@ The Thermo Scientific Q Exactive Plus benchtop LC-MS/MS combines high-performanc
 
 Visit the [Planet Orbitrap website](http://planetorbitrap.com/q-exactive-plus) for more information
 
-11/19/2013 QE Plus Installed
+11/19/2013 QE Plus Installed  
 6/6/2012 QE Installed, 11/14/2013 retired
 
 - **Scan Rate**

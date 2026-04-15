@@ -5,7 +5,7 @@ permalink: /protocols04/peptideseparation/
 
 **Trypsin Digestion and TMT Labeling (from Ref 4)**
 
-Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.
+Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.  
 Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention eppendorf tubes.
 
 Materials

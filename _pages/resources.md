@@ -1,9 +1,6 @@
 ---
 title: "Resources"
 permalink: /resources/
-toc: true
-toc_label: "On this page"
-toc_sticky: true
 ---
 
 *UWPR's state of the art instrumentation and equipment*
@@ -21,6 +18,8 @@ The Proteomics Resource's instrument room is located in the basement of 850 Repu
 - [VanquishNeo]({{ site.baseurl }}/instruments/VanquishNeo/) (qty. 1)
 
 Additionally, the Proteomics Resource has access to dedicated servers for computation, (see the [Tools page]({{ site.baseurl }}/protocols06/) for details).
+
+------------------------------------------------------------------------
 
 ## Current Instruments
 

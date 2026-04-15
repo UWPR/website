@@ -5,7 +5,7 @@ permalink: /instruments/tsqaccess/
 
 The TSQ Quantum Access, a triple quadrupole mass spectrometer, offers versatility with its best in class mass range (m/z 30--3000). It has the ability to do 3000 timed SRMs as well as triggering data-dependent full scan MS/MS (Quantitation-Enhanced Data-Dependent MS/MS (QED-MS/MS)) giving the multi-component screening experiment an added dimension of specificity. Highly Selective Reaction Monitoring (H-SRM) followed by QED-MS/MS provides uncompromised quantitative performance at low levels followed by a fast, highly specific full MS/MS scan for confirmation. Additionally the Zero Cross-Talk Collision Cell eliminates false positives. ![]({{ site.baseurl }}/instruments/images/tsq.jpg)
 
-6/20/07 TSQ Access (TQU01311) Installed
+6/20/07 TSQ Access (TQU01311) Installed  
 9/30/2018 Retired
 
 - **Mass range**

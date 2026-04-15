@@ -43,12 +43,12 @@ The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible
 
 ## Plate configuration 
 
-[Back to Top](#top)
-Sample capacity (standard): 4 racks of 54 vials (≤ 1.5 mL) each
-96-well plates with optional orientation barcoding to ensure the correct position in the autosampler and charger unit when loading and running the analytical sequence. Plates cannot be accepted in the wrong orientation.
-Barcoded 96-well plate, V shaped well, 10-190 µl, 10pk 60180-217B (Fisher 03-255-015)
-Barcoded 96-well plate, V shaped well, 10-190 µl, 100pk 60180-207B (Fisher 03-251-447)
-Barcoded 96-well plate, U shaped well, 10-250 µl, 10pk 60180-216B (Fisher 03-255-014)
+[Back to Top](#top)  
+Sample capacity (standard): 4 racks of 54 vials (≤ 1.5 mL) each  
+96-well plates with optional orientation barcoding to ensure the correct position in the autosampler and charger unit when loading and running the analytical sequence. Plates cannot be accepted in the wrong orientation.  
+Barcoded 96-well plate, V shaped well, 10-190 µl, 10pk 60180-217B (Fisher 03-255-015)  
+Barcoded 96-well plate, V shaped well, 10-190 µl, 100pk 60180-207B (Fisher 03-251-447)  
+Barcoded 96-well plate, U shaped well, 10-250 µl, 10pk 60180-216B (Fisher 03-255-014)  
 Barcoded 96-well plate, U shaped well, 10-250 µl, 100pk 60180-206B (Fisher 03-255-010)
 
 You can also print/label the well plates yourself. Here are a couple of documents you can check out to start with:
@@ -163,6 +163,8 @@ To convert bar to psi follow this link: [UnitConverters.net: Convert bar to psi]
 |      1100      | 15954.2 |     |     16000      | 1103.2 |
 |      1150      | 16679.4 |     |     17000      | 1172.1 |
 |      1200      | 17404.6 |     |     18000      | 1241.1 |
+
+------------------------------------------------------------------------
 
 ## Quick Links
 

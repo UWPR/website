@@ -7,7 +7,7 @@ The LTQ FT Ultra system is a fully integrated hydrid mass spectrometer consistin
 
 ![]({{ site.baseurl }}/instruments/images/ltqft.jpg)
 
-2/5/07 Installed
+2/5/07 Installed  
 10/5/07 Upgrade to Ultra cell
 
 - **Mass range**
@@ -47,6 +47,6 @@ The LTQ FT Ultra system is a fully integrated hydrid mass spectrometer consistin
 
 <!-- -->
 
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
+- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)  
 - [LTQ-FT Ultra ECD and IRPMD optimization (pdf)]({{ site.baseurl }}/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_optimization.pdf)
 - [LTQ-FT Ultra ECD and IRPMD maintenance (pdf)]({{ site.baseurl }}/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_maintenance.pdf)

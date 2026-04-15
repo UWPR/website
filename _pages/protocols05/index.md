@@ -31,7 +31,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 
 - [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_EASYnLC.pdf)
 - [LC-MS setup procedure VanquishNeo(pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)
+- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup.pdf)  
 - [LC plumbing examples (pdf)]({{ site.baseurl }}/docs/protocols05/LC_plumbing.pdf)
 
 ## Mass spec related information and protocols 
@@ -50,7 +50,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [Skyline Promega 6x5_LCMS_Standard_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Promega_6x5_LCMS_Standard_Orbitrap_PRM.sky.zip)
 - [Skyline Promega 6x5_LCMS_Standard_Hela_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Promega_6x5_LCMS_Standard_Hela_Orbitrap_PRM.sky.zip)
 - [Skyline Sigma MSQC1_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Sigma_MSQC1_Orbitrap_PRM.sky.zip)
-- [Skyline Hela_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Hela_Orbitrap_PRM.sky.zip)
+- [Skyline Hela_Orbitrap_PRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Hela_Orbitrap_PRM.sky.zip)  
 - [Skyline Pierce (7 x 5 Mix) (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Pierce_7x5Mix.sky.zip)
 - [Skyline Pierce (7 x 5 Mix)\_Hela (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Pierce_7x5Mix_Hela.sky.zip)
 
@@ -59,7 +59,7 @@ the following documents are guidelines to setup the capillary trap/column on our
 - [Skyline AngioNeuro_QQQ_SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AngioNeuro_QQQ_SRM.sky.zip)
 - [Skyline Promega 6x5_LCMS_Standard_Hela_QQQ_SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Promega_6x5_LCMS_Standard_Hela_QQQ_SRM.sky.zip)
 - [Skyline for TSQ Altis method template "PRTC Hela" SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AltisMethodTemplate_PRTC_Hela.sky.zip)
-- [Skyline for TSQ Altis method template "PRTC heavy" SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AltisMethodTemplate_PRTCheavy.sky.zip)
+- [Skyline for TSQ Altis method template "PRTC heavy" SRM (zip)](https://proteomicsresource.washington.edu/docs/protocols05/AltisMethodTemplate_PRTCheavy.sky.zip)  
 - [Skyline Pierce (7 x 5 Mix) (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Pierce_7x5Mix.sky.zip)
 - [Skyline Pierce (7 x 5 Mix)\_Hela (zip)](https://proteomicsresource.washington.edu/docs/protocols05/Pierce_7x5Mix_Hela.sky.zip)
 
@@ -92,22 +92,16 @@ the following documents are guidelines to setup the capillary trap/column on our
 - Mass Spec Background Ions: Repeating Units [go to page]({{ site.baseurl }}/protocols05/esi_background_ions_repeat_units/)
 - UCSF Prospector Trypsin Autolysis Products [go to page](http://prospector.ucsf.edu/prospector/html/misc/trypsin.htm)
 - UWPR_CommonMassSpecContaminants spreadsheet [xls]({{ site.baseurl }}/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
-- [RawVegetable](http://patternlabforproteomics.org/rawvegetable/)
+- [RawVegetable](http://patternlabforproteomics.org/rawvegetable/)  
   RawVegetable is an alternative for the discontinued RawMeat software; it includes RawMeat QC features and more.
-- [Mass Spectrometry Software: ESIprot 1.0](https://codeberg.org/LabABI/ESIprot)
+- [Mass Spectrometry Software: ESIprot 1.0](https://codeberg.org/LabABI/ESIprot)  
   ESIprot 1.0 is a nice tool which enables the charge state determination and molecular weight calculation of proteins
-- [Venny](http://bioinfogp.cnb.csic.es/tools/venny/)
+- [Venny](http://bioinfogp.cnb.csic.es/tools/venny/)  
   A nice and easy tool to crate Venn diagrams.
-- [BoxPlotR](http://boxplot.tyerslab.com/)
+- [BoxPlotR](http://boxplot.tyerslab.com/)  
   BoxPlotR: a web-tool for generation of box plots.
 
-## On this page
-
-- [Column preparation](#column)
-- [HPLC setup](#setup)
-- [MS protocols](#massspec)
-- [MS hardware](#hardware)
-- [Miscellaneous](#miscellaneous)
+------------------------------------------------------------------------
 
 ## UWPR links and downloads
 

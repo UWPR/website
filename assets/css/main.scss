@@ -38,15 +38,15 @@
   }
 }
 
-/* Minimal Mistakes reserves padding-right on .page for an author profile
-   sidebar even when the page doesn't show one — so the body renders
-   narrower than the masthead. We only want that behaviour on pages that
-   actually have a left-nav sidebar; otherwise let .page expand.
+/* Minimal Mistakes reserves padding-right on .page for a right-side
+   panel (author profile, or the auto-generated TOC when toc: true). On
+   pages that don't use either, the body renders narrower than the
+   masthead for no reason — we want full width there.
 
-   Uses :has() to detect the sidebar layout. Supported in all modern
-   evergreen browsers (Chrome/Edge/Safari/Firefox 2023+). Falls back to
-   MM's default on older browsers — acceptable for an internal site. */
-#main:not(:has(.sidebar.sticky)) .page {
+   Only apply the full-width override when the page has NEITHER a left
+   .sidebar.sticky NOR a right-side TOC (.sidebar__right). Uses :has()
+   — supported in all evergreen browsers 2023+. */
+#main:not(:has(.sidebar.sticky)):not(:has(.sidebar__right)):not(:has(.toc)) .page {
   float: none;
   width: 100%;
   padding-right: 0;
@@ -58,7 +58,64 @@
   }
 }
 
+/* Shrink the right-side TOC gutter on pages with toc: true. MM reserves
+   ~200px at 64em+ and ~300px at 80em+; those are oversized for the
+   narrow TOC text, which just leaves the body cramped. Halve the
+   reservation so content gets more width. */
+.page:has(.sidebar__right),
+.page:has(.toc) {
+  /* MM floats .page right with width: calc(100% - X) to leave room for a
+     left author-profile sidebar we don't use. Align to the left and
+     expand .page to the full masthead width, so the TOC (which is
+     absolutely positioned at the right edge of .page) sits flush with
+     the search icon in the masthead. Keep MM's default TOC width. */
+  float: left;
+  margin-left: 0;
+  width: 100%;
+
+  @media (min-width: 64em) {
+    padding-right: 200px;
+  }
+  @media (min-width: 80em) {
+    padding-right: 300px;
+  }
+}
+
 /* Bump up the masthead site title (shows "UWPR" via masthead_title). */
 .site-title {
   font-size: 1.5em;
+}
+
+/* Zebra striping for all tables in page content. MM doesn't stripe by
+   default; alternating row shading makes wide tables easier to scan. */
+.page__content {
+  table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+}
+
+/* Hand-crafted DIA instrument-resolution table (raw HTML in DIA.md).
+   Mirrors the original PHP site's column-group shading: the Fusion Lumos
+   group (cols 1-3) and QE plus group (cols 5-7) get a light purple tint;
+   the Transient column (col 4) gets a grey tint that runs the full height. */
+.dia-table {
+  thead tr:first-child th:nth-child(1),   /* Fusion Lumos group label */
+  thead tr:first-child th:nth-child(3) {  /* QE plus group label */
+    background-color: #d8d4ea;
+  }
+  thead tr:first-child th:nth-child(2) {  /* Transient (rowspan=2) */
+    background-color: #e4e4e4;
+  }
+  /* Second header row: sub-labels under Fusion Lumos / QE plus */
+  thead tr:nth-child(2) th:nth-child(-n+3),
+  thead tr:nth-child(2) th:nth-child(n+4) {
+    background-color: #e8e5f0;
+  }
+  /* Transient data column shaded full-height, overriding zebra stripes */
+  tbody tr td:nth-child(4) {
+    background-color: #ececec;
+  }
 }

@@ -7,11 +7,11 @@ permalink: /protocols06/
 
 ### Online Tools/Calculators
 
-- [MS/MS fragmentation calculator]({{ site.baseurl }}/cgi-bin/fragment.cgi)
-- [Protein sequence digestion calculator]({{ site.baseurl }}/cgi-bin/digest.cgi)
-- [Isotope distribution calculator]({{ site.baseurl }}/cgi-bin/calcisotopes.cgi)
-- [Elemental mass calculator]({{ site.baseurl }}/cgi-bin/element.cgi)
-- [Peptide motif finder]({{ site.baseurl }}/cgi-bin/motif_search.cgi)
+- [MS/MS fragmentation calculator](https://proteomicsresource.gs.washington.edu/cgi-bin/fragment.cgi)
+- [Protein sequence digestion calculator](https://proteomicsresource.gs.washington.edu/cgi-bin/digest.cgi)
+- [Isotope distribution calculator](https://proteomicsresource.gs.washington.edu/cgi-bin/calcisotopes.cgi)
+- [Elemental mass calculator](https://proteomicsresource.gs.washington.edu/cgi-bin/element.cgi)
+- [Peptide motif finder](https://proteomicsresource.gs.washington.edu/cgi-bin/motif_search.cgi)
 - [Lorikeet Spectrum viewer](https://proteomicsresource.washington.edu/lorikeet/)
 - [Koina (Prosit, ms2pip, AlphaPeptDeep) spectrum prediction viewer](https://proteomicsresource.washington.edu/lorikeet/html/specview-koina.html)
 - [Table of relevant masses (amino acids, elements)]({{ site.baseurl }}/protocols06/masses/)

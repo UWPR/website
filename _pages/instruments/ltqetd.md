@@ -7,7 +7,7 @@ The LTQ XL™ extends the legendary MSn performance of the LTQ™, incorporating
 
 ![]({{ site.baseurl }}/instruments/images/ltqetd.jpg)
 
-8/28/2007 Installed
+8/28/2007 Installed  
 1/24/2013 Retired
 
 - **Mass range**

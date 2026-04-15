@@ -7,7 +7,7 @@ The new LTQ Orbitrap XL hybrid FT mass spectrometer combines a linear ion trap M
 
 ![]({{ site.baseurl }}/instruments/images/ltqorbitrap.jpg)
 
-7/17/07 LTQ-OT 1 (SN01323B) Installed, 9/1/2020 Retired
+7/17/07 LTQ-OT 1 (SN01323B) Installed, 9/1/2020 Retired  
 8/16/07 LTQ-OT 2 (SN01322B) Installed, 10/1/2015 Retired
 
 - **Mass range**

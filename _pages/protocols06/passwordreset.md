@@ -1,9 +1,6 @@
 ---
 title: "Password Reset"
 permalink: /protocols06/passwordreset/
-toc: true
-toc_label: "On this page"
-toc_sticky: true
 ---
 
 The web server that handles the "View Data" links is a different server than the one that handles the UWPR project website. We try to sync the username and passwords between the two but sometimes they get out of sync for mysterious reasons.
@@ -11,6 +8,8 @@ The web server that handles the "View Data" links is a different server than the
 The username to access the "View Data" link is the same username that you use to log into the UWPR project website (typically an email address). If you're not able to access the "View Data" link using the exact same username and password that gets you into the UWPR project website, try resetting your password on the UWPR project page. By resetting your password, this sets the password for both the project page server as well as the "View Data" link server. Feel free to re-use the same password you're using now as the goal isn't to change your password but set it correctly in both servers (and specifically reset it for the "View Data" link server).
 
 Here's the [direct link to the password reset page](https://proteomicsresource.washington.edu/pr/pages/login/forgotPassword.jsp).
+
+------------------------------------------------------------------------
 
 ## UWPR links
 

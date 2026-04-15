@@ -7,8 +7,8 @@ Use the RapiGest SF Surfactant from RapiGest Surfactant [from Waters](https://ww
 
 RapiGest SF Surfactant is a reagent used to enhance enzymatic digestion of proteins, both in-gel and in-solution. RapiGest SF helps solubilize proteins, making them more susceptible to enzymatic cleavage without inhibiting enzyme activity. Unlike other commonly used denaturants, such as SDS or urea, RapiGest SF does not modify peptides or suppress protease activity. It is compatible with enzymes such as Trypsin, Lys-C, Asp-N, Glu-C, PNGaseF, and other enzymes.
 
-**Materials**
-All solvents should be HPLC grade, NEVER use pipette tips when transferring acids \>2% in concentration!
+**Materials**  
+All solvents should be HPLC grade, NEVER use pipette tips when transferring acids \>2% in concentration!  
 [Avoid Contaminations (pdf)]({{ site.baseurl }}/docs/protocols05/Avoid%20Contaminations.pdf)
 
 1.  RapiGest SF Powder (Waters Corporation, 5 Pack of 1 ml Vials, 186001860)
@@ -34,7 +34,7 @@ To avoid contamination from plasticizers, use all fresh solvents. Never use any 
 6.  Cool the sample to room temperature.
 7.  Add IAA to a final concentration of 15mM.
 8.  Place sample in dark at room temperature for 30 minutes.
-9.  Add trypsin for a final concentration of 1:50 enzyme:protein.
+9.  Add trypsin for a final concentration of 1:50 enzyme:protein.  
     If total amount of protein is very low just add 1-2 μg of trypsin.
 10. Incubate 4h with shaking at 37^o^C.
 11. Prior to mass spectrometry run, add HCl to a final concentration of 200 mM.

@@ -8,19 +8,19 @@ toc_sticky: true
 
 ## COVID-19 Prevention while working at UWPR 
 
-**Review theUniversity of Washington Guidelines for COVID-19 prevention while working in the laboratory**
-[COVID-19 Health and Safety Resources](https://www.ehs.washington.edu/covid-19-health-and-safety-resources)
-[Mitigating Impacts to Research Activities Due to COVID-19](https://www.washington.edu/research/announcements/mitigating-impacts-to-research-activities-due-to-covid-19/)
-[Allowable areas of research](https://www.washington.edu/research/announcements/message-from-vice-provost-for-research-mary-lidstrom-governor-updates-allowable-areas-of-research/)
+**Review theUniversity of Washington Guidelines for COVID-19 prevention while working in the laboratory**  
+[COVID-19 Health and Safety Resources](https://www.ehs.washington.edu/covid-19-health-and-safety-resources)  
+[Mitigating Impacts to Research Activities Due to COVID-19](https://www.washington.edu/research/announcements/mitigating-impacts-to-research-activities-due-to-covid-19/)  
+[Allowable areas of research](https://www.washington.edu/research/announcements/message-from-vice-provost-for-research-mary-lidstrom-governor-updates-allowable-areas-of-research/)  
 [COVID-19: facts and resources](https://www.washington.edu/coronavirus/#health)
 
-**7/8/2021 In-Person Work COVID-19 Prevention Plan**
-Effective 7/8/21, in-person work is permitted for all personnel. You must be fully vaccinated to work in-person without a face covering. Face coverings are optional for fully vaccinated individuals at UW campuses with specific exceptions that include health-care and child-care facilities, and UW shuttles. You must continue to wear face coverings in these settings, regardless of your vaccination status
-Required: Individuals must verify that they have been fully vaccinated, or declare a medical, religious or philosophical exemption.
+**7/8/2021 In-Person Work COVID-19 Prevention Plan**  
+Effective 7/8/21, in-person work is permitted for all personnel. You must be fully vaccinated to work in-person without a face covering. Face coverings are optional for fully vaccinated individuals at UW campuses with specific exceptions that include health-care and child-care facilities, and UW shuttles. You must continue to wear face coverings in these settings, regardless of your vaccination status  
+Required: Individuals must verify that they have been fully vaccinated, or declare a medical, religious or philosophical exemption.  
 [UW COVID-19 vaccination requirement](https://www.washington.edu/coronavirus/vaccination-requirement/)
 
-**Physical distancing and capacity:**
-Consistent with UW, UWPR is lifting indoor distancing and COVID-19 capacity requirements, though distancing is still recommended for unvaccinated individuals.
+**Physical distancing and capacity:**  
+Consistent with UW, UWPR is lifting indoor distancing and COVID-19 capacity requirements, though distancing is still recommended for unvaccinated individuals.  
 Visitor logs for in-person scheduling are no longer required.
 
 All individuals are still required to monitor symptoms daily, stay home if they are sick or experiencing COVID-19 symptoms, and report to EH&S if they test positive for COVID-19 or have had close contact with someone who tested positive, regardless of their vaccination status. Report through email at covidehc@uw.edu or call 206-616-3344.
@@ -37,8 +37,8 @@ All individuals are still required to monitor symptoms daily, stay home if they 
 
 - Enter the lab through the double doors on the south side of the lab (by the sink)
 - Wash hands when entering and before leaving the lab
-- **COVID-19 prevention training, contact tracing and self attestation:**
-  Sign the COVID-19 form to confirm that you read the COVID-19 prevention guidelines and that you don't have symptoms. Do not enter or work the lab if you experience any symptoms
+- **COVID-19 prevention training, contact tracing and self attestation:**  
+  Sign the COVID-19 form to confirm that you read the COVID-19 prevention guidelines and that you don't have symptoms. Do not enter or work the lab if you experience any symptoms  
   Sign that form every day when you physically work in the lab for contact tracing
 - Use appropriate PPE including gloves, eye protection and lab coats
 
@@ -62,22 +62,22 @@ All individuals are still required to monitor symptoms daily, stay home if they 
 ## All other safety guidelines still apply 
 
 - No food in the lab.
-- Always wear appropriate clothing and Personal Protective Equipment.
-  Gloves, goggles and disposable lab coats are available for you to use.
+- Always wear appropriate clothing and Personal Protective Equipment.  
+  Gloves, goggles and disposable lab coats are available for you to use.  
   If you can't find them or are unsure what PPE to use, come ask us to help you.
 - Do not use any of the equipment unless you were trained by UWPR personnel.
 - Review the SOP's before using any chemicals.
-- Make sure your EH&S training is up to date, including the "Compressed Gas Safety" training to use the pressure cells. You can check the status of your training records here:
+- Make sure your EH&S training is up to date, including the "Compressed Gas Safety" training to use the pressure cells. You can check the status of your training records here:  
   [EH&S My Training](https://training.ehs.washington.edu/mytraining/index.php)
 
 ## University of Washington Laboratory Safety Manual 
 
-[UW Laboratory Safety Manual](http://www.ehs.washington.edu/resource/laboratory-safety-manual-510)
+[UW Laboratory Safety Manual](http://www.ehs.washington.edu/resource/laboratory-safety-manual-510)  
 [Laboratory Specific Infromation (pdf)]({{ site.baseurl }}/docs/safety/Laboratory-Specific%20Information_UWPR.pdf)
 
 ## Personal Protective Equipment (PPE) 
 
-[UW EH&S PPE page](https://www.ehs.washington.edu/workplace/personal-protective-equipment-ppe)
+[UW EH&S PPE page](https://www.ehs.washington.edu/workplace/personal-protective-equipment-ppe)  
 [UWPR PPE assessment (docx)]({{ site.baseurl }}/docs/safety/UWPR_ppetool.docx)
 
 ## University of Washington MSDS/SDS Search 
@@ -86,7 +86,7 @@ All individuals are still required to monitor symptoms daily, stay home if they 
 
 ## UW Chemical Standard Operating Procedures (SOPs) 
 
-[UW EH&S SOP's](http://www.ehs.washington.edu/chemical/chemical-sop-templates-and-guidelines)
+[UW EH&S SOP's](http://www.ehs.washington.edu/chemical/chemical-sop-templates-and-guidelines)  
 Contact EH&S 206-616-3778
 
 **UWPR SOPs**
@@ -108,25 +108,25 @@ Contact EH&S 206-616-3778
 
 ## UWPR floor plan, Assembly area, building fire safety evacuation plan (FSEP) 
 
-[B59 Mass spec lab floor plan (pdf)]({{ site.baseurl }}/docs/safety/B59_online_safety_floor_plan.pdf)
-[Download B59 Mass spec lab floor plan (pptx)]({{ site.baseurl }}/docs/safety/B59_online_safety_floor_plan.pptx)
-[SLU_Arial_Campus_Evac_Staging_Locations for building D (pdf)]({{ site.baseurl }}/docs/safety/SLU_Arial_Campus_Evac_Staging_Locations_BldgsC-S.pdf)
-[2019 0709 FSEP Building D_0.pdf]({{ site.baseurl }}/docs/safety/2019%200709%20%20FSEP%20Building%20D_0.pdf)
+[B59 Mass spec lab floor plan (pdf)]({{ site.baseurl }}/docs/safety/B59_online_safety_floor_plan.pdf)  
+[Download B59 Mass spec lab floor plan (pptx)]({{ site.baseurl }}/docs/safety/B59_online_safety_floor_plan.pptx)  
+[SLU_Arial_Campus_Evac_Staging_Locations for building D (pdf)]({{ site.baseurl }}/docs/safety/SLU_Arial_Campus_Evac_Staging_Locations_BldgsC-S.pdf)  
+[2019 0709 FSEP Building D_0.pdf]({{ site.baseurl }}/docs/safety/2019%200709%20%20FSEP%20Building%20D_0.pdf)  
 [all SLU fire safety evacuation plan (FSEP), are located here (UWP Net ID required)](https://depts.washington.edu/uwsom/administration-and-finance/facilities/slu-information)
 
 ## University of Washington Accident Prevention Plan 
 
-[UW Accident Prevention Plan](https://www.ehs.washington.edu/workplace/accident-prevention-plan)
+[UW Accident Prevention Plan](https://www.ehs.washington.edu/workplace/accident-prevention-plan)  
 The University's Accident Prevention Plan covers the anticipated occupational hazards that generally apply to employees across the University. It outlines policies and procedures implemented to reduce or eliminate these hazards.
 
 ## Laboratory Risk Assessment Tool (Lab R.A.T.) 
 
-[Laboratory Risk Assessment Tool (Lab R.A.T.)](https://www.ehs.washington.edu/resource/laboratory-risk-assessment-tool-lab-rat-843)
+[Laboratory Risk Assessment Tool (Lab R.A.T.)](https://www.ehs.washington.edu/resource/laboratory-risk-assessment-tool-lab-rat-843)  
 Tool for researchers to systematically identify and control hazards to reduce risk of injuries and incidents.
 
 ## Online Accident Reporting System (OARS) 
 
-[OARS Reporting an Incident online](http://www.ehs.washington.edu/workplace/accident-and-injury-reporting)
+[OARS Reporting an Incident online](http://www.ehs.washington.edu/workplace/accident-and-injury-reporting)  
 Report any work-related injury or illness to your supervisor as soon as possible. Then report it to the Environmental Health and Safety Department (EH&S) via the UW Online Accident Reporting System (OARS). Submit the OARS report within 24 hours.
 
 ## EH&S Health and Safety Resources 
@@ -148,6 +148,8 @@ The improved [**Search**](http://discover.uw.edu/m0008M0010AyIxSHQm70AO0) page h
 Please visit the EH&S [**website**](http://discover.uw.edu/UANS01O0xQ0Aym00I80008H) and familiarize yourself with the new layout and helpful tools.
 
 Safety inspection and Self-Inspection Report PI log-in URL [**website**](https://labsurvey.ehs.washington.edu/pi/index.php) and familiarize yourself with the new layout and helpful tools.
+
+------------------------------------------------------------------------
 
 ## Quick Links
 

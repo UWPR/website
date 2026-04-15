@@ -14,7 +14,7 @@ The Thermo Scientific^™^ Orbitrap Elite^™^ mass spectrometer combines a dual
 
 Visit the [Planet Orbitrap website](http://planetorbitrap.com/orbitrap-elite) for more information and for some nice animations
 
-2011 Velos Orbitrap (SN03313B) Installed
+2011 Velos Orbitrap (SN03313B) Installed  
 2012 Elite upgrade
 
 ## Specifications 
@@ -73,8 +73,8 @@ the following documents are guidelines to setup the capillary trap/column on our
 
 ## Instrument Settings 
 
-The table below lists some of the instrument method settings we tested on our Elite.
-We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Dr Maisch C18AQ 100Å 5μm) and trap column (3cm x 100μm, Dr Maisch C18AQ 100Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a HeLa cell whole cell tryptic digest (ThermoPierce), 100 ng on column injection.
+The table below lists some of the instrument method settings we tested on our Elite.  
+We use a nanoAcquity UPLC with home made columns (30cm x 75μm, Dr Maisch C18AQ 100Å 5μm) and trap column (3cm x 100μm, Dr Maisch C18AQ 100Å 5μm), with 5-30% B (ACN, 0.1%FA) in 90min gradient. The sample is a HeLa cell whole cell tryptic digest (ThermoPierce), 100 ng on column injection.  
 The results below are based on the number of unique peptides with Comet search and peptide prophet p\>0.9.
 
 Best Result (100%)
@@ -99,8 +99,10 @@ OT MS2 ( %)
 
 ## Precursor m/z and charge state distribution 
 
-The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a peptide prophet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![]({{ site.baseurl }}/instruments/images/fusion_mz_charge.png)
+The chart below shows the charge state and precursor m/z distribution for all the peptides identified with a peptide prophet cutoff 0.9 The average of four LCMS runs with 90 min gradients, two replicates using a HeLa tryptic digest (Pierce, 100 ng on column) and two replicates of a tryptic digest from a Ramos cell whole cell lysate 100ng on column. The combined total number of peptide identifications p\>= 0.9 is 38574; the total number of unique peptide identifications p\>= 0.9 is 19218. ![]({{ site.baseurl }}/instruments/images/fusion_mz_charge.png)  
 m/z and charge state distribution
+
+------------------------------------------------------------------------
 
 ## Quick links
 

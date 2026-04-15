@@ -55,9 +55,9 @@ When the score distributions are this poor as in the third example above, I tend
 
 Both the pep.xml and prot.xml viewers allow you to filter the data. For example, in order to target a specific false discovery rate, you can look up the appropriate probability score cutoff to target that false discovery rate. In the pep.xml viewer, click on any probability score and then click on "Sens/Error Tables". Look at the "Error Table" and the "Error_Rate" column which represents the false discovery rate. If you want to filter the results at a 1% or a 5% false discovery rate, find the "min_prob" minimum probability that corresponds with the 0.01 or 0.05 "Error_Rate" value. Now you can filter your results with this minimum probability cutoff in order to target your specific false discovery rate. (Use the global error rate values and ignore those specific to each charge state.) Click on the images below to get a larger view of the filtering workflows.
 
-pep.xml FDR filtering:
-[![pepXML filtering]({{ site.baseurl }}/protocols06/primer/pepxml_filter.png){width="600"}](pepxml_filter.png)
-prot.xml FDR filtering:
+pep.xml FDR filtering:  
+[![pepXML filtering]({{ site.baseurl }}/protocols06/primer/pepxml_filter.png){width="600"}](pepxml_filter.png)  
+prot.xml FDR filtering:  
 [![protXML filtering]({{ site.baseurl }}/protocols06/primer/protxml_filter.png){width="600"}](protxml_filter.png)
 
 To visualize annotated spectral using the [Lorikeet](https://github.com/UWPR/Lorikeet) viewer, click on the links in the "IONS" column of the PepXML Viewer. Here are 3 examples of good MS/MS spectra with good peptide matches.
@@ -118,8 +118,8 @@ For TMT or iTRAQ labeled samples, the tool that extracts the reporter ions signa
 
 ![protXML Libra]({{ site.baseurl }}/protocols06/primer/libra2.png){width="850"}
 
-To exclude all 155 contaminants (e.g. trypsin, keratin, albumin, etc.) and decoys from the PepXMLViewer (pep.xml) viewer, paste this string into the "Required protein text (regex allowed):" text box of the "Filtering Options" tab. It's one long string, no spaces.
+To exclude all 155 contaminants (e.g. trypsin, keratin, albumin, etc.) and decoys from the PepXMLViewer (pep.xml) viewer, paste this string into the "Required protein text (regex allowed):" text box of the "Filtering Options" tab. It's one long string, no spaces.  
 Contaminant regular expression: Copy protein filter text
 
-Paste the copied text here:
+Paste the copied text here:  
 ![contaminant filter]({{ site.baseurl }}/protocols06/primer/filtercontam.png)

@@ -9,8 +9,8 @@ Use the [Filter Aided Sample Preparation (FASP) Method](https://pubmed.ncbi.nlm.
 
 The protocols below are similar to the one described by Ostasiewicz, Xielinska, Mann, and Wisniewskii.
 
-**Materials**
-All solvents should be HPLC grade, NEVER use pipette tips when transferring acids \>2% in concentration!
+**Materials**  
+All solvents should be HPLC grade, NEVER use pipette tips when transferring acids \>2% in concentration!  
 [Avoid Contaminations (pdf)]({{ site.baseurl }}/docs/protocols05/Avoid%20Contaminations.pdf)
 
 1.  EMD Millipore Amicon Ultra-0.5 Centrifugal Filter Units (FisherScientific UFC501024)
@@ -37,10 +37,10 @@ To avoid contamination from plasticizers, use all fresh solvents. Never use any 
 5.  Determine protein concentration. Note:DTT interferes with BCA protein assay, use reducing agent compatible BCA Protein Assay Kits (ThermoPierce 23250 and 23252) instead or use a lysis buffer w/o DTT
 6.  Combine 100 (- 250) μg sample lysis buffer with 200 μl 8M urea, 50 mM ammonium bicarbonate in the filter unit
 7.  Vortex and spin at 14000 rcf for 20 minutes
-8.  Add 200 μl 8M urea, 50 mM ammonium bicarbonate to filter, vortex and spin at 14000 rcf for 20 minutes
+8.  Add 200 μl 8M urea, 50 mM ammonium bicarbonate to filter, vortex and spin at 14000 rcf for 20 minutes  
     Discard flow through
-9.  Note if you used a lysis protocols without DDT, you can add 100 μl 5 mM TCEP in 8M urea, 50 mM ammonium bicarbonate
-    Vortex and incubate at room temperature for 20 minutes
+9.  Note if you used a lysis protocols without DDT, you can add 100 μl 5 mM TCEP in 8M urea, 50 mM ammonium bicarbonate  
+    Vortex and incubate at room temperature for 20 minutes  
     Then add 3 ul 500mM IAA (15 mM final)
 10. Otherwise add 100 μl 15 mM IAA in 8M urea, 50 mM ammonium bicarbonate to filter
 11. Vortex and incubate in dark at room temperature for 20 minutes

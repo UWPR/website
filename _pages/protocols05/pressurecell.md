@@ -23,7 +23,7 @@ The documents on this site are intended to help you setup your own packing stati
 
 ![]({{ site.baseurl }}/images/pressurecell02.png)
 
-The files below are CAD drawings for the pressure cell body and lid.
+The files below are CAD drawings for the pressure cell body and lid.  
 Download the free CAD drawing software from <http://www.emachineshop.com> to view the files:
 
 - [UWPR_PressureCellLid.ems]({{ site.baseurl }}/docs/pressurecell/UWPR_PressureCellLid.ems)
@@ -33,11 +33,11 @@ Download the free CAD drawing software from <http://www.emachineshop.com> to vie
 
 [ESI Source Solutions](http://www.esisourcesolutions.com/) sells a lot of useful LC-MS consumables, including the [Dr.Maisch bulk packing materials](https://esisourcesolutions.com/shop/dr-maisch-gmbh).
 
-Next Advance offers several [Capillary column packing kits](https://www.nextadvance.com/pressure-injection-cells-lc-ms-capillary-column-packing-loader/?target=Overview).
+Next Advance offers several [Capillary column packing kits](https://www.nextadvance.com/pressure-injection-cells-lc-ms-capillary-column-packing-loader/?target=Overview).  
 they also offer a kit to make your own frits the [Frit Kit](https://www.nextadvance.com/product/kasil-formamide-frit-kit/) (also available from FisherSci) and a full line of [accessories](https://www.nextadvance.com/pressure-injection-cells-lc-ms-capillary-column-packing-loader/?target=Accessories) to setup and maintain the pressure cell.
 
-Scientific Instrument Services or SIS is a distributer of the [Next Advance Pressure Cell](https://www.sisweb.com/lab/next-advance-press-inj-cell.htm)
+Scientific Instrument Services or SIS is a distributer of the [Next Advance Pressure Cell](https://www.sisweb.com/lab/next-advance-press-inj-cell.htm)  
 as well as the [Frit Kit](https://www.sisweb.com/lab/na-injcell-accessories3.htm)
 
-As an alternative to packing your own columns there are various commercially available options out there. Note some columns will require a separate spray tip.
+As an alternative to packing your own columns there are various commercially available options out there. Note some columns will require a separate spray tip.  
 [ESI Source Solutions](http://www.esisourcesolutions.com/) sells columns from [ionopticks](https://ionopticks.com/), [Bruker](https://store.bruker.com/products/pepsep-series), [PremierLCMS](https://premierlcms.com/) etc

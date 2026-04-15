@@ -10,8 +10,8 @@ toc_sticky: true
 
 ## Plasma vs Serum 
 
-Blood from a single donation or sample can be separated into different components: proteins, red blood cells, white blood cells, clotting factors, etc., and used for their individual purposes. Similarly, plasma and serum are obtained from the blood by centrifugation.
-Plasma is produced when whole blood is collected in tubes that are treated with an anticoagulant. The blood does not clot in the plasma tube. The cells are removed by centrifugation and the supernatant is designated plasma.
+Blood from a single donation or sample can be separated into different components: proteins, red blood cells, white blood cells, clotting factors, etc., and used for their individual purposes. Similarly, plasma and serum are obtained from the blood by centrifugation.  
+Plasma is produced when whole blood is collected in tubes that are treated with an anticoagulant. The blood does not clot in the plasma tube. The cells are removed by centrifugation and the supernatant is designated plasma.  
 Serum is the liquid fraction of whole blood that is collected after the blood is allowed to clot. The clot is removed by centrifugation and the resulting supernatant is designated serum.
 
 ## Immunodepletion
@@ -97,7 +97,7 @@ Method
 
 ## Trypsin Digestion and TMT Labeling (from Ref 4) 
 
-Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.
+Isobaric labeling with stable isotopes is one of the preferred quantification strategies. Now with the addition of the TMT 10-plex, up to ten samples can be analyzed in a single run, saving you instrument time/money.  
 Reagents and protocol are provided in the TMTsixplex Isobaric Mass Tagging Kit. Carry out all steps from this point forward using low retention Eppendorf tubes.
 
 Materials
@@ -127,7 +127,7 @@ Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptid
 
 ## Plasma Peptidome 
 
-- [Purification of Serum Peptides](http://www.emdmillipore.com/US/en/life-science-research/protein-sample-preparation/protein-concentration/amicon-ultra-centrifugal-filters/Protein-Sample-Ultrafiltration/Ultrafiltration-Protocols/pxKb.qB.JP8AAAFY_eRPw9_u,nav)
+- [Purification of Serum Peptides](http://www.emdmillipore.com/US/en/life-science-research/protein-sample-preparation/protein-concentration/amicon-ultra-centrifugal-filters/Protein-Sample-Ultrafiltration/Ultrafiltration-Protocols/pxKb.qB.JP8AAAFY_eRPw9_u,nav)  
   scroll to the bottom of the page to find the protocol
 - Characterization of the Low-Molecular-Weight Human Plasma Peptidome David W. Greening, Richard J. Simpson [link](https://link.springer.com/protocol/10.1007%2F978-1-4939-7057-5_6)
 - [Amicon Ultra Centrifugal Filters](http://www.emdmillipore.com/US/en/product/Amicon-Ultra-Centrifugal-Filters,MM_NF-C134281)
@@ -143,6 +143,8 @@ Either proceed to a C18 cleanup step to remove excess TMT and SDS or some peptid
 3.  Proteomics of human plasma: A critical comparison of analytical workflows in terms of effort, throughput and outcome. Loic Dayon, Martin Kussmann *EuPA Open Proteomics* Volume 1, 2013, Pages 8-16 12, 2464-2476 (2012). [link](http://www.sciencedirect.com/science/article/pii/S2212968513000044)
 4.  Shotgun Proteomics; Methods and Protocols Editors: Daniel Martins-de-Souza [link](http://link.springer.com/book/10.1007/978-1-4939-0685-7)
 5.  Characterization of the Low-Molecular-Weight Human Plasma Peptidome David W. Greening, Richard J. Simpson [link](https://link.springer.com/protocol/10.1007%2F978-1-4939-7057-5_6)
+
+------------------------------------------------------------------------
 
 ## Quick Links
 

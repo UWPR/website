@@ -7,7 +7,7 @@ The LTQ offers legendary MSn performance, incorporating more techniques to gener
 
 ![]({{ site.baseurl }}/instruments/images/ltq.jpg)
 
-9/13/2006 Installed
+9/13/2006 Installed  
 6/1/2012 Retired
 
 - **Mass range**

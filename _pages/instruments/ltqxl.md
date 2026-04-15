@@ -7,7 +7,7 @@ The LTQ offers legendary MSn performance, incorporating more techniques to gener
 
 ![]({{ site.baseurl }}/instruments/images/ltq.jpg)
 
-10/8/2018 Installed (LTQ20607)
+10/8/2018 Installed (LTQ20607)  
 10/8/2018 Retired
 
 - **Mass range**

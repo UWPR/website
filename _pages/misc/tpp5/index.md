@@ -1,9 +1,6 @@
 ---
 title: "Index"
 permalink: /misc/tpp5/
-toc: true
-toc_label: "On this page"
-toc_sticky: true
 ---
 
 [![]({{ site.baseurl }}/images/sequest.jpg){width="600" height="180"}](#)
@@ -12,7 +9,7 @@ toc_sticky: true
 
 Version of 5.0.0 of the TPP has recenty been released and was updated on our servers today (2017/02/21). Unfortunately an updated version of Perl is required for TPP 5.0. GSIT makes that update available through "loadable kernel modules". This requires a small update to your linux account setup as follows. Add the following 2 lines to the .bashrc and .bash_profile files in your home directory:
 
-**`. /etc/profile.d/modules.sh`
+**`. /etc/profile.d/modules.sh`  
 `module load modules modules-init modules-gs perl/5.24.0`**
 
 Add the lines to the very end of those files if you don't know where else to put them. First line does start with a period and a space. Once you do this, simply log out and log back in and you should be all set. Type "perl -version" and it should show version Perl 5 version 24 if it worked. If you have any problems, contact me (Jimmy) and I'll hopefully be able to assist.

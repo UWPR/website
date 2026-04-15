@@ -40,25 +40,25 @@ To Register please fill out the form below and e-mail it to priska@uw.edu.
 
 Workshop outline:
 
-- **Day 1**
-  10 am to noon: Proteomics Introduction (room C123B)
+- **Day 1**  
+  10 am to noon: Proteomics Introduction (room C123B)  
   1 pm to 3 pm: Lab work in groups of 3-4 (B59)
-- **Day 2**
-  10 am to noon: Data Analysis Introduction (room C123B)
+- **Day 2**  
+  10 am to noon: Data Analysis Introduction (room C123B)  
   1 pm to 3 pm: Lab work in groups of 3-4 (B59)
-- **Day 3**
-  10 am to noon: Data analysis; please bring your personal notebook/laptop (room C123B)
-  **Lunch sponsored by ThermoFisherScientific**
+- **Day 3**  
+  10 am to noon: Data analysis; please bring your personal notebook/laptop (room C123B)  
+  **Lunch sponsored by ThermoFisherScientific**  
   1 pm to 3 pm: Instructors will be available to answer any questions (room C123B and B59)
 
 Thank you for your time and interest!
 
-Download and share our Flyer!
+Download and share our Flyer!  
 [Workshop_Flyer (pdf)]({{ site.baseurl }}/docs/UWPRWorkshop_Flyer.pdf)
 
-Workshop slides:
-[Proteomics Introduction slides (pdf)]({{ site.baseurl }}/docs/20120709_UWPRworkshop_Intro.pdf)
+Workshop slides:  
+[Proteomics Introduction slides (pdf)]({{ site.baseurl }}/docs/20120709_UWPRworkshop_Intro.pdf)  
 [Data analysis slides (pdf)]({{ site.baseurl }}/docs/20120710-UWPR-Workshop-data-anal.pdf)
 
-Workshop Survey:
+Workshop Survey:  
 [Click here to take survey](http://www.surveymonkey.com/s/8NXX3RX)

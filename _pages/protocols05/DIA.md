@@ -7,7 +7,7 @@ permalink: /protocols05/DIA/
 
 Data Independent Acquisition (DIA) strategies acquire MS/MS scans systematically and independent of precursor information. Unlike targeted parallel reaction monitoring (PRM) and selected reaction monitoring (SRM) strategies, no prior knowledge of target peptides/proteins is required for DIA and thus requires less investment in assay development compared to targeted proteomics applications.
 
-There are various strategies how to acquire and analyze DIA data. In principal data is acquired by isolating and fragmenting a certain m/z mass windows and acquiring all the fragment ions in one scan. Typically the isolation windows are selected to cover the tryptic peptide m/z range in certain time frame. There are many factors to be considered, like instrument type, scan speed, chromatography and data analysis tools. Depending on the isolated m/z range the fragmentation spectra are chimera of multiple precursor ions and the increased MS/MS spectra complexity has been a major challenge for DIA data analysis tools.
+There are various strategies how to acquire and analyze DIA data. In principal data is acquired by isolating and fragmenting a certain m/z mass windows and acquiring all the fragment ions in one scan. Typically the isolation windows are selected to cover the tryptic peptide m/z range in certain time frame. There are many factors to be considered, like instrument type, scan speed, chromatography and data analysis tools. Depending on the isolated m/z range the fragmentation spectra are chimera of multiple precursor ions and the increased MS/MS spectra complexity has been a major challenge for DIA data analysis tools.  
 Targeted approaches like PRM and SRM analysis are limited to only a handful of peptides without acquisition scheduling or tens to hundreds of peptides per LCMS run with scheduling. DIA on the other hand allows the measurement of much larger numbers of peptides (thousands or even whole proteomes).
 
 For more information, check out the documentation and tutorials on the Skyline site: [Slides Explaining Data Independent Acquisition](https://skyline.gs.washington.edu/labkey/wiki/home/software/Skyline/page.view?name=Slides%20Explaining%20Data%20Independent%20Acquisition)
@@ -18,8 +18,8 @@ Figure 1: DIA acquisition strategy. Precursor ions are isolated in small isolati
 
 ## DIA assay development
 
-There are several excellent webinars and tutorials provided by the Skyline Team.
-[Webinars](https://skyline.ms/wiki/home/software/Skyline/page.view?name=webinars) #2, #14 and #15 cover PRM method development and analysis
+There are several excellent webinars and tutorials provided by the Skyline Team.  
+[Webinars](https://skyline.ms/wiki/home/software/Skyline/page.view?name=webinars) #2, #14 and #15 cover PRM method development and analysis  
 Here's a link to all the Skyline [Tutorials](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorials), including the Data Independent Acquisition tutorial.
 
 **DIA isolation schema: Things to consider**
@@ -30,8 +30,8 @@ For Thermo Instruments you need to specify the center mass of the isolation wind
 - Precursor m/z range: e.g. if you are working with tryptic peptides it is reasonable to cover a m/z range of 400-900
 - Isolation width: narrower isolation widths reduce the MS/MS spectra complexity and increase the sensitivity, but increase cycle time
 - Chromatography, i.e. peak width
-- Cycle time: The total cycle time is defined by the time it takes to cycle through your entire inclusion list, i.e. cover the isolation m/z range. Ultimately, this cycle time determines how many scans across the chromatographic peak are obtained.
-  e.g. for about 30 sec wide chromatographic peaks, if you want 10 scans across the peak, the total cycle time should not exceed 3 sec
+- Cycle time: The total cycle time is defined by the time it takes to cycle through your entire inclusion list, i.e. cover the isolation m/z range. Ultimately, this cycle time determines how many scans across the chromatographic peak are obtained.  
+  e.g. for about 30 sec wide chromatographic peaks, if you want 10 scans across the peak, the total cycle time should not exceed 3 sec  
   Thought: you can always run the same sample twice, e.g. cover 400-700 m/z in the first run and 700-1000 m/z in the second run
 - Full MS scans are optional but can be very useful for quantification and identification
 
@@ -39,105 +39,32 @@ Figure 2 shows how to estimate total cycle time based on the Orbitrap resolving 
 
 ![]({{ site.baseurl }}/images/DIA_02a.png)
 
-Fusion Lumos
-
-Transient
-
-QE plus
-
-Res. at m/z 200
-
-"Free" fill time \[ms\]
-
-Approx. scan speed \[Hz\]
-
-length \[ms\]
-
-Res. at m/z 200
-
-"Free" fill time \[ms\]
-
-Approx. scan speed \[Hz\]
-
-15,000
-
-22
-
-18/20
-
-32
-
-30,000
-
-54
-
-15
-
-64
-
-17,500
-
-50
-
-13
-
-60,000
-
-118
-
-7.5
-
-128
-
-35,000
-
-110
-
-7
-
-120,000
-
-246
-
-4
-
-256
-
-70,000
-
-240
-
-3
-
-240,000
-
-502
-
-2
-
-512
-
-140,000
-
-500
-
-1.5
-
-1064
-
-280,000
-
-1000
-
-\<1
-
-450,000
-
-1014
-
-\<1
-
-1024
+<table class="dia-table">
+  <thead>
+    <tr>
+      <th colspan="3" style="text-align:center">Fusion Lumos</th>
+      <th rowspan="2" style="text-align:center">Transient<br>length [ms]</th>
+      <th colspan="3" style="text-align:center">QE plus</th>
+    </tr>
+    <tr>
+      <th style="text-align:center">Res. at m/z 200</th>
+      <th style="text-align:center">"Free" fill time [ms]</th>
+      <th style="text-align:center">Approx. scan speed [Hz]</th>
+      <th style="text-align:center">Res. at m/z 200</th>
+      <th style="text-align:center">"Free" fill time [ms]</th>
+      <th style="text-align:center">Approx. scan speed [Hz]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>15,000</td><td>22</td><td>18/20</td><td>32</td><td></td><td></td><td></td></tr>
+    <tr><td>30,000</td><td>54</td><td>15</td><td>64</td><td>17,500</td><td>50</td><td>13</td></tr>
+    <tr><td>60,000</td><td>118</td><td>7.5</td><td>128</td><td>35,000</td><td>110</td><td>7</td></tr>
+    <tr><td>120,000</td><td>246</td><td>4</td><td>256</td><td>70,000</td><td>240</td><td>3</td></tr>
+    <tr><td>240,000</td><td>502</td><td>2</td><td>512</td><td>140,000</td><td>500</td><td>1.5</td></tr>
+    <tr><td></td><td></td><td></td><td>1064</td><td>280,000</td><td>1000</td><td>&lt;1</td></tr>
+    <tr><td>450,000</td><td>1014</td><td>&lt;1</td><td>1024</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
 
 1.  Sampling rate across the chromatographic peak: ideally for quantifications 10-15 point across the chromatographic peak should be acquired. If the average peak width is 30 seconds a duty cycle of 2-3 sec should be targeted.
 2.  Ion fill time should be kept below the scan time to maximize cycle time (see table above). On the Fusion/Lumos the ion time can be customized for every precursor (i.e. for very low abundant precursors the max ion times can be set higher to ensure the specified AGC target is reached for those very low abundant ions while keeping the max IT for all the other ions at the "free" fill time).
@@ -154,26 +81,26 @@ Skyline is a freely-available Windows client application for building Selected R
 
 ## Glossary
 
-- **SRM**
-  Selected Reaction Monitoring
+- **SRM**  
+  Selected Reaction Monitoring  
   Method used in tandem mass spectrometry in which an ion of a particular mass is selected in the first stage of a tandem mass spectrometer and an ion product of a fragmentation reaction of the precursor ion is selected in the second mass spectrometer stage for detection
-- **MRM**
-  Multiple Reaction Monitoring
+- **MRM**  
+  Multiple Reaction Monitoring  
   The application of SRM to multiple product ions from one or more precursor ions
-- **PRM**
-  Parallel Reaction Monitoring
+- **PRM**  
+  Parallel Reaction Monitoring  
   targeted MS/MS analyses, in which full fragment ion spectrum of each precursors in a target list is recorded continuously throughout the entire LC separation
-- **Transition**
+- **Transition**  
   Precursor/product ion pair
-- **Specificity**
+- **Specificity**  
   Ability to discriminate and quantify a particular protein sequence in a mixture without interferences from other components (Ref. \[20\])
-- **Accuracy**
+- **Accuracy**  
   Refers to how close the average results are to the true quantity value. It is affected by systematic biases that consistently affect the measurement in the same direction (Ref. \[20\]).
-- **Precision**
+- **Precision**  
   Degree to which repeated measurements of the target protein(s) under unchanged conditions (instrument settings, operator, apparatus and laboratory) show the same results, within a short interval of time. Precision is affected by random errors, and unpredictable fluctuations around the true value. Precision can be expressed as coefficient of variation (CV) which corresponds to the standard deviation of repeated measurements divided by the mean, with results typically expressed as per cent (%CV). The CV represents therefore a standardization of the standard deviation that allows to compare the variability of the measurement regardless of the magnitude of analyte concentration, in the working range of the assay (Ref. \[20\]).
-- **Limit of quantification (LOQ)**
+- **Limit of quantification (LOQ)**  
   Minimal concentration or amount of a protein that can be confidently quantified
-- **Limit of Detection (LOD)**
+- **Limit of Detection (LOD)**  
   Smallest concentration or amount of a protein that can be confidently detected
 
 **References**

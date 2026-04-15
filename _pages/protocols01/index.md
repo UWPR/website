@@ -27,7 +27,7 @@ A typical bottom-up or shotgun proteomics workflow (Figure below) consists of se
 - in the next step the proteins are proteolytically cleaved by enzymes (trypsin, LysC, ArgC etc.)
 - the peptides can then be further fractionated or enriched by affinity chromatography, and finally cleaned up to remove any contaminants that would interfere with the downstream analyses
 - the resulting peptides are then separated and analyzed by liquid chromatography coupled with mass spectrometry (LC-MS)
-- the final step is to analyze the acquired data by database search to identify peptide matches to spectra and further data processing validation, modeling and protein interference
+- the final step is to analyze the acquired data by database search to identify peptide matches to spectra and further data processing validation, modeling and protein interference  
   at UWPR we generally use Comet and the TPP (trans proteomic pipeline) software tools
 
 ![]({{ site.baseurl }}/images/MSworkflow_02.png)
@@ -36,7 +36,7 @@ A typical bottom-up or shotgun proteomics workflow (Figure below) consists of se
 
 **Discovery proteomics based quantification - identify and quantify**
 
-Discovery proteomics experiments are intended to identify as many proteins as possible across a broad dynamic range, while at the same time measuring the relative protein abundance changes of these proteins across multiple set of samples. Discovery based quantification requires very low LC-MS method development and delivers very good reproducibility.
+Discovery proteomics experiments are intended to identify as many proteins as possible across a broad dynamic range, while at the same time measuring the relative protein abundance changes of these proteins across multiple set of samples. Discovery based quantification requires very low LC-MS method development and delivers very good reproducibility.  
 Several discovery based techniques have been developed, including
 
 - Label-free quantitation (LFQ) by either data-dependent acquisition [(DDA)](#DDA) or data-independent acquisition [(DIA)](#DIA)
@@ -64,7 +64,7 @@ Several discovery based techniques have been developed, including
 
 **Targeted proteomics based quantification**
 
-Targeted proteomics strategies limit the number of proteins that will be monitored and optimizes the instrument method for throughput of hundreds or thousands of samples. This translates to high quantitative precision and accuracy with very little errors in the estimation of the protein abundances
+Targeted proteomics strategies limit the number of proteins that will be monitored and optimizes the instrument method for throughput of hundreds or thousands of samples. This translates to high quantitative precision and accuracy with very little errors in the estimation of the protein abundances  
 Several targeted quantitative techniques have been developed, including:
 
 - selected reaction monitoring (SRM) performed on triple-quadrupole instruments
@@ -107,22 +107,22 @@ Experimental considerations:
 
 Software tools for Label-free Quantification from DDA data
 
-- Skyline for DDA quantification. \[Ref 1\]
-  [Skyline DDA Search for MS1 Filtering](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_dda_search)
-  [Skyline MS1 Full-Scan Filtering](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_ms1_filtering)
+- Skyline for DDA quantification. \[Ref 1\]  
+  [Skyline DDA Search for MS1 Filtering](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_dda_search)  
+  [Skyline MS1 Full-Scan Filtering](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_ms1_filtering)  
   J. Meyer put together a nice protocol: Fast Proteome Identification and Quantification from Data-Dependent Acquisition--Tandem Mass Spectrometry (DDA MS/MS) Using Free Software Tools, see [Ref 1](https://pubmed.ncbi.nlm.nih.gov/31008411/)
 
-- MaxQuant
+- MaxQuant  
   [MaxQuant quantitative proteomics software package](https://www.maxquant.org/)
-- Perseus
+- Perseus  
   [for interpreting protein quantification, interaction and post-translational modification data](https://www.maxquant.org/perseus/)
 
-- SpectroMine: DIA, DDA and PRM Searchable and Differential Abundance Analysis (limited free trial)
+- SpectroMine: DIA, DDA and PRM Searchable and Differential Abundance Analysis (limited free trial)  
   [SpectroMine from BIOGNOSYS](https://biognosys.com/software/spectromine/)
 
 ## Label-free Quantification DIA 
 
-Data-independent acquisition (DIA) offers several advantages over data-dependent acquisition (DDA) schemes for characterizing complex protein digests analyzed by LC-MS/MS. DIA systematically parallelizes the fragmentation of all detectable ions within a wide m/z range regardless of intensity, thereby providing broader dynamic range of detected signals, improved reproducibility for identification, better sensitivity, and accuracy for quantification. However, the composite or multiplexed fragment ion spectra generated by DIA require more elaborate processing algorithms compared to DDA.
+Data-independent acquisition (DIA) offers several advantages over data-dependent acquisition (DDA) schemes for characterizing complex protein digests analyzed by LC-MS/MS. DIA systematically parallelizes the fragmentation of all detectable ions within a wide m/z range regardless of intensity, thereby providing broader dynamic range of detected signals, improved reproducibility for identification, better sensitivity, and accuracy for quantification. However, the composite or multiplexed fragment ion spectra generated by DIA require more elaborate processing algorithms compared to DDA.  
 Lisacek et al put together a nice review of Processing strategies and software solutions for data-independent acquisition in mass spectrometry, see [Ref 2](https://pubmed.ncbi.nlm.nih.gov/31008411/)
 
 UWPR DIA overview [page]({{ site.baseurl }}/protocols05/DIA/)
@@ -140,24 +140,24 @@ Experimental considerations:
 
 Software tools for Label-free Quantification from DIA data
 
-- Skyline for DIA quantification. \[Ref 1\]
-  [Analysis of DIA/SWATH Data](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_dia_swath)
+- Skyline for DIA quantification. \[Ref 1\]  
+  [Analysis of DIA/SWATH Data](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_dia_swath)  
   [Analysis of diaPASEF Data, data independent acquisition (DIA) parallel accumulation serial fragmentation (PASEF) data, from a Bruker timsTOF instrument](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorial_dia_pasef)
 
-- OpenSWATH
+- OpenSWATH  
   [The OpenSWATH Workflow enables targeted data analysis of data-independent acquisition (DIA) or SWATH-MS proteomic data](https://openswath.org/en/latest/)
 
-- MaxQuant
+- MaxQuant  
   [MaxQuant quantitative proteomics software package](https://www.maxquant.org/)
-- Perseus
+- Perseus  
   [for interpreting protein quantification, interaction and post-translational modification data](https://www.maxquant.org/perseus/)
 
-- Spectronaut: DIA proteomics analysis (limited free trial)
+- Spectronaut: DIA proteomics analysis (limited free trial)  
   [Spectronaut from BIOGNOSYS](https://biognosys.com/software/spectronaut/)
 
 ## Stable isotope labeling SILAC 
 
-Stable isotope labeling using amino acids in cell culture (SILAC) is a powerful method to identify and quantify relative differential changes in complex protein samples. The SILAC method uses in vivo metabolic incorporation of "heavy" 13C- or 15N-labeled amino acids into proteins followed by mass spectrometry (MS) analysis for accelerated comprehensive identification, characterization and quantitation of proteins. NeuCode amino acids enable up to four samples to be multiplexed simultaneously.
+Stable isotope labeling using amino acids in cell culture (SILAC) is a powerful method to identify and quantify relative differential changes in complex protein samples. The SILAC method uses in vivo metabolic incorporation of "heavy" 13C- or 15N-labeled amino acids into proteins followed by mass spectrometry (MS) analysis for accelerated comprehensive identification, characterization and quantitation of proteins. NeuCode amino acids enable up to four samples to be multiplexed simultaneously.  
 UWPR stable isotope labeling overview [SILAC page]({{ site.baseurl }}/protocols03/isotopic_labeling/#silac)
 
 Experimental information:
@@ -169,24 +169,24 @@ There are multiple different kits from different vendors available:
 
 - [SILAC systems](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/protein-quantitation-mass-spectrometry/silac-metabolic-labeling-systems.html) from Thermo
 - [search SILAC to find related products](https://www.sigmaaldrich.com/US/en) from Sigma
-- [SILAC Kits and Reagents](http://shop.isotope.com/category.aspx?id=10032092) from Cambridge Isotope Laboratories
+- [SILAC Kits and Reagents](http://shop.isotope.com/category.aspx?id=10032092) from Cambridge Isotope Laboratories  
   there are likely other I missed, so do your homework..
 
 Software tools for SILAC quantification
 
 - The [Trans-Proteomic Pipeline (TPP)](http://www.tppms.org/) is a complete and mature suite of free and open-source software tools for MS data representation, MS data visualization, peptide identification and validation, protein identification, quantification, and annotation, data storage and mining, and biological inference. The [Automated Statistical Analysis on Protein Ratio (ASAPRatio)](http://tools.proteomecenter.org/wiki/index.php?title=Software:ASAPRatio) and [XPRESS](http://tools.proteomecenter.org/wiki/index.php?title=Software:XPRESS) software tools are part of the TPP calculates the relative abundance of proteins, such as those obtained from stable isotope labeled precursors, by reconstructing the light and heavy elution profiles of the precursor ions and determining the elution areas of each peak
 
-- [Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) is also being used to integrate SILAC data.
-  Check [Skyline Webinar 12: Isotope Labeled Standards in Skyline](https://skyline.ms/project/home/software/Skyline/events/2015%20Webinars/Webinar%2012/begin.view?) for more information
+- [Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) is also being used to integrate SILAC data.  
+  Check [Skyline Webinar 12: Isotope Labeled Standards in Skyline](https://skyline.ms/project/home/software/Skyline/events/2015%20Webinars/Webinar%2012/begin.view?) for more information  
   You may need to define a new Isotope Label Type: Click the "Isotope label type" dropdown list in the Peptide Settings - Modifications tab, and click the \<Edit list\...\> element. Then specify your isotope label types in a line separated list in the form that appears. Once you have your two label types, you need to make sure that Arg10, Lys8 are checked when you have "heavy" selected in the list, and Arg6, Lys4 are checked when you have "medium" selected. All of these modifications will need to be added to the "Isotope modifications" list. The "Internal standard type" list will change to a check list (from a dropdown list), which allows you to specify multiple internal standard types. You would just make sure nothing is checked in this list for a SILAC experiment, which is the equivalent to "None" in the dropdown list. For targeted proteomics experiments for sample preparations involving both AQUA labeled peptides and 15N labeled proteins, both get checked as internal standard types.
 
-- MaxQuant
-  MaxQuant is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data. Several labeling techniques as well as label-free quantification are supported. MaxQuant is freely available and can be downloaded from this site.
+- MaxQuant  
+  MaxQuant is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data. Several labeling techniques as well as label-free quantification are supported. MaxQuant is freely available and can be downloaded from this site.  
   [MaxQuant quantitative proteomics software package](https://www.maxquant.org/)
-- Perseus
+- Perseus  
   [for interpreting protein quantification, interaction and post-translational modification data](https://www.maxquant.org/perseus/)
 
-- PEAKS Q (limited free trial)
+- PEAKS Q (limited free trial)  
   [PEAKS Q SILAC Quantification Algorithms](https://www.bioinfor.com/silac-quantification/)
 
 ## Stable isotope labeling TMT 
@@ -235,21 +235,21 @@ UWPR stable isotope labeling overview [AQUA page]({{ site.baseurl }}/protocols03
 
 ## Targeted Quantification SureQuant IS 
 
-SureQuant IS targeted protein quantitation workflow builds upon the PRM, SRM and AQUA approach by using spiked-in internal standards to dynamically control MS acquisition parameters and optimize instrument duty cycle, thereby maximizing the number of productive MS scans and improving sensitivity of target detection. This enhanced efficiency enables targeted quantitation of far more targets than PRM while still maintaining high quantitative performance.
+SureQuant IS targeted protein quantitation workflow builds upon the PRM, SRM and AQUA approach by using spiked-in internal standards to dynamically control MS acquisition parameters and optimize instrument duty cycle, thereby maximizing the number of productive MS scans and improving sensitivity of target detection. This enhanced efficiency enables targeted quantitation of far more targets than PRM while still maintaining high quantitative performance.  
 The overall SureQuant IS targeted protein quantitation workflow is comprised of two steps. First, a survey is run to verify the detectability of the reference internal standards (i.e. isotopically labeled AQUA peptides). The internal standards are standards of the peptides that the user of the SureQuant method wants to target and quantify. This analysis verifies the optimal precursor ion of each internal standard peptide and the optimal associated fragment ions that can be detected. The signal intensity of the internal standard and corresponding triggering intensity threshold is also determined from the survey run. This is followed by the SureQuant analysis, targeting the peptides of interest. Here, using the SureQuant method, the mass spectrometer is programmed to monitor the reference internal standard in the sample using low fill times and resolution. As soon as the internal standard is detected, the instrument switches to using longer fill times and higher resolution to acquire PRM data for the internal standard and the endogenous peptide. The real-time management of acquisition time maximizes the time devoted to analyte quantitation allowing a greater number of targets to be reliably detected and quantified for targeted proteomics experiments. Furthermore, the constant on-the-fly monitoring of the internal standard removes the need for retention time scheduling, allowing for a far more robust and reproducible analytical method The built-in positive internal standard control provides a definitive limit of detection (LOD) measure for the presence or absence of proteins in the sample addressing the common need to assess protein copy number expression in many molecular biology experiments. Validated instrument method templates for both Survey Run and SureQuant IS targeted protein quantitation workflow analysis are provided, preset for various Thermo SureQuant targeted assay kits, like the AKT/mTOR pathway kit. Generic SureQuant method templates are also available to simplify the development of custom protein panel assays.
 
 ## Tools for downstream analysis of proteomics data 
 
-[The Gene Ontology resource](http://geneontology.org/) is a comprehensive, computational model of biological systems, ranging from the molecular to the organism level, across the multiplicity of species in the tree of life.
+[The Gene Ontology resource](http://geneontology.org/) is a comprehensive, computational model of biological systems, ranging from the molecular to the organism level, across the multiplicity of species in the tree of life.  
 The Gene Ontology (GO) knowledgebase is the world's largest source of information on the functions of genes. This knowledge is both human-readable and machine-readable, and is a foundation for computational analysis of large-scale molecular biology and genetics experiments in biomedical research.
 
 [The PANTHER (Protein ANalysis THrough Evolutionary Relationships) Classification System](https://pantherdb.org/) was designed to classify proteins (and their genes) in order to facilitate high-throughput analysis.
 
-[Gene Ontology enRIchment anaLysis and visuaLizAtion tool GOrilla](http://cbl-gorilla.cs.technion.ac.il/)
+[Gene Ontology enRIchment anaLysis and visuaLizAtion tool GOrilla](http://cbl-gorilla.cs.technion.ac.il/)  
 GOrilla is a web-based application that identifies enriched GO terms in ranked lists of genes, without requiring the user to provide explicit target and background sets. The output of the enrichment analysis is visualized as a hierarchical structure, providing a clear view of the relations between enriched GO terms.
 
-[MSstatsTMT at Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/MSstatsTMT.html) provides statistical tools for detecting differentially abundant proteins in shotgun mass spectrometry-based proteomic experiments with tandem mass tag (TMT) labeling. It provides multiple functionalities, including data visualization, protein quantification and normalization, and statistical modeling and inference. Furthermore, it is inter-operable with other data processing tools, such as Proteome Discoverer, MaxQuant, OpenMS and SpectroMine.
-[MSstatsTMT : A package for protein significance analysis in shotgun mass spectrometry-based proteomic experiments with tandem mass tag (TMT) labeling](https://msstats.org/wp-content/uploads/2018/12/MSstatsTMT.html)
+[MSstatsTMT at Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/MSstatsTMT.html) provides statistical tools for detecting differentially abundant proteins in shotgun mass spectrometry-based proteomic experiments with tandem mass tag (TMT) labeling. It provides multiple functionalities, including data visualization, protein quantification and normalization, and statistical modeling and inference. Furthermore, it is inter-operable with other data processing tools, such as Proteome Discoverer, MaxQuant, OpenMS and SpectroMine.  
+[MSstatsTMT : A package for protein significance analysis in shotgun mass spectrometry-based proteomic experiments with tandem mass tag (TMT) labeling](https://msstats.org/wp-content/uploads/2018/12/MSstatsTMT.html)  
 Ref 5
 
 [WEB-based GEne SeT AnaLysis Toolkit](http://www.webgestalt.org/) is one of the first web tools for functional enrichment analysis.
@@ -270,21 +270,7 @@ Ref 5
 4.  A practical recipe for stable isotope labeling by amino acids in cell culture (SILAC) Shao-En Ong , Matthias Mann *Nat Protoc.* 2006;1(6):2650-60. doi: 10.1038/nprot.2006.427. [PubMed link](https://pubmed.ncbi.nlm.nih.gov/17406521/)
 5.  MSstatsTMT: Statistical Detection of Differentially Abundant Proteins in Experiments with Isobaric Labeling and Multiple Mixtures Huang T, Choi M, Tzouros M, Golling S, Pandya NJ, Banfai B, Dunkley T, Vitek O. *Mol Cell Proteomics* 2020 Oct;19(10):1706-1723. doi: 10.1074/mcp.RA120.002105. Epub 2020 Jul 17. [PubMed link](https://pubmed.ncbi.nlm.nih.gov/32680918/)
 
-## On this page
-
-- [Identification](#identification)
-- [Protein Quantification](#quantification)
-- [Label-free Quantification DDA](#DDA)
-- [Label-free Quantification DIA](#DIA)
-- [Stable isotope labeling SILAC](#SILAC)
-- [Stable isotope labeling TMT](#TMT)
-- [Stable isotope labeling iTRAQ](#itraq)
-- [Targeted Quantification SRM](#SRM)
-- [Targeted Quantification SIM](#SIM)
-- [Targeted Quantification PRM](#PRM)
-- [Targeted Quantification AQUA](#AQUA)
-- [Targeted Quantification SureQuant](#surequant)
-- [References](#references)
+------------------------------------------------------------------------
 
 ## UWPR pages
 

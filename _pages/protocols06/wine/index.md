@@ -7,13 +7,13 @@ permalink: /protocols06/wine/
 
 Here are the relatively simple steps needed to run ReAdW under Wine. This will let you perform mzXML conversions of Thermo RAW files on your linux box. If you need to install Wine, do so (e.g. "yum install wine").
 
-A. Grab the latest 64-bit ReAdW binary compiled with MS File Reader support.
+A. Grab the latest 64-bit ReAdW binary compiled with MS File Reader support.  
 [ReAdW_x64.exe]({{ site.baseurl }}/protocols06/ReAdW_program/ReAdW_x64.exe)
 
-B. Log into Thermo's mass spectrometry software site:
+B. Log into Thermo's mass spectrometry software site:  
 <https://thermo.flexnetoperations.com/control/thmo/login>
 
-C. Then get "MS File Reader 3.1 SP4" from Thermo from this page:
+C. Then get "MS File Reader 3.1 SP4" from Thermo from this page:  
 [https://thermo.flexnetoperations.com/control/thmo/download?element=6306677](https://thermo.flexnetoperations.com/control/thmo/download?element=8554997)
 
 D. install MSFileReader (which installs vcrun2008 + vcrun2010):  `wine /path/to/MSFileReader_x64.exe`

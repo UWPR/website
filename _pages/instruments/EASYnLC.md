@@ -12,19 +12,19 @@ The EASY-nLC combines simplicity and high-throughput capacity in a nano-flow UHP
 
 ![]({{ site.baseurl }}/instruments/images/TSQAltis.jpg)
 
-- EASY-nLC 1 (LC-030755 / UW tag 2033411), Installed 10/16/2018
+- EASY-nLC 1 (LC-030755 / UW tag 2033411), Installed 10/16/2018  
   MasterKey: d01ZhUfrREe9XOaH
-- EASY-nLC 2 (LC-030757 / UW tag 2033412), Installed 10/19/2018
+- EASY-nLC 2 (LC-030757 / UW tag 2033412), Installed 10/19/2018  
   MasterKey: M0yI2sgti5yDw6vI
-- EASY-nLC 3 (LC-030758 / UW tag 2033413), Installed 10/19/2018
+- EASY-nLC 3 (LC-030758 / UW tag 2033413), Installed 10/19/2018  
   MasterKey: zBh7kbe82Wl8IQEU
-- EASY-nLC 4 (LC-031111 / UW tag 2033416), Installed 12/15/2020
+- EASY-nLC 4 (LC-031111 / UW tag 2033416), Installed 12/15/2020  
   MasterKey: KZSF7nwD2Q30KCl+
-- EASY-nLC 5 (LC-031112 / UW tag 2033417), Installed 12/15/2020
+- EASY-nLC 5 (LC-031112 / UW tag 2033417), Installed 12/15/2020  
   MasterKey: REEkEDaHVr6P2WiP
-- EASY-nLC 6 (LC-031113 / UW tag 2033418), Installed 12/15/2020
+- EASY-nLC 6 (LC-031113 / UW tag 2033418), Installed 12/15/2020  
   MasterKey: Eh0p+iwjW5reU6Iz
-- EASY-nLC 7 (LC-031114 / UW tag 2033419), Installed 12/15/2020
+- EASY-nLC 7 (LC-031114 / UW tag 2033419), Installed 12/15/2020  
   MasterKey: Z8CaplMxt0ImZkfm
 
 ## Virtual Display 
@@ -33,7 +33,7 @@ The EASY-nLC combines simplicity and high-throughput capacity in a nano-flow UHP
 
 The EASY-nLC can be controlled directly via the-built in touchscreen. You can also setup the virtual display on the pc so it can be controlled from the pc, this is particularly useful if you wish to remotely control the system.
 
-**How to restart the virtual display (e.g. after rebooting the PC):**
+**How to restart the virtual display (e.g. after rebooting the PC):**  
 [Detailed guide how to restart the virtual display (pdf)]({{ site.baseurl }}/docs/instruments/EASYnLC_reconnect_virtual_display.pdf)
 
 - Open "Instrument Configuration," select the EASYnLC and Configure
@@ -45,7 +45,7 @@ The EASY-nLC can be controlled directly via the-built in touchscreen. You can al
 - Under Sessions/Saved Sessions select "EASYnLC" and click "Load" and then "Open"
 - login as: hplc
 - Password: hplchplc
-- use the up arrow to reload the last command or type: **x11vnc -q -display :0**
+- use the up arrow to reload the last command or type: **x11vnc -q -display :0**  
   after hitting enter you should see this:
 
   ![]({{ site.baseurl }}/instruments/images/EASYnLC_02a.png)
@@ -58,7 +58,7 @@ The EASY-nLC can be controlled directly via the-built in touchscreen. You can al
 
   ![]({{ site.baseurl }}/instruments/images/EASYnLC_03a.png)
 
-  **Initial setup of Putty and the virtual display (e.g. on a new PC):**
+  **Initial setup of Putty and the virtual display (e.g. on a new PC):**  
   [Guide how to initially setup the virtual display (pdf)]({{ site.baseurl }}/docs/instruments/EASYnLC_setup_virtual_display.pdf)
 
 ## Switch between Trapping and No-trapping mode 
@@ -191,14 +191,14 @@ Application Note: [Improving Retention Time Precision and Chromatography of Earl
 
 [Back to Top](#top)
 
-We noticed air leaks originating from the original solvent filter cartridges. So we decided to replace them with a different setup:
+We noticed air leaks originating from the original solvent filter cartridges. So we decided to replace them with a different setup:  
 Guide how to setup alternate EASY-nLC solvent filters [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SolventBottleFilters.pdf)
 
 ## Upgrading Software/Firmware on the EASYnLC 1200 
 
 [Back to Top](#top)
 
-This document describes how to upgrade software on an EASYnLC from SW 4.1 to SW 4.2: [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SoftwareUpgrade.pdf)
+This document describes how to upgrade software on an EASYnLC from SW 4.1 to SW 4.2: [see pdf]({{ site.baseurl }}/docs/instruments/EASYnLC_SoftwareUpgrade.pdf)  
 Note it also describes how to change the password in Putty (in case you don't like the Master Key)
 
 ## Troubleshooting
@@ -247,6 +247,8 @@ To convert bar to psi follow this link: [UnitConverters.net: Convert bar to psi]
 |      1100      | 15954.2 |     |     16000      | 1103.2 |
 |      1150      | 16679.4 |     |     17000      | 1172.1 |
 |      1200      | 17404.6 |     |     18000      | 1241.1 |
+
+------------------------------------------------------------------------
 
 ## Quick Links
 

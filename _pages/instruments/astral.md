@@ -68,8 +68,8 @@ Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-
 
 ## Resolving Power and Transient Length 
 
-Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~15 Hz. On the Fusion, the highest resolution setting is 450K that is \<1 Hz.
-To fully take advantage of the parallel fill and detect capabilities of the Fusion, we need to balance the max fill times with the transient length. For resolving power 30,000, detection time is about 64 ms. There is always a small amount of inter-scan delay. Up to 54 ms can be used to fill the C-trap with ions- and without increasing cycle time.
+Here is a full table of the available resolution settings. Note: higher resolution does not always result in better mass accuracy. The higher the resolution increases your ability to distinguish between m/z ions. As you can see in this table, there is always a trade of higher resolution with time. 15k is the lowest resolution setting, with the fastest scan speed of \~15 Hz. On the Fusion, the highest resolution setting is 450K that is \<1 Hz.  
+To fully take advantage of the parallel fill and detect capabilities of the Fusion, we need to balance the max fill times with the transient length. For resolving power 30,000, detection time is about 64 ms. There is always a small amount of inter-scan delay. Up to 54 ms can be used to fill the C-trap with ions- and without increasing cycle time.  
 In SW version 2.1 50k resolution OT scans for TMT 10plex experiments shows a \~10% improvement over 60k resolution. We successfully used 30k resolution as well.
 
 **Orbitrap Analyzer**
@@ -120,8 +120,8 @@ The following pdf documents summarize some of parameters from the method templat
 
 ## Instrument Settings 
 
-The table below lists some of the instrument method settings we tested on our Astral.
-We use a EASYnLC UPLC or VanquishNeo with home made columns (35cm x 75μm, Reprosil Pur C18AQ 120Å 5μm) and trap column (EASYnLC: 3cm x 100μm, Reprosil Purc C18AQ 120Å 5μm, VanquishNeo: Thermo trap cartridge ), with 6-45% B (80% ACN, 0.1%FA) in 90min linear gradient. The sample is a Hela cell whole cell tryptic digest (ThermoFisher), 100 ng on column injection. Using the Astral for MS2, we typically get \~30000 unique peptide ID's and 70000 PSM's with Comet search and peptide prophet p\>0.9.
+The table below lists some of the instrument method settings we tested on our Astral.  
+We use a EASYnLC UPLC or VanquishNeo with home made columns (35cm x 75μm, Reprosil Pur C18AQ 120Å 5μm) and trap column (EASYnLC: 3cm x 100μm, Reprosil Purc C18AQ 120Å 5μm, VanquishNeo: Thermo trap cartridge ), with 6-45% B (80% ACN, 0.1%FA) in 90min linear gradient. The sample is a Hela cell whole cell tryptic digest (ThermoFisher), 100 ng on column injection. Using the Astral for MS2, we typically get \~30000 unique peptide ID's and 70000 PSM's with Comet search and peptide prophet p\>0.9.  
 The results below are based on the number of unique peptide ID's with Comet search and peptide prophet p\>0.9.
 
 | **Tested Setting** | **Best Result (100%)** |
@@ -152,6 +152,8 @@ The results below are based on the number of unique peptide ID's with Comet sear
 ## Hela digest concentration curve 
 
 Different concentrations of Pierce HeLa Protein Digest Standard (10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500 ng) were injected and separated with a 6-35% Buffer B (80% ACN) gradient over 60 min Peptides were identified with our standard DDA method and search tools. ![]({{ site.baseurl }}/instruments/images/Astral_Hela_01.png)
+
+------------------------------------------------------------------------
 
 ## Quick links
 
