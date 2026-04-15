@@ -1,9 +1,9 @@
 ---
 title: "Q Exactive Plus (Q)"
 permalink: /instruments/qexactiveplus/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *Hybrid quadrupole-Orbitrap mass spectrometer*

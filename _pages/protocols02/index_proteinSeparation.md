@@ -1,9 +1,9 @@
 ---
 title: "Protein Separation"
 permalink: /protocols02/index_proteinSeparation/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *Protein separation and enrichment related resources*

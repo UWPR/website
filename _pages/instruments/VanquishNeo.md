@@ -1,9 +1,9 @@
 ---
 title: "Vanquish Neo UHPLC System"
 permalink: /instruments/VanquishNeo/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *A compact nano-flow UHPLC system*

@@ -1,9 +1,9 @@
 ---
 title: "Password Reset"
 permalink: /protocols06/passwordreset/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 The web server that handles the "View Data" links is a different server than the one that handles the UWPR project website. We try to sync the username and passwords between the two but sometimes they get out of sync for mysterious reasons.

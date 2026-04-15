@@ -1,9 +1,9 @@
 ---
 title: "Stable Isotope Labeling Strategies"
 permalink: /protocols03/isotopic_labeling/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *Protein Quantitation using Mass Spectrometry*

@@ -1,9 +1,9 @@
 ---
 title: "Core Facilities"
 permalink: /corefacilities/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *Proteomics and Mass Spectrometry Facilities*

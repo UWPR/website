@@ -1,9 +1,9 @@
 ---
 title: "COVID-19 Prevention"
 permalink: /COVID19/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 ## COVID-19 Prevention while working at UWPR 

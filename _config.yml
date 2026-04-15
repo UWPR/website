@@ -1,4 +1,5 @@
 title: "University of Washington Proteomics Resource"
+masthead_title: "UWPR"
 description: "Web site for the University of Washington's Proteomics Resource"
 url: "https://uwpr.github.io"
 baseurl: "/website"

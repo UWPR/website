@@ -1,9 +1,9 @@
 ---
 title: "Protein Digestion"
 permalink: /protocols03/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *Protein digestion and Peptide labelling strategies*

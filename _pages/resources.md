@@ -1,9 +1,9 @@
 ---
 title: "Resources"
 permalink: /resources/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *UWPR's state of the art instrumentation and equipment*

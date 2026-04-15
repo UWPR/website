@@ -1,9 +1,9 @@
 ---
 title: "LC-MS"
 permalink: /protocols05/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *LC-MS related resources*

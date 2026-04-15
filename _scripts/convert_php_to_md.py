@@ -476,9 +476,14 @@ def generate_front_matter(title: str, permalink: str, sidebar: bool) -> str:
     lines.append(f'title: "{safe_title}"')
     lines.append(f'permalink: {permalink}')
     if sidebar:
-        lines.append("# TODO: define sidebar nav in _data/navigation.yml")
-        lines.append("# sidebar:")
-        lines.append('#   nav: "SIDEBAR_NAME"')
+        # The original PHP sidebar was essentially a page-scoped table of
+        # contents ("Quick links" / "On this page") plus a short related-links
+        # list. The related links have been inlined into the main content by
+        # the converter; Minimal Mistakes' built-in TOC handles the anchor
+        # navigation better than a hand-written sidebar nav.
+        lines.append("toc: true")
+        lines.append('toc_label: "On this page"')
+        lines.append("toc_sticky: true")
     lines.append("---")
     return "\n".join(lines)
 

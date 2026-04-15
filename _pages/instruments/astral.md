@@ -1,9 +1,9 @@
 ---
 title: "Orbitrap Astral"
 permalink: /instruments/astral/
-# TODO: define sidebar nav in _data/navigation.yml
-# sidebar:
-#   nav: "SIDEBAR_NAME"
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *Hybrid quadrupole-Orbitrap-Astral mass spectrometer*
