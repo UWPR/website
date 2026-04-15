@@ -46,10 +46,8 @@
 <li>H-SRM - Highly Selective Reaction Monitoring</li>
 </ul>
 
-
-<ul><h2 id="software">Instrument control software</h2>
-		<a href="#page">Back to Top</a>
-		<br><br>
+<h2 id="software">Instrument control software</h2>
+<ul>
 <li><a href="/docs/InstrumentSoftwareVersions.xls">see spreadsheet (.xls format)</a>
 </ul>
 <h2 id="calis">Instrument calibrations</h2>

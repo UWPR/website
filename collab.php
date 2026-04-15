@@ -41,7 +41,7 @@
 	  
 	  <div style="background-image: url('/images/collab_03.png'); height: 796px; width: 878px;"></div>
 	  
-	  <br><br><p><h2 id="selfservice">Self Service:</h2>
+	  <br><br><p><h2 id="selfservice">Self Service</h2>
 	  <a href="#page">Back to Top</a>
 				<br>
 	  
@@ -76,7 +76,7 @@
 	  </ul>
 	  
 	  
-	  <p><h2 id="fullservice">Full LC-MS Service:</h2>
+	  <p><h2 id="fullservice">Full LC-MS Service</h2>
 	  <a href="#page">Back to Top</a>
 				<br><br>
 	  <br>For small projects with limited number of samples we offer full LC-MS service (<a target="new" href="/docs/UWPR_Guidelines_fullServ.pdf">guidelines (pdf)</a>). You will still have to process the samples, but UWPR personnel will do the LC-MS analysis and help you with data analysis.  
