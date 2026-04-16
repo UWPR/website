@@ -20,6 +20,9 @@
 !*.xls
 !*.doc
 !*.docx
+!*.ttf
+!*.woff
+!*.woff2
 
 # Jekyll files
 !*.yml

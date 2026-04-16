@@ -1,6 +1,12 @@
 <!-- Custom <head> additions. Minimal Mistakes includes this file at the
      end of its default <head> include, so anything here is appended. -->
 
+{% if page.page_css %}
+  {% for stylesheet in page.page_css %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {% endfor %}
+{% endif %}
+
 <!-- Favicon. Browsers auto-request /favicon.ico from the
      site root; the explicit <link> here also makes it work correctly
      under the /website/ baseurl on GitHub Pages preview. -->

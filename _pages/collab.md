@@ -1,12 +1,14 @@
 ---
 title: "Collaborate"
 permalink: /collab/
+classes: no_sidebar
+author_profile: false
 toc: true
 toc_label: "On this page"
 toc_sticky: true
 ---
 
-*Mass spectrometry based proteomics*
+## Mass spectrometry based proteomics
 
 The UWPR is offering analytical and instructional expertise in state of the art mass spectrometric techniques and data analysis with the primary aim of providing UW investigators with "hands-on" training and access to contemporary resources needed to develop and meet their proteomics research interests.
 

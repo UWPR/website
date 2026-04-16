@@ -15,7 +15,7 @@
 
      - Small screens: MM handles mobile via its own breakpoints.
      - Medium+:       use 90% of the viewport.
-     - Large (1280+): use 75% of the viewport.
+     - Large (1280+): also use 90% of the viewport. (changed by MH)
      - Huge (1920+):  cap at 1600px so line lengths don't get absurd.
    =================================================================== */
 
@@ -29,7 +29,7 @@
   .masthead__inner-wrap,
   .breadcrumbs,
   #main {
-    max-width: 75%;
+    max-width: 90%;
   }
 }
 
@@ -38,71 +38,6 @@
   .breadcrumbs,
   #main {
     max-width: 1600px;
-  }
-}
-
-/* Minimal Mistakes reserves padding-right on .page for a right-side
-   panel (author profile, or the auto-generated TOC when toc: true). On
-   pages that don't use either, the body renders narrower than the
-   masthead for no reason — we want full width there.
-
-   Only apply the full-width override when the page has NEITHER a left
-   .sidebar.sticky NOR a right-side TOC (.sidebar__right). Uses :has()
-   — supported in all evergreen browsers 2023+. */
-#main:not(:has(.sidebar.sticky)):not(:has(.sidebar__right)):not(:has(.toc)) .page {
-  float: none;
-  width: 100%;
-  padding-right: 0;
-  @media (min-width: 64em) {
-    padding-right: 0;
-  }
-  @media (min-width: 80em) {
-    padding-right: 0;
-  }
-}
-
-/* Move MM's auto-TOC from the right rail to the LEFT rail, so it matches
-   the position and feel of manual sidebars (e.g. the contact page). MM's
-   default places `.sidebar__right` absolute-positioned at right:0 of
-   `.page`, with `.page` getting padding-right to reserve space. We flip
-   the axis: reserve padding on the LEFT of `.page`, and position the
-   TOC block at the left edge.
-
-   Same breakpoints MM uses for the gutter (64em / 80em). */
-.page:has(.sidebar__right),
-.page:has(.toc) {
-  float: left;
-  margin-left: 0;
-  width: 100%;
-
-  @media (min-width: 64em) {
-    padding-left: 200px;
-    padding-right: 0;
-  }
-  @media (min-width: 80em) {
-    padding-left: 300px;
-    padding-right: 0;
-  }
-}
-
-/* Flip .sidebar__right (which is misnamed now but still the class MM
-   emits) to the left side on >=large screens. Mirrors the rules in
-   _sass/minimal-mistakes/_sidebar.scss. */
-.sidebar__right {
-  @media (min-width: 64em) {  /* $large */
-    right: auto;
-    left: 0;
-    margin-right: 0;
-    margin-left: -200px;
-    padding-left: 0;
-    padding-right: 1em;
-
-    &.sticky {
-      float: left;
-    }
-  }
-  @media (min-width: 80em) {  /* $x-large */
-    margin-left: -300px;
   }
 }
 
@@ -220,5 +155,31 @@
   /* Transient data column shaded full-height, overriding zebra stripes */
   tbody tr td:nth-child(4) {
     background-color: #ececec;
+  }
+}
+
+/* MH: Remove sidebar simply and gracefully */
+.no_sidebar {
+  .page, .page__related {
+    @include breakpoint($large) {
+      width: 100%;
+    }
+
+    @include breakpoint($x-large) {
+      width: 100%;
+    }
+  }
+}
+
+/* MH: Allows full width of page to be used if no TOC */
+.wide {
+  .page, .page__related {
+    @include breakpoint($large) {
+      padding-inline-end: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-inline-end: 0;
+    }
   }
 }

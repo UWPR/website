@@ -47,19 +47,18 @@ defaults:
 # Navigation (top menu bar)
 header_pages: []
 
+#Commented out by MH because this might not go here.
 # Main navigation links
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Collaborate"
-    url: /collaborate/
-  - title: "Resources"
-    url: /resources/
-  - title: "Methods"
-    url: /methods/
-  - title: "Tools"
-    url: /tools/
-  - title: "Publications"
-    url: /publications/
-  - title: "Contact"
-    url: /contact/
+#navigation:
+#  - title: "Collaborate"
+#    url: /collaborate/
+#  - title: "Resources"
+#    url: /resources/
+#  - title: "Methods"
+#    url: /methods/
+#  - title: "Tools"
+#    url: /tools/
+#  - title: "Publications"
+#    url: /publications/
+#  - title: "Contact"
+#    url: /contact/
