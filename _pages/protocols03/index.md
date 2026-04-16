@@ -1,10 +1,10 @@
 ---
 title: "Protein Digestion"
 permalink: /protocols03/
-parent: /methods/
 toc: true
 toc_label: "On this page"
 toc_sticky: true
+parent: /methods/
 ---
 
 *Protein digestion and Peptide labelling strategies*

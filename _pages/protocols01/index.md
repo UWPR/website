@@ -1,10 +1,10 @@
 ---
 title: "Proteomics"
 permalink: /protocols01/
-parent: /methods/
 toc: true
 toc_label: "On this page"
 toc_sticky: true
+parent: /methods/
 ---
 
 *Protein identification and quantification*

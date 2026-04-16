@@ -787,21 +787,24 @@ def read_preserved_front_matter(output_path: Path) -> list[str]:
 
 
 def generate_front_matter(title: str, permalink: str, sidebar: bool,
-                          heading_count: int = 0,
+                          h2_count: int = 0,
+                          h3_count: int = 0,
                           preserved: list[str] | None = None) -> str:
     """Generate Jekyll front matter.
 
-    A TOC is emitted only when the page originally had a sidebar AND has
-    enough sections to be worth navigating (more than 3 top-level headings).
-    Short pages like `resources/` don't benefit from a sticky "On this page"
-    panel — it just adds a near-empty rail.
+    A TOC is emitted when the page has enough sections to be worth
+    navigating — primary rule is >3 H2s; pages that use H3s as their top
+    level (e.g. `protocols06/index`) fall back to >3 H3s when H2=0. The
+    `sidebar` flag is not consulted: short pages like `resources/` are
+    filtered out by the heading threshold alone.
     """
     lines = ["---"]
     # Escape quotes in title
     safe_title = title.replace('"', '\\"')
     lines.append(f'title: "{safe_title}"')
     lines.append(f'permalink: {permalink}')
-    if sidebar and heading_count > 3:
+    has_toc_worthy_headings = h2_count > 3 or (h2_count == 0 and h3_count > 3)
+    if has_toc_worthy_headings:
         # The original PHP sidebar was essentially a page-scoped table of
         # contents ("Quick links" / "On this page") plus a short related-links
         # list. The related links have been inlined into the main content by
@@ -867,11 +870,12 @@ def convert_file(filepath: Path, write: bool = False) -> dict:
     rel_path = str(filepath.relative_to(REPO_ROOT)).replace("\\", "/")
     if rel_path == "publications.php":
         try:
-            markdown, heading_count = convert_publications(php_source)
+            markdown, h2_count = convert_publications(php_source)
         except RuntimeError as e:
             result["status"] = "error"
             result["error"] = str(e)
             return result
+        h3_count = 0
         # Force sidebar=True so the TOC front-matter block is emitted (the
         # publications page has no <div id="sidebar"> but the year-per-TOC
         # was the request).
@@ -902,9 +906,12 @@ def convert_file(filepath: Path, write: bool = False) -> dict:
         markdown = re.sub(r'\n{3,}', '\n\n', markdown)
         markdown = markdown.strip()
 
-        # Count top-level (##) headings so generate_front_matter can suppress
-        # the TOC on pages with too few sections to be worth navigating.
-        heading_count = len(re.findall(r'^##\s+\S', markdown, flags=re.MULTILINE))
+        # Count H2 and H3 headings so generate_front_matter can suppress the
+        # TOC on pages with too few sections to be worth navigating. H3 is
+        # counted as a fallback for pages (e.g. `protocols06/index`) that use
+        # ### as their top-level heading style.
+        h2_count = len(re.findall(r'^##\s+\S', markdown, flags=re.MULTILINE))
+        h3_count = len(re.findall(r'^###\s+\S', markdown, flags=re.MULTILINE))
 
     # Generate front matter. Preserve any manual front-matter keys already
     # present in the existing .md output (e.g. `parent:` for breadcrumbs),
@@ -912,7 +919,8 @@ def convert_file(filepath: Path, write: bool = False) -> dict:
     permalink = compute_permalink(filepath)
     output_path = compute_output_path(filepath)
     preserved = read_preserved_front_matter(output_path)
-    front_matter = generate_front_matter(title, permalink, sidebar, heading_count,
+    front_matter = generate_front_matter(title, permalink, sidebar,
+                                         h2_count=h2_count, h3_count=h3_count,
                                          preserved=preserved)
 
     # Add PHP logic warning if needed

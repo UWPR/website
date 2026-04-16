@@ -1,6 +1,9 @@
 ---
 title: "Data Analysis Tools"
 permalink: /protocols06/
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 *A collection of computational tools and links*

@@ -1,10 +1,10 @@
 ---
 title: "LC-MS"
 permalink: /protocols05/
-parent: /methods/
 toc: true
 toc_label: "On this page"
 toc_sticky: true
+parent: /methods/
 ---
 
 *LC-MS related resources*

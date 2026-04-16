@@ -1,6 +1,9 @@
 ---
 title: "ADJNSAF (Adjusted Normalized Spectral Abundance Factor)"
 permalink: /protocols06/adjnsaf/
+toc: true
+toc_label: "On this page"
+toc_sticky: true
 ---
 
 Here's ChatGPT's description of ADJNSAF which is a metric exported by the Abacus spectral count tool.
