@@ -54,27 +54,6 @@
                      <div id="sidebar" class="4u">
                         <section>
                            <header class="major">
-                              <h2>UWPR pages</h2>
-                           </header>
-                           <div class="row half">
-                              <section class="6u">
-                                 <ul class="default">
-                                    <li><a href="/protocols01/">Proteomics</a></li>
-                                    <li><a href="/protocols02/">Protein Preparation and Separation</a></li>
-                                    <li><a href="/protocols03/">Protein Digestion</a></li>
-                                 </ul>
-                              </section>
-                              <section class="6u">
-                                 <ul class="default small">
-                                    <li><a href="/protocols04/">Peptide Separation</a></li>
-                                    <li><a href="/protocols05/">LC-MS</a></li>
-                                    <li><a href="https://proteomicsresource.washington.edu/safety.php">UWPR Safety</a></li>
-                                 </ul>
-                              </section>
-                           </div>
-                        </section>
-                        <section>
-                           <header class="major">
                               <h2>External Resources</h2>
                            </header>
                            <ul class="default">
