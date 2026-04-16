@@ -70,6 +70,12 @@
     <!-- Custom <head> additions. Minimal Mistakes includes this file at the
      end of its default <head> include, so anything here is appended. -->
 
+
+  
+    <link rel="stylesheet" href="/assets/style/uwpr.css">
+  
+
+
 <!-- Favicon. Browsers auto-request /favicon.ico from the
      site root; the explicit <link> here also makes it work correctly
      under the /website/ baseurl on GitHub Pages preview. -->
@@ -77,7 +83,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -98,12 +104,6 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="/"
-                
-                
-              >Home</a>
-            </li><li class="masthead__menu-item">
               <a
                 href="/collab/"
                 
@@ -309,38 +309,32 @@
   <li>Vagisha Sharma, vsharma @ uw.edu</li>
 </ul>
 
-<p><img src="/images/aboutus3.jpg" alt="about us" /></p>
+<p><img src="/assets/images/aboutus3.jpg" alt="about us" width="100%" /></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Street Address</th>
-      <th>Campus Mailing Address</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Proteomics Resource</td>
-      <td>Proteomics Resource</td>
-    </tr>
-    <tr>
-      <td>UW Medicine at South Lake Union</td>
-      <td>UW Medicine at South Lake Union</td>
-    </tr>
-    <tr>
-      <td>850 Republican Street, Room B59</td>
-      <td>Box 358050</td>
-    </tr>
-    <tr>
-      <td>Seattle, WA 98109-4725</td>
-      <td>Seattle, WA 98195-8050</td>
-    </tr>
-  </tbody>
-</table>
+<div class="uwpr-grid">
+ <div class="uwpr-grid-item">
+  <b>Street Address:</b>
+  <br />Proteomics Resource
+  <br />UW Medicine at South Lake Union
+  <br />850 Republican Street, Room B59
+  <br />Seattle, WA 98109-4725
+ </div>
+ <div class="uwpr-grid-item">
+  <b>Campus Mailing Address:</b>
+  <br />Proteomics Resource
+  <br />UW Medicine at South Lake Union
+  <br />Box 358050
+  <br />Seattle, WA 98195-8050
+ </div>
+</div>
 
-<p><a href="https://mailman13.u.washington.edu/mailman/listinfo/proteomics">Subscribe to the Proteomics Mail List for discussion of proteomics related research and events</a></p>
+<p><br /></p>
 
-<iframe title="Google Map of UW South Lake Union Campus" width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;q=850%20Republican%20St.%2C%20Seattle%2C%20WA&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+<!-- google map -->
+<div style="width: 100%">
+ <iframe title="Google Map of UW South Lake Union Campus" width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=en&amp;q=850%20Republican%20St.%2C%20Seattle%2C%20WA&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+ </iframe>
+</div>
 
         
       </section>

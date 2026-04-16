@@ -1,0 +1,136 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,200,300,500,600,700,800,900");
+
+/* Banner */
+
+   #banner {
+      text-align: center;
+      color: #fff;
+      padding: 0em 4em;
+      margin-bottom: 6em;
+   }
+
+   #banner p {
+      font-size: 1.2em;
+      line-height: 1.2em;
+   }
+
+   #banner strong,
+   #banner a {
+      color: inherit;
+   }
+
+/* Login */
+
+   #loginbutton {
+      cursor: default;
+      color: #ddd;
+      font-family: 'Raleway', sans-serif;
+      font-size: 8pt;
+      text-transform: none;
+      padding: 0.3em 1.5em;
+      border-radius: 4px;
+   }
+   #logintext {
+      color: #000;
+      font-weight: bold;
+      font-size: 10pt;
+      line-height: 1.7em;
+      width: 8em;
+      text-align: left;
+   }
+   #loginpassword {
+      color: #000;
+      font-weight: bold;
+      font-size: 10pt;
+      line-height: 1.7em;
+      width: 8em;
+      text-align: left;
+   }
+   #forgottext {
+      color: #000000;
+      font-size: 8pt;
+      line-height: 1.7em;
+      width: 8em;
+   }
+   
+button,
+input[type="submit"],
+input[type="reset"] {
+ background-color: #343434; 
+ color: #ffffff;          
+ border: none;           
+ padding: 20px; 
+ height: 28px;
+ cursor: pointer;           
+ border-radius: 5px; 
+}
+ 
+ 
+.strip {
+ background-color: #e9dcbe;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px;
+}
+
+.loginbox {
+ width:50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.login-form{
+ background-color: transparent;
+ padding: 0px;
+ margin: 0px;
+}
+
+   
+.uwpr-grid {
+    display: grid; /* Turns on Grid for the parent */
+    grid-template-columns: 1fr 1fr; /* Creates two columns of equal width */
+    gap: 20px; /* Adds space between the grid items */
+}
+
+.uwpr-grid2 {
+    display: grid; /* Turns on Grid for the parent */
+    grid-template-columns: 64px 1fr; /* Creates two columns of equal width */
+    gap: 10px; /* Adds space between the grid items */
+}
+
+.uwpr-grid-item {
+	color: #343434;
+    background-color: #e9dcbe;
+    padding: 20px;
+    border: none;
+}
+
+.wrapper.style1 {
+      padding-top: 10em;
+      padding-bottom: 2em;
+      background: url(/assets/images/bg.jpg) no-repeat center top;
+      background-size: cover;
+      background-attachment: fixed;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+   }
+   
+.wrapper.style2 {
+	background: url(/assets/images/bg.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.white {
+	background: #fff;
+	border: 0px;
+}
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
