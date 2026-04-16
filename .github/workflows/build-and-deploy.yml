@@ -48,7 +48,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: deploy
-          # Force-push a single flat commit every time — deploy branch
-          # is treated as a build artifact, not a history to preserve.
-          force_orphan: true
           commit_message: "Deploy ${{ github.sha }}"
