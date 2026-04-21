@@ -24,6 +24,9 @@ plugins:
 # Tell Jekyll to read _pages/ directory
 include:
   - _pages
+  - _methods
+  - _resources
+  - _tools
 
 # Exclude PHP files and other non-Jekyll content from the build
 exclude:
