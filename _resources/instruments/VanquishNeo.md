@@ -11,12 +11,15 @@ author_profile: false
 
 *A compact nano-flow UHPLC system*
 
-The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible nano-, capillary-, and micro-flow LC-MS with a pressure rating of 1500 bar, here is a link to Thermo's website if you wish to learn more: [Vanquish Neo UHPLC System](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-neo-uhplc-system.html)
+The Vanquish Neo UHPLC system delivers maximum performance 24/7 for reproducible nano-, capillary-, and micro-flow 
+LC-MS with a pressure rating of 1500 bar, here is a link to Thermo's website if you wish to learn 
+more: [Vanquish Neo UHPLC System](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-systems/vanquish-neo-uhplc-system.html)
 
-![]({{ site.baseurl }}/instruments/images/VanquishNeo_01.png)
+![]({{ site.baseurl }}/assets/images/instruments/VanquishNeo_01.png)
 
-- Neo 1 (SYS830520 (SN 8346660 and SN 8347102)/ UW tag 2045623), Installed January/2023
-- Neo 2 (SYS831576/ UW tag 2045624), Installed 8/7/2024
+Installation Dates:
+- Neo 1, January 2023
+- Neo 2, 8/7/2024
 
 ## System specifications {#specifications}
 
@@ -51,29 +54,21 @@ Barcoded 96-well plate, U shaped well, 10-250 µl, 100pk 60180-206B (Fisher 03-2
 
 You can also print/label the well plates yourself. Here are a couple of documents you can check out to start with:
 
-- [VanquishNeo_Barcode_96well_plates (docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_Barcode_96well_plates.docx)
-- [VanquishNeo_Barcode_A_96well_plates for ToughTag labels 1.28 x 0.5 in (e.g. TTLW-2016) (docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeA_96well_ToughTag1.28x0.5in.docx)
-- [VanquishNeo_Barcode_Z_96well_plates for ToughTag labels 1.28 x 0.5 in (e.g. TTLW-2016) (docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeZ_96well_ToughTag1.28x0.5in.docx)
-- [VanquishNeo_Barcode_A_96well_plates for Avery labels 1.75 x 0.5 in (e.g. Waterproof Rectangle Labels with Sure Feed, .5" x 1.75" 80 White Labels per sheet (36545 or 36547)) (docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeA_96well_Avery0.5x1.75in.docx)
-- [VanquishNeo_Barcode_Z_96well_plates for Avery labels 1.75 x 0.5 in (e.g. Waterproof Rectangle Labels with Sure Feed, .5" x 1.75" 80 White Labels per sheet (36545 or 36547)) (docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeZ_96well_Avery0.5x1.75in.docx)
+- [VanquishNeo_Barcode_96well_plates (docx)]({{ site.baseurl }}/assets/docs/instruments/VanquishNeo_Barcode_96well_plates.docx)
+- [VanquishNeo_Barcode_A_96well_plates for ToughTag labels 1.28 x 0.5 in (e.g. TTLW-2016) (docx)]({{ site.baseurl }}/assets/docs/instruments/VanquishNeo_BarcodeA_96well_ToughTag1.28x0.5in.docx)
+- [VanquishNeo_Barcode_Z_96well_plates for ToughTag labels 1.28 x 0.5 in (e.g. TTLW-2016) (docx)]({{ site.baseurl }}/assets/docs/instruments/VanquishNeo_BarcodeZ_96well_ToughTag1.28x0.5in.docx)
+- [VanquishNeo_Barcode_A_96well_plates for Avery labels 1.75 x 0.5 in (e.g. Waterproof Rectangle Labels with Sure Feed, .5" x 1.75" 80 White Labels per sheet (36545 or 36547)) (docx)]({{ site.baseurl }}/assets/docs/instruments/VanquishNeo_BarcodeA_96well_Avery0.5x1.75in.docx)
+- [VanquishNeo_Barcode_Z_96well_plates for Avery labels 1.75 x 0.5 in (e.g. Waterproof Rectangle Labels with Sure Feed, .5" x 1.75" 80 White Labels per sheet (36545 or 36547)) (docx)]({{ site.baseurl }}/assets/docs/instruments/VanquishNeo_BarcodeZ_96well_Avery0.5x1.75in.docx)
 
 ## Consumables
 
 the following document includes part numbers for AS vials, columns trap cartridges etc needed to use the VanquishNeo
 
-- [Consumables needed to setup the VanquishNeo (xlsx)]({{ site.baseurl }}/docs/instruments/LC_MS_Consumables_VanquishNeo.xlsx)
-- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
-
-## HPLC setup {#hplcsetup}
-
-the following document includes guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands-on training required to use the UWPR instruments.
-
-- [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
-- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
+- [Consumables needed to setup the VanquishNeo (xlsx)]({{ site.baseurl }}/assets/docs/instruments/LC_MS_Consumables_VanquishNeo.xlsx)
 
 ## Instrument Method setup guidelines {#methodsetup}
 
-Detailed guide how to setup the VanquishNeo method [see pdf]({{ site.baseurl }}/docs/instruments/VanquishNeo_MethodSetup.pdf)
+Detailed guide how to setup the VanquishNeo method [see pdf]({{ site.baseurl }}/assets/docs/instruments/VanquishNeo_MethodSetup.pdf)
 
 Thermo Video: [Simple and Intelligent Method Creation](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Simple%20and%20Intelligent%20Method%20Creation)
 
@@ -99,9 +94,6 @@ Application Note: [Improving Retention Time Precision and Chromatography of Earl
 |        9        |     11.25      |     |       90        |       na       |
 |       10        |      12.5      |     |       100       |       na       |
 
-## Installing SII for xcalibur and VanquishNeo software {#softwareupgrade}
-
-- [Installing and configuring VanquishNeo software (pdf)]({{ site.baseurl }}/docs/instruments/VanquishNeo_install_software.pdf)
 
 ## Troubleshooting
 
@@ -114,6 +106,7 @@ This video from Thermo describes how to Replace the Piston Seals and Support Rin
 This video from Thermo describes how to Replace the Check Valves [Vanquish HPLC/UHPLC Maintenance Videos: How to Replace the Check Valves](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Vanquish%20HPLC%2FUHPLC%20Maintenance%20Videos%3A%20How%20to%20Replace%20the%20Check%20Valves)
 
 TIPS AND TRICKS: ISSUE 1: [How to avoid and recover from autosampler blockages (pdf)](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=vanquishneotripsandtricksissue1)
+
 
 ## Convert bar to psi {#bartopsi}
 
@@ -151,19 +144,3 @@ To convert bar to psi follow this link: [UnitConverters.net: Convert bar to psi]
 |      1200      | 17404.6 |     |     18000      | 1241.1 |
 
 ------------------------------------------------------------------------
-
-## Guides
-
-- [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
-- [VanquishNeo method setup (pdf)]({{ site.baseurl }}/docs/instruments/VanquishNeo_MethodSetup.pdf)
-- [Thermo Video Method Creation](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Simple%20and%20Intelligent%20Method%20Creation)
-- [Simple peptide standards for LC-MS (xlsx)]({{ site.baseurl }}/docs/protocols05/AngioNeuroStandard.xlsx)
-- [Barcode 96well plates (docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_Barcode_96well_plates.docx)
-- [Barcode A 96well ToughTag TTLW-2016(docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeA_96well_ToughTag1.28x0.5in.docx)
-- [Barcode Z 96well ToughTag TTLW-2016(docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeZ_96well_ToughTag1.28x0.5in.docx)
-- [Barcode A 96well Avery 36545 or 36547(docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeA_96well_Avery0.5x1.75in.docx)
-- [Barcode Z 96well Avery 36545 or 36547(docx)]({{ site.baseurl }}/docs/instruments/VanquishNeo_BarcodeZ_96well_Avery0.5x1.75in.docx)
-- [Video: Replace the Sample Loop, Needle Unit, and Needle Seat](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Vanquish%20HPLC%2FUHPLC%20Maintenance%20Videos%3A%20How%20to%20Replace%20the%20Sample%20Loop%2C%20Needle%20Unit%2C%20and%20Needle%20Seat)
-- [Video: Replace the Pump Head](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Vanquish%20HPLC%2FUHPLC%20Maintenance%20Videos%3A%20How%20to%20Replace%20the%20Pump%20Head)
-- [Video: Replace the Piston Seals and Support Ring](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Vanquish%20HPLC%2FUHPLC%20Maintenance%20Videos%3A%20How%20to%20Replace%20the%20Piston%20Seals%20and%20Support%20Ring)
-- [Video: Replace the Check Valves](https://www.thermofisher.com/us/en/home/industrial/chromatography/liquid-chromatography-lc/hplc-uhplc-resources.html?item=Vanquish%20HPLC%2FUHPLC%20Maintenance%20Videos%3A%20How%20to%20Replace%20the%20Check%20Valves)

@@ -11,13 +11,20 @@ author_profile: false
 
 *Hybrid quadrupole-Orbitrap-Astral mass spectrometer*
 
-![]({{ site.baseurl }}/instruments/images/Astral_01.png)
+![]({{ site.baseurl }}/assets/images/instruments/Astral_01.png)
 
-The Thermo Fisher Scientific Orbitrap Astral mass spectrometer contains three mass analyzers: a quadrupole mass analyzer for precursor ion selection, the Orbitrap mass analyzer to acquire high dynamic range HRAM spectra, and the novel Astral mass analyzer to acquire high sensitivity, high dynamic range HRAM spectra at a rate of up to 200 Hz. Together, the analyzers' unique strengths maximize performance and usability. The front end---ion source to quadrupole---maximizes instrument sensitivity and robustness. The Orbitrap mass analyzer enables the collection of panoramic full scan data at high resolution. The Astral mass analyzer adds fast (up to 200 Hz), sensitive, high dynamic range HRAM capabilities that are fully synchronized with the Orbitrap analyzer acquisition. Due to this synchronization the Orbitrap Astral mass spectrometer excels at many data acquisition strategies including high resolution data-independent acquisition (HR-DIA), and data-dependent acquisition (DDA) for identification and label-free quantitation (LFQ), as well as tandem mass tag (TMT™)-based multiplexed quantification using TMTpro™ 18-plex reagents.
+The Thermo Fisher Scientific Orbitrap Astral mass spectrometer contains three mass analyzers: a quadrupole mass analyzer for precursor ion selection, 
+the Orbitrap mass analyzer to acquire high dynamic range HRAM spectra, and the novel Astral mass analyzer to acquire high sensitivity, high dynamic 
+range HRAM spectra at a rate of up to 200 Hz. Together, the analyzers' unique strengths maximize performance and usability. The front end---ion source 
+to quadrupole---maximizes instrument sensitivity and robustness. The Orbitrap mass analyzer enables the collection of panoramic full scan data at high 
+resolution. The Astral mass analyzer adds fast (up to 200 Hz), sensitive, high dynamic range HRAM capabilities that are fully synchronized with the 
+Orbitrap analyzer acquisition. Due to this synchronization the Orbitrap Astral mass spectrometer excels at many data acquisition strategies including 
+high resolution data-independent acquisition (HR-DIA), and data-dependent acquisition (DDA) for identification and label-free quantitation (LFQ), as 
+well as tandem mass tag (TMT™)-based multiplexed quantification using TMTpro™ 18-plex reagents.
 
-Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-systems/orbitrap-lc-ms/orbitrap-astral-mass-spectrometer.html) for more information
+Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-systems/orbitrap-lc-ms/orbitrap-astral-mass-spectrometer.html){:target="_blank"} for more information
 
-8/15/2024 Astral (SN# OA10191, UW tag 2045625) Installed
+UWPR install date: 8/15/2024
 
 ## Specifications {#specs}
 
@@ -52,19 +59,6 @@ Visit the [Astral site](https://www.thermofisher.com/us/en/home/industrial/mass-
 - Astral (Asymmetric Track Lossless) mass analyzer
 - Extensive pre-built method templates for data-dependent acquisition (DDA), data-independent acquisition (DIA), TMT, and SureQuant for multiple application areas including plasma and single cell proteomics
 
-## Instrument control software {#software}
-
-- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
-- [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
-
-## Instrument calibrations {#calis}
-
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
-
-## PC configuration {#pcconfig}
-
-- [Tips for upgrading to Win10 LTSC 2019 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSC_upgrade.pdf)
-- [Tips configuring Win10 LTSC 2019 on Thermo instrument PC (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSC_PC_configuration.pdf)
 
 ## Resolving Power and Transient Length {#resolution}
 
@@ -93,20 +87,13 @@ In SW version 2.1 50k resolution OT scans for TMT 10plex experiments shows a \~1
 |  Up to 80,000   |            20            |        25         |
 |  Up to 80,000   |            40            |       12.5        |
 
-## HPLC setup {#hplc}
-
-the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
-
-- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
 ## Method Templates {#templates}
 
 The following pdf documents summarize some of parameters from the method templates provided by Thermo in their method editor:
 
-- [MethodTemplates_DDA_Astral_SW1.1 (pdf)]({{ site.baseurl }}/docs/instruments/MethodTemplates_DDA_Astral_SW1.1.pdf)
-- [MethodTemplates_DIA_Astral_SW1.1 (pdf)]({{ site.baseurl }}/docs/instruments/MethodTemplates_DIA_Astral_SW1.1.pdf)
+- [MethodTemplates_DDA_Astral_SW1.1 (pdf)]({{ site.baseurl }}/assets/docs/instruments/MethodTemplates_DDA_Astral_SW1.1.pdf)
+- [MethodTemplates_DIA_Astral_SW1.1 (pdf)]({{ site.baseurl }}/assets/docs/instruments/MethodTemplates_DIA_Astral_SW1.1.pdf)
 
 **Low Level DIA methods**
 
@@ -149,31 +136,17 @@ The results below are based on the number of unique peptide ID's with Comet sear
 | Exploris 480 90 min (100%), unique ID's | Astral 120 min (144%), **90 min (136%)**, 60 min (118%), 30 min (91%) |
 | Exploris 480 90 min (100%), unique PSM's | Astral 120 min (279%), **90 min (246%)**, 60 min (193%), 30 min (133%) |
 
-## Hela digest concentration curve {#hela}
+## HeLa Digest Concentration Curve {#hela}
 
-Different concentrations of Pierce HeLa Protein Digest Standard (10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500 ng) were injected and separated with a 6-35% Buffer B (80% ACN) gradient over 60 min Peptides were identified with our standard DDA method and search tools. ![]({{ site.baseurl }}/instruments/images/Astral_Hela_01.png)
+Different concentrations of Pierce HeLa Protein Digest Standard (10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500 ng) were 
+injected and separated with a 6-35% Buffer B (80% ACN) gradient over 60 min Peptides were identified with our standard DDA method and 
+search tools. ![]({{ site.baseurl }}/assets/images/instruments/Astral_Hela_01.png)
 
 ------------------------------------------------------------------------
 
-## Quick links
+## Related UWPR Documents and Pages
 
-- [Specifications](#specs)
-- [Software](#software)
-- [Calibrations](#calis)
-- [Resolution/Transient](#resolution)
-- [PC configuration](#pcconfig)
-- [HPLC setup](#hplc)
-- [Method Templates](#templates)
-- [Instrument settings](#settings)
-
-## UWPR documents and pages
-
-- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
-- [Tips for upgrading to Win10 LTSB 2016 (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
-- [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
-- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [EASYnLC page]({{ site.baseurl }}/instruments/EASYnLC/)
-- [PRM page]({{ site.baseurl }}/protocols05/PRM/)
-- [DIA page]({{ site.baseurl }}/protocols05/DIA/)
-- [Isotopic Labeling page]({{ site.baseurl }}/protocols03/isotopic_labeling/)
-- [MRM/SRM page]({{ site.baseurl }}/protocols05/MRM/)
+- [PRM page]({{ site.baseurl }}/methods/protocols05/PRM/)
+- [DIA page]({{ site.baseurl }}/methods/protocols05/DIA/)
+- [Isotopic Labeling page]({{ site.baseurl }}/methods/protocols03/isotopic_labeling/)
+- [MRM/SRM page]({{ site.baseurl }}/methods/protocols05/MRM/)

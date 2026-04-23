@@ -11,14 +11,15 @@ author_profile: false
 
 *Hybrid quadrupole-Orbitrap mass spectrometer*
 
-![]({{ site.baseurl }}/instruments/images/Exploris480_02.png)
+![]({{ site.baseurl }}/assets/images/instruments/Exploris480_02.png)
 
 The Thermo Scientific Orbitrap Exploris 480 is an advanced, intelligence-driven instrument, built for ultimate performance and ease of use. The hardware has been designed to address laboratory requirements for maximum uptime and easy serviceability. The instrument control software is shared with next generation Thermo Scientific™ Tribrid™ and Thermo Scientific™ TSQ triple quadrupole mass spectrometers for simplicity of operation, reduced training needs, and easy transfer of methods and results from one research stage to the next. The Orbitrap Exploris 480 mass spectrometer has unique capabilities which impart extra speed, depth, and certainty to enable you to run more experiments or to gain deeper insights into your research.
 
-Visit the [Planet Orbitrap website](https://planetorbitrap.com/orbitrap-exploris-480) for more information
+Visit the [Planet Orbitrap website](https://planetorbitrap.com/orbitrap-exploris-480){:target="_blank"} for more information
 
-12/1/2020 Exploris480 system 1 (SN MA10302C, UW tag 2033415) Installed  
-3/23/2023 Exploris480 system 2 (SN MA10852C, UW tag 2033420) Installed
+Installation dates: \
+12/1/2020 Exploris480 system 1 \
+3/23/2023 Exploris480 system 2 
 
 ## Specifications {#specs}
 
@@ -51,14 +52,6 @@ Visit the [Planet Orbitrap website](https://planetorbitrap.com/orbitrap-exploris
 - Orbitrap mass analyzer
 - Broader range of experiments with multiple scan modes: data-dependent acquisition (DDA), data-independent acquisition (DIA), spectral multiplexing (MSX), TopN and new TopSpeed (TopS), BoxCar DIA and DDA experiments, tSIM, tSIM MSX, ddMS/MS, targeted MS/MS
 
-## Instrument control software {#software}
-
-- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
-- [Tips for upgrading to Win10 LTSB 2016 on TNG instruments (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
-
-## Instrument calibrations {#calis}
-
-- This file summarizes calibration solutions and calibration tips [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
 
 ## Resolving Power and Transient Length {#resolution}
 
@@ -99,13 +92,6 @@ based on this document: [TMT/TMTpro Instrument Acquisition Parameter Settings](h
 | MS2 AGC target           |      200% ( 1e5 )      |      200% ( 1e5 )      |
 | First mass               |        m/z 110         |        m/z 110         |
 
-## HPLC setup {#hplc}
-
-the following documents are guidelines to setup the capillary trap/column on our LC-MS systems, this is intended as a supplement to the hands on training required to use the UWPR instruments.
-
-- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [LC-MS setup procedure VanquishNeo (pdf)]({{ site.baseurl }}/docs/instruments/UWPR_LC_MS_setup_VanquishNeo.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup.pdf)
 
 ## Instrument Settings {#settings}
 
@@ -136,24 +122,8 @@ The results below are based on the number of unique peptide ID's with Comet sear
 
 ------------------------------------------------------------------------
 
-## Quick links
+## Related UWPR Documents and Pages
 
-- [Specifications](#specs)
-- [Software](#software)
-- [Calibrations](#calis)
-- [Resolution/Transient](#resolution)
-- [TMT instrument settings](#TMTsettings)
-- [HPLC setup](#hplc)
-- [Instrument settings](#settings)
-
-## UWPR documents and pages
-
-- [Instrument control software (.xls)]({{ site.baseurl }}/docs/InstrumentSoftwareVersions.xls)
-- [Tips for upgrading to Win10 LTSB 2016 (pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_Win10LTSB2016_upgrade.pdf)
-- [Calibrations (.xlsx)]({{ site.baseurl }}/docs/Calibrations.xlsx)
-- [LC-MS setup procedure EASYnLC(pdf)]({{ site.baseurl }}/docs/protocols05/UWPR_LC_MS_setup_EASYnLC.pdf)
-- [EASYnLC page]({{ site.baseurl }}/instruments/EASYnLC/)
-- [PRM page]({{ site.baseurl }}/protocols05/PRM/)
-- [DIA page]({{ site.baseurl }}/protocols05/DIA/)
-- [Isotopic Labeling page]({{ site.baseurl }}/protocols03/isotopic_labeling/)
-- [MRM/SRM page]({{ site.baseurl }}/protocols05/MRM/)
+- [PRM page]({{ site.baseurl }}/methods/protocols05/PRM/)
+- [DIA page]({{ site.baseurl }}/methods/protocols05/DIA/)
+- [Isotopic Labeling page]({{ site.baseurl }}/methods/protocols03/isotopic_labeling/)

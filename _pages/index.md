@@ -18,14 +18,14 @@ feature_row:
     alt: "collaborate"
     #title: "Collaborate"
     excerpt: "UWPR provides UW researchers with analytical and instructional expertise in proteomics techniques and data analysis."
-    url: /collaborate.html
+    url: /collab/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/resources.png
     alt: "resources"
     #title: "Resources"
     excerpt: "Learn more about UWPR's state of the art LC-MS instrumentation and computational resources."
-    url: /resources.html
+    url: /resources/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/methods.png
@@ -41,7 +41,7 @@ feature_row2:
     alt: "tools"
     #title: "Tools"
     excerpt: "Information on software, utilities, and related resources available at the UWPR to analyze and visualize proteomics data."
-    url: /tools.html
+    url: /tools/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/publications.png
@@ -55,7 +55,7 @@ feature_row2:
     alt: "contact"
     #title: "Contact"
     excerpt: "Interested in contacting or visiting the UWPR? Find phone and email contacts, address, and shuttle information here."
-    url: /contact.html
+    url: /contact/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
