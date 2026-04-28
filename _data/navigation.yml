@@ -11,6 +11,23 @@ main:
     url: /publications/
   - title: "Contact"
     url: /contact/
+    
+# Sidebar navigation for Publications
+publications-sidebar:
+  - title: "Year of Publication"
+    children:
+      - title: "2026"
+        url: /publications/
+      - title: "2025"
+        url: /publications/2025/
+      - title: "2024"
+        url: /publications/2024/
+      - title: "2023"
+        url: /publications/2023/
+      - title: "2022"
+        url: /publications/2022/
+      - title: "Older"
+        url: /publications/older/
 
 # Sidebar navigation for contact page
 contact-sidebar:

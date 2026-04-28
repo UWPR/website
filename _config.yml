@@ -25,6 +25,7 @@ plugins:
 include:
   - _pages
   - _methods
+  - _publications
   - _resources
   - _tools
 
