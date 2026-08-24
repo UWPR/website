@@ -2,12 +2,57 @@
   "publications": [
     {
       "year": "2026",
+      "title": "Corona: A Virtual Mass Spectrometer for the Development of Real-Time Mass Spectrometry Software",
+      "authors": "Hoopmann MR, McGann CD, Canterbury JD, Barshop WD, Yu Q, Gadzuk-Shea M, Hogrebe A, Vill&#233;n J, Schweppe DK",
+      "date": "2026 Jun 30",
+      "journal": "Anal Chem.",
+      "pmid": "42308194",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42308194/"
+    },
+    {
+      "year": "2026",
+      "title": "Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry",
+      "authors": "Zelter A, Zhong G, Maes M, Hoopmann MR, Riffle M, Jaschob D, Carlson II EA, Nelson WL, Dalvie D, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N",
+      "date": "2026 Jun 8",
+      "journal": "Drug Metab Rev.",
+      "pmid": "42124481",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42124481/"
+    },
+    {
+      "year": "2026",
+      "title": "Ultraslow conformational dynamics and catch bond formation of a bacterial adhesin revealed by a single-domain variant of FimH",
+      "authors": "Magala P, Tuttle LM, Interlandi G, Carlucci LA, Mollica MY, Janowska MK, Thomas WE, Sokurenko EV, Klevit RE",
+      "date": "2026 Jun 2",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "pmid": "42201957",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42201957/"
+    },
+    {
+      "year": "2026",
+      "title": "Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI",
+      "authors": "Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaFrance J, Khandelwal S, Chen JY, Williams E, Parr Z, Kim D, Rubinow KB, MacCoss MJ, Isoherranen N",
+      "date": "2026 Mar 5",
+      "journal": "Sci Data.",
+      "pmid": "41786761",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41786761/"
+    },
+    {
+      "year": "2026",
       "title": "The ProteomeXchange consortium in 2026: making proteomics data FAIR",
       "authors": "Deutsch EW, Bandeira N, Perez-Riverol Y, Sharma V, Carver JJ, Mendoza L, Kundu DJ, Bandla C, Kamatchinathan S, Hewapathirana S, Sun Z, Kawano S, Okuda S, Connolly B, MacLean B, MacCoss MJ, Chen T, Zhu Y, Ishihama Y, Vizca&iacute;no JA",
       "date": "2026 Jan 6",
       "journal": "Nucleic Acids Res.",
       "pmid": "41206473",
       "link": "https://pubmed.ncbi.nlm.nih.gov/41206473/"
+    },
+    {
+      "year": "2025",
+      "title": "The E3 ubiquitin ligase MGRN1 targets melanocortin receptors MC1R and MC4R via interactions with transmembrane adapters",
+      "authors": "Parashara P, Gao L, Riglos A, Lartey D, Sidhu SB, Marks T, Williams C, Siauw G, Lee KJ, Ostrem AIL, Siebold C, Riffle M, Kinnebrew M, Gunn TM, Kong JH",
+      "date": "2025 Dec 1",
+      "journal": "J Cell Sci.",
+      "pmid": "41178558",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41178558/"
     },
     {
       "year": "2025",
@@ -38,21 +83,21 @@
     },
     {
       "year": "2025",
-      "title": "Elevated apolipoprotein C3 heightens atherosclerosis risk by mediating arterial accumulation of free cholesterol and local inflammation in diabetes",
-      "authors": "Bornfeldt K, Kanter J, Hsu CC, Kramer F, Shao B, Vaisar T, den Hartigh L, Reed A, Luo J, Tran A, Tang J, Mangalapalli H, Cervantes J, Shimizu-Albergine M, Reaven P, Koska J, Jensen M, Davies B, Fisher E, Davidson N, Stitziel N, Mullick A, Goldberg I",
-      "date": "2025 Jul 16",
-      "journal": "Res Sq.",
-      "pmid": "40709279",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/40709279/"
-    },
-    {
-      "year": "2025",
       "title": "Extensive citrullination of human serum albumin is physiological and not inherently immunogenic in rheumatoid arthritis",
       "authors": "Mustelin C, Einstein A, Wang X, Shaikh F, Mustelin T",
       "date": "Aug;301(8)",
       "journal": "J Biol Chem.",
       "pmid": "40609794",
       "link": "https://pubmed.ncbi.nlm.nih.gov/40609794/"
+    },
+    {
+      "year": "2025",
+      "title": "Elevated apolipoprotein C3 heightens atherosclerosis risk by mediating arterial accumulation of free cholesterol and local inflammation in diabetes",
+      "authors": "Bornfeldt K, Kanter J, Hsu CC, Kramer F, Shao B, Vaisar T, den Hartigh L, Reed A, Luo J, Tran A, Tang J, Mangalapalli H, Cervantes J, Shimizu-Albergine M, Reaven P, Koska J, Jensen M, Davies B, Fisher E, Davidson N, Stitziel N, Mullick A, Goldberg I",
+      "date": "2025 Jul 16",
+      "journal": "Res Sq.",
+      "pmid": "40709279",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40709279/"
     },
     {
       "year": "2025",
@@ -65,6 +110,15 @@
     },
     {
       "year": "2025",
+      "title": "Effect of complete, lifelong ANGPTL3 deficiency on triglyceride-rich lipoprotein kinetics",
+      "authors": "Fappi A, Patterson BW, Burks KH, Davidson NO, Vaisar T, Kanter JE, Bornfeldt KE, Fisher EA, Goldberg IJ, Stitziel NO, Mittendorfer B",
+      "date": "2025 Jun 17",
+      "journal": "Cell Rep Med.",
+      "pmid": "40446802",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40446802/"
+    },
+    {
+      "year": "2025",
       "title": "Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment",
       "authors": "Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U",
       "date": "2025 Jun 16",
@@ -74,12 +128,12 @@
     },
     {
       "year": "2025",
-      "title": "Effect of complete, lifelong ANGPTL3 deficiency on triglyceride-rich lipoprotein kinetics",
-      "authors": "Fappi A, Patterson BW, Burks KH, Davidson NO, Vaisar T, Kanter JE, Bornfeldt KE, Fisher EA, Goldberg IJ, Stitziel NO, Mittendorfer B",
-      "date": "2025 Jun 17",
-      "journal": "Cell Rep Med.",
-      "pmid": "40446802",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/40446802/"
+      "title": "Defining the Features of Complement-Active IgM",
+      "authors": "Watson MJ, Cundorff CC, Lynch EM, Kollman JM, Kearney JF, Guttman M",
+      "date": "2025 Jun 15",
+      "journal": "J Mol Biol.",
+      "pmid": "40154915",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40154915/"
     },
     {
       "year": "2025",
@@ -92,30 +146,12 @@
     },
     {
       "year": "2025",
-      "title": "Harmful algal blooms are preceded by a predictable and quantifiable shift in the oceanic microbiome",
-      "authors": "Mudge MC, Riffle M, Chebli G, Plubell DL, Rynearson TA, Noble WS, Timmins-Schiffman E, Kubanek J, Nunn BL",
-      "date": "2025 Apr 29",
-      "journal": "Nat Commun.",
-      "pmid": "40295559",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/40295559/"
-    },
-    {
-      "year": "2025",
       "title": "Open-Source and FAIR Research Software for Proteomics",
-      "authors": "Perez-Riverol Y, Bittremieux W, Noble WS, Martens L, Bilbao A, Lazear MR, Gr&ouml;ning B, Katz DS, MacCoss MJ, Dai C, Eng JK, Bouwmeester R, Shortreed MR, Audain E, Sachsenberg T, Van Goey J, Wallmann G, Wen B, K\u00c3\u00a4ll L, Fondrie WE",
+      "authors": "Perez-Riverol Y, Bittremieux W, Noble WS, Martens L, Bilbao A, Lazear MR, Gr&ouml;ning B, Katz DS, MacCoss MJ, Dai C, Eng JK, Bouwmeester R, Shortreed MR, Audain E, Sachsenberg T, Van Goey J, Wallmann G, Wen B, K&#228;ll L, Fondrie WE",
       "date": "2025 May 2",
       "journal": "J Proteome Res.",
       "pmid": "40267229",
       "link": "https://pubmed.ncbi.nlm.nih.gov/40267229/"
-    },
-    {
-      "year": "2025",
-      "title": "Limelight: An Open, Web-Based Tool for Visualizing, Sharing, and Analyzing Mass Spectrometry Data from DDA Pipelines",
-      "authors": "Riffle M, Zelter A, Jaschob D, Hoopmann MR, Faivre DA, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N",
-      "date": "2025 Apr 4",
-      "journal": "J Proteome Res.",
-      "pmid": "40036265",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/40036265/"
     },
     {
       "year": "2025",
@@ -128,12 +164,39 @@
     },
     {
       "year": "2025",
+      "title": "Harmful algal blooms are preceded by a predictable and quantifiable shift in the oceanic microbiome",
+      "authors": "Mudge MC, Riffle M, Chebli G, Plubell DL, Rynearson TA, Noble WS, Timmins-Schiffman E, Kubanek J, Nunn BL",
+      "date": "2025 Apr 29",
+      "journal": "Nat Commun.",
+      "pmid": "40295559",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40295559/"
+    },
+    {
+      "year": "2025",
+      "title": "Limelight: An Open, Web-Based Tool for Visualizing, Sharing, and Analyzing Mass Spectrometry Data from DDA Pipelines",
+      "authors": "Riffle M, Zelter A, Jaschob D, Hoopmann MR, Faivre DA, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N",
+      "date": "2025 Apr 4",
+      "journal": "J Proteome Res.",
+      "pmid": "40036265",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40036265/"
+    },
+    {
+      "year": "2025",
       "title": "Inclusion of AV&beta;3 integrin into extracellular vesicles in a caveolin-1 tyrosine-14- phosphorylation dependent manner and subsequent transfer to recipient melanoma cells promotes migration, invasion and metastasis",
       "authors": "Huilcaman R, Campos A, Contreras P, Sim&oacute;n L, Varas-Godoy M, Gr&ouml;nenwald F, Shao B, Heinecke J, Lobos-Gonzalez L, Leyton L, Quest AFG",
       "date": "2025 Mar 17",
       "journal": "Cell Commun Signal.",
       "pmid": "40098186",
       "link": "https://pubmed.ncbi.nlm.nih.gov/40098186/"
+    },
+    {
+      "year": "2025",
+      "title": "Protein signatures predict coral resilience and survival to thermal bleaching events",
+      "authors": "Nunn BL, Brown T, Timmins-Schiffman EB, Mudge MC, Riffle M, Axworthy JB, Dilworth J, Kenkel CD, Zaneveld J, Rodrigues LJ, Padilla-Gami&ntilde;o JL",
+      "date": "2025 Mar 08",
+      "journal": "Communications Earth &amp; Environment",
+      "pmid": "Nature",
+      "link": "https://www.nature.com/articles/s43247-025-02167-7"
     },
     {
       "year": "2025",
@@ -155,6 +218,15 @@
     },
     {
       "year": "2025",
+      "title": "An In-Depth Coho Salmon (Oncorhynchus kisutch) Ovarian Follicle Proteome Reveals Coordinated Changes Across Diverse Cellular Processes during the Transition From Primary to Secondary Growth",
+      "authors": "Timmins-Schiffman E, Telish J, Field C, Monson C, Guzm&aacute;n JM, Nunn BL, Young G, Forsgren K",
+      "date": "2025 Mar;25(5-6)",
+      "journal": "Proteomics.",
+      "pmid": "39648474",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39648474/"
+    },
+    {
+      "year": "2025",
       "title": "Elevated levels of serum alpha-2-macroglobulin associate with diabetes status and incident CVD in type 1 diabetes",
       "authors": "Shao B, Snell-Bergeon JK, de Boer IH, Davidson WS, Bornfeldt KE, Heinecke JW",
       "date": "Feb;66(2)",
@@ -172,22 +244,13 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/39744840/"
     },
     {
-      "year": "2025",
-      "title": "Protein signatures predict coral resilience and survival to thermal bleaching events",
-      "authors": "Nunn BL, Brown T, Timmins-Schiffman EB, Mudge MC, Riffle M, Axworthy JB, Dilworth J, Kenkel CD, Zaneveld J, Rodrigues LJ, Padilla-Gami&ntilde;o JL",
-      "date": "2025 Mar 08",
-      "journal": "Communications Earth &amp; Environment",
-      "pmid": "Nature",
-      "link": "https://www.nature.com/articles/s43247-025-02167-7"
-    },
-    {
-      "year": "2025",
-      "title": "An In-Depth Coho Salmon (Oncorhynchus kisutch) Ovarian Follicle Proteome Reveals Coordinated Changes Across Diverse Cellular Processes during the Transition From Primary to Secondary Growth",
-      "authors": "Timmins-Schiffman E, Telish J, Field C, Monson C, Guzm&aacute;n JM, Nunn BL, Young G, Forsgren K",
-      "date": "2025 Mar;25(5-6)",
-      "journal": "Proteomics.",
-      "pmid": "39648474",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/39648474/"
+      "year": "2024",
+      "title": "APOA2 increases cholesterol efflux capacity to plasma HDL by displacing the C-terminus of resident APOA1",
+      "authors": "Sarkar S, Morris J, You Y, Sexmith H, Street SE, Thibert SM, Attah IK, Hutchinson Bunch CM, Novikova IV, Evans JE, Shah AS, Gordon SM, Segrest JP, Bornfeldt KE, Vaisar T, Heinecke JW, Davidson WS, Melchior JT",
+      "date": "2024 Dec;65(12)",
+      "journal": "J Lipid Res.",
+      "pmid": "39490930",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39490930/"
     },
     {
       "year": "2024",
@@ -209,21 +272,12 @@
     },
     {
       "year": "2024",
-      "title": "APOA2 increases cholesterol efflux capacity to plasma HDL by displacing the C-terminus of resident APOA1",
-      "authors": "Sarkar S, Morris J, You Y, Sexmith H, Street SE, Thibert SM, Attah IK, Hutchinson Bunch CM, Novikova IV, Evans JE, Shah AS, Gordon SM, Segrest JP, Bornfeldt KE, Vaisar T, Heinecke JW, Davidson WS, Melchior JT",
-      "date": "2024 Dec;65(12)",
-      "journal": "J Lipid Res.",
-      "pmid": "39490930",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/39490930/"
-    },
-    {
-      "year": "2024",
-      "title": "RNA structures within Venezuelan equine encephalitis virus E1 alter macrophage replication fitness and contribute to viral emergence",
-      "authors": "Hickson SE, Hyde JL",
-      "date": "2024 Sep 27",
-      "journal": "PLoS Pathog.",
-      "pmid": "39331659",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/39331659/"
+      "title": "A Framework for Quality Control in Quantitative Proteomics",
+      "authors": "Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ",
+      "date": "2024 Oct 4",
+      "journal": "J Proteome Res.",
+      "pmid": "39248652",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39248652/"
     },
     {
       "year": "2024",
@@ -236,21 +290,12 @@
     },
     {
       "year": "2024",
-      "title": "A Framework for Quality Control in Quantitative Proteomics",
-      "authors": "Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ",
-      "date": "2024 Oct 4",
-      "journal": "J Proteome Res.",
-      "pmid": "39248652",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/39248652/"
-    },
-    {
-      "year": "2024",
-      "title": "A Workflow for Improved Analysis of Cross-Linking Mass Spectrometry Data Integrating Parallel Accumulation-Serial Fragmentation with MeroX and Skyline",
-      "authors": "Rojas Echeverri JC, Hause F, Iacobucci C, Ihling CH, T\u00c3\u00a4nzler D, Shulman N, Riffle M, MacLean BX, Sinz A",
-      "date": "2024 May 14",
-      "journal": "Anal Chem.",
-      "pmid": "38696819",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/38696819/"
+      "title": "RNA structures within Venezuelan equine encephalitis virus E1 alter macrophage replication fitness and contribute to viral emergence",
+      "authors": "Hickson SE, Hyde JL",
+      "date": "2024 Sep 27",
+      "journal": "PLoS Pathog.",
+      "pmid": "39331659",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39331659/"
     },
     {
       "year": "2024",
@@ -272,21 +317,21 @@
     },
     {
       "year": "2024",
-      "title": "A Workflow for Improved Analysis of Cross-Linking Mass Spectrometry Data Integrating Parallel Accumulation-Serial Fragmentation with MeroX and Skyline",
-      "authors": "Rojas Echeverri JC, Hause F, Iacobucci C, Ihling CH, T\u00c3\u00a4nzler D, Shulman N, Riffle M, MacLean BX, Sinz A",
-      "date": "2024 May 14",
-      "journal": "Anal Chem.",
-      "pmid": "38696819",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/38696819/"
-    },
-    {
-      "year": "2024",
       "title": "Removal of Exogenous Stimuli Reveals a Canalization of Circadian Physiology in a Vertically Migrating Copepod",
       "authors": "Timmins-Schiffman E, Maas AE, Khanna R, Blanco-Bercial L, Huang E, Nunn BL",
       "date": "2024 Jun 7",
       "journal": "J Proteome Res.",
       "pmid": "38690632",
       "link": "https://pubmed.ncbi.nlm.nih.gov/38690632/"
+    },
+    {
+      "year": "2024",
+      "title": "A Workflow for Improved Analysis of Cross-Linking Mass Spectrometry Data Integrating Parallel Accumulation-Serial Fragmentation with MeroX and Skyline",
+      "authors": "Rojas Echeverri JC, Hause F, Iacobucci C, Ihling CH, T&#228;nzler D, Shulman N, Riffle M, MacLean BX, Sinz A",
+      "date": "2024 May 14",
+      "journal": "Anal Chem.",
+      "pmid": "38696819",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38696819/"
     },
     {
       "year": "2024",
@@ -299,12 +344,12 @@
     },
     {
       "year": "2024",
-      "title": "Diel metabolic patterns revealed by in situ transcriptome and proteome in a vertically migratory copepod",
-      "authors": "Maas AE, Timmins-Schiffman E, Tarrant AM, Nunn BL, Park J, Blanco-Bercial L",
-      "date": "2024 Mar;33",
-      "journal": "Mol Ecol.",
-      "pmid": "38258354",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/38258354/"
+      "title": "Sex differences in the associations of HDL particle concentration and cholesterol efflux capacity with incident coronary artery disease in type 1 diabetes: The RETRO HDLc cohort study",
+      "authors": "Costacou T, Miller RG, Bornfeldt KE, Heinecke JW, Orchard TJ, Vaisar T",
+      "date": "2024 Apr;18",
+      "journal": "J Clin Lipidol.",
+      "pmid": "38320926",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38320926/"
     },
     {
       "year": "2024",
@@ -326,15 +371,15 @@
     },
     {
       "year": "2024",
-      "title": "Sex differences in the associations of HDL particle concentration and cholesterol efflux capacity with incident coronary artery disease in type 1 diabetes: The RETRO HDLc cohort study",
-      "authors": "Costacou T, Miller RG, Bornfeldt KE, Heinecke JW, Orchard TJ, Vaisar T",
-      "date": "2024 Apr;18",
-      "journal": "J Clin Lipidol.",
-      "pmid": "38320926",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/38320926/"
+      "title": "Diel metabolic patterns revealed by in situ transcriptome and proteome in a vertically migratory copepod",
+      "authors": "Maas AE, Timmins-Schiffman E, Tarrant AM, Nunn BL, Park J, Blanco-Bercial L",
+      "date": "2024 Mar;33",
+      "journal": "Mol Ecol.",
+      "pmid": "38258354",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38258354/"
     },
     {
-      "year": "2024 ",
+      "year": "2024",
       "title": "A High-Throughput PIXUL-Matrix-Based Toolbox to Profile Frozen and Formalin-Fixed Paraffin-Embedded Tissues Multiomes",
       "authors": "Mar D, Babenko IM, Zhang R, Noble WS, Denisenko O, Vaisar T, Bomsztyk K",
       "date": "2024 Jan;104",
@@ -380,15 +425,6 @@
     },
     {
       "year": "2023",
-      "title": "Apolipoprotein C3 induces inflammasome activation only in its delipidated form",
-      "authors": "Hsu CC, Shao B, Kanter JE, He Y, Vaisar T, Witztum JL, Snell-Bergeon J, McInnes G, Bruse S, Gottesman O, Mullick AE, Bornfeldt KE",
-      "date": "2023 Mar;24",
-      "journal": "Nat Immunol.",
-      "pmid": "36781985",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/36781985/"
-    },
-    {
-      "year": "2023",
       "title": "MultiomicsTracks96: A high throughput PIXUL-Matrix-based toolbox to profile frozen and FFPE tissues multiomes",
       "authors": "Mar D, Babenko IM, Zhang R, Noble WS, Denisenko O, Vaisar T, Bomsztyk K",
       "date": "2023 Mar 20",
@@ -398,7 +434,16 @@
     },
     {
       "year": "2023",
-      "title": "Disordered region encodes \u00ce\u00b1-crystallin chaperone activity toward lens client \u00ce\u00b3D-crystallin",
+      "title": "Apolipoprotein C3 induces inflammasome activation only in its delipidated form",
+      "authors": "Hsu CC, Shao B, Kanter JE, He Y, Vaisar T, Witztum JL, Snell-Bergeon J, McInnes G, Bruse S, Gottesman O, Mullick AE, Bornfeldt KE",
+      "date": "2023 Mar;24",
+      "journal": "Nat Immunol.",
+      "pmid": "36781985",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36781985/"
+    },
+    {
+      "year": "2023",
+      "title": "Disordered region encodes &#945;-crystallin chaperone activity toward lens client &#947;D-crystallin",
       "authors": "Woods CN, Ulmer LD, Guttman M, Bush MF, Klevit RE",
       "date": "2023 Feb 7",
       "journal": "Proc Natl Acad Sci U S A.",
@@ -469,7 +514,7 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/36313672/"
     },
     {
-      "year": "2002",
+      "year": "2022",
       "title": "Proteomic response of early juvenile Pacific oysters (Crassostrea gigas) to temperature",
       "authors": "Crandall G, Thompson RE, Eudeline B, Vadopalas B, Timmins-Schiffman E, Roberts E",
       "date": "2022 Oct 4",
@@ -497,15 +542,6 @@
     },
     {
       "year": "2022",
-      "title": "Osmotic Processor for Enabling Sensitive and Rapid Biomarker Detection via Lateral Flow Assays",
-      "authors": "Chen SY, Wu AY, Lunde R, Lai JJ",
-      "date": "2022 Jun 1",
-      "journal": "Front Bioeng Biotechnol.",
-      "pmid": "35721843",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/35721843/"
-    },
-    {
-      "year": "2022",
       "title": "10,12-Conjugated linoleic acid supplementation improves HDL composition and function in mice",
       "authors": "Vaisar T, Wang S, Omer M, Irwin AD, Storey C, Tang C, den Hartigh LJ",
       "date": "2022 Jun 15",
@@ -515,30 +551,21 @@
     },
     {
       "year": "2022",
+      "title": "Osmotic Processor for Enabling Sensitive and Rapid Biomarker Detection via Lateral Flow Assays",
+      "authors": "Chen SY, Wu AY, Lunde R, Lai JJ",
+      "date": "2022 Jun 1",
+      "journal": "Front Bioeng Biotechnol.",
+      "pmid": "35721843",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35721843/"
+    },
+    {
+      "year": "2022",
       "title": "Structural dynamics reveal isolate-specific differences at neutralization epitopes on HIV Env",
       "authors": "Hodge EA, Naika GS, Kephart SM, Nguyen A, Zhu R, Benhaim MA, Guo W, Moore JP, Hu SL, Sanders RW, Lee KK",
       "date": "2022 May 23",
       "journal": "iScience.",
       "pmid": "35677643",
       "link": "https://pubmed.ncbi.nlm.nih.gov/35677643/"
-    },
-    {
-      "year": "2022",
-      "title": "Conformational flexibility of apolipoprotein A-I amino- and carboxy-termini is necessary for lipid binding but not cholesterol efflux",
-      "authors": "Bedi S, Morris J, Shah A, Hart RC, Jerome WG, Aller SG, Tang C, Vaisar T, Bornfeldt KE, Segrest JP, Heinecke JW, Davidson WS",
-      "date": "2022 Mar;63",
-      "journal": "J Lipid Res.",
-      "pmid": "35051413",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/35051413/"
-    },
-    {
-      "year": "2021",
-      "title": "Bacterial Quorum-Sensing Signal Arrests Phytoplankton Cell Division and Impacts Virus-Induced Mortality",
-      "authors": "Pollara SB, Becker JW, Nunn BL, Boiteau R, Repeta D, Mudge MC, Downing G, Chase D, Harvey EL, Whalen KE",
-      "date": "2021 May 12",
-      "journal": "mSphere",
-      "pmid": "33980670",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/33980670/"
     },
     {
       "year": "2022",
@@ -578,6 +605,24 @@
     },
     {
       "year": "2022",
+      "title": "Conformational flexibility of apolipoprotein A-I amino- and carboxy-termini is necessary for lipid binding but not cholesterol efflux",
+      "authors": "Bedi S, Morris J, Shah A, Hart RC, Jerome WG, Aller SG, Tang C, Vaisar T, Bornfeldt KE, Segrest JP, Heinecke JW, Davidson WS",
+      "date": "2022 Mar;63",
+      "journal": "J Lipid Res.",
+      "pmid": "35051413",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35051413/"
+    },
+    {
+      "year": "2022",
+      "title": "Shotgun Proteomics Identifies Active Metabolic Pathways in Bleached Coral Tissue and Intraskeletal Compartments",
+      "authors": "Axworthy, Jeremy B; Timmins-Schiffman, Emma; Brown, Tanya; Rodrigues, Lisa J; Nunn, Brook L",
+      "date": "2022 Feb 14",
+      "journal": "Frontiers in Marine Science.",
+      "pmid": "",
+      "link": "https://www.frontiersin.org/articles/10.3389/fmars.2022.797517/full"
+    },
+    {
+      "year": "2022",
       "title": "Cryo-ET of Env on intact HIV virions reveals structural variation and positioning on the Gag lattice",
       "authors": "Prasad VM, Leaman DP, Lovendahl KN, Croft JT, Benhaim MA, Hodge EA, Zwick MB, Lee KK",
       "date": "2022 Feb 4",
@@ -587,21 +632,21 @@
     },
     {
       "year": "2021",
-      "title": "A lysosome-targeted DNA nanodevice selectively targets macrophages to attenuate tumours",
-      "authors": "Cui C, Chakraborty K, Tang XA, Schoenfelt KQ, Hoffman A, Blank A, McBeth B, Pulliam N, Reardon CA, Kulkarni SA, Vaisar T, Ballabio A, Krishnan Y, Becker L",
-      "date": "2021 Dec;16",
-      "journal": "Nat Nanotechnol.",
-      "pmid": "34764452",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/34764452/"
-    },
-    {
-      "year": "2021",
       "title": "Amino acid primed mTOR activity is essential for heart regeneration",
       "authors": "Miklas JW, Levy S, Hofsteen P, Mex DI, Clark E, Muster J, Robitaille AM, Sivaram G, Abell L, Goodson JM, Pranoto I, Madan A, Chin MT, Tian R, Murry CE, Moon RT, Wang Y, Ruohola-Baker H",
       "date": "2021 Dec 6",
       "journal": "iScience.",
       "pmid": "34988408",
       "link": "https://pubmed.ncbi.nlm.nih.gov/34988408/"
+    },
+    {
+      "year": "2021",
+      "title": "A lysosome-targeted DNA nanodevice selectively targets macrophages to attenuate tumours",
+      "authors": "Cui C, Chakraborty K, Tang XA, Schoenfelt KQ, Hoffman A, Blank A, McBeth B, Pulliam N, Reardon CA, Kulkarni SA, Vaisar T, Ballabio A, Krishnan Y, Becker L",
+      "date": "2021 Dec;16",
+      "journal": "Nat Nanotechnol.",
+      "pmid": "34764452",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34764452/"
     },
     {
       "year": "2021",
@@ -623,39 +668,12 @@
     },
     {
       "year": "2021",
-      "title": "Altered HDL proteome predicts incident CVD in chronic kidney disease patients",
-      "authors": "Shao B, Mathew AV, Thornock C, Pennathur S; Michigan Kidney Translational Core CPROBE Investigator Group",
-      "date": "2021;62",
-      "journal": "J Lipid Res.",
-      "pmid": "34634315",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/34634315/"
-    },
-    {
-      "year": "2021",
       "title": "Broad scale proteomic analysis of heat-destabilised symbiosis in the hard coral Acropora millepora",
       "authors": "Petrou K, Nunn BL, Padula MP, Miller DJ, Nielsen DA",
       "date": "2021 Sep 24",
       "journal": "Sci Rep.",
       "pmid": "34561509",
       "link": "https://pubmed.ncbi.nlm.nih.gov/34561509/"
-    },
-    {
-      "year": "2021",
-      "title": "Decoding Post-Translational Modification Crosstalk With Proteomics",
-      "authors": "Leutert M, Entwisle SW, Vill&eacute;n J",
-      "date": "2021;20",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "34339852",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/34339852/"
-    },
-    {
-      "year": "2021",
-      "title": "Apolipoprotein A-I modulates HDL particle size in the absence of apolipoprotein A-II",
-      "authors": "Melchior JT, Street SE, Vaisar T, Hart R, Jerome J, Kuklenyik Z, Clouet-Foraison N, Thornock C, Bedi S, Shah AS, Segrest JP, Heinecke JW, Davidson WS",
-      "date": "2021;62",
-      "journal": "J Lipid Res.",
-      "pmid": "34324889",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/34324889/"
     },
     {
       "year": "2021",
@@ -704,10 +722,10 @@
     },
     {
       "year": "2021",
-      "title": "Bacterial quorum-sensing signal arrests phytoplankton cell division and impacts virus-induced mortality",
+      "title": "Bacterial Quorum-Sensing Signal Arrests Phytoplankton Cell Division and Impacts Virus-Induced Mortality",
       "authors": "Pollara SB, Becker JW, Nunn BL, Boiteau R, Repeta D, Mudge MC, Downing G, Chase D, Harvey EL, Whalen KE",
       "date": "2021 May 12",
-      "journal": "mSphere.",
+      "journal": "mSphere",
       "pmid": "33980670",
       "link": "https://pubmed.ncbi.nlm.nih.gov/33980670/"
     },
@@ -748,6 +766,33 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/33564085/"
     },
     {
+      "year": "2021",
+      "title": "Altered HDL proteome predicts incident CVD in chronic kidney disease patients",
+      "authors": "Shao B, Mathew AV, Thornock C, Pennathur S; Michigan Kidney Translational Core CPROBE Investigator Group",
+      "date": "2021;62",
+      "journal": "J Lipid Res.",
+      "pmid": "34634315",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34634315/"
+    },
+    {
+      "year": "2021",
+      "title": "Decoding Post-Translational Modification Crosstalk With Proteomics",
+      "authors": "Leutert M, Entwisle SW, Vill&eacute;n J",
+      "date": "2021;20",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "34339852",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34339852/"
+    },
+    {
+      "year": "2021",
+      "title": "Apolipoprotein A-I modulates HDL particle size in the absence of apolipoprotein A-II",
+      "authors": "Melchior JT, Street SE, Vaisar T, Hart R, Jerome J, Kuklenyik Z, Clouet-Foraison N, Thornock C, Bedi S, Shah AS, Segrest JP, Heinecke JW, Davidson WS",
+      "date": "2021;62",
+      "journal": "J Lipid Res.",
+      "pmid": "34324889",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34324889/"
+    },
+    {
       "year": "2020",
       "title": "Elicitation of Potent Neutralizing Antibody Responses by Designed Protein Nanoparticle Vaccines for SARS-CoV-2",
       "authors": "Walls AC, Fiala B, Sch&aouml;fer A, et al",
@@ -755,6 +800,15 @@
       "journal": "Cell",
       "pmid": "33160446",
       "link": "https://pubmed.ncbi.nlm.nih.gov/33160446/"
+    },
+    {
+      "year": "2020",
+      "title": "Extending Comet for Global Amino Acid Variant and Post-Translational Modification Analysis Using the PSI Extended FASTA Format",
+      "authors": "Eng JK, Deutsch EW",
+      "date": "2020 Nov;20",
+      "journal": "Proteomics.",
+      "pmid": "32106352",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/32106352"
     },
     {
       "year": "2020",
@@ -785,21 +839,21 @@
     },
     {
       "year": "2020",
-      "title": "Proteome and Phosphoproteome Analysis of Brown Adipocytes Reveals That RICTOR Loss Dampens Global Insulin/AKT Signaling",
-      "authors": "Entwisle SW, Martinez Calejman C, Valente AS, Lawrence RT, Hung CM, Guertin DA, Vill&eacute;n J",
-      "date": "2020 Jul;19",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "32234964",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/32234964/"
-    },
-    {
-      "year": "2020",
       "title": "How ATP-Competitive Inhibitors Allosterically Modulate Tyrosine Kinases That Contain a Src-like Regulatory Architecture",
       "authors": "Fang L, Vilas-Boas J, Chakraborty S, Potter ZE, Register AC, Seeliger MA, Maly DJ",
       "date": "2020 Jul 17",
       "journal": "ACS Chem Biol.",
       "pmid": "32479050",
       "link": "https://pubmed.ncbi.nlm.nih.gov/32479050/"
+    },
+    {
+      "year": "2020",
+      "title": "Proteome and Phosphoproteome Analysis of Brown Adipocytes Reveals That RICTOR Loss Dampens Global Insulin/AKT Signaling",
+      "authors": "Entwisle SW, Martinez Calejman C, Valente AS, Lawrence RT, Hung CM, Guertin DA, Vill&eacute;n J",
+      "date": "2020 Jul;19",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "32234964",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32234964/"
     },
     {
       "year": "2020",
@@ -825,17 +879,8 @@
       "authors": "Schweppe DK, Eng JK, Yu Q, Bailey D, Rad R, Navarrete-Perea J, Huttlin EL, Erickson BK, Paulo JA, Gygi SP",
       "date": "2020 May 1",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "32126768",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/32126768"
-    },
-    {
-      "year": "2020",
-      "title": "Extending Comet for Global Amino Acid Variant and Post-Translational Modification Analysis Using the PSI Extended FASTA Format",
-      "authors": "Eng JK, Deutsch EW",
-      "date": "2020 Nov;20",
-      "journal": "Proteomics.",
-      "pmid": "32106352",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/32106352"
     },
     {
       "year": "2020",
@@ -857,7 +902,7 @@
     },
     {
       "year": "2020",
-      "title": "In Vivo Cross-Linking MS Reveals Conservation in OmpA Linkage to Different Classes of \u00ce\u00b2-Lactamase Enzymes",
+      "title": "In Vivo Cross-Linking MS Reveals Conservation in OmpA Linkage to Different Classes of &#946;-Lactamase Enzymes",
       "authors": "Zhong X, Wu X, Schweppe DK, Chavez JD, Mathay M, Eng JK, Keller A, Bruce JE",
       "date": "2020 Feb 5",
       "journal": "J Am Soc Mass Spectrom.",
@@ -893,6 +938,42 @@
     },
     {
       "year": "2019",
+      "title": "Development of a Chemical Toolset for Studying the Paralog-Specific Function of IRE1",
+      "authors": "Feldman HC, Vidadala VN, Potter ZE, Papa FR, Backes BJ, Maly DJ",
+      "date": "2019 Dec 20",
+      "journal": "ACS Chem Biol.",
+      "pmid": "31609569",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31609569"
+    },
+    {
+      "year": "2019",
+      "title": "Dynamic response in the larval geoduck (Panopea generosa) proteome to elevated pCO2",
+      "authors": "Timmins-Schiffman E, Guzm&aacute;n JM, Elliott Thompson R, Vadopalas B, Eudeline B, Roberts S2",
+      "date": "2019 Dec 6",
+      "journal": "Ecol Evol.",
+      "pmid": "31988722",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31988722"
+    },
+    {
+      "year": "2019",
+      "title": "Growth phase proteomics of the heterotrophic marine bacterium Ruegeria pomeroyi",
+      "authors": "Krayushkina D, Timmins-Schiffman E, Faux J, May DH, Riffle M, Harvey HR, Nunn BL",
+      "date": "2019 Dec 3",
+      "journal": "Sci Data.",
+      "pmid": "31796751",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31796751"
+    },
+    {
+      "year": "2019",
+      "title": "Overcoming Steric Restrictions of VRC01 HIV-1 Neutralizing Antibodies through Immunization",
+      "authors": "Parks KR, MacCamy AJ, Trichka J, Gray M, Weidle C, Borst AJ, Khechaduri A, Takushi B, Agrawal P, Guenaga J, Wyatt RT, Coler R, Seaman M, LaBranche C, Montefiori DC, Veesler D, Pancera M, McGuire A, Stamatatos L",
+      "date": "2019 Dec 3",
+      "journal": "Cell Rep.",
+      "pmid": "31801073",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31801073"
+    },
+    {
+      "year": "2019",
       "title": "RNA-binding protein isoforms ZAP-S and ZAP-L have distinct antiviral and immune resolution functions",
       "authors": "Schwerk J, Soveg FW, Ryan AP, Thomas KR, Hatfield LD, Ozarkar S, Forero A, Kell AM, Roby JA, So L, Hyde JL, Gale M Jr, Daugherty MD, Savan R",
       "date": "2019 Dec;20",
@@ -901,70 +982,34 @@
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/31740798"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "R2-P2 rapid-robotic phosphoproteomics enables multidimensional cell signaling studies",
       "authors": "Leutert M, Rodr&iacute;guez-Mias RA, Fukuda NK, Vill&eacute;n J",
       "date": "Dec;15",
       "journal": "Mol Syst Biol.",
-      "pmid": "",
+      "pmid": "31885202",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/31885202"
     },
     {
-      "year": "",
-      "title": "Dynamic response in the larval geoduck (Panopea generosa) proteome to elevated pCO2",
-      "authors": "Timmins-Schiffman E, Guzm&aacute;n JM, Elliott Thompson R, Vadopalas B, Eudeline B, Roberts S2",
-      "date": "2019 Dec 6",
-      "journal": "Ecol Evol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31988722"
-    },
-    {
-      "year": "",
-      "title": "Growth phase proteomics of the heterotrophic marine bacterium Ruegeria pomeroyi",
-      "authors": "Krayushkina D, Timmins-Schiffman E, Faux J, May DH, Riffle M, Harvey HR, Nunn BL",
-      "date": "2019 Dec 3",
-      "journal": "Sci Data.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31796751"
-    },
-    {
-      "year": "",
-      "title": "Overcoming Steric Restrictions of VRC01 HIV-1 Neutralizing Antibodies through Immunization",
-      "authors": "Parks KR, MacCamy AJ, Trichka J, Gray M, Weidle C, Borst AJ, Khechaduri A, Takushi B, Agrawal P, Guenaga J, Wyatt RT, Coler R, Seaman M, LaBranche C, Montefiori DC, Veesler D, Pancera M, McGuire A, Stamatatos L",
-      "date": "2019 Dec 3",
-      "journal": "Cell Rep.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31801073"
-    },
-    {
-      "year": "",
-      "title": "Postprandial remodeling of high-density lipoprotein following high saturated fat and high carbohydrate meals",
-      "authors": "Averill M, Rubinow KB, Cain K, Wimberger J, Babenko I, Becker JO, Foster-Schubert KE, Cummings DE, Hoofnagle AN, Vaisar T",
-      "date": "Feb;14",
-      "journal": "J Clin Lipidol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31859127"
-    },
-    {
-      "year": "",
+      "year": "2019",
       "title": "Cellular Interactome Dynamics during Paclitaxel Treatment",
       "authors": "Chavez JD, Keller A, Zhou B, Tian R, Bruce JE",
       "date": "2019 Nov 19",
       "journal": "Cell Rep.",
-      "pmid": "",
+      "pmid": "31747606",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/31747606"
     },
     {
-      "year": "",
-      "title": "An antibody against the F glycoprotein inhibits Nipah and Hendra virus infections",
-      "authors": "Dang HV, Chan YP, Park YJ, Snijder J, Da Silva SC, Vu B, Yan L, Feng YR, Rockx B, Geisbert TW, Mire CE, Broder CC, Veesler D",
-      "date": "Oct;26",
-      "journal": "Nat Struct Mol Biol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31570878"
+      "year": "2019",
+      "title": "Cyanobacteria and cyanophage contributions to carbon and nitrogen cycling in an oligotrophic oxygen-deficient zone",
+      "authors": "Fuchsman CA, Palevsky HI, Widner B, Duffy M, Carlson MCG, Neibauer JA, Mulholland MR, Keil RG, Devol AH, Rocap G",
+      "date": "Nov;13",
+      "journal": "ISME J.",
+      "pmid": "31249393",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31249393"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "Degronomics: Mapping the Interacting Peptidome of a Ubiquitin Ligase Using an",
       "authors": "Integrative Mass Spectrometry Strategy Canzani D, Rusnac DV, Zheng N, Bush MF",
       "date": "2019 Oct 15",
@@ -973,196 +1018,178 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/31525912/"
     },
     {
-      "year": "",
-      "title": "Development of a Chemical Toolset for Studying the Paralog-Specific Function of IRE1",
-      "authors": "Feldman HC, Vidadala VN, Potter ZE, Papa FR, Backes BJ, Maly DJ",
-      "date": "2019 Dec 20",
-      "journal": "ACS Chem Biol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31609569"
-    },
-    {
-      "year": "",
-      "title": "Increased apolipoprotein C3 drives cardiovascular risk in type 1 diabetes",
-      "authors": "Kanter JE, Shao B, Kramer F, Barnhart S, Shimizu-Albergine M, Vaisar T, Graham MJ, Crooke RM, Manuel CR, Haeusler RA, Mar D, Bomsztyk K, Hokanson JE, Kinney GL, Snell-Bergeon JK, Heinecke JW, Bornfeldt KE",
-      "date": "2019 Jul 11",
-      "journal": "J Clin Invest.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31295146"
-    },
-    {
-      "year": "",
-      "title": "Metaproteomics reveal that rapid perturbations in organic matter prioritize functional restructuring over taxonomy in western Arctic Ocean microbiomes",
-      "authors": "Mikan MP, Harvey HR, Timmins-Schiffman E, Riffle M, May DH, Salter I, Noble WS, Nunn BL",
-      "date": "Jan;14",
-      "journal": "ISME J.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31492961"
-    },
-    {
-      "year": "",
-      "title": "Predictive proteomic signatures for response of pancreatic cancer patients receiving chemotherapy",
-      "authors": "Peng H, Chen R, Brentnall TA, Eng JK, Picozzi VJ, Pan S",
-      "date": "2019 Jul 17",
-      "journal": "Clin Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31346328"
-    },
-    {
-      "year": "",
-      "title": "Chemoproteomic Method for Profiling Inhibitor-Bound Kinase Complexes",
-      "authors": "Fang L, Chakraborty S, Dieter EM, Potter ZE, Lombard CK, Maly DJ",
-      "date": "2019 Jul 31",
-      "journal": "J Am Chem Soc.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31274292"
-    },
-    {
-      "year": "",
-      "title": "Pacific geoduck (Panopea generosa) resilience to natural pH variation",
-      "authors": "Spencer LH, Horwith M, Lowe AT, Venkataraman YR, Timmins-Schiffman E, Nunn BL, Roberts SB",
-      "date": "Jun;30",
-      "journal": "Comp Biochem Physiol Part D Genomics Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30818101"
-    },
-    {
-      "year": "",
-      "title": "Cyanobacteria and cyanophage contributions to carbon and nitrogen cycling in an oligotrophic oxygen-deficient zone",
-      "authors": "Fuchsman CA, Palevsky HI, Widner B, Duffy M, Carlson MCG, Neibauer JA, Mulholland MR, Keil RG, Devol AH, Rocap G",
-      "date": "Nov;13",
-      "journal": "ISME J.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31249393"
-    },
-    {
-      "year": "",
-      "title": "Structural basis for human coronavirus attachment to sialic acid receptors",
-      "authors": "Tortorici MA, Walls AC, Lang Y, Wang C, Li Z, Koerhuis D, Boons GJ, Bosch BJ, Rey FA, de Groot RJ, Veesler D",
-      "date": "Jun;26",
+      "year": "2019",
+      "title": "An antibody against the F glycoprotein inhibits Nipah and Hendra virus infections",
+      "authors": "Dang HV, Chan YP, Park YJ, Snijder J, Da Silva SC, Vu B, Yan L, Feng YR, Rockx B, Geisbert TW, Mire CE, Broder CC, Veesler D",
+      "date": "Oct;26",
       "journal": "Nat Struct Mol Biol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31160783"
+      "pmid": "31570878",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31570878"
     },
     {
-      "year": "",
-      "title": "Proteomics Standards Initiative Extended FASTA Format",
-      "authors": "Binz PA, Shofstahl J, Vizca&iacute;no JA, Barsnes H, Chalkley RJ, Menschaert G, Alpi E, Clauser K, Eng JK, Lane L, Seymour SL, S&aacute;nchez LFH, Mayer G, Eisenacher M, Perez-Riverol Y, Kapp EA, Mendoza L, Baker PR, Collins A, Van Den Bossche T, Deutsch EW",
-      "date": "2019 Jun 7",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31081335"
-    },
-    {
-      "year": "",
-      "title": "In Vivo Proteome of Pseudomonas aeruginosa in Airways of Cystic Fibrosis Patients",
-      "authors": "Wu X, Siehnel RJ, Garudathri J, Staudinger BJ, Hisert KB, Ozer EA, Hauser AR, Eng JK, Manoil C, Singh PK, Bruce JE",
-      "date": "2019 Jun 7",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31060355"
-    },
-    {
-      "year": "",
-      "title": "Apolipoprotein A1 Forms 5/5 and 5/4 Antiparallel Dimers in Human High-density Lipoprotein",
-      "authors": "He Y, Song HD, Anantharamaiah GM, Palgunachari MN, Bornfeldt KE, Segrest JP, Heinecke JW",
-      "date": "May;18",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30659061"
-    },
-    {
-      "year": "",
-      "title": "Albuminuria, the High-Density Lipoprotein Proteome, and Coronary Artery Calcification in Type 1 Diabetes Mellitus",
-      "authors": "Shao B, Zelnick LR, Wimberger J, Himmelfarb J, Brunzell J, Davidson WS, Snell-Bergeon JK, Bornfeldt KE, de Boer IH, Heinecke JW",
-      "date": "Jul;39",
-      "journal": "Arterioscler Thromb Vasc Biol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31092010"
-    },
-    {
-      "year": "",
-      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
-      "authors": "Garrett-Bakelman FE, Darshi M, Green SJ, Gur RC, Lin L, Macias BR, McKenna MJ, Meydan C, Mishra T, Nasrini J, Piening BD, Rizzardi LF, Sharma K, Siamwala JH, Taylor L, Vitaterna MH, Afkarian M, Afshinnekoo E, Ahadi S, Ambati A, Arya M, Bezdan D, Callahan CM, Chen S, Choi AMK, Chlipala GE, Contrepois K, Covington M, Crucian BE, De Vivo I, Dinges DF, Ebert DJ, Feinberg JI, Gandara JA, George KA, Goutsias J, Grills GS, Hargens AR, Heer M, Hillary RP, Hoofnagle AN, Hook VYH, Jenkinson G, Jiang P, Keshavarzian A, Laurie SS, Lee-McMullen B, Lumpkins SB, MacKay M, Maienschein-Cline MG, Melnick AM, Moore TM, Nakahira K, Patel HH, Pietrzyk R, Rao V, Saito R, Salins DN, Schilling JM, Sears DD, Sheridan CK, Stenger MB, Tryggvadottir R, Urban AE, Vaisar T, Van Espen B, Zhang J, Ziegler MG, Zwart SR, Charles JB, Kundrot CE, Scott GBI, Bailey SM, Basner M, Feinberg AP, Lee SMC, Mason CE, Mignot E, Rana BK, Smith SM, Snyder MP, Turek FW",
-      "date": "2019 Apr 12",
-      "journal": "Science.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30975860"
-    },
-    {
-      "year": "",
-      "title": "Proteome-wide Analysis of Cellular Response to Ultraviolet Light for Biomaterial Synthesis and Modification",
-      "authors": "Ruskowitz ER, DeForest CA",
-      "date": "2019 May 13",
-      "journal": "ACS Biomater Sci Eng.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/33405713"
-    },
-    {
-      "year": "",
+      "year": "2019",
       "title": "Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective",
       "authors": "Vincow ES, Thomas RE, Merrihew GE, Shulman NJ, Bammler TK, MacDonald JW, MacCoss MJ, Pallanck LJ",
       "date": "Sep;15",
       "journal": "Autophagy.",
-      "pmid": "",
+      "pmid": "30865561",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30865561"
     },
     {
-      "year": "",
+      "year": "2019",
+      "title": "Chemoproteomic Method for Profiling Inhibitor-Bound Kinase Complexes",
+      "authors": "Fang L, Chakraborty S, Dieter EM, Potter ZE, Lombard CK, Maly DJ",
+      "date": "2019 Jul 31",
+      "journal": "J Am Chem Soc.",
+      "pmid": "31274292",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31274292"
+    },
+    {
+      "year": "2019",
+      "title": "Predictive proteomic signatures for response of pancreatic cancer patients receiving chemotherapy",
+      "authors": "Peng H, Chen R, Brentnall TA, Eng JK, Picozzi VJ, Pan S",
+      "date": "2019 Jul 17",
+      "journal": "Clin Proteomics.",
+      "pmid": "31346328",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31346328"
+    },
+    {
+      "year": "2019",
+      "title": "Increased apolipoprotein C3 drives cardiovascular risk in type 1 diabetes",
+      "authors": "Kanter JE, Shao B, Kramer F, Barnhart S, Shimizu-Albergine M, Vaisar T, Graham MJ, Crooke RM, Manuel CR, Haeusler RA, Mar D, Bomsztyk K, Hokanson JE, Kinney GL, Snell-Bergeon JK, Heinecke JW, Bornfeldt KE",
+      "date": "2019 Jul 11",
+      "journal": "J Clin Invest.",
+      "pmid": "31295146",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31295146"
+    },
+    {
+      "year": "2019",
+      "title": "Albuminuria, the High-Density Lipoprotein Proteome, and Coronary Artery Calcification in Type 1 Diabetes Mellitus",
+      "authors": "Shao B, Zelnick LR, Wimberger J, Himmelfarb J, Brunzell J, Davidson WS, Snell-Bergeon JK, Bornfeldt KE, de Boer IH, Heinecke JW",
+      "date": "Jul;39",
+      "journal": "Arterioscler Thromb Vasc Biol.",
+      "pmid": "31092010",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31092010"
+    },
+    {
+      "year": "2019",
+      "title": "Proteomics Standards Initiative Extended FASTA Format",
+      "authors": "Binz PA, Shofstahl J, Vizca&iacute;no JA, Barsnes H, Chalkley RJ, Menschaert G, Alpi E, Clauser K, Eng JK, Lane L, Seymour SL, S&aacute;nchez LFH, Mayer G, Eisenacher M, Perez-Riverol Y, Kapp EA, Mendoza L, Baker PR, Collins A, Van Den Bossche T, Deutsch EW",
+      "date": "2019 Jun 7",
+      "journal": "J Proteome Res.",
+      "pmid": "31081335",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31081335"
+    },
+    {
+      "year": "2019",
+      "title": "In Vivo Proteome of Pseudomonas aeruginosa in Airways of Cystic Fibrosis Patients",
+      "authors": "Wu X, Siehnel RJ, Garudathri J, Staudinger BJ, Hisert KB, Ozer EA, Hauser AR, Eng JK, Manoil C, Singh PK, Bruce JE",
+      "date": "2019 Jun 7",
+      "journal": "J Proteome Res.",
+      "pmid": "31060355",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31060355"
+    },
+    {
+      "year": "2019",
+      "title": "Pacific geoduck (Panopea generosa) resilience to natural pH variation",
+      "authors": "Spencer LH, Horwith M, Lowe AT, Venkataraman YR, Timmins-Schiffman E, Nunn BL, Roberts SB",
+      "date": "Jun;30",
+      "journal": "Comp Biochem Physiol Part D Genomics Proteomics.",
+      "pmid": "30818101",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30818101"
+    },
+    {
+      "year": "2019",
+      "title": "Structural basis for human coronavirus attachment to sialic acid receptors",
+      "authors": "Tortorici MA, Walls AC, Lang Y, Wang C, Li Z, Koerhuis D, Boons GJ, Bosch BJ, Rey FA, de Groot RJ, Veesler D",
+      "date": "Jun;26",
+      "journal": "Nat Struct Mol Biol.",
+      "pmid": "31160783",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31160783"
+    },
+    {
+      "year": "2019",
+      "title": "Proteome-wide Analysis of Cellular Response to Ultraviolet Light for Biomaterial Synthesis and Modification",
+      "authors": "Ruskowitz ER, DeForest CA",
+      "date": "2019 May 13",
+      "journal": "ACS Biomater Sci Eng.",
+      "pmid": "33405713",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/33405713"
+    },
+    {
+      "year": "2019",
+      "title": "Apolipoprotein A1 Forms 5/5 and 5/4 Antiparallel Dimers in Human High-density Lipoprotein",
+      "authors": "He Y, Song HD, Anantharamaiah GM, Palgunachari MN, Bornfeldt KE, Segrest JP, Heinecke JW",
+      "date": "May;18",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "30659061",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30659061"
+    },
+    {
+      "year": "2019",
+      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": "Garrett-Bakelman FE, Darshi M, Green SJ, Gur RC, Lin L, Macias BR, McKenna MJ, Meydan C, Mishra T, Nasrini J, Piening BD, Rizzardi LF, Sharma K, Siamwala JH, Taylor L, Vitaterna MH, Afkarian M, Afshinnekoo E, Ahadi S, Ambati A, Arya M, Bezdan D, Callahan CM, Chen S, Choi AMK, Chlipala GE, Contrepois K, Covington M, Crucian BE, De Vivo I, Dinges DF, Ebert DJ, Feinberg JI, Gandara JA, George KA, Goutsias J, Grills GS, Hargens AR, Heer M, Hillary RP, Hoofnagle AN, Hook VYH, Jenkinson G, Jiang P, Keshavarzian A, Laurie SS, Lee-McMullen B, Lumpkins SB, MacKay M, Maienschein-Cline MG, Melnick AM, Moore TM, Nakahira K, Patel HH, Pietrzyk R, Rao V, Saito R, Salins DN, Schilling JM, Sears DD, Sheridan CK, Stenger MB, Tryggvadottir R, Urban AE, Vaisar T, Van Espen B, Zhang J, Ziegler MG, Zwart SR, Charles JB, Kundrot CE, Scott GBI, Bailey SM, Basner M, Feinberg AP, Lee SMC, Mason CE, Mignot E, Rana BK, Smith SM, Snyder MP, Turek FW",
+      "date": "2019 Apr 12",
+      "journal": "Science.",
+      "pmid": "30975860",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30975860"
+    },
+    {
+      "year": "2019",
       "title": "Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion",
       "authors": "Walls AC, Xiong X, Park YJ, Tortorici MA, Snijder J, Quispe J, Cameroni E, Gopal R, Dai M, Lanzavecchia A, Zambon M, Rey FA, Corti D, Veesler D",
       "date": "2019 Feb 21",
       "journal": "Cell.",
-      "pmid": "",
+      "pmid": "30712865",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30712865"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "Metabolism as an early predictor of DPSCs aging",
       "authors": "Macrin D, Alghadeer A, Zhao YT, Miklas JW, Hussein AM, Detraux D, Robitaille AM, Madan A, Moon RT, Wang Y, Devi A, Mathieu J, Ruohola-Baker H",
       "date": "2019 Feb 18",
       "journal": "Sci Rep.",
-      "pmid": "",
+      "pmid": "30778087",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30778087"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "Folliculin regulates mTORC1/2 and WNT pathways in early human pluripotency",
       "authors": "Mathieu J, Detraux D, Kuppers D, Wang Y, Cavanaugh C, Sidhu S, Levy S, Robitaille AM, Ferreccio A, Bottorff T, McAlister A, Somasundaram L, Artoni F, Battle S, Hawkins RD, Moon RT, Ware CB, Paddison PJ, Ruohola-Baker H",
       "date": "2019 Feb 7",
       "journal": "Nat Commun.",
-      "pmid": "",
+      "pmid": "30733432",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30733432"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "A Tandem Mass Spectrometry Sequence Database Search Method for Identification of O-Fucosylated Proteins by Mass Spectrometry",
       "authors": "Swearingen KE, Eng JK, Shteynberg D, Vigdorovich V, Springer TA, Mendoza L, Sather DN, Deutsch EW, Kappe SHI, Moritz RL",
       "date": "2019 Feb 1",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "30523691",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30523691"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "Sestd1 Encodes a Developmentally Dynamic Synapse Protein That Complexes With BCR Rac1-GAP to Regulate Forebrain Dendrite, Spine and Synapse Formation",
       "authors": "Yang XY, Stanley RE, Ross AP, Robitaille AM, Gray JA, Cheyette BNR",
       "date": "2019 Feb 1",
       "journal": "Cereb Cortex.",
-      "pmid": "",
+      "pmid": "29293918",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29293918"
     },
     {
-      "year": "",
-      "title": "Characterization of Pacific oyster Crassostrea gigas proteomic response to natural environmental differences. Venkataraman, Y.R., Timmins-Schiffman, E., Horwith, M.J., Lowe, A.T., Nunn, B., Vadopalas, B., Spencer, L.H., and Roberts, S",
-      "authors": "B",
+      "year": "2019",
+      "title": "Characterization of Pacific oyster Crassostrea gigas proteomic response to natural environmental differences",
+      "authors": "Venkataraman, Y.R., Timmins-Schiffman, E., Horwith, M.J., Lowe, A.T., Nunn, B., Vadopalas, B., Spencer, L.H., and Roberts, S.B.",
       "date": "2019 Feb 1",
       "journal": "Mar Ecol Prog Ser 610, 65-81.",
       "pmid": "",
-      "link": ""
+      "link": "https://www.int-res.com/abstracts/meps/v610/meps12858"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "Proxl (Protein Cross-Linking Database): A Public Server, QC Tools, and Other Major Updates",
       "authors": "Riffle M, Jaschob D, Zelter A, Davis TN",
       "date": "2019 Feb 1",
@@ -1171,556 +1198,583 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/30525651/"
     },
     {
-      "year": "",
+      "year": "2019",
       "title": "Tools for 3D Interactome Visualization",
       "authors": "Keller A, Chavez JD, Eng JK, Thornton Z, Bruce JE",
       "date": "2019 Feb 1",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "30520642",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30520642"
     },
     {
-      "year": "",
-      "title": "Germline VRC01 antibody recognition of a modified clade C HIV-1 envelope trimer and a glycosylated HIV-1 gp120 core",
-      "authors": "Borst AJ, Weidle CE, Gray MD, Frenz B, Snijder J, Joyce MG, Georgiev IS, Stewart-Jones GB, Kwong PD, McGuire AT, DiMaio F, Stamatatos L, Pancera M, Veesler D",
-      "date": "2018 Nov 7",
-      "journal": "Elife.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30403372"
+      "year": "2019",
+      "title": "Postprandial remodeling of high-density lipoprotein following high saturated fat and high carbohydrate meals",
+      "authors": "Averill M, Rubinow KB, Cain K, Wimberger J, Babenko I, Becker JO, Foster-Schubert KE, Cummings DE, Hoofnagle AN, Vaisar T",
+      "date": "Feb;14",
+      "journal": "J Clin Lipidol.",
+      "pmid": "31859127",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31859127"
     },
     {
-      "year": "",
-      "title": "Urine Complement Proteins and the Risk of Kidney Disease Progression and Mortality in Type 2 Diabetes",
-      "authors": "Vaisar T, Durbin-Johnson B, Whitlock K, Babenko I, Mehrotra R, Rocke DM, Afkarian M",
-      "date": "Nov;41",
-      "journal": "Diabetes Care.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30150236"
+      "year": "2019",
+      "title": "Metaproteomics reveal that rapid perturbations in organic matter prioritize functional restructuring over taxonomy in western Arctic Ocean microbiomes",
+      "authors": "Mikan MP, Harvey HR, Timmins-Schiffman E, Riffle M, May DH, Salter I, Noble WS, Nunn BL",
+      "date": "Jan;14",
+      "journal": "ISME J.",
+      "pmid": "31492961",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/31492961"
     },
     {
-      "year": "",
+      "year": "2018",
       "title": "Bifunctional Immunity Proteins Protect Bacteria against FtsZ-Targeting ADP-Ribosylating Toxins",
       "authors": "Ting SY, Bosch DE, Mangiameli SM, Radey MC, Huang S, Park YJ, Kelly KA, Filip SK, Goo YA, Eng JK, Allaire M, Veesler D, Wiggins PA, Peterson SB, Mougous JD",
       "date": "2018 Nov 15",
       "journal": "Cell.",
-      "pmid": "",
+      "pmid": "30343895",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30343895"
     },
     {
-      "year": "",
+      "year": "2018",
+      "title": "Germline VRC01 antibody recognition of a modified clade C HIV-1 envelope trimer and a glycosylated HIV-1 gp120 core",
+      "authors": "Borst AJ, Weidle CE, Gray MD, Frenz B, Snijder J, Joyce MG, Georgiev IS, Stewart-Jones GB, Kwong PD, McGuire AT, DiMaio F, Stamatatos L, Pancera M, Veesler D",
+      "date": "2018 Nov 7",
+      "journal": "Elife.",
+      "pmid": "30403372",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30403372"
+    },
+    {
+      "year": "2018",
+      "title": "Urine Complement Proteins and the Risk of Kidney Disease Progression and Mortality in Type 2 Diabetes",
+      "authors": "Vaisar T, Durbin-Johnson B, Whitlock K, Babenko I, Mehrotra R, Rocke DM, Afkarian M",
+      "date": "Nov;41",
+      "journal": "Diabetes Care.",
+      "pmid": "30150236",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/30150236"
+    },
+    {
+      "year": "2018",
       "title": "Variations in Copepod Proteome and Respiration Rate in Association with Diel Vertical Migration and Circadian Cycle",
       "authors": "Maas AE, Blanco-Bercial L, Lo A, Tarrant AM, Timmins-Schiffman E",
       "date": "Aug;235",
       "journal": "Biol Bull.",
-      "pmid": "",
+      "pmid": "30160998",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/30160998"
     },
     {
-      "year": "",
+      "year": "2018",
       "title": "Sex steroids mediate discrete effects on HDL cholesterol efflux capacity and particle concentration in healthy men",
       "authors": "Rubinow KB, Vaisar T, Chao JH, Heinecke JW, Page ST",
       "date": "Aug;12",
       "journal": "J Clin Lipidol.",
-      "pmid": "",
+      "pmid": "29793828",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29793828"
     },
     {
-      "year": "",
+      "year": "2018",
       "title": "MS analysis of a dilution series of bacteria:phytoplankton to improve detection of low abundance bacterial peptides",
       "authors": "Timmins-Schiffman E, Mikan MP, Ting YS, Harvey HR, Nunn BL",
       "date": "2018 Jun 18",
       "journal": "Sci Rep.",
-      "pmid": "",
+      "pmid": "29915279",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29915279"
     },
     {
-      "year": "",
-      "title": "Obesity and Insulin Resistance Promote Atherosclerosis through an IFN\u00ce\u00b3-Regulated Macrophage Protein Network",
+      "year": "2018",
+      "title": "Obesity and Insulin Resistance Promote Atherosclerosis through an IFN&#947;-Regulated Macrophage Protein Network",
       "authors": "Reardon CA, Lingaraju A, Schoenfelt KQ, Zhou G, Cui C, Jacobs-El H, Babenko I, Hoofnagle A, Czyz D, Shuman H, Vaisar T, Becker L",
       "date": "2018 Jun 5",
       "journal": "Cell Rep.",
-      "pmid": "",
+      "pmid": "29874587",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29874587"
     },
     {
-      "year": "",
+      "year": "2018",
       "title": "Mango: A general tool for CID-cleavable cross-linked peptide identification",
       "authors": "Mohr JP, Perumalla P, Chavez JD, Eng JK, Bruce JE",
       "date": "2018 May 15",
       "journal": "Anal Chem",
-      "pmid": "",
+      "pmid": "29676898",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29676898"
     },
     {
-      "year": "",
+      "year": "2018",
+      "title": "ALPK2 Promotes Cardiogenesis in Zebrafish and Human Pluripotent Stem Cells",
+      "authors": "Hofsteen P, Robitaille AM, Strash N, Palpant N, Moon RT, Pabon L, Murry CE",
+      "date": "2018 Apr 27",
+      "journal": "iScience",
+      "pmid": "29888752",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29888752/"
+    },
+    {
+      "year": "2018",
       "title": "An Antibody Targeting the Fusion Machinery Neutralizes Dual-Tropic Infection and Defines a Site of Vulnerability on Epstein-Barr Virus",
       "authors": "Snijder J, Ortego MS, Weidle C, Stuart AB, Gray MD, McElrath MJ, Pancera M, Veesler D, McGuire AT",
       "date": "2018 Apr 17",
       "journal": "Immunity",
-      "pmid": "",
+      "pmid": "29669253",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29669253"
     },
     {
-      "year": "",
-      "title": "ALPK2 Promotes Cardiogenesis in Zebrafish and",
-      "authors": "Human Pluripotent Stem Cells Hofsteen P, Robitaille AM, Strash N, Palpant N, Moon RT, Pabon L, Murray Ce",
-      "date": "2018 Apr 27",
-      "journal": "iScience",
-      "pmid": "",
-      "link": ""
-    },
-    {
-      "year": "",
-      "title": "Sipros Ensemble improves database searching and filtering for complex metaproteomics",
-      "authors": "Guo X, Li Z, Yao Q, Mueller RS, Eng JK, Tabb DL, Hervey WJ 4th, Pan C",
-      "date": "2018 Mar 1",
-      "journal": "Bioinformatics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/29028897"
-    },
-    {
-      "year": "",
-      "title": "Panorama Public: A public repository for quantitative data sets processed in Skyline",
-      "authors": "Sharma V, Eckels J, Schilling B, Ludwig C, Jaffe JD, MacCoss MJ, MacLean B",
-      "date": "2018 Feb 27",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/29487113"
-    },
-    {
-      "year": "",
+      "year": "2018",
       "title": "Type 2 diabetes is associated with loss of HDL endothelium protective functions",
       "authors": "Vaisar T, Couzens E, Hwang A, Russell M, Barlow CE, DeFina LF, Hoofnagle AN, Kim F",
       "date": "2018 Mar 15",
       "journal": "PLoS One",
-      "pmid": "",
+      "pmid": "29543843",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29543843"
     },
     {
-      "year": "",
+      "year": "2018",
+      "title": "Sipros Ensemble improves database searching and filtering for complex metaproteomics",
+      "authors": "Guo X, Li Z, Yao Q, Mueller RS, Eng JK, Tabb DL, Hervey WJ 4th, Pan C",
+      "date": "2018 Mar 1",
+      "journal": "Bioinformatics.",
+      "pmid": "29028897",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/29028897"
+    },
+    {
+      "year": "2018",
+      "title": "Panorama Public: A public repository for quantitative data sets processed in Skyline",
+      "authors": "Sharma V, Eckels J, Schilling B, Ludwig C, Jaffe JD, MacCoss MJ, MacLean B",
+      "date": "2018 Feb 27",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "29487113",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/29487113"
+    },
+    {
+      "year": "2018",
       "title": "Differential impacts of individual and combined exposures of deoxynivalenol and zearalenone on the HepaRG human hepatic cell proteome",
       "authors": "Smith MC, Timmins-Schiffman E, Coton M, Coton E, Hymery N, Nunn BL, Madec S",
       "date": "2018 Feb 20",
       "journal": "J Proteomics",
-      "pmid": "",
+      "pmid": "29208510",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29208510"
     },
     {
-      "year": "",
-      "title": "Sestd1 Encodes a Developmentally Dynamic Synapse Protein That Complexes With BCR Rac1-GAP to Regulate Forebrain Dendrite, Spine and Synapse Formation",
-      "authors": "Yang XY, Stanley RE, Ross AP, Robitaille AM, Gray JA, Cheyette BNR",
-      "date": "2018 Feb 21",
-      "journal": "Cereb Cortex.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/29474518"
-    },
-    {
-      "year": "",
+      "year": "2018",
       "title": "Chemical Crosslinking Mass Spectrometry Analysis of Protein Conformations and Supercomplexes in Heart Tissue",
       "authors": "Chavez JD, Lee CF, Caudal A, Keller A, Tian R, Bruce JE",
       "date": "2018 Jan 24",
       "journal": "Cell Syst",
-      "pmid": "",
+      "pmid": "29199018",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29199018"
     },
     {
-      "year": "",
+      "year": "2018",
       "title": "Quantifying HDL proteins by mass spectrometry: how many proteins are there and what are their functions?",
       "authors": "Shao B, Heinecke JW",
       "date": "Jan;15",
       "journal": "Expert Rev Proteomics.",
-      "pmid": "",
+      "pmid": "29113513",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29113513"
     },
     {
-      "year": "",
+      "year": "2017",
       "title": "MetaGOmics: A Web-Based Tool for Peptide-Centric Functional and Taxonomic Analysis of Metaproteomics Data",
       "authors": "Riffle M, May DH, Timmins-Schiffman E, Mikan MP, Jaschob D, Noble WS, Nunn BL",
       "date": "2017 Dec 27",
       "journal": "Proteomes.",
-      "pmid": "",
+      "pmid": "29280960",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29280960"
     },
     {
-      "year": "",
+      "year": "2017",
       "title": "Glycan shield and fusion activation of a deltacoronavirus spike glycoprotein fine-tuned for enteric infections",
       "authors": "Xiong X, Tortorici MA, Snijder J, Yoshioka C, Walls AC, Li W, McGuire AT, Rey FA, Bosch BJ, Veesler D",
       "date": "2017 Nov 1",
       "journal": "J Virol.",
-      "pmid": "",
+      "pmid": "29093093",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29093093"
     },
     {
-      "year": "",
+      "year": "2017",
       "title": "Tectonic conformational changes of a coronavirus spike glycoprotein promote membrane fusion",
       "authors": "Walls AC, Tortorici MA, Snijder J, Xiong X, Bosch BJ, Rey FA, Veesler D",
       "date": "2017 Oct 17",
       "journal": "Proc Natl Acad Sci U S A",
-      "pmid": "",
+      "pmid": "29073020",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/29073020"
     },
     {
-      "year": "",
-      "title": "ELISA reagent coverage evaluation by affinity purification tandem mass spectrometry",
-      "authors": "Henry SM, Sutlief E, Salas-Solano O, Valliere-Douglass J",
-      "date": "2017 Jul 14",
-      "journal": "MAbs",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28708446"
-    },
-    {
-      "year": "",
-      "title": "First critical repressive H3K27me3 marks in embryonic stem cells identified using designed protein inhibitor",
-      "authors": "Moody JD, Levy S, Mathieu J, Xing Y, Kim W, Dong C, Tempel W, Robitaille AM, Dang LT, Ferreccio A, Detraux D, Sidhu S, Zhu L, Carter L, Xu C, Valensisi C, Wang Y, Hawkins RD, Min J, Moon RT, Orkin SH, Baker D, Ruohola-Baker H",
-      "date": "2017 Sep 19",
-      "journal": "Proc Natl Acad Sci U S A.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28864533"
-    },
-    {
-      "year": "",
-      "title": "Integrating Discovery-driven Proteomics and Selected Reaction Monitoring To Develop a Noninvasive Assay for Geoduck Reproductive Maturation",
-      "authors": "Timmins-Schiffman EB, Crandall GA, Vadopalas B, Riffle ME, Nunn BL, Roberts SB",
-      "date": "2017 Sep 1",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28730805"
-    },
-    {
-      "year": "",
-      "title": "Disrupting glutamine metabolic pathways to sensitize gemcitabine-resistant pancreatic cancer",
-      "authors": "Chen R, Lai LA, Sullivan Y, Wong M, Wang L, Riddell J, Jung L, Pillarisetty VG, Brentnall TA, Pan S",
-      "date": "2017 Aug 11",
-      "journal": "Sci Rep.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28801576"
-    },
-    {
-      "year": "",
+      "year": "2017",
       "title": "Extracellular Matrix Proteins Mediate HIV-1 gp120 Interactions with &#945;4&#946;7",
       "authors": "Plotnik D, Guo W, Cleveland B, von Haller P, Eng JK, Guttman M, Lee KK, Arthos J, Hu SL",
       "date": "2017 Oct 13",
       "journal": "J Virol.",
-      "pmid": "",
+      "pmid": "28814519",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28814519"
     },
     {
-      "year": "",
+      "year": "2017",
       "title": "Ageing and hypoxia cause protein aggregation in mitochondria",
       "authors": "Kaufman DM, Wu X, Scott BA, Itani OA, Van Gilst MR, Bruce JE, Michael Crowder C",
       "date": "Oct;24",
       "journal": "Cell Death Differ.",
-      "pmid": "",
+      "pmid": "28644434",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28644434"
     },
     {
-      "year": "",
-      "title": "Spectral library-based glycopeptide analysis - detection of circulating galectin-3 binding protein in pancreatic cancer",
-      "authors": "Nigjeh EN, Chen R, Allen-Tamura Y, Brand RE, Brentnall TA, Pan S",
-      "date": "Sep;11",
-      "journal": "Proteomics Clin Appl.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28627758"
+      "year": "2017",
+      "title": "First critical repressive H3K27me3 marks in embryonic stem cells identified using designed protein inhibitor",
+      "authors": "Moody JD, Levy S, Mathieu J, Xing Y, Kim W, Dong C, Tempel W, Robitaille AM, Dang LT, Ferreccio A, Detraux D, Sidhu S, Zhu L, Carter L, Xu C, Valensisi C, Wang Y, Hawkins RD, Min J, Moon RT, Orkin SH, Baker D, Ruohola-Baker H",
+      "date": "2017 Sep 19",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "pmid": "28864533",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28864533"
     },
     {
-      "year": "",
-      "title": "WNT/\u00ce\u00b2-catenin signaling regulates mitochondrial activity to alter the oncogenic potential of melanoma in a PTEN-dependent manner",
-      "authors": "Brown K, Yang P, Salvador D, Kulikauskas R, Ruohola-Baker H, Robitaille AM, Chien AJ, Moon RT, Sherwood V",
-      "date": "2017 Jun 1",
-      "journal": "Oncogene.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28092677"
-    },
-    {
-      "year": "",
-      "title": "Long-lived pancreatic ductal adenocarcinoma slice cultures enable precise study of the immune microenvironment",
-      "authors": "Jiang X, Seo YD, Chang JH, Coveler A, Nigjeh EN, Pan S, Jalikis F, Yeung RS, Crispe IN, Pillarisetty VG",
-      "date": "2017 May 25",
-      "journal": "Oncoimmunology.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28811976"
-    },
-    {
-      "year": "",
+      "year": "2017",
       "title": "Insights in luteovirid structural biology guided by chemical cross-linking and high resolution mass spectrometry",
       "authors": "Alexander MM, Mohr JP, DeBlasio SL, Chavez JD, Ziegler-Graff V, Brault V, Bruce JE, Heck MC",
       "date": "2017 Sep 15",
       "journal": "Virus Res.",
-      "pmid": "",
+      "pmid": "28502641",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28502641"
     },
     {
-      "year": "",
+      "year": "2017",
+      "title": "Integrating Discovery-driven Proteomics and Selected Reaction Monitoring To Develop a Noninvasive Assay for Geoduck Reproductive Maturation",
+      "authors": "Timmins-Schiffman EB, Crandall GA, Vadopalas B, Riffle ME, Nunn BL, Roberts SB",
+      "date": "2017 Sep 1",
+      "journal": "J Proteome Res.",
+      "pmid": "28730805",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28730805"
+    },
+    {
+      "year": "2017",
+      "title": "Spectral library-based glycopeptide analysis - detection of circulating galectin-3 binding protein in pancreatic cancer",
+      "authors": "Nigjeh EN, Chen R, Allen-Tamura Y, Brand RE, Brentnall TA, Pan S",
+      "date": "Sep;11",
+      "journal": "Proteomics Clin Appl.",
+      "pmid": "28627758",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28627758"
+    },
+    {
+      "year": "2017",
+      "title": "Disrupting glutamine metabolic pathways to sensitize gemcitabine-resistant pancreatic cancer",
+      "authors": "Chen R, Lai LA, Sullivan Y, Wong M, Wang L, Riddell J, Jung L, Pillarisetty VG, Brentnall TA, Pan S",
+      "date": "2017 Aug 11",
+      "journal": "Sci Rep.",
+      "pmid": "28801576",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28801576"
+    },
+    {
+      "year": "2017",
+      "title": "ELISA reagent coverage evaluation by affinity purification tandem mass spectrometry",
+      "authors": "Henry SM, Sutlief E, Salas-Solano O, Valliere-Douglass J",
+      "date": "2017 Jul 14",
+      "journal": "MAbs",
+      "pmid": "28708446",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28708446"
+    },
+    {
+      "year": "2017",
       "title": "An alpha-synuclein MRM assay with diagnostic potential for Parkinson's disease and monitoring disease progression",
       "authors": "Yang L, Stewart T, Shi M, Pottiez G, Dator R, Wu R, Aro P, Schuster RJ, Ginghina C, Pan C, Gao Y, Qian W, Zabetian CP, Hu SC, Quinn JF, Zhang J",
       "date": "Jul;11",
       "journal": "Proteomics Clin Appl.",
-      "pmid": "",
+      "pmid": "28319654",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28319654"
     },
     {
-      "year": "",
+      "year": "2017",
+      "title": "WNT/&#946;-catenin signaling regulates mitochondrial activity to alter the oncogenic potential of melanoma in a PTEN-dependent manner",
+      "authors": "Brown K, Yang P, Salvador D, Kulikauskas R, Ruohola-Baker H, Robitaille AM, Chien AJ, Moon RT, Sherwood V",
+      "date": "2017 Jun 1",
+      "journal": "Oncogene.",
+      "pmid": "28092677",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28092677"
+    },
+    {
+      "year": "2017",
+      "title": "Long-lived pancreatic ductal adenocarcinoma slice cultures enable precise study of the immune microenvironment",
+      "authors": "Jiang X, Seo YD, Chang JH, Coveler A, Nigjeh EN, Pan S, Jalikis F, Yeung RS, Crispe IN, Pillarisetty VG",
+      "date": "2017 May 25",
+      "journal": "Oncoimmunology.",
+      "pmid": "28811976",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/28811976"
+    },
+    {
+      "year": "2017",
       "title": "Integrated systems biology analysis of KSHV latent infection reveals viral induction and reliance on peroxisome mediated lipid metabolism",
       "authors": "Sychev ZE, Hu A, DiMaio TA, Gitter A, Camp ND, Noble WS, Wolf-Yadlin A, Lagunoff M",
       "date": "2017 Mar 3",
       "journal": "PLoS Pathog.",
-      "pmid": "",
+      "pmid": "28112948",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28112948"
     },
     {
-      "year": "",
-      "title": "Mass-Spectrometry-Based Method To Quantify in Parallel Tau and Amyloid \u00ce\u00b2 1-42 in CSF for the Diagnosis of Alzheimer's Disease",
+      "year": "2017",
+      "title": "Mass-Spectrometry-Based Method To Quantify in Parallel Tau and Amyloid &#946; 1-42 in CSF for the Diagnosis of Alzheimer's Disease",
       "authors": "Pottiez G, Yang L, Stewart T, Song N, Aro P, Galasko DR, Quinn JF, Peskind ER, Shi M, Zhang J",
       "date": "2017 Mar 3",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "28257516",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28257516"
     },
     {
-      "year": "",
-      "title": "Critical decisions in metaproteomics: achieving high confidence protein annotations in a sea of unknowns",
-      "authors": "Timmins-Schiffman E, May DH, Mikan M, Riffle M, Frazar C, Harvey HR, Noble WS, Nunn BL",
-      "date": "Feb;11",
-      "journal": "ISME J.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27824341"
-    },
-    {
-      "year": "",
+      "year": "2017",
       "title": "Large-Scale and Targeted Quantitative Cross-Linking MS Using Isotope-Labeled Protein Interaction Reporter (PIR) Cross-Linkers",
       "authors": "Zhong X, Navare AT, Chavez JD, Eng JK, Schweppe DK, Bruce JE",
       "date": "2017 Feb 3",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "28152603",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28152603"
     },
     {
-      "year": "",
+      "year": "2017",
+      "title": "Critical decisions in metaproteomics: achieving high confidence protein annotations in a sea of unknowns",
+      "authors": "Timmins-Schiffman E, May DH, Mikan M, Riffle M, Frazar C, Harvey HR, Noble WS, Nunn BL",
+      "date": "Feb;11",
+      "journal": "ISME J.",
+      "pmid": "27824341",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27824341"
+    },
+    {
+      "year": "2017",
       "title": "Transcriptomic, proteomic, and metabolomic landscape of positional memory in the caudal fin of zebrafish",
       "authors": "Rabinowitz JS, Robitaille AM, Wang Y, Ray CA, Thummel R, Gu H, Djukovic D, Raftery D, Berndt JD, Moon RT",
       "date": "2017 Jan 31",
       "journal": "Proc Natl Acad Sci U S A",
-      "pmid": "",
+      "pmid": "28096348",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/28096348"
     },
     {
-      "year": "",
-      "title": "Proteome analysis of mast cell releasates reveals a role for chymase in the regulation of coagulation factor XIIIA levels via proteolytic degradation",
-      "authors": "Shubin NJ, Glukhova VA, Clauson M, Truong P, Abrink M, Pejler G, White NJ, Deutsch GH, Reeves SR, Vaisar T, James RG, Piliponsky AM",
-      "date": "Jan;139",
-      "journal": "J Allergy Clin Immunol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27302551"
-    },
-    {
-      "year": "",
+      "year": "2017",
       "title": "Quantitative Proteomics Based on Optimized Data-Independent Acquisition in Plasma Analysis",
       "authors": "Nigjeh EN, Chen R, Brand RE, Petersen GM, Chari ST, von Haller PD, Eng JK, Feng Z, Yan Q, Brentnall TA, Pan S",
       "date": "2017 Jan 3",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "27995795",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27995795"
     },
     {
-      "year": "",
+      "year": "2017",
+      "title": "Proteome analysis of mast cell releasates reveals a role for chymase in the regulation of coagulation factor XIIIA levels via proteolytic degradation",
+      "authors": "Shubin NJ, Glukhova VA, Clauson M, Truong P, Abrink M, Pejler G, White NJ, Deutsch GH, Reeves SR, Vaisar T, James RG, Piliponsky AM",
+      "date": "Jan;139",
+      "journal": "J Allergy Clin Immunol.",
+      "pmid": "27302551",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27302551"
+    },
+    {
+      "year": "2017",
       "title": "Tartrate-Resistant Acid Phosphatase Deficiency in the Predisposition to Systemic Lupus Erythematosus",
-      "authors": "An J, Briggs TA, Dumax-Vorzet A, Alarc&oacute;n-Riquelme ME, Belot A, Beresford M, Bruce IN, Carvalho C, Chaperot L, Frosteg\u00c3\u00a5rd J, Plumas J, Rice GI, Vyse TJ, Wiedeman A, Crow YJ, Elkon KB",
+      "authors": "An J, Briggs TA, Dumax-Vorzet A, Alarc&oacute;n-Riquelme ME, Belot A, Beresford M, Bruce IN, Carvalho C, Chaperot L, Frosteg&#229;rd J, Plumas J, Rice GI, Vyse TJ, Wiedeman A, Crow YJ, Elkon KB",
       "date": "Jan;69",
       "journal": "Arthritis Rheumatol.",
-      "pmid": "",
+      "pmid": "27390188",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27390188"
     },
     {
-      "year": "",
+      "year": "2016",
       "title": "A General Method for Targeted Quantitative Cross-Linking Mass Spectrometry",
       "authors": "Chavez JD, Eng JK, Schweppe DK, Cilia M, Rivera K, Zhong X, Wu X, Allen T, Khurgel M, Kumar A, Lampropoulos A, Larsson M, Maity S, Morozov Y, Pathmasiri W, Perez-Neut M, Pineyro-Ruiz C, Polina E, Post S, Rider M, Tokmina-Roszyk D, Tyson K, Vieira Parrine Sant'Ana D, Bruce JE",
       "date": "2016 Dec 20",
       "journal": "PLoS One.",
-      "pmid": "",
+      "pmid": "27997545",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27997545"
     },
     {
-      "year": "",
-      "title": "CNS tau efflux via exosomes is likely increased in Parkinson disease but not in Alzheimer disease. Min Shi, Andrej Kovac, Ane Korff, Travis J. Cook, Carmen Ginghina, Kristin M. Bullock, Li Yang, Tessandra Stewart, Danfeng Zheng, Patrick Aro, Anzari Atik, Kathleen F. Kerr, Cyrus P. Zabetian, Elaine R. Peskind, Shu-Ching Hu, Joseph F. Quinn, Douglas R. Galasko, Thomas J",
-      "authors": "Montine, William A",
-      "date": "Nov;12",
-      "journal": "Alzheimers Dement.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27234211"
-    },
-    {
-      "year": "",
+      "year": "2016",
       "title": "In vivo protein interaction network analysis reveals porin-localized antibiotic inactivation in Acinetobacter baumannii strain AB5075",
       "authors": "Wu X, Chavez JD, Schweppe DK, Zheng C, Weisbrod CR, Eng JK, Murali A, Lee SA, Ramage E, Gallagher LA, Kulasekara HD, Edrozo ME, Kamischke CN, Brittnacher MJ, Miller SI, Singh PK, Manoil C, Bruce JE",
       "date": "2016 Nov 11",
       "journal": "Nat Commun.",
-      "pmid": "",
+      "pmid": "27834373",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27834373"
     },
     {
-      "year": "",
-      "title": "Glycan shield and epitope masking of a coronavirus spike protein observed by cryo-electron microscopy",
-      "authors": "Walls AC, Tortorici MA, Frenz B, Snijder J, Li W, Rey FA, DiMaio F, Bosch BJ, Veesler D",
-      "date": "Oct;23",
-      "journal": "Nat Struct Mol Biol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27617430"
+      "year": "2016",
+      "title": "CNS tau efflux via exosomes is likely increased in Parkinson disease but not in Alzheimer disease. Min Shi, Andrej Kovac, Ane Korff, Travis J. Cook, Carmen Ginghina, Kristin M. Bullock, Li Yang, Tessandra Stewart, Danfeng Zheng, Patrick Aro, Anzari Atik, Kathleen F. Kerr, Cyrus P. Zabetian, Elaine R. Peskind, Shu-Ching Hu, Joseph F. Quinn, Douglas R. Galasko, Thomas J",
+      "authors": "Montine, William A",
+      "date": "Nov;12",
+      "journal": "Alzheimers Dement.",
+      "pmid": "27234211",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27234211"
     },
     {
-      "year": "",
-      "title": "Wnt/\u00ce\u00b2-catenin signaling promotes self-renewal and inhibits the primed state transition in na\u00c3\u00afve human embryonic stem cells",
+      "year": "2016",
+      "title": "Wnt/&#946;-catenin signaling promotes self-renewal and inhibits the primed state transition in na&#239;ve human embryonic stem cells",
       "authors": "Xu Z, Robitaille AM, Berndt JD, Davidson KC, Fischer KA, Mathieu J, Potter JC, Ruohola-Baker H, Moon RT",
       "date": "2016 Oct 18",
       "journal": "Proc Natl Acad Sci U S A.",
-      "pmid": "",
+      "pmid": "27698112",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27698112"
     },
     {
-      "year": "",
+      "year": "2016",
       "title": "Identification of the nuclear localisation signal of O-GlcNAc transferase and its nuclear import regulation",
       "authors": "Seo HG, Kim HB, Kang MJ, Ryum JH, Yi EC, Cho JW",
       "date": "2016 Oct 7",
       "journal": "Sci Rep.",
-      "pmid": "",
+      "pmid": "27713473",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27713473"
     },
     {
-      "year": "",
+      "year": "2016",
+      "title": "Glycan shield and epitope masking of a coronavirus spike protein observed by cryo-electron microscopy",
+      "authors": "Walls AC, Tortorici MA, Frenz B, Snijder J, Li W, Rey FA, DiMaio F, Bosch BJ, Veesler D",
+      "date": "Oct;23",
+      "journal": "Nat Struct Mol Biol.",
+      "pmid": "27617430",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/27617430"
+    },
+    {
+      "year": "2016",
       "title": "XLinkDB 2.0: integrated, large-scale structural analysis of protein crosslinking data",
       "authors": "Schweppe DK, Zheng C, Chavez JD, Navare AT, Wu X, Eng JK, Bruce JE",
       "date": "2016 Sep 1",
       "journal": "Bioinformatics.",
-      "pmid": "",
+      "pmid": "27153666",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27153666"
     },
     {
-      "year": "",
+      "year": "2016",
       "title": "ProXL (Protein Cross-Linking Database): A Platform for Analysis, Visualization, and Sharing of Protein Cross-Linking Mass Spectrometry Data",
       "authors": "Riffle M, Jaschob D, Zelter A, Davis TN",
       "date": "2016 Aug 5",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "27302480",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27302480"
     },
     {
-      "year": "",
+      "year": "2016",
       "title": "In Vivo Conformational Dynamics of Hsp90 and Its Interactors",
       "authors": "Chavez JD, Schweppe DK, Eng JK, Bruce JE",
       "date": "2016 Jun 23",
       "journal": "Cell Chem Biol.",
-      "pmid": "",
+      "pmid": "27341434",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27341434"
     },
     {
-      "year": "",
+      "year": "2016",
       "title": "Spectral library searching to identify crosslinked peptides",
       "authors": "Schweppe DK, Chavez JD, Navare AT, Wu X, Ruiz B, Eng JK, Lam H, Bruce JE",
       "date": "2016 May 6",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "27089058",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/27089058"
     },
     {
-      "year": "",
-      "title": "Quantitative proteomics identify DAB2 as a cardiac developmental regulator that inhibits WNT/\u00ce\u00b2-catenin signaling",
-      "authors": "Hofsteen P, Robitaille AM, Chapman DP, Moon RT, Murry CE",
-      "date": "2016 Jan 26",
-      "journal": "Proc Natl Acad Sci U S A.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26755607"
-    },
-    {
-      "year": "",
-      "title": "Proteomic analysis of HDL from inbred mice strains implicates APOE associated with HDL in reduced cholesterol efflux capacity via the ABCA1 pathway",
-      "authors": "Pamir N, Hutchins P, Ronsein G, Vaisar T, Reardon CA, Getz GS, Lusis AJ, Heinecke JW",
-      "date": "Feb;57",
-      "journal": "J Lipid Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26673204"
-    },
-    {
-      "year": "",
+      "year": "2016",
       "title": "Targeted Proteomics Identifies Paraoxonase/Arylesterase 1 (PON1) and Apolipoprotein Cs as Potential Risk Factors for Hypoalphalipoproteinemia in Diabetic Subjects Treated with Fenofibrate and Rosiglitazone",
       "authors": "Ronsein GE, Reyes-Soffer G, He Y, Oda M, Ginsberg H, Heinecke JW",
       "date": "Mar;15",
       "journal": "Mol Cell Proteomics.",
-      "pmid": "",
+      "pmid": "26667175",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26667175"
     },
     {
-      "year": "",
-      "title": "Visualization of Host-Polerovirus Interaction Topologies Using Protein Interaction Reporter Technology",
-      "authors": "DeBlasio SL, Chavez JD, Alexander MM, Ramsey J, Eng JK, Mahoney J, Gray SM, Bruce JE, Cilia M",
-      "date": "2015 Dec 9",
-      "journal": "J Virol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26656710"
+      "year": "2016",
+      "title": "Proteomic analysis of HDL from inbred mice strains implicates APOE associated with HDL in reduced cholesterol efflux capacity via the ABCA1 pathway",
+      "authors": "Pamir N, Hutchins P, Ronsein G, Vaisar T, Reardon CA, Getz GS, Lusis AJ, Heinecke JW",
+      "date": "Feb;57",
+      "journal": "J Lipid Res.",
+      "pmid": "26673204",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26673204"
     },
     {
-      "year": "",
+      "year": "2016",
+      "title": "Quantitative proteomics identify DAB2 as a cardiac developmental regulator that inhibits WNT/&#946;-catenin signaling",
+      "authors": "Hofsteen P, Robitaille AM, Chapman DP, Moon RT, Murry CE",
+      "date": "2016 Jan 26",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "pmid": "26755607",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26755607"
+    },
+    {
+      "year": "2016",
       "title": "XLmap: an R package to visualize and score protein structure models based on sites of protein cross-linking",
       "authors": "Schweppe DK, Chavez JD, Bruce JE",
       "date": "2016 Jan 15",
       "journal": "Bioinformatics.",
-      "pmid": "",
+      "pmid": "26411867",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26411867"
     },
     {
-      "year": "",
+      "year": "2016",
       "title": "Serum amyloid A impairs the antiinflammatory properties of HDL",
       "authors": "Han CY, Tang C, Guevara ME, Wei H, Wietecha T, Shao B, Subramanian S, Omer M, Wang S, O'Brien KD, Marcovina SM, Wight TN, Vaisar T, de Beer MC, de Beer FC, Osborne WR, Elkon KB, Chait A",
       "date": "2016 Jan 4",
       "journal": "J Clin Invest.",
-      "pmid": "",
+      "pmid": "26642365",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26642365"
     },
     {
-      "year": "",
+      "year": "2015",
+      "title": "Visualization of Host-Polerovirus Interaction Topologies Using Protein Interaction Reporter Technology",
+      "authors": "DeBlasio SL, Chavez JD, Alexander MM, Ramsey J, Eng JK, Mahoney J, Gray SM, Bruce JE, Cilia M",
+      "date": "2015 Dec 9",
+      "journal": "J Virol.",
+      "pmid": "26656710",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26656710"
+    },
+    {
+      "year": "2015",
       "title": "The metabolome regulates the epigenetic landscape during naive-to-primed human embryonic stem cell transition",
       "authors": "Sperber H, Mathieu J, Wang Y, Ferreccio A, Hesson J, Xu Z, Fischer KA, Devi A, Detraux D, Gu H, Battle SL, Showalter M, Valensisi C, Bielas JH, Ericson NG, Margaretha L, Robitaille AM, Margineantu D, Fiehn O, Hockenbery D, Blau CA, Raftery D, Margolin AA, Hawkins RD, Moon RT, Ware CB, Ruohola-Baker H",
       "date": "Dec;17",
       "journal": "Nat Cell Biol.",
-      "pmid": "",
+      "pmid": "26571212",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26571212"
     },
     {
-      "year": "",
+      "year": "2015",
       "title": "Host-Microbe Protein Interactions during Bacterial Infection",
       "authors": "Schweppe DK, Harding C, Chavez JD, Wu X, Ramage E, Singh PK, Manoil C, Bruce JE",
       "date": "2015 Nov 19",
       "journal": "Chem Biol.",
-      "pmid": "",
+      "pmid": "26548613",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26548613"
     },
     {
-      "year": "",
+      "year": "2015",
       "title": "Filamentous Bacteriophage Promote Biofilm Assembly and Function",
       "authors": "Secor PR, Sweere JM, Michaels LA, Malkovskiy AV, Lazzareschi D, Katznelson E, Rajadas J, Birnbaum ME, Arrigoni A, Braun KR, Evanko SP, Stevens DA, Kaminsky W, Singh PK, Parks WC, Bollyky PL",
       "date": "2015 Nov 11",
       "journal": "Cell Host Microbe.",
-      "pmid": "",
+      "pmid": "26567508",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26567508"
     },
     {
-      "year": "",
-      "title": "A Quantitative Proteomic Analysis of Hemogenic Endothelium Reveals Differential Regulation of Hematopoiesis by SOX17",
-      "authors": "Clarke RL, Robitaille AM, Moon RT, Keller G",
-      "date": "2015 Aug 11",
-      "journal": "Stem Cell Reports.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26267830"
+      "year": "2015",
+      "title": "Site-specific activity of the acyltransferases HtrB1 and HtrB2 in Pseudomonas aeruginosa lipid A biosynthesis",
+      "authors": "Hittle LE, Powell DA, Jones JW, Tofigh M, Goodlett DR, Moskowitz SM, Ernst RK",
+      "date": "Nov;73",
+      "journal": "Pathog Dis.",
+      "pmid": "26223882",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26223882"
     },
     {
-      "year": "",
-      "title": "Quantitative interactome analysis reveals a chemoresistant edgotype",
-      "authors": "Chavez JD, Schweppe DK, Eng JK, Zheng C, Taipale A, Zhang Y, Takara K, Bruce JE",
-      "date": "2015 Aug 3",
-      "journal": "Nat Commun.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26235782"
+      "year": "2015",
+      "title": "Visualization and Dissemination of Multidimensional Proteomics Data Comparing Protein Abundance During Caenorhabditis elegans Development",
+      "authors": "Riffle M, Merrihew GE, Jaschob D, Sharma V, Davis TN, Noble WS, MacCoss MJ",
+      "date": "Nov;26",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "26133526",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26133526"
     },
     {
-      "year": "",
+      "year": "2015",
+      "title": "A Deeper Look into Comet-Implementation and Features",
+      "authors": "Eng JK, Hoopmann MR, Jahan TA, Egertson JD, Noble WS, MacCoss MJ",
+      "date": "Nov;26",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "26115965",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26115965"
+    },
+    {
+      "year": "2015",
+      "title": "Inhibition of &#946;-catenin signaling respecifies anterior-like endothelium into beating human cardiomyocytes",
+      "authors": "Palpant NJ, Pabon L, Roberts M, Hadland B, Jones D, Jones C, Moon RT, Ruzzo WL, Bernstein I, Zheng Y, Murry CE",
+      "date": "2015 Sep 15",
+      "journal": "Development.",
+      "pmid": "26153229",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26153229"
+    },
+    {
+      "year": "2015",
       "title": "Physiological responses of a Southern Ocean diatom to complex future ocean conditions",
       "authors": "Boyd PW, Dillingham PW, McGraw CM, Armstrong EA, Cornwall CE, Feng YY, Hurd CL, Gault-Ringold M, Roleda MY, Timmins-Schiffman E, Nunn BL",
       "date": "2015 Aug 27",
@@ -1729,151 +1783,115 @@
       "link": ""
     },
     {
-      "year": "",
-      "title": "Systematic Analysis of Yeast Proteome Reveals Peptide Detectability Factors for Mass Spectrometry",
-      "authors": "Jung S, Danziger SA, Panchaud A, von Haller P, Aitchison JD, Goodlett DR",
-      "date": "",
-      "journal": "J Proteomics Bioinform",
-      "pmid": "26962293",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/26962293/"
+      "year": "2015",
+      "title": "A Quantitative Proteomic Analysis of Hemogenic Endothelium Reveals Differential Regulation of Hematopoiesis by SOX17",
+      "authors": "Clarke RL, Robitaille AM, Moon RT, Keller G",
+      "date": "2015 Aug 11",
+      "journal": "Stem Cell Reports.",
+      "pmid": "26267830",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26267830"
     },
     {
-      "year": "",
-      "title": "Site-specific activity of the acyltransferases HtrB1 and HtrB2 in Pseudomonas aeruginosa lipid A biosynthesis",
-      "authors": "Hittle LE, Powell DA, Jones JW, Tofigh M, Goodlett DR, Moskowitz SM, Ernst RK",
-      "date": "Nov;73",
-      "journal": "Pathog Dis.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26223882"
+      "year": "2015",
+      "title": "Quantitative interactome analysis reveals a chemoresistant edgotype",
+      "authors": "Chavez JD, Schweppe DK, Eng JK, Zheng C, Taipale A, Zhang Y, Takara K, Bruce JE",
+      "date": "2015 Aug 3",
+      "journal": "Nat Commun.",
+      "pmid": "26235782",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26235782"
     },
     {
-      "year": "",
+      "year": "2015",
       "title": "Research Resource: Androgen Receptor Activity Is Regulated Through the Mobilization of Cell Surface Receptor Networks",
       "authors": "Hsiao JJ, Ng BH, Smits MM, Martinez HD, Jasavala RJ, Hinkson IV, Fermin D, Eng JK, Nesvizhskii AI, Wright ME",
       "date": "Aug;29",
       "journal": "Mol Endocrinol.",
-      "pmid": "",
+      "pmid": "26181434",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26181434"
     },
     {
-      "year": "",
-      "title": "Inhibition of \u00ce\u00b2-catenin signaling respecifies anterior-like endothelium into beating human cardiomyocytes",
-      "authors": "Palpant NJ, Pabon L, Roberts M, Hadland B, Jones D, Jones C, Moon RT, Ruzzo WL, Bernstein I, Zheng Y, Murry CE",
-      "date": "2015 Sep 15",
-      "journal": "Development.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26153229"
-    },
-    {
-      "year": "",
-      "title": "Visualization and Dissemination of Multidimensional Proteomics Data Comparing Protein Abundance During Caenorhabditis elegans Development",
-      "authors": "Riffle M, Merrihew GE, Jaschob D, Sharma V, Davis TN, Noble WS, MacCoss MJ",
-      "date": "Nov;26",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26133526"
-    },
-    {
-      "year": "",
-      "title": "A Deeper Look into Comet-Implementation and Features",
-      "authors": "Eng JK, Hoopmann MR, Jahan TA, Egertson JD, Noble WS, MacCoss MJ",
-      "date": "Nov;26",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26115965"
-    },
-    {
-      "year": "",
-      "title": "The Tec Kinase-Regulated Phosphoproteome Reveals a Mechanism for the Regulation of Inhibitory Signals in Murine Macrophages",
-      "authors": "Tampella G, Kerns HM, Niu D, Singh S, Khim S, Bosch KA, Garrett ME, Moguche A, Evans E, Browning B, Jahan TA, Nacht M, Wolf-Yadlin A, Plebani A, Hamerman JA, Rawlings DJ, James RG",
-      "date": "2015 Jul 1",
-      "journal": "J Immunol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26026062"
-    },
-    {
-      "year": "",
+      "year": "2015",
       "title": "Dynamic proteome response of Pseudomonas aeruginosa to tobramycin antibiotic treatment",
       "authors": "Wu X, Held K, Zheng C, Staudinger BJ, Chavez JD, Weisbrod CR, Eng JK, Singh PK, Manoil C, Bruce JE",
       "date": "Aug;14",
       "journal": "Mol Cell Proteomics.",
-      "pmid": "",
+      "pmid": "26018413",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/26018413"
     },
     {
-      "year": "",
-      "title": "A Cluster of Proteins Implicated in Kidney Disease Is Increased in High-Density Lipoprotein Isolated from Hemodialysis Subjects",
-      "authors": "Shao B, de Boer I, Tang C, Mayer PS, Zelnick L, Afkarian M, Heinecke JW, Himmelfarb J",
-      "date": "2015 Jul 2",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26011469"
-    },
-    {
-      "year": "",
+      "year": "2015",
       "title": "Inflammatory remodeling of the HDL proteome impairs cholesterol efflux capacity",
       "authors": "Vaisar T, Tang C, Babenko I, Hutchins P, Wimberger J, Suffredini AF, Heinecke JW",
       "date": "Aug;56",
       "journal": "J Lipid Res.",
-      "pmid": "",
+      "pmid": "25995210",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25995210"
     },
     {
-      "year": "",
+      "year": "2015",
       "title": "Combining Near-UV Photodissociation with Electron Transfer. Reduction of the Diazirine Ring in a Photomethionine-Labeled Peptide Ion",
-      "authors": "Shaffer CJ, Marek A, Nguyen HT, Ture\u00c4\u008dek F",
+      "authors": "Shaffer CJ, Marek A, Nguyen HT, Ture&#269;ek F",
       "date": "Aug;26",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "25904063",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25904063"
     },
     {
-      "year": "",
-      "title": "Mason: a JavaScript web site widget for visualizing and comparing annotated features in nucleotide or protein sequences",
-      "authors": "Jaschob D, Davis TN, Riffle M",
-      "date": "2015 Mar 7",
-      "journal": "BMC Res Notes.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25884379"
+      "year": "2015",
+      "title": "A Cluster of Proteins Implicated in Kidney Disease Is Increased in High-Density Lipoprotein Isolated from Hemodialysis Subjects",
+      "authors": "Shao B, de Boer I, Tang C, Mayer PS, Zelnick L, Afkarian M, Heinecke JW, Himmelfarb J",
+      "date": "2015 Jul 2",
+      "journal": "J Proteome Res.",
+      "pmid": "26011469",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26011469"
     },
     {
-      "year": "",
-      "title": "Probing the Protein Interaction Network of Pseudomonas aeruginosa Cells by Chemical Cross-Linking Mass Spectrometry",
-      "authors": "Navare AT, Chavez JD, Zheng C, Weisbrod CR, Eng JK, Siehnel R, Singh PK, Manoil C, Bruce JE",
-      "date": "2015 Apr 7",
-      "journal": "Structure.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25800553"
+      "year": "2015",
+      "title": "The Tec Kinase-Regulated Phosphoproteome Reveals a Mechanism for the Regulation of Inhibitory Signals in Murine Macrophages",
+      "authors": "Tampella G, Kerns HM, Niu D, Singh S, Khim S, Bosch KA, Garrett ME, Moguche A, Evans E, Browning B, Jahan TA, Nacht M, Wolf-Yadlin A, Plebani A, Hamerman JA, Rawlings DJ, James RG",
+      "date": "2015 Jul 1",
+      "journal": "J Immunol.",
+      "pmid": "26026062",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/26026062"
     },
     {
-      "year": "",
-      "title": "Identification of synaptosomal proteins binding to monomeric and oligomeric \u00ce\u00b1-synuclein",
-      "authors": "Betzer C, Movius AJ, Shi M, Gai WP, Zhang J, Jensen PH",
-      "date": "2015 Feb 6",
-      "journal": "PLoS One",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25659148"
-    },
-    {
-      "year": "",
+      "year": "2015",
       "title": "Proteomic profiling in MPTP monkey model for early Parkinson disease biomarker discovery",
       "authors": "Lin X, Shi M, Masilamoni JG, Dator R, Movius J, Aro P, Smith Y, Zhang J",
       "date": "Jul;1854",
       "journal": "Biochim Biophys Acta.",
-      "pmid": "",
+      "pmid": "25617661",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25617661"
     },
     {
-      "year": "",
+      "year": "2015",
+      "title": "Probing the Protein Interaction Network of Pseudomonas aeruginosa Cells by Chemical Cross-Linking Mass Spectrometry",
+      "authors": "Navare AT, Chavez JD, Zheng C, Weisbrod CR, Eng JK, Siehnel R, Singh PK, Manoil C, Bruce JE",
+      "date": "2015 Apr 7",
+      "journal": "Structure.",
+      "pmid": "25800553",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25800553"
+    },
+    {
+      "year": "2015",
+      "title": "Mason: a JavaScript web site widget for visualizing and comparing annotated features in nucleotide or protein sequences",
+      "authors": "Jaschob D, Davis TN, Riffle M",
+      "date": "2015 Mar 7",
+      "journal": "BMC Res Notes.",
+      "pmid": "25884379",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25884379"
+    },
+    {
+      "year": "2015",
       "title": "Cerebrospinal fluid peptides as potential Parkinson disease biomarkers: a staged pipeline for discovery and validation",
       "authors": "Shi M, Movius J, Dator R, Aro P, Zhao Y, Pan C, Lin X, Bammler TK, Stewart T, Zabetian CP, Peskind ER, Hu SC, Quinn JF, Galasko DR, Zhang J",
       "date": "Mar;14",
       "journal": "Mol Cell Proteomics",
-      "pmid": "",
+      "pmid": "25556233",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25556233"
     },
     {
-      "year": "",
+      "year": "2015",
       "title": "Suspended marine particulate proteins in coastal and oligotrophic waters",
       "authors": "Bridoux MC, Neibauer J, Ingalls AE, Nunn BL, Keil RG",
       "date": "Mar;143",
@@ -1882,178 +1900,223 @@
       "link": ""
     },
     {
-      "year": "",
+      "year": "2015",
+      "title": "Identification of synaptosomal proteins binding to monomeric and oligomeric &#945;-synuclein",
+      "authors": "Betzer C, Movius AJ, Shi M, Gai WP, Zhang J, Jensen PH",
+      "date": "2015 Feb 6",
+      "journal": "PLoS One",
+      "pmid": "25659148",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25659148"
+    },
+    {
+      "year": "2015",
       "title": "Parallel reaction monitoring (PRM) and selected reaction monitoring (SRM) exhibit comparable linearity, dynamic range and precision for targeted quantitative HDL proteomics",
       "authors": "Ronsein GE, Pamir N, von Haller PD, Kim DS, Oda MN, Jarvik GP, Vaisar T, Heinecke JW",
       "date": "2015 Jan 15",
       "journal": "J Proteomics",
-      "pmid": "",
+      "pmid": "25449833",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25449833"
     },
     {
-      "year": "",
+      "year": "2015",
+      "title": "Systematic Analysis of Yeast Proteome Reveals Peptide Detectability Factors for Mass Spectrometry",
+      "authors": "Jung S, Danziger SA, Panchaud A, von Haller P, Aitchison JD, Goodlett DR",
+      "date": "",
+      "journal": "J Proteomics Bioinform",
+      "pmid": "26962293",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26962293/"
+    },
+    {
+      "year": "2014",
       "title": "An experimentally robust model of monomeric apolipoprotein A-I created from a chimera of two X-ray structures and molecular dynamics simulations",
       "authors": "Segrest JP, Jones MK, Shao B, Heinecke JW",
       "date": "2014 Dec 9",
       "journal": "Biochemistry.",
-      "pmid": "",
+      "pmid": "25423138",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25423138"
     },
     {
-      "year": "",
-      "title": "Shotgun proteomics reveals physiological response to ocean acidification in Crassostrea gigas",
-      "authors": "Timmins-Schiffman E, Coffey WD, Hua W, Nunn BL, Dickinson GH, Roberts SB",
-      "date": "2014 Nov 3",
-      "journal": "BMC Genomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25362893"
-    },
-    {
-      "year": "",
+      "year": "2014",
       "title": "Comparison of data acquisition strategies on quadrupole ion trap instrumentation for shotgun proteomics",
       "authors": "Canterbury JD, Merrihew GE, MacCoss MJ, Goodlett DR, Shaffer SA",
       "date": "Dec;25",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "25261218",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/25261218"
     },
     {
-      "year": "",
-      "title": "Crux: rapid open source protein tandem mass spectrometry analysis",
-      "authors": "McIlwain S, Tamura K, Kertesz-Farkas A, Grant CE, Diament B, Frewen B, Howbert JJ, Hoopmann MR, K\u00c3\u00a4ll L, Eng JK, MacCoss MJ, Noble WS",
-      "date": "2014 Oct 3",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25182276"
-    },
-    {
-      "year": "",
-      "title": "Panorama: A Targeted Proteomics Knowledge Base",
-      "authors": "Sharma V, Eckels J, Taylor GK, Shulman NJ, Stergachis AB, Joyner SA, Yan P, Whiteaker JR, Halusa GN, Schilling B, Gibson BW, Colangelo CM, Paulovich AG, Carr SA, Jaffe JD, MacCoss MJ, MacLean B",
-      "date": "2014 Sep 5",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25102069"
-    },
-    {
-      "year": "",
-      "title": "SnipViz: a compact and lightweight web site widget for display and dissemination of multiple versions of gene and protein sequences",
-      "authors": "Jaschob D, Davis TN, Riffle M",
-      "date": "2014 Jul 23",
-      "journal": "BMC Res Notes.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25056180"
-    },
-    {
-      "year": "",
-      "title": "Plasma exosomal \u00ce\u00b1-synuclein is likely CNS-derived and increased in Parkinson's disease",
-      "authors": "Shi M, Liu C, Cook TJ, Bullock KM, Zhao Y, Ginghina C, Li Y, Aro P, Dator R, He C, Hipp MJ, Zabetian CP, Peskind ER, Hu SC, Quinn JF, Galasko DR, Banks WA, Zhang J",
-      "date": "Nov;128",
-      "journal": "Acta Neuropathol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/24997849"
-    },
-    {
-      "year": "",
-      "title": "Metabolomics and proteomics reveal impacts of chemically mediated competition on marine plankton",
-      "authors": "Poulson-Ellestad KL, Jones CM, Roy J, Viant MR, Fern&aacute;ndez FM, Kubanek J, Nunn BL",
-      "date": "2014 Jun 17",
-      "journal": "Proc Natl Acad Sci U S A.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/24889616"
-    },
-    {
-      "year": "",
+      "year": "2014",
       "title": "Targeted discovery and validation of plasma biomarkers of Parkinson's disease",
       "authors": "Pan C, Zhou Y, Dator R, Ginghina C, Zhao Y, Movius J, Peskind E, Zabetian CP, Quinn J, Galasko D, Stewart T, Shi M, Zhang J",
       "date": "2014 Nov 7",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "24853996",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/24853996"
     },
     {
-      "year": "",
+      "year": "2014",
+      "title": "Shotgun proteomics reveals physiological response to ocean acidification in Crassostrea gigas",
+      "authors": "Timmins-Schiffman E, Coffey WD, Hua W, Nunn BL, Dickinson GH, Roberts SB",
+      "date": "2014 Nov 3",
+      "journal": "BMC Genomics.",
+      "pmid": "25362893",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25362893"
+    },
+    {
+      "year": "2014",
+      "title": "Plasma exosomal &#945;-synuclein is likely CNS-derived and increased in Parkinson's disease",
+      "authors": "Shi M, Liu C, Cook TJ, Bullock KM, Zhao Y, Ginghina C, Li Y, Aro P, Dator R, He C, Hipp MJ, Zabetian CP, Peskind ER, Hu SC, Quinn JF, Galasko DR, Banks WA, Zhang J",
+      "date": "Nov;128",
+      "journal": "Acta Neuropathol.",
+      "pmid": "24997849",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/24997849"
+    },
+    {
+      "year": "2014",
+      "title": "Crux: rapid open source protein tandem mass spectrometry analysis",
+      "authors": "McIlwain S, Tamura K, Kertesz-Farkas A, Grant CE, Diament B, Frewen B, Howbert JJ, Hoopmann MR, K&#228;ll L, Eng JK, MacCoss MJ, Noble WS",
+      "date": "2014 Oct 3",
+      "journal": "J Proteome Res.",
+      "pmid": "25182276",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25182276"
+    },
+    {
+      "year": "2014",
+      "title": "Panorama: A Targeted Proteomics Knowledge Base",
+      "authors": "Sharma V, Eckels J, Taylor GK, Shulman NJ, Stergachis AB, Joyner SA, Yan P, Whiteaker JR, Halusa GN, Schilling B, Gibson BW, Colangelo CM, Paulovich AG, Carr SA, Jaffe JD, MacCoss MJ, MacLean B",
+      "date": "2014 Sep 5",
+      "journal": "J Proteome Res.",
+      "pmid": "25102069",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25102069"
+    },
+    {
+      "year": "2014",
+      "title": "SnipViz: a compact and lightweight web site widget for display and dissemination of multiple versions of gene and protein sequences",
+      "authors": "Jaschob D, Davis TN, Riffle M",
+      "date": "2014 Jul 23",
+      "journal": "BMC Res Notes.",
+      "pmid": "25056180",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/25056180"
+    },
+    {
+      "year": "2014",
+      "title": "Metabolomics and proteomics reveal impacts of chemically mediated competition on marine plankton",
+      "authors": "Poulson-Ellestad KL, Jones CM, Roy J, Viant MR, Fern&aacute;ndez FM, Kubanek J, Nunn BL",
+      "date": "2014 Jun 17",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "pmid": "24889616",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/24889616"
+    },
+    {
+      "year": "2014",
       "title": "Humans with atherosclerosis have impaired ABCA1 cholesterol efflux and enhanced high-density lipoprotein oxidation by myeloperoxidase",
       "authors": "Shao B, Tang C, Sinha A, Mayer PS, Davenport GD, Brot N, Oda MN, Zhao XQ, Heinecke JW",
       "date": "2014 May 23",
       "journal": "Circ Res.",
-      "pmid": "",
+      "pmid": "24647144",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/24647144"
     },
     {
-      "year": "",
-      "title": "Collision-induced dissociation of diazirine-labeled peptide ions. Evidence for Br\u00c3\u00b8nsted-acid assisted elimination of nitrogen",
-      "authors": "Marek A, Ture\u00c4\u008dek F",
+      "year": "2014",
+      "title": "Collision-induced dissociation of diazirine-labeled peptide ions. Evidence for Br&#248;nsted-acid assisted elimination of nitrogen",
+      "authors": "Marek A, Ture&#269;ek F",
       "date": "May;25",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "24549894",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/24549894"
     },
     {
-      "year": "",
+      "year": "2014",
       "title": "Quantitative glycoproteomics analysis reveals changes in N-glycosylation level associated with pancreatic ductal adenocarcinoma",
       "authors": "Pan S, Chen R, Tamura Y, Crispin DA, Lai LA, May DH, McIntosh MW, Goodlett DR, Brentnall TA",
       "date": "2014 Mar 7",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "24471499",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/24471499"
     },
     {
-      "year": "",
-      "title": "Diatom proteomics reveals unique acclimation strategies to mitigate fe limitation",
-      "authors": "Nunn BL, Faux JF, Hippmann AA, Maldonado MT, Harvey HR, Goodlett DR, Boyd PW, Strzepek RF",
-      "date": "2013 Oct 16",
-      "journal": "PLoS One.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/24146769"
-    },
-    {
-      "year": "",
+      "year": "2013",
       "title": "Protein Kinase PKN1 represses Wnt/beta-catenin signaling in human melanoma cells",
       "authors": "James RG, Bosch KA, Kulikauskas RM, Yang PT, Robin NC, Toroni RA, Biechele TL, Berndt JD, von Haller PD, Eng JK, Wolf-Yadlin A, Chien AJ, Moon RT",
       "date": "2013 Nov 29",
       "journal": "J Biol Chem.",
-      "pmid": "",
+      "pmid": "24114839",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/24114839"
     },
     {
-      "year": "",
+      "year": "2013",
       "title": "Electron transfer dissociation of photolabeled peptides. Backbone cleavages compete with diazirine ring rearrangements",
       "authors": "Marek A, Pepin R, Peng B, Laszlo KJ, Bush MF, Turecek F",
       "date": "Nov;24",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "23633016",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23633016"
     },
     {
-      "year": "",
-      "title": "A disease-associated PTPN22 variant promotes systemic autoimmunity in murine models",
-      "authors": "Dai X, James RG, Habib T, Singh S, Jackson S, Khim S, Moon RT, Liggitt D, Wolf-Yadlin A, Buckner JH, Rawlings DJ",
-      "date": "2013 May 1",
-      "journal": "J Clin Invest.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23619366"
+      "year": "2013",
+      "title": "Diatom proteomics reveals unique acclimation strategies to mitigate fe limitation",
+      "authors": "Nunn BL, Faux JF, Hippmann AA, Maldonado MT, Harvey HR, Goodlett DR, Boyd PW, Strzepek RF",
+      "date": "2013 Oct 16",
+      "journal": "PLoS One.",
+      "pmid": "24146769",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/24146769"
     },
     {
-      "year": "",
+      "year": "2013",
       "title": "Performance evaluation of a dual linear ion trap-Fourier transform ion cyclotron resonance mass spectrometer for proteomics research",
       "authors": "Weisbrod CR, Hoopmann MR, Senko MW, Bruce JE",
       "date": "2013 Aug 2",
       "journal": "J Proteomics.",
-      "pmid": "",
+      "pmid": "23590889",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23590889"
     },
     {
-      "year": "",
+      "year": "2013",
       "title": "Macrophage ADAM17 deficiency augments CD36-dependent apoptotic cell uptake and the linked anti-inflammatory phenotype",
       "authors": "Driscoll WS, Vaisar T, Tang J, Wilson CL, Raines EW",
       "date": "2013 Jun 21",
       "journal": "Circ Res.",
-      "pmid": "",
+      "pmid": "23584255",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23584255"
     },
     {
-      "year": "",
+      "year": "2013",
+      "title": "A disease-associated PTPN22 variant promotes systemic autoimmunity in murine models",
+      "authors": "Dai X, James RG, Habib T, Singh S, Jackson S, Khim S, Moon RT, Liggitt D, Wolf-Yadlin A, Buckner JH, Rawlings DJ",
+      "date": "2013 May 1",
+      "journal": "J Clin Invest.",
+      "pmid": "23619366",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23619366"
+    },
+    {
+      "year": "2013",
+      "title": "Protein interactions, Posttranslational Modifications and Topologies in Human Cells",
+      "authors": "Chavez JD, Weisbrod CR, Zheng C, Eng JK, Bruce JE",
+      "date": "May;12",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "23354917",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23354917"
+    },
+    {
+      "year": "2013",
+      "title": "Global analysis of condition-specific subcellular protein distribution and abundance",
+      "authors": "Jung S, Smith JJ, von Haller PD, Dilworth DJ, Sitko KA, Miller LR, Saleem RA, Goodlett DR, Aitchison JD",
+      "date": "May;12",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "23349476",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23349476"
+    },
+    {
+      "year": "2013",
+      "title": "The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo",
+      "authors": "Vincow ES, Merrihew G, Thomas RE, Shulman NJ, Beyer RP, MacCoss MJ, Pallanck LJ",
+      "date": "2013 Apr 16",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "pmid": "23509287",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23509287"
+    },
+    {
+      "year": "2013",
       "title": "Shotgun proteomics as a viable approach for biological discovery in the Pacific oyster",
       "authors": "Timmins-Schiffman EB Nunn BL, Goodlett DR and Roberts SB",
       "date": "2013 Apr 11",
@@ -2062,534 +2125,489 @@
       "link": ""
     },
     {
-      "year": "",
-      "title": "The PINK1-Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo",
-      "authors": "Vincow ES, Merrihew G, Thomas RE, Shulman NJ, Beyer RP, MacCoss MJ, Pallanck LJ",
-      "date": "2013 Apr 16",
-      "journal": "Proc Natl Acad Sci U S A.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23509287"
-    },
-    {
-      "year": "",
+      "year": "2013",
       "title": "Mapping PARP-1 auto-ADP-ribosylation sites by liquid chromatography-tandem mass spectrometry",
       "authors": "Chapman JD, Gagn&eacute; JP, Poirier GG, Goodlett DR",
       "date": "2013 Apr 5",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "23438649",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23438649"
     },
     {
-      "year": "",
+      "year": "2013",
       "title": "In Vivo Protein Interaction Network Identified with a Novel Real-Time Cross-Linked Peptide Identification Strategy",
       "authors": "Weisbrod CR, Chavez JD, Eng JK, Yang L, Zheng C, Bruce JE",
       "date": "2013 Apr 5",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "23413883",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23413883"
     },
     {
-      "year": "",
+      "year": "2013",
       "title": "XLink-DB: Database and Software Tools for Storing and Visualizing Protein Interaction Topology Data",
       "authors": "Zheng C, Weisbrod CR, Chavez JD, Eng JK, Sharma V, Wu X, Bruce JE",
       "date": "2013 Apr 5",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "23413830",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23413830"
     },
     {
-      "year": "",
-      "title": "Protein interactions, Posttranslational Modifications and Topologies in Human Cells",
-      "authors": "Chavez JD, Weisbrod CR, Zheng C, Eng JK, Bruce JE",
-      "date": "May;12",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23354917"
+      "year": "2013",
+      "title": "Perturbing peptide cation-radical electronic states by thioxoamide groups: formation, dissociations, and energetics of thioxopeptide cation-radicals",
+      "authors": "Zimnicka M1, Chung TW, Moss CL, Ture&#269;ek F",
+      "date": "2013 Feb 14",
+      "journal": "J Phys Chem A.",
+      "pmid": "22765351",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22765351"
     },
     {
-      "year": "",
-      "title": "Global analysis of condition-specific subcellular protein distribution and abundance",
-      "authors": "Jung S, Smith JJ, von Haller PD, Dilworth DJ, Sitko KA, Miller LR, Saleem RA, Goodlett DR, Aitchison JD",
-      "date": "May;12",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23349476"
-    },
-    {
-      "year": "",
-      "title": "Cross-linking mass spectrometry and mutagenesis confirm the functional importance of surface interactions between CYP3A4 and holo/apo cytochrome b(5)",
-      "authors": "Zhao C, Gao Q, Roberts AG, Shaffer SA, Doneanu CE, Xue S, Goodlett DR, Nelson SD, Atkins WM",
-      "date": "2012 Nov 27",
-      "journal": "Biochemistry.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23150942"
-    },
-    {
-      "year": "",
-      "title": "Comet: an open source tandem mass spectrometry sequence database search tool",
-      "authors": "Eng JK, Jahan TA, Hoopmann MR",
-      "date": "Jan;13",
-      "journal": "Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23148064"
-    },
-    {
-      "year": "",
+      "year": "2012",
       "title": "De Novo Correction of Mass Measurement Error in Low Resolution Tandem MS Spectra for Shotgun Proteomics",
       "authors": "Egertson JD, Eng JK, Bereman MS, Hsieh EJ, Merrihew GE, Maccoss MJ",
       "date": "Dec;23",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "23007965",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/23007965"
     },
     {
-      "year": "",
-      "title": "An expansive human regulatory lexicon encoded in transcription factor footprints",
-      "authors": "Neph S, Vierstra J, Stergachis AB, Reynolds AP, Haugen E, Vernot B, Thurman RE, John S, Sandstrom R, Johnson AK, Maurano MT, Humbert R, Rynes E, Wang H, Vong S, Lee K, Bates D, Diegel M, Roach V, Dunn D, Neri J, Schafer A, Hansen RS, Kutyavin T, Giste E, Weaver M, Canfield T, Sabo P, Zhang M, Balasundaram G, Byron R, MacCoss MJ, Akey JM, Bender MA, Groudine M, Kaul R, Stamatoyannopoulos JA",
-      "date": "2012 Sep 6",
-      "journal": "Nature.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22955618"
+      "year": "2012",
+      "title": "Cross-linking mass spectrometry and mutagenesis confirm the functional importance of surface interactions between CYP3A4 and holo/apo cytochrome b(5)",
+      "authors": "Zhao C, Gao Q, Roberts AG, Shaffer SA, Doneanu CE, Xue S, Goodlett DR, Nelson SD, Atkins WM",
+      "date": "2012 Nov 27",
+      "journal": "Biochemistry.",
+      "pmid": "23150942",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23150942"
     },
     {
-      "year": "",
+      "year": "2012",
       "title": "Proteomic Classification of Acute Leukemias by Alignment-Based Quantitation of LC-MS/MS Data Sets",
       "authors": "Foss EJ, Radulovic D, Stirewalt DL, Radich J, Sala-Torra O, Pogosova-Agadjanyan EL, Hengel SM, Loeb KR, Deeg HJ, Meshinchi S, Goodlett DR, Bedalov A",
       "date": "2012 Oct 5",
       "journal": "J Proteome Res.",
-      "pmid": "",
+      "pmid": "22900933",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/22900933"
     },
     {
-      "year": "",
-      "title": "Perturbing peptide cation-radical electronic states by thioxoamide groups: formation, dissociations, and energetics of thioxopeptide cation-radicals",
-      "authors": "Zimnicka M1, Chung TW, Moss CL, Ture\u00c4\u008dek F",
-      "date": "2013 Feb 14",
-      "journal": "J Phys Chem A.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22765351"
+      "year": "2012",
+      "title": "An expansive human regulatory lexicon encoded in transcription factor footprints",
+      "authors": "Neph S, Vierstra J, Stergachis AB, Reynolds AP, Haugen E, Vernot B, Thurman RE, John S, Sandstrom R, Johnson AK, Maurano MT, Humbert R, Rynes E, Wang H, Vong S, Lee K, Bates D, Diegel M, Roach V, Dunn D, Neri J, Schafer A, Hansen RS, Kutyavin T, Giste E, Weaver M, Canfield T, Sabo P, Zhang M, Balasundaram G, Byron R, MacCoss MJ, Akey JM, Bender MA, Groudine M, Kaul R, Stamatoyannopoulos JA",
+      "date": "2012 Sep 6",
+      "journal": "Nature.",
+      "pmid": "22955618",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22955618"
     },
     {
-      "year": "",
-      "title": "An Extraction Assay Analysis for Galanthamine in Guinea Pig Plasma and its Application to",
-      "authors": "Nerve Agent Countermeasures Steiner WE, Pikalov IA, Williams PT, English WA, Hilmas CJ",
-      "date": "",
-      "journal": "J Anal Bioanal Techniques",
-      "pmid": "",
-      "link": ""
-    },
-    {
-      "year": "",
-      "title": "Cascade dissociations of peptide cation-radicals. Part 2. Infrared multiphoton dissociation and mechanistic studies of z-ions from pentapeptides",
-      "authors": "Ledvina AR, Chung TW, Hui R, Coon JJ, Turecek F",
-      "date": "Aug;23",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22669762"
-    },
-    {
-      "year": "",
-      "title": "Cascade dissociations of peptide cation-radicals. Part 1. Scope and effects of amino acid residues in penta-, nona-, and decapeptides",
-      "authors": "Chung TW, Hui R, Ledvina A, Coon JJ, Turecek F",
-      "date": "Aug;23",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22669761"
-    },
-    {
-      "year": "",
-      "title": "Surface acoustic wave nebulization facilitating lipid mass spectrometric analysis",
-      "authors": "Yoon SH, Huang Y, Edgar JS, Ting YS, Heron SR, Kao Y, Li Y, Masselon CD, Ernst RK, Goodlett DR",
-      "date": "2012 Aug 7",
-      "journal": "Anal Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22742654"
-    },
-    {
-      "year": "",
-      "title": "Chemical cross-linking, mass spectrometry and in silico modeling of proteasomal 20S core particles of the haloarchaeon Haloferax volcanii",
-      "authors": "Karadzic I, Maupin-Furlow J, Humbard M, Prunetti L, Singh P, Goodlett DR",
-      "date": "Jun;12",
-      "journal": "Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22623373"
-    },
-    {
-      "year": "",
-      "title": "Development of a Novel LC/MS/MS Extraction Assay for Galanthamine in Guinea Pig Plasma and its Application to Nerve Agent Countermeasures",
-      "authors": "Steiner WE, Pikalov IA, Williams PT, English WA, Hilmas CJ",
-      "date": "",
-      "journal": "Open Access Scientific Reports",
-      "pmid": "",
-      "link": ""
-    },
-    {
-      "year": "",
-      "title": "Quantitative proteomic analysis of HIV-1 infected CD4+ T cells reveals an early host response in important biological pathways: protein synthesis, cell proliferation, and T-cell activation",
-      "authors": "Navare AT, Sova P, Purdy DE, Weiss JM, Wolf-Yadlin A, Korth MJ, Chang ST, Proll SC, Jahan TA, Krasnoselsky AL, Palermo RE, Katze MG",
-      "date": "2012 Jul 20",
-      "journal": "Virology.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22542004"
-    },
-    {
-      "year": "",
-      "title": "Surface acoustic wave nebulization produces ions with lower internal energy than electrospray ionization",
-      "authors": "Huang Y, Yoon SH, Heron SR, Masselon CD, Edgar JS, Turecek F, Goodlett DR",
-      "date": "Jun;23",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22476889"
-    },
-    {
-      "year": "",
-      "title": "Cross-linking measurements of the potato leafroll virus reveal protein interaction topologies required for virion stability, aphid transmission, and virus-plant interactions",
-      "authors": "Chavez JD, Cilia M, Weisbrod CR, Ju HJ, Eng JK, Gray SM, Bruce JE",
-      "date": "2012 May 4",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22390342"
-    },
-    {
-      "year": "",
-      "title": "Multiplex targeted proteomic assay for biomarker detection in plasma: a pancreatic cancer biomarker case study",
-      "authors": "Pan S, Chen R, Brand RE, Hawley S, Tamura Y, Gafken PR, Milless BP, Goodlett DR, Rush J, Brentnall TA",
-      "date": "2012 Mar 2",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22316387"
-    },
-    {
-      "year": "",
-      "title": "Multiple-Reaction Monitoring-Mass Spectrometric Assays Can Accurately Measure the Relative Protein Abundance in Complex Mixtures",
-      "authors": "Hoofnagle AN, Becker JO, Oda MN, Cavigiolio G, Mayer P, Vaisar T",
-      "date": "Apr;58",
-      "journal": "Clin Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22307200"
-    },
-    {
-      "year": "",
-      "title": "Accurate Peptide Fragment Mass Analysis: Multiplexed Peptide Identification and Quantification",
-      "authors": "Weisbrod CR, Eng JK, Hoopmann MR, Baker T, Bruce JE",
-      "date": "2012 Mar 2",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22288382"
-    },
-    {
-      "year": "",
-      "title": "Myeloperoxidase Targets Apolipoprotein A-I, the Major High Density Lipoprotein Protein, for Site-Specific Oxidation in Human Atherosclerotic Lesions",
-      "authors": "Shao B, Pennathur S, Heinecke JW",
-      "date": "2012 Feb 24",
-      "journal": "J Biol Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22219194"
-    },
-    {
-      "year": "",
-      "title": "In Vivo Application of Photocleavable Protein Interaction Reporter Technology",
-      "authors": "Yang L, Zheng C, Weisbrod CR, Tang X, Munske GR, Hoopmann MR, Eng JK, Bruce JE",
-      "date": "2012 Feb 3",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22168182"
-    },
-    {
-      "year": "",
+      "year": "2012",
       "title": "MSDaPl (Mass Spectrometry Data Platform): A Proteomics Data Management Platform",
       "authors": "Sharma V, Eng JK, Maccoss MJ, Riffle M",
       "date": "Sep;11",
       "journal": "Mol Cell Proteomics.",
-      "pmid": "",
+      "pmid": "22611296",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/22611296"
     },
     {
-      "year": "",
-      "title": "Sites of ubiquitin attachment in Saccharomyces cerevisiae",
-      "authors": "Starita LM, Lo RS, Eng JK, von Haller PD, Fields S",
-      "date": "Jan;12",
+      "year": "2012",
+      "title": "Surface acoustic wave nebulization facilitating lipid mass spectrometric analysis",
+      "authors": "Yoon SH, Huang Y, Edgar JS, Ting YS, Heron SR, Kao Y, Li Y, Masselon CD, Ernst RK, Goodlett DR",
+      "date": "2012 Aug 7",
+      "journal": "Anal Chem.",
+      "pmid": "22742654",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22742654"
+    },
+    {
+      "year": "2012",
+      "title": "Cascade dissociations of peptide cation-radicals. Part 2. Infrared multiphoton dissociation and mechanistic studies of z-ions from pentapeptides",
+      "authors": "Ledvina AR, Chung TW, Hui R, Coon JJ, Turecek F",
+      "date": "Aug;23",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "22669762",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22669762"
+    },
+    {
+      "year": "2012",
+      "title": "Cascade dissociations of peptide cation-radicals. Part 1. Scope and effects of amino acid residues in penta-, nona-, and decapeptides",
+      "authors": "Chung TW, Hui R, Ledvina A, Coon JJ, Turecek F",
+      "date": "Aug;23",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "22669761",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22669761"
+    },
+    {
+      "year": "2012",
+      "title": "Quantitative proteomic analysis of HIV-1 infected CD4+ T cells reveals an early host response in important biological pathways: protein synthesis, cell proliferation, and T-cell activation",
+      "authors": "Navare AT, Sova P, Purdy DE, Weiss JM, Wolf-Yadlin A, Korth MJ, Chang ST, Proll SC, Jahan TA, Krasnoselsky AL, Palermo RE, Katze MG",
+      "date": "2012 Jul 20",
+      "journal": "Virology.",
+      "pmid": "22542004",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22542004"
+    },
+    {
+      "year": "2012",
+      "title": "Chemical cross-linking, mass spectrometry and in silico modeling of proteasomal 20S core particles of the haloarchaeon Haloferax volcanii",
+      "authors": "Karadzic I, Maupin-Furlow J, Humbard M, Prunetti L, Singh P, Goodlett DR",
+      "date": "Jun;12",
       "journal": "Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22106047"
+      "pmid": "22623373",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22623373"
     },
     {
-      "year": "",
-      "title": "Rapid empirical discovery of optimal peptides for targeted proteomics",
-      "authors": "Stergachis AB, MacLean B, Lee K, Stamatoyannopoulos JA, Maccoss MJ",
-      "date": "2011 Nov 6",
-      "journal": "Nat Methods.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22056677"
-    },
-    {
-      "year": "",
-      "title": "SILACtor: software to enable dynamic SILAC studies",
-      "authors": "Hoopmann MR, Chavez JD, Bruce JE",
-      "date": "2011 Nov 15",
-      "journal": "Anal Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21954881"
-    },
-    {
-      "year": "",
-      "title": "Tunable charge tags for electron-based methods of peptide sequencing: design and applications",
-      "authors": "Zimnicka M, Moss CL, Chung TW, Hui R, Ture\u00c4\u008dek F",
-      "date": "Apr;23",
+      "year": "2012",
+      "title": "Surface acoustic wave nebulization produces ions with lower internal energy than electrospray ionization",
+      "authors": "Huang Y, Yoon SH, Heron SR, Masselon CD, Edgar JS, Turecek F, Goodlett DR",
+      "date": "Jun;23",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21952752"
+      "pmid": "22476889",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22476889"
     },
     {
-      "year": "",
-      "title": "Data-independent proteomic screen identifies novel tamoxifen agonist that mediates drug resistance",
-      "authors": "Hengel SM, Murray E, Langdon S, Hayward L, O'Donoghue J, Panchaud A, Hupp T, Goodlett DR",
-      "date": "2011 Oct 7",
+      "year": "2012",
+      "title": "Cross-linking measurements of the potato leafroll virus reveal protein interaction topologies required for virion stability, aphid transmission, and virus-plant interactions",
+      "authors": "Chavez JD, Cilia M, Weisbrod CR, Ju HJ, Eng JK, Gray SM, Bruce JE",
+      "date": "2012 May 4",
       "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21936522"
+      "pmid": "22390342",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22390342"
     },
     {
-      "year": "",
-      "title": "A face in the crowd: recognizing peptides through database search",
-      "authors": "Eng JK, Searle BC, Clauser KR, Tabb DL",
-      "date": "Nov;10",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21876205"
+      "year": "2012",
+      "title": "Multiple-Reaction Monitoring-Mass Spectrometric Assays Can Accurately Measure the Relative Protein Abundance in Complex Mixtures",
+      "authors": "Hoofnagle AN, Becker JO, Oda MN, Cavigiolio G, Mayer P, Vaisar T",
+      "date": "Apr;58",
+      "journal": "Clin Chem.",
+      "pmid": "22307200",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22307200"
     },
     {
-      "year": "",
-      "title": "iProphet: Multi-level integrative analysis of shotgun proteomic data improves peptide and protein identification rates and error estimates",
-      "authors": "Shteynberg D, Deutsch EW, Lam H, Eng JK, Sun Z, Tasman N, Mendoza L, Moritz RL, Aebersold R, Nesvizhskii AI",
-      "date": "Dec;10",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21876204"
-    },
-    {
-      "year": "",
-      "title": "The fasted/fed mouse metabolic acetylome: n6-acetylation differences suggest acetylation coordinates organ-specific fuel switching",
-      "authors": "Yang L, Vaitheesvaran B, Hartil K, Robinson AJ, Hoopmann MR, Eng JK, Kurland IJ, Bruce JE",
-      "date": "2011 Sep 2",
+      "year": "2012",
+      "title": "Multiplex targeted proteomic assay for biomarker detection in plasma: a pancreatic cancer biomarker case study",
+      "authors": "Pan S, Chen R, Brand RE, Hawley S, Tamura Y, Gafken PR, Milless BP, Goodlett DR, Rush J, Brentnall TA",
+      "date": "2012 Mar 2",
       "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21728379"
+      "pmid": "22316387",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22316387"
     },
     {
-      "year": "",
-      "title": "Cross-linking measurements of in vivo protein complex topologies",
-      "authors": "Zheng C, Yang L, Hoopmann MR, Eng JK, Tang X, Weisbrod CR, Bruce JE",
-      "date": "Oct;10",
-      "journal": "Mol Cell Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21697552"
-    },
-    {
-      "year": "",
-      "title": "Tra1 has specific regulatory roles, rather than global functions, within the SAGA co-activator complex",
-      "authors": "Helmlinger D, Marguerat S, Villen J, Swaney DL, Gygi SP, Bahler J, Winston F",
-      "date": "2011 Jun 3",
-      "journal": "EMBO J.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21642955"
-    },
-    {
-      "year": "",
-      "title": "Quantitative proteomic and interaction network analysis of cisplatin resistance in HeLa cells",
-      "authors": "Chavez JD, Hoopmann MR, Weisbrod CR, Takara K, Bruce JE",
-      "date": "2011 May 26",
-      "journal": "PLoS One.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21637840"
-    },
-    {
-      "year": "",
-      "title": "Metabolic capabilities and systems fluctuations in Haloarcula marismortui revealed by integrative genomics and proteomics analyses",
-      "authors": "Chu LJ, Yang H, Shih P, Kao Y, Tsai YS, Chen J, Huang G, Weng RR, Ting YS, Fang X, von Haller PD, Goodlett DR, Ng WV",
-      "date": "2011 Jul 1",
+      "year": "2012",
+      "title": "Accurate Peptide Fragment Mass Analysis: Multiplexed Peptide Identification and Quantification",
+      "authors": "Weisbrod CR, Eng JK, Hoopmann MR, Baker T, Bruce JE",
+      "date": "2012 Mar 2",
       "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21598921"
+      "pmid": "22288382",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22288382"
     },
     {
-      "year": "",
-      "title": "Fast parallel tandem mass spectral library searching using GPU hardware acceleration",
-      "authors": "Baumgardner LA, Shanmugam AK, Lam H, Eng JK, Martin DB",
-      "date": "2011 Jun 3",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21545112"
+      "year": "2012",
+      "title": "Myeloperoxidase Targets Apolipoprotein A-I, the Major High Density Lipoprotein Protein, for Site-Specific Oxidation in Human Atherosclerotic Lesions",
+      "authors": "Shao B, Pennathur S, Heinecke JW",
+      "date": "2012 Feb 24",
+      "journal": "J Biol Chem.",
+      "pmid": "22219194",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22219194"
     },
     {
-      "year": "",
-      "title": "Microdialysis combined with proteomics for protein identification in breast tumor microenvironment in vivo",
-      "authors": "Xu BJ, Yan W, Jovanovic B, Shaw AK, An QA, Eng J, Chytil A, Link AJ, Moses HL",
-      "date": "2010 Apr 13",
-      "journal": "Cancer Microenviron.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21505562"
-    },
-    {
-      "year": "",
-      "title": "Impact of HDL oxidation by the myeloperoxidase system on sterol efflux by the ABCA1 pathway",
-      "authors": "Shao B, Heinecke JW",
-      "date": "2011 Oct 19",
-      "journal": "J Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21501700"
-    },
-    {
-      "year": "",
-      "title": "Dipole-guided electron capture causes abnormal dissociations of phosphorylated pentapeptides",
-      "authors": "Moss CL, Chung TW, Wyer JA, Nielsen SB, Hvelplund P, Turecek F",
-      "date": "Apr;22",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21472611"
-    },
-    {
-      "year": "",
-      "title": "PAcIFIC goes faster, quantitative and accurate. Alexandre Panchaud, Sunhee Jung, Scott A. Shaffer, John D",
-      "authors": "Aitchison, David R",
-      "date": "2011 Mar 15",
-      "journal": "Anal Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21341720"
-    },
-    {
-      "year": "",
-      "title": "Electron-capture and -transfer dissociation of peptides tagged with tunable fixed-charge groups: structures and dissociation energetics",
-      "authors": "Chung TW, Moss CL, Zimnicka M, Johnson RS, Moritz RL, Turecek F",
-      "date": "Jan;22",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21472540"
-    },
-    {
-      "year": "",
-      "title": "Architecture and dynamics of an A-kinase anchoring protein 79 (AKAP79) signaling complex",
-      "authors": "Gold MG, Stengel F, Nygren PJ, Weisbrod CR, Bruce JE, Robinson CV, Barford D, Scott JD",
-      "date": "2011 Apr 19",
-      "journal": "Proc Natl Acad Sci U S A.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21464287"
-    },
-    {
-      "year": "",
-      "title": "Faster, quantitative, and accurate precursor acquisition independent from ion count",
-      "authors": "Panchaud A, Jung S, Shaffer SA, Aitchison JD, Goodlett DR",
-      "date": "2011 Mar 15",
-      "journal": "Anal Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21341720"
-    },
-    {
-      "year": "",
-      "title": "Proteomic analysis of acetaminophen-induced changes in mitochondrial protein expression using spectral counting",
-      "authors": "Stamper BD, Mohar I, Kavanagh TJ, Nelson SD",
-      "date": "2011 Apr 18",
-      "journal": "Chem Res Toxicol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21329376"
-    },
-    {
-      "year": "",
-      "title": "COMPASS: a suite of pre- and post-search proteomics software tools for OMSSA",
-      "authors": "Wenger CD, Phanstiel DH, Lee MV, Bailey DJ, Coon JJ",
-      "date": "Mar;11",
-      "journal": "Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21298793"
-    },
-    {
-      "year": "",
-      "title": "New structural proteins of Halobacterium salinarum gas vesicle revealed by comparative proteomics analysis",
-      "authors": "Chu LJ, Chen MC, Setter J, Tsai YS, Yang H, Fang X, Ting YS, Shaffer SA, Taylor GK, von Haller PD, Goodlett DR, Ng WV",
-      "date": "2011 Mar 4",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21158390"
-    },
-    {
-      "year": "",
-      "title": "Effect of collision energy optimization on the measurement of peptides by selected reaction monitoring (SRM) mass spectrometry",
-      "authors": "Maclean B, Tomazela DM, Abbatiello SE, Zhang S, Whiteaker JR, Paulovich AG, Carr SA, Maccoss MJ",
-      "date": "2010 Dec 15",
-      "journal": "Anal Chem.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21090646"
-    },
-    {
-      "year": "",
-      "title": "Improved strategies for rapid identification of chemically cross-linked peptides using protein interaction reporter technology",
-      "authors": "Hoopmann MR, Weisbrod CR, Bruce JE",
-      "date": "2010 Dec 3",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20886857"
-    },
-    {
-      "year": "",
-      "title": "Urinary proteomics evaluation in interstitial cystitis/painful bladder syndrome: a pilot study",
-      "authors": "Goo YA, Tsai YS, Liu AY, Goodlett DR, Yang CC",
-      "date": "Aug;36",
-      "journal": "Int Braz J Urol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20815953"
-    },
-    {
-      "year": "",
-      "title": "Precursor charge state prediction for electron transfer dissociation tandem mass spectra",
-      "authors": "Sharma V, Eng JK, Feldman S, von Haller PD, Maccoss MJ, Noble WS",
-      "date": "2010 Oct 1",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20731383"
-    },
-    {
-      "year": "",
-      "title": "The histidine effect. Electron transfer and capture cause different dissociations and rearrangements of histidine peptide cation-radicals",
-      "authors": "Turecek F, Chung TW, Moss CL, Wyer JA, Ehlerding A, Holm AI, Zettergren H, Nielsen SB, Hvelplund P, Chamot-Rooke J, Bythell B, Paizs B",
-      "date": "2010 Aug 11",
-      "journal": "J Am Chem Soc.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20681705"
-    },
-    {
-      "year": "",
-      "title": "Sequence assignment of ADP-ribosylated peptides is facilitated as peptide length increases",
-      "authors": "Hengel SM, Icenogle L, Collins C, Goodlett DR",
-      "date": "2010 Aug 15",
-      "journal": "Commun Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20623715"
-    },
-    {
-      "year": "",
-      "title": "CD90/THY1 is overexpressed in prostate cancer-associated fibroblasts and could serve as a cancer biomarker",
-      "authors": "True LD, Zhang H, Ye M, Huang CY, Nelson PS, von Haller PD, Tjoelker LW, Kim JS, Qian WJ, Smith RD, Ellis WJ, Liebeskind ES, Liu AY",
-      "date": "Oct;23",
-      "journal": "Mod Pathol.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20562849"
-    },
-    {
-      "year": "",
+      "year": "2012",
       "title": "A review of tandem mass spectrometry characterization of adenosine diphosphate-ribosylated peptides",
       "authors": "Hengel SM, Goodlett DR",
       "date": "2012 Feb 15",
       "journal": "Int J Mass Spectrome.",
-      "pmid": "",
+      "pmid": "22563295",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/22563295"
     },
     {
-      "year": "",
+      "year": "2012",
+      "title": "In Vivo Application of Photocleavable Protein Interaction Reporter Technology",
+      "authors": "Yang L, Zheng C, Weisbrod CR, Tang X, Munske GR, Hoopmann MR, Eng JK, Bruce JE",
+      "date": "2012 Feb 3",
+      "journal": "J Proteome Res.",
+      "pmid": "22168182",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22168182"
+    },
+    {
+      "year": "2012",
+      "title": "Comet: an open source tandem mass spectrometry sequence database search tool",
+      "authors": "Eng JK, Jahan TA, Hoopmann MR",
+      "date": "Jan;13",
+      "journal": "Proteomics.",
+      "pmid": "23148064",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23148064"
+    },
+    {
+      "year": "2012",
+      "title": "Sites of ubiquitin attachment in Saccharomyces cerevisiae",
+      "authors": "Starita LM, Lo RS, Eng JK, von Haller PD, Fields S",
+      "date": "Jan;12",
+      "journal": "Proteomics.",
+      "pmid": "22106047",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22106047"
+    },
+    {
+      "year": "2012",
+      "title": "An Extraction Assay Analysis for Galanthamine in Guinea Pig Plasma and its Application to Nerve Agent Countermeasures",
+      "authors": "Steiner WE, Pikalov IA, Williams PT, English WA, Hilmas CJ",
+      "date": "2012",
+      "journal": "J Anal Bioanal Techniques",
+      "pmid": "",
+      "link": "https://www.omicsonline.org/2155-9872/2155-9872-3-144.php"
+    },
+    {
+      "year": "2011",
+      "title": "iProphet: Multi-level integrative analysis of shotgun proteomic data improves peptide and protein identification rates and error estimates",
+      "authors": "Shteynberg D, Deutsch EW, Lam H, Eng JK, Sun Z, Tasman N, Mendoza L, Moritz RL, Aebersold R, Nesvizhskii AI",
+      "date": "Dec;10",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "21876204",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21876204"
+    },
+    {
+      "year": "2011",
+      "title": "SILACtor: software to enable dynamic SILAC studies",
+      "authors": "Hoopmann MR, Chavez JD, Bruce JE",
+      "date": "2011 Nov 15",
+      "journal": "Anal Chem.",
+      "pmid": "21954881",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21954881"
+    },
+    {
+      "year": "2011",
+      "title": "Rapid empirical discovery of optimal peptides for targeted proteomics",
+      "authors": "Stergachis AB, MacLean B, Lee K, Stamatoyannopoulos JA, Maccoss MJ",
+      "date": "2011 Nov 6",
+      "journal": "Nat Methods.",
+      "pmid": "22056677",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22056677"
+    },
+    {
+      "year": "2011",
+      "title": "A face in the crowd: recognizing peptides through database search",
+      "authors": "Eng JK, Searle BC, Clauser KR, Tabb DL",
+      "date": "Nov;10",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "21876205",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21876205"
+    },
+    {
+      "year": "2011",
+      "title": "Impact of HDL oxidation by the myeloperoxidase system on sterol efflux by the ABCA1 pathway",
+      "authors": "Shao B, Heinecke JW",
+      "date": "2011 Oct 19",
+      "journal": "J Proteomics.",
+      "pmid": "21501700",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21501700"
+    },
+    {
+      "year": "2011",
+      "title": "Data-independent proteomic screen identifies novel tamoxifen agonist that mediates drug resistance",
+      "authors": "Hengel SM, Murray E, Langdon S, Hayward L, O'Donoghue J, Panchaud A, Hupp T, Goodlett DR",
+      "date": "2011 Oct 7",
+      "journal": "J Proteome Res.",
+      "pmid": "21936522",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21936522"
+    },
+    {
+      "year": "2011",
+      "title": "Cross-linking measurements of in vivo protein complex topologies",
+      "authors": "Zheng C, Yang L, Hoopmann MR, Eng JK, Tang X, Weisbrod CR, Bruce JE",
+      "date": "Oct;10",
+      "journal": "Mol Cell Proteomics.",
+      "pmid": "21697552",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21697552"
+    },
+    {
+      "year": "2011",
+      "title": "The fasted/fed mouse metabolic acetylome: n6-acetylation differences suggest acetylation coordinates organ-specific fuel switching",
+      "authors": "Yang L, Vaitheesvaran B, Hartil K, Robinson AJ, Hoopmann MR, Eng JK, Kurland IJ, Bruce JE",
+      "date": "2011 Sep 2",
+      "journal": "J Proteome Res.",
+      "pmid": "21728379",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21728379"
+    },
+    {
+      "year": "2011",
+      "title": "Metabolic capabilities and systems fluctuations in Haloarcula marismortui revealed by integrative genomics and proteomics analyses",
+      "authors": "Chu LJ, Yang H, Shih P, Kao Y, Tsai YS, Chen J, Huang G, Weng RR, Ting YS, Fang X, von Haller PD, Goodlett DR, Ng WV",
+      "date": "2011 Jul 1",
+      "journal": "J Proteome Res.",
+      "pmid": "21598921",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21598921"
+    },
+    {
+      "year": "2011",
+      "title": "Tra1 has specific regulatory roles, rather than global functions, within the SAGA co-activator complex",
+      "authors": "Helmlinger D, Marguerat S, Villen J, Swaney DL, Gygi SP, Bahler J, Winston F",
+      "date": "2011 Jun 3",
+      "journal": "EMBO J.",
+      "pmid": "21642955",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21642955"
+    },
+    {
+      "year": "2011",
+      "title": "Fast parallel tandem mass spectral library searching using GPU hardware acceleration",
+      "authors": "Baumgardner LA, Shanmugam AK, Lam H, Eng JK, Martin DB",
+      "date": "2011 Jun 3",
+      "journal": "J Proteome Res.",
+      "pmid": "21545112",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21545112"
+    },
+    {
+      "year": "2011",
+      "title": "Quantitative proteomic and interaction network analysis of cisplatin resistance in HeLa cells",
+      "authors": "Chavez JD, Hoopmann MR, Weisbrod CR, Takara K, Bruce JE",
+      "date": "2011 May 26",
+      "journal": "PLoS One.",
+      "pmid": "21637840",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21637840"
+    },
+    {
+      "year": "2011",
+      "title": "Architecture and dynamics of an A-kinase anchoring protein 79 (AKAP79) signaling complex",
+      "authors": "Gold MG, Stengel F, Nygren PJ, Weisbrod CR, Bruce JE, Robinson CV, Barford D, Scott JD",
+      "date": "2011 Apr 19",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "pmid": "21464287",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21464287"
+    },
+    {
+      "year": "2011",
+      "title": "Proteomic analysis of acetaminophen-induced changes in mitochondrial protein expression using spectral counting",
+      "authors": "Stamper BD, Mohar I, Kavanagh TJ, Nelson SD",
+      "date": "2011 Apr 18",
+      "journal": "Chem Res Toxicol.",
+      "pmid": "21329376",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21329376"
+    },
+    {
+      "year": "2011",
+      "title": "Tunable charge tags for electron-based methods of peptide sequencing: design and applications",
+      "authors": "Zimnicka M, Moss CL, Chung TW, Hui R, Ture&#269;ek F",
+      "date": "Apr;23",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "21952752",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21952752"
+    },
+    {
+      "year": "2011",
+      "title": "Dipole-guided electron capture causes abnormal dissociations of phosphorylated pentapeptides",
+      "authors": "Moss CL, Chung TW, Wyer JA, Nielsen SB, Hvelplund P, Turecek F",
+      "date": "Apr;22",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "21472611",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21472611"
+    },
+    {
+      "year": "2011",
+      "title": "Faster, quantitative, and accurate precursor acquisition independent from ion count",
+      "authors": "Panchaud A, Jung S, Shaffer SA, Aitchison JD, Goodlett DR",
+      "date": "2011 Mar 15",
+      "journal": "Anal Chem.",
+      "pmid": "21341720",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21341720"
+    },
+    {
+      "year": "2011",
+      "title": "New structural proteins of Halobacterium salinarum gas vesicle revealed by comparative proteomics analysis",
+      "authors": "Chu LJ, Chen MC, Setter J, Tsai YS, Yang H, Fang X, Ting YS, Shaffer SA, Taylor GK, von Haller PD, Goodlett DR, Ng WV",
+      "date": "2011 Mar 4",
+      "journal": "J Proteome Res.",
+      "pmid": "21158390",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21158390"
+    },
+    {
+      "year": "2011",
+      "title": "COMPASS: a suite of pre- and post-search proteomics software tools for OMSSA",
+      "authors": "Wenger CD, Phanstiel DH, Lee MV, Bailey DJ, Coon JJ",
+      "date": "Mar;11",
+      "journal": "Proteomics.",
+      "pmid": "21298793",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21298793"
+    },
+    {
+      "year": "2011",
+      "title": "Electron-capture and -transfer dissociation of peptides tagged with tunable fixed-charge groups: structures and dissociation energetics",
+      "authors": "Chung TW, Moss CL, Zimnicka M, Johnson RS, Moritz RL, Turecek F",
+      "date": "Jan;22",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "21472540",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21472540"
+    },
+    {
+      "year": "2010",
+      "title": "Effect of collision energy optimization on the measurement of peptides by selected reaction monitoring (SRM) mass spectrometry",
+      "authors": "Maclean B, Tomazela DM, Abbatiello SE, Zhang S, Whiteaker JR, Paulovich AG, Carr SA, Maccoss MJ",
+      "date": "2010 Dec 15",
+      "journal": "Anal Chem.",
+      "pmid": "21090646",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21090646"
+    },
+    {
+      "year": "2010",
+      "title": "Improved strategies for rapid identification of chemically cross-linked peptides using protein interaction reporter technology",
+      "authors": "Hoopmann MR, Weisbrod CR, Bruce JE",
+      "date": "2010 Dec 3",
+      "journal": "J Proteome Res.",
+      "pmid": "20886857",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20886857"
+    },
+    {
+      "year": "2010",
+      "title": "Precursor charge state prediction for electron transfer dissociation tandem mass spectra",
+      "authors": "Sharma V, Eng JK, Feldman S, von Haller PD, Maccoss MJ, Noble WS",
+      "date": "2010 Oct 1",
+      "journal": "J Proteome Res.",
+      "pmid": "20731383",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20731383"
+    },
+    {
+      "year": "2010",
+      "title": "CD90/THY1 is overexpressed in prostate cancer-associated fibroblasts and could serve as a cancer biomarker",
+      "authors": "True LD, Zhang H, Ye M, Huang CY, Nelson PS, von Haller PD, Tjoelker LW, Kim JS, Qian WJ, Smith RD, Ellis WJ, Liebeskind ES, Liu AY",
+      "date": "Oct;23",
+      "journal": "Mod Pathol.",
+      "pmid": "20562849",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20562849"
+    },
+    {
+      "year": "2010",
+      "title": "Sequence assignment of ADP-ribosylated peptides is facilitated as peptide length increases",
+      "authors": "Hengel SM, Icenogle L, Collins C, Goodlett DR",
+      "date": "2010 Aug 15",
+      "journal": "Commun Mass Spectrom.",
+      "pmid": "20623715",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20623715"
+    },
+    {
+      "year": "2010",
+      "title": "The histidine effect. Electron transfer and capture cause different dissociations and rearrangements of histidine peptide cation-radicals",
+      "authors": "Turecek F, Chung TW, Moss CL, Wyer JA, Ehlerding A, Holm AI, Zettergren H, Nielsen SB, Hvelplund P, Chamot-Rooke J, Bythell B, Paizs B",
+      "date": "2010 Aug 11",
+      "journal": "J Am Chem Soc.",
+      "pmid": "20681705",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20681705"
+    },
+    {
+      "year": "2010",
+      "title": "Urinary proteomics evaluation in interstitial cystitis/painful bladder syndrome: a pilot study",
+      "authors": "Goo YA, Tsai YS, Liu AY, Goodlett DR, Yang CC",
+      "date": "Aug;36",
+      "journal": "Int Braz J Urol.",
+      "pmid": "20815953",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20815953"
+    },
+    {
+      "year": "2010",
+      "title": "Backbone and side-chain specific dissociations of z ions from non-tryptic peptides",
+      "authors": "Chung TW, Turecek F",
+      "date": "Aug;21",
+      "journal": "J Am Soc Mass Spectrom.",
+      "pmid": "20299240",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20299240"
+    },
+    {
+      "year": "2010",
       "title": "Estimating false discovery rates for peptide and protein identification using randomized databases",
       "authors": "Hather G, Higdon R, Bauman A, von Haller PD, Kolker E",
       "date": "Jun;10",
       "journal": "Proteomics.",
-      "pmid": "",
+      "pmid": "20391536",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/20391536"
     },
     {
@@ -2602,40 +2620,31 @@
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/20373789"
     },
     {
-      "year": "",
-      "title": "Backbone and side-chain specific dissociations of z ions from non-tryptic peptides",
-      "authors": "Chung TW, Turecek F",
-      "date": "Aug;21",
-      "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20299240"
-    },
-    {
-      "year": "",
+      "year": "2010",
       "title": "Comprehensive structure characterization of lipid A extracted from Yersinia pestis for determination of its phosphorylation configuration",
       "authors": "Jones JW, Cohen IE, Turecek F, Goodlett DR, Ernst RK",
       "date": "May;21",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "20185334",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/20185334"
     },
     {
-      "year": "",
+      "year": "2010",
+      "title": "Microdialysis combined with proteomics for protein identification in breast tumor microenvironment in vivo",
+      "authors": "Xu BJ, Yan W, Jovanovic B, Shaw AK, An QA, Eng J, Chytil A, Link AJ, Moses HL",
+      "date": "2010 Apr 13",
+      "journal": "Cancer Microenviron.",
+      "pmid": "21505562",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21505562"
+    },
+    {
+      "year": "2010",
       "title": "Trans-Proteomic Pipeline supports and improves analysis of electron transfer dissociation datasets",
       "authors": "Deutsch EW, Shteynberg D, Lam H, Sun Z, Eng JK, Carapito C, von Haller PD, Tasman N, Mendoza L, Farrah T, Aebersold R",
       "date": "Mar;10",
       "journal": "Proteomics.",
-      "pmid": "",
+      "pmid": "20082347",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/20082347"
-    },
-    {
-      "year": "",
-      "title": "Proteomics data repositories",
-      "authors": "Riffle M, Eng JK",
-      "date": "",
-      "journal": "Proteomics.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/19795424"
     },
     {
       "year": "2009",
@@ -2656,22 +2665,31 @@
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/19572557"
     },
     {
-      "year": "",
-      "title": "Post analysis data acquisition for the iterative MS/MS sampling of proteomics mixtures",
-      "authors": "Hoopmann MR, Merrihew GE, von Haller PD, Maccoss MJ",
-      "date": "",
-      "journal": "J Proteome Res.",
-      "pmid": "",
-      "link": "https://www.ncbi.nlm.nih.gov/pubmed/19256536"
-    },
-    {
-      "year": "",
+      "year": "2009",
       "title": "Tandem Mass Spectrometry Investigation of ADP-ribosylated Kemptide",
       "authors": "Hengel SM, Shaffer SA, Nunn BL, Goodlett DR",
       "date": "Mar;20",
       "journal": "J Am Soc Mass Spectrom.",
-      "pmid": "",
+      "pmid": "19070509",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/19070509"
+    },
+    {
+      "year": "2009",
+      "title": "Proteomics data repositories",
+      "authors": "Riffle M, Eng JK",
+      "date": "",
+      "journal": "Proteomics.",
+      "pmid": "19795424",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/19795424"
+    },
+    {
+      "year": "2009",
+      "title": "Post analysis data acquisition for the iterative MS/MS sampling of proteomics mixtures",
+      "authors": "Hoopmann MR, Merrihew GE, von Haller PD, Maccoss MJ",
+      "date": "",
+      "journal": "J Proteome Res.",
+      "pmid": "19256536",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/19256536"
     },
     {
       "year": "2008",
@@ -2708,24 +2726,6 @@
       "journal": "Mol Cell Proteomics.",
       "pmid": "18641041",
       "link": "https://www.ncbi.nlm.nih.gov/pubmed/18641041"
-    },
-    {
-      "year": "2025",
-      "title": "Defining the Features of Complement-Active IgM",
-      "authors": "Watson MJ, Cundorff CC, Lynch EM, Kollman JM, Kearney JF, Guttman M",
-      "date": "2025 Jun 15",
-      "journal": "J Mol Biol.",
-      "pmid": "40154915",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/40154915/"
-    },
-    {
-      "year": "2025",
-      "title": "The E3 ubiquitin ligase MGRN1 targets melanocortin receptors MC1R and MC4R via interactions with transmembrane adapters",
-      "authors": "Parashara P, Gao L, Riglos A, Lartey D, Sidhu SB, Marks T, Williams C, Siauw G, Lee KJ, Ostrem AIL, Siebold C, Riffle M, Kinnebrew M, Gunn TM, Kong JH",
-      "date": "2025 Dec 1",
-      "journal": "J Cell Sci.",
-      "pmid": "41178558",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41178558/"
     }
   ]
 }
