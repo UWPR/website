@@ -20,13 +20,14 @@ lunr:
 
 plugins:
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # Tell Jekyll to read _pages/ directory
 include:
   - _pages
   - _methods
   - _publications
-  - _resources
+  - _facility
   - _tools
 
 # Exclude PHP files and other non-Jekyll content from the build

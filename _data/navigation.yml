@@ -1,8 +1,8 @@
 main:
   - title: "Collaborate"
     url: /collab/
-  - title: "Resources"
-    url: /resources/
+  - title: "Facility"
+    url: /facility/
   - title: "Methods"
     url: /methods/
   - title: "Tools"

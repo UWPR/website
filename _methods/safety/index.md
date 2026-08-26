@@ -138,7 +138,6 @@ Visit the Lab Safety Dashboard for Safety inspection and Self-Inspection Report 
 
 ## Quick Links
 
-- [COVID-19 Prevention](#prevention)
 - [UWPR Safety guidelines](#safety)
 - [Lab Safety Manual](#manual)
 - [PPE](#ppe)

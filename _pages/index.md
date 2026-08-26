@@ -22,10 +22,10 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/resources.png
-    alt: "resources"
-    #title: "Resources"
+    alt: "facility"
+    #title: "Facility"
     excerpt: "Learn more about UWPR's state of the art LC-MS instrumentation and computational resources."
-    url: /resources/
+    url: /facility/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/methods.png
