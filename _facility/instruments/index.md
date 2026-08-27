@@ -23,15 +23,5 @@ author_profile: false
 
 ## Retired Instruments
 
-Kept as a historical record on the [Retired Instruments page]({{ site.baseurl }}/facility/instruments/retired/):
-
-- [LTQ]({{ site.baseurl }}/facility/instruments/retired/#ltq)
-- [LTQ XL]({{ site.baseurl }}/facility/instruments/retired/#ltqxl)
-- [LTQ XL with ETD]({{ site.baseurl }}/facility/instruments/retired/#ltqetd)
-- [LTQ-FT Ultra]({{ site.baseurl }}/facility/instruments/retired/#ltqft)
-- [LTQ-Orbitrap XL 1 and 2]({{ site.baseurl }}/facility/instruments/retired/#ltqorbitrap)
-- [TSQ Quantum Access]({{ site.baseurl }}/facility/instruments/retired/#tsqaccess)
-- [Orbitrap Elite]({{ site.baseurl }}/facility/instruments/retired/#orbitrapelite)
-- [QE plus]({{ site.baseurl }}/facility/instruments/retired/#qexactiveplus)
-- [TSQ Vantage]({{ site.baseurl }}/facility/instruments/retired/#tsqvantage)
-- [nanoACQUITY]({{ site.baseurl }}/facility/instruments/retired/#nanoacquity)
+Instruments formerly in service are kept as a historical record on the
+[Retired Instruments page]({{ site.baseurl }}/facility/instruments/retired/).

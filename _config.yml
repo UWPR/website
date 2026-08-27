@@ -25,7 +25,7 @@ plugins:
 # Tell Jekyll to read _pages/ directory
 include:
   - _pages
-  - _methods
+  - _resources
   - _publications
   - _facility
   - _tools

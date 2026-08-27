@@ -28,7 +28,7 @@ If you have questions, please contact Tahmina 'Eva' Jahan at the UWPR (tabaker@u
 - [ProteoWizard](http://proteowizard.sourceforge.net/)
 - [Hardklör](http://proteome.gs.washington.edu/software/hardklor/)
 - To access MSFileReader, go [here](https://thermo.flexnetoperations.com/control/thmo/login) to register an account with Thermo and login. You will find MSFileReader under "Utility Software".
-- Deprecated as of 01/2016, [old (original) MassSpecUtils Version 2.0.1.4]({{ site.baseurl }}/protocols06/MassSpecUtils/2.0.4.1/).
+- Deprecated as of 01/2016, [old (original) MassSpecUtils Version 2.0.1.4](https://proteomicsresource.washington.edu/protocols06/MassSpecUtils/2.0.4.1/).
 
 <!-- -->
 

@@ -81,7 +81,7 @@ iSRM, and QED-MS/MS.
 
 - Installed 6/20/2007, retired 9/30/2018
 
-Base collision energy equations (see the [MRM/SRM page]({{ site.baseurl }}/methods/protocols05/MRM/)):
+Base collision energy equations (see the [MRM/SRM page]({{ site.baseurl }}/resources/knowledgebase/MRM/)):
 
 - TSQ Access (1.0 mTorr) 2+ peptide: CE = 0.049 × m/z − 5.750
 - TSQ Access (1.0 mTorr) 3+ peptide: CE = 0.039 × m/z + 3.314
@@ -114,7 +114,7 @@ hyperbolic quadrupole mass filters; timed SRM, H-SRM, iSRM, and QED-MS/MS.
 
 - Installed 10/8/2009
 
-Base collision energy equations (see the [MRM/SRM page]({{ site.baseurl }}/methods/protocols05/MRM/)):
+Base collision energy equations (see the [MRM/SRM page]({{ site.baseurl }}/resources/knowledgebase/MRM/)):
 
 - TSQ Vantage (1.0 mTorr) 2+ peptide: CE = 0.041 × m/z − 3.442
 - TSQ Vantage (1.0 mTorr) 3+ peptide: CE = 0.040 × m/z + 0.773

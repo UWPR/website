@@ -12,7 +12,7 @@ toc_sticky: true
 
 The UWPR is offering analytical and instructional expertise in state of the art mass spectrometric techniques and data analysis with the primary aim of providing UW investigators with "hands-on" training and access to contemporary resources needed to develop and meet their proteomics research interests.
 
-Access to UWPR resources is through collaborations with [Resource members or affiliated research labs]({{ site.baseurl }}/contact/). We strongly recommend that you discuss your proteomics project and the sample preparation with Resource members prior to preparing samples! Check out the sample preparation guidelines on our [Methods page]({{ site.baseurl }}/methods/).
+Access to UWPR resources is through collaborations with [Resource members or affiliated research labs]({{ site.baseurl }}/contact/). We strongly recommend that you discuss your proteomics project and the sample preparation with Resource members prior to preparing samples! Check out the sample preparation guidelines on our [Methods page]({{ site.baseurl }}/resources/).
 
 In order to use the resources, you will have to undergo the appropriate training and follow all the usage [guidelines (pdf)]({{ site.baseurl }}/docs/UWPR_Guidelines_selfServ.pdf). The level of instruction is such that following completion of the initial training (usually 4 to 6 hrs) and several periods of supervised use, the researcher may exercise independent, unattended use of an instrument with instructor approval. The training is instrument specific and is provided during the signed up instrument time and has to be coordinated with UWPR staff.
 
@@ -92,7 +92,7 @@ Here is a list of other [local and commercial core facilities]({{ site.baseurl }
 ## UWPR links and downloads
 
 - [Resource members Contact page]({{ site.baseurl }}/contact/)
-- [Methods page]({{ site.baseurl }}/methods/)
+- [Methods page]({{ site.baseurl }}/resources/)
 - [Self service UWPR guidelines (pdf)]({{ site.baseurl }}/docs/UWPR_Guidelines_selfServ.pdf)
 - [Full service UWPR guidelines (pdf)]({{ site.baseurl }}/docs/UWPR_Guidelines_fullServ.pdf)
 - [LC-MS commonly used consumables (xls)]({{ site.baseurl }}/docs/protocols05/LC_MS_Consumables.xls)

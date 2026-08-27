@@ -1,8 +1,6 @@
 ---
 title: "Facility"
 permalink: /facility/
-redirect_from:
-  - /resources/
 classes: no_sidebar
 layout: single
 toc: true

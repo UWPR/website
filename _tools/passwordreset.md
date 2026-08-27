@@ -19,7 +19,7 @@ Here's the [direct link to the password reset page](https://proteomicsresource.w
 ## UWPR links
 
 - [Resource members Contact page]({{ site.baseurl }}/contact/)
-- [Methods page]({{ site.baseurl }}/methods/)
+- [Methods page]({{ site.baseurl }}/resources/)
 - [UWPR guidelines (pdf)]({{ site.baseurl }}/docs/UWPR_Guidelines.pdf)
 - [LC-MS commonly used consumables (xls)]({{ site.baseurl }}/docs/protocols05/LC_MS_Consumables.xls)
 - [Sample Submission Form (xls)](https://proteomicsresource.washington.edu/pr/costcenter_resources/UWPR%20sample%20submission%20form.xlsx)

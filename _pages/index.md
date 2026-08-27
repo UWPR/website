@@ -29,10 +29,10 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/methods.png
-    alt: "methods"
-    #title: "Methods"
-    excerpt: "A collection of methods, protocols, and hardware can be found here, from sample prep to column packing."
-    url: /methods/
+    alt: "resources"
+    #title: "Resources"
+    excerpt: "A broad reference for shotgun proteomics: knowledgebase, sample preparation, protocols, data analysis, consumables, and safety."
+    url: /resources/
     btn_label: "Read More"
     btn_class: "btn--primary"
 

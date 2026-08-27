@@ -158,6 +158,46 @@
   }
 }
 
+/* Give section headings room to breathe. MM's default top margin on
+   in-content headings is tight, so on long reference pages one section
+   runs straight into the next with only the bold heading as a cue.
+   Extra space above h2 (and a little above h3) makes the section
+   boundaries visible at a glance. Headings that directly follow the
+   page title (first child) keep the default so pages don't open with
+   a large gap. */
+.page__content {
+  h2 {
+    margin-top: 2.5em;
+  }
+  h3 {
+    margin-top: 2em;
+  }
+  h2:first-child,
+  h3:first-child {
+    margin-top: 0.5em;
+  }
+}
+
+/* Compact per-section reference lists. Applied via
+   <div class="references" markdown="1"> blocks in page markdown: smaller
+   type and tight spacing so a section's references occupy minimal room. */
+.page__content .references {
+  font-size: 0.7em;
+  line-height: 1.5;
+  margin-top: 0.75em;
+
+  p {
+    margin: 0 0 0.25em;
+  }
+  ol,
+  ul {
+    margin: 0 0 0 1.5em;
+  }
+  li {
+    margin-bottom: 0.2em;
+  }
+}
+
 /* MH: Remove sidebar simply and gracefully */
 .no_sidebar {
   .page, .page__related {
