@@ -1,9 +1,10 @@
 ---
 title: "Cell Fractionation"
 layout: single
-permalink: /resources/sample-preparation/cellfractionation/
+permalink: /resources/protocols/cellfractionation/
 redirect_from:
   - /methods/protocols01/cellfractionation/
+  - /resources/sample-preparation/cellfractionation/
 classes: no_sidebar
 author_profile: false
 toc: true

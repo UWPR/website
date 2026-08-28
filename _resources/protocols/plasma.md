@@ -1,8 +1,9 @@
 ---
 title: "Plasma and Serum"
-permalink: /resources/sample-preparation/plasma/
+permalink: /resources/protocols/plasma/
 redirect_from:
   - /methods/protocols02/plasma/
+  - /resources/sample-preparation/plasma/
 classes: no_sidebar
 author_profile: false
 toc: true

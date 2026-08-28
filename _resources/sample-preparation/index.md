@@ -16,9 +16,9 @@ toc_sticky: true
 
 Protein extraction is an important step in any proteomics experiment. It usually starts with cell lysis, optionally followed by subcellular fractionation, enrichment of a protein of interest (affinity purification), or removal of interfering substances (immunodepletion).
 
-Many techniques are available for disrupting cells, including physical and detergent-based methods. Historically, physical lysis was the method of choice, but it often requires expensive equipment (French press, homogenizer, cryogrinding). Detergent-based lysis is now more popular because it is simple, inexpensive, and efficient. Note that many detergents interfere with downstream LC-MS analysis; a list of MS-compatible detergents is on our [protein digestion page]({{ site.baseurl }}/resources/sample-preparation/digestion/).
+Many techniques are available for disrupting cells, including physical and detergent-based methods. Historically, physical lysis was the method of choice, but it often requires expensive equipment (French press, homogenizer, cryogrinding). Detergent-based lysis is now more popular because it is simple, inexpensive, and efficient. Note that many detergents interfere with downstream LC-MS analysis; a list of MS-compatible detergents is on our [protein digestion page]({{ site.baseurl }}/resources/protein-digestion/).
 
-The sections below follow the order of a typical preparation: extract the proteins from your sample, reduce complexity by fractionation or depletion, enrich the proteins of interest, separate, and (if your experiment calls for it) label or crosslink. Protein digestion then follows as the final step, producing the peptides that are analyzed by LC-MS.
+The sections below follow the order of a typical preparation: extract the proteins from your sample, reduce complexity by fractionation or depletion, enrich the proteins of interest, separate, and (if your experiment calls for it) label or crosslink. [Protein digestion]({{ site.baseurl }}/resources/protein-digestion/) then follows as the final step, producing the peptides that are analyzed by LC-MS. Step-by-step UWPR protocols for several of these procedures are collected on the [Protocols & Methods]({{ site.baseurl }}/resources/protocols/) page.
 
 *Third-party tutorials and products appear on this page as suggestions only; they do not constitute an endorsement by the UWPR.*
 
@@ -37,8 +37,6 @@ General introductions to sample preparation for protein mass spectrometry, from 
 ## Protein Extraction: Cultured Cells {#cellculture}
 
 Cultured cells are the most common starting material. Choose the lysis buffer with the downstream steps in mind: harsh detergents extract more protein but must be removed or be MS-compatible before digestion and LC-MS.
-
-**UWPR protocol**: [Cell lysis and subcellular fractionation]({{ site.baseurl }}/resources/sample-preparation/cellfractionation/)
 
 **Third-party guide**: Thermo's [protein extraction for MS](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/sample-prep-mass-spectrometry/protein-extraction-mass-spectrometry.html) overview of total and fraction-specific extraction kits.
 
@@ -62,8 +60,6 @@ Tissue samples need mechanical disruption before or during lysis, and formalin-f
 
 Biofluids span an enormous dynamic range of protein concentrations, so depletion of the most abundant proteins (see [Immunodepletion](#immunodepletion)) or dedicated enrichment chemistry is usually needed to see beyond the top of the proteome. For a critical comparison of plasma workflows see Reference 1.
 
-**UWPR protocol**: [Plasma and serum protein preparation]({{ site.baseurl }}/resources/sample-preparation/plasma/)
-
 **Third-party guide**: Vivaproducts' [urine protein concentration with concentrators (pdf)](https://www.vivaproducts.com/downloads/urine-protein-concentration-w-concentrators.pdf).
 
 | Product | Vendor |
@@ -81,8 +77,6 @@ Biofluids span an enormous dynamic range of protein concentrations, so depletion
 
 Fractionating by cellular localization reduces sample complexity and focuses the analysis on the subproteome of an organelle. Take all possible precautions to isolate the desired organelle: contamination from the cytosol or other organelles should be expected, repeated analyses with strong statistical tests are often needed to tell contaminants from true organellar proteins, and another (undesired) organelle can serve as a good negative control.
 
-**UWPR protocol**: [Cell lysis and subcellular fractionation]({{ site.baseurl }}/resources/sample-preparation/cellfractionation/)
-
 | Product | Vendor |
 |:--|:--|
 | [Subcellular protein fractionation kit for cultured cells](https://www.thermofisher.com/order/catalog/product/78840) | Thermo Fisher |
@@ -91,7 +85,7 @@ Fractionating by cellular localization reduces sample complexity and focuses the
 
 ## Immunodepletion {#immunodepletion}
 
-Plasma protein concentrations span at least ten orders of magnitude, from cytokines (pg/mL) to albumin (30-45 mg/mL). Immunodepletion removes the most abundant proteins from plasma or serum before analysis, enabling deeper penetration into the proteome. See also our [plasma and serum preparation page]({{ site.baseurl }}/resources/sample-preparation/plasma/).
+Plasma protein concentrations span at least ten orders of magnitude, from cytokines (pg/mL) to albumin (30-45 mg/mL). Immunodepletion removes the most abundant proteins from plasma or serum before analysis, enabling deeper penetration into the proteome. See also our [plasma and serum preparation protocol]({{ site.baseurl }}/resources/protocols/plasma/).
 
 | Product | Vendor |
 |:--|:--|
@@ -178,8 +172,6 @@ Beyond antibodies and tags, proteins can be enriched by their activity or by a c
 
 SDS-PAGE separates proteins by molecular weight and is the workhorse for estimating relative molecular mass, judging sample purity, and monitoring a fractionation or purification. Two-dimensional (2D) electrophoresis separates proteins first by isoelectric point and then by molecular weight. Bands are visualized with Coomassie Blue or silver stain, and Western blotting detects specific proteins or modifications. To identify proteins by LC-MS, digest them in the gel (or on the membrane) and extract the peptides.
 
-**UWPR protocol**: [In-gel digestion]({{ site.baseurl }}/resources/sample-preparation/ingeldigestion/)
-
 ## Protein Separation: Chromatography (HPLC, FPLC) {#hplc}
 
 Column chromatography, HPLC, or FPLC separates proteins by physicochemical properties such as size, charge, and hydrophobicity; size exclusion, cation or anion exchange, and reversed phase (C4) are the common chemistries. Gel-free fractionation by free-flow electrophoresis exists but is uncommon, and commercial support for it has largely disappeared.
@@ -212,9 +204,3 @@ Crosslinking mass spectrometry captures protein-protein interactions and structu
 
 1. Ligand-based receptor identification on living cells and tissues using TRICEPS. Frei AP, Moest H, Novy K, Wollscheid B. *Nat Protoc* 8, 1321-36 (2013). [link](https://pubmed.ncbi.nlm.nih.gov/23764939/)
 </div>
-
-## Protein Digestion {#digestion}
-
-Bottom-up proteomics analyzes peptides rather than intact proteins, so once the proteins are extracted, enriched, and separated, they are cleaved into peptides by a protease, most commonly trypsin. An effective digestion produces few missed cleavages and few side reactions, and the choice of detergents and buffers upstream determines how much cleanup the digest needs before LC-MS.
-
-**UWPR protocol**: [Protein digestion]({{ site.baseurl }}/resources/sample-preparation/digestion/)

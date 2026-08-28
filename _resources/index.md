@@ -18,7 +18,13 @@ and stable isotope labeling.
 
 ## [Sample Preparation]({{ site.baseurl }}/resources/sample-preparation/)
 
-Protein extraction, separation and enrichment, digestion, and peptide separation.
+Protein extraction, separation, and enrichment.
+
+## [Protein Digestion & Peptide Fractionation]({{ site.baseurl }}/resources/protein-digestion/)
+
+Cleaving proteins into peptides for LC-MS: MS-compatible detergents, digestion
+kits and enzymes, chemical cleavage, peptide fractionation and enrichment, and
+peptide cleanup.
 
 ## [Protocols & Methods]({{ site.baseurl }}/resources/protocols/)
 

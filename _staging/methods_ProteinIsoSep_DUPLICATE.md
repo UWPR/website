@@ -43,7 +43,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 
 - [Cell lines and primary cell Proteomics Kits](https://www.preomics.com/cell-lines) from PreOmics.
 
-- Protocols for cell lysis and subcellular fractionation [go to page]({{ site.baseurl }}/resources/sample-preparation/cellfractionation/)
+- Protocols for cell lysis and subcellular fractionation [go to page]({{ site.baseurl }}/resources/protocols/cellfractionation/)
 - [ProteoExtract Subcellular Proteomie Extraction Kit](https://www.sigmaaldrich.com/US/en/product/mm/539790) from Sigma
 
 ## Protein Extraction from Tissues and Plants {#tissueplants}
@@ -66,7 +66,7 @@ Tutorials from the Broad's Proteomics Platform [page](https://www.broadinstitute
 
 - [Biological fluids Proteomics Kits](https://www.preomics.com/biological-fluids) from PreOmics.
 
-- Protocols for plasma and serum protein preparation [go to page]({{ site.baseurl }}/resources/sample-preparation/plasma/)
+- Protocols for plasma and serum protein preparation [go to page]({{ site.baseurl }}/resources/protocols/plasma/)
 
 - Purify/extract proteins from urine samples
 - [Urine Protein Concentration with Vivaproducts Concentrators](https://www.vivaproducts.com/downloads/urine-protein-concentration-w-concentrators.pdf) from vivaproducts.
@@ -165,7 +165,7 @@ The wide dynamic range of protein concentrations present in serum and plasma rep
 - [High Select™ HSA/Immunoglobulin Depletion Mini Spin Columns](https://www.thermofisher.com/order/catalog/product/A36365) from ThermoPierce
 - [High Select™ Top14 Abundant Protein Depletion Mini Spin Columns](https://www.thermofisher.com/order/catalog/product/A36369) from ThermoPierce
 - [Pierce™ Albumin Depletion Kit](https://www.thermofisher.com/order/catalog/product/85160) from ThermoPierce
-- Protocols for plasma and serum protein preparation for shotgun proteomics [go to page]({{ site.baseurl }}/resources/sample-preparation/plasma/)
+- Protocols for plasma and serum protein preparation for shotgun proteomics [go to page]({{ site.baseurl }}/resources/protocols/plasma/)
 
 ## Tag based affinity protocols {#tagaffinity}
 
@@ -235,12 +235,12 @@ less common and a bit tricky.. BD recently made the decision to exit the Free Fl
 
 ## UWPR links and downloads
 
-- [Cell lysis and subcellular fractionation page]({{ site.baseurl }}/resources/sample-preparation/cellfractionation/)
-- [Plasma and serum protein preparation page]({{ site.baseurl }}/resources/sample-preparation/plasma/)
+- [Cell lysis and subcellular fractionation page]({{ site.baseurl }}/resources/protocols/cellfractionation/)
+- [Plasma and serum protein preparation page]({{ site.baseurl }}/resources/protocols/plasma/)
 - [TissuePrep_and_Cell Fractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)
 - [Urine Protein Extraction (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_UrineProteinExtraction.xlsx)
 - [Cell lysis and IP (xlsx)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_Immunoprecipitation.xlsx)
-- [Plasma protein preparation page]({{ site.baseurl }}/resources/sample-preparation/plasma/)
+- [Plasma protein preparation page]({{ site.baseurl }}/resources/protocols/plasma/)
 - [Glycopeptide Isolation (xlsx)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_Glycopeptide_Isolation.xlsx)
 - [TissuePrep_and_CellFractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)
 - [In-gel digest page]({{ site.baseurl }}/resources/protocols/ingeldigestion/)

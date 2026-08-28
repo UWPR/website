@@ -198,6 +198,16 @@
   }
 }
 
+/* Digestion enzyme table (protein digestion page): keep the Suppliers
+   column narrow so the description column gets the width; the vendor
+   links wrap onto multiple lines instead. */
+.page__content table.enzyme-table {
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 18%;
+  }
+}
+
 /* MH: Remove sidebar simply and gracefully */
 .no_sidebar {
   .page, .page__related {

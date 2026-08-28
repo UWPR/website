@@ -1,9 +1,9 @@
 ---
 title: "In-Gel Digestion"
-permalink: /resources/sample-preparation/ingeldigestion/
+permalink: /resources/protocols/ingeldigestion/
 redirect_from:
   - /methods/protocols03/ingeldigestion/
-  - /resources/protocols/ingeldigestion/
+  - /resources/sample-preparation/ingeldigestion/
 layout: single
 toc: true
 toc_sticky: true

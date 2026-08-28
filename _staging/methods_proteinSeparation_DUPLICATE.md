@@ -70,7 +70,7 @@ The wide dynamic range of protein concentrations present in serum and plasma rep
 - [Pierce™ Albumin Depletion Kit](https://www.thermofisher.com/order/catalog/product/85160) from ThermoPierce
 - [Pierce™ Top 2 Abundant Protein Depletion Spin Columns](https://www.thermofisher.com/order/catalog/product/85161) from ThermoPierce
 
-Protocols for plasma and serum protein preparation for shotgun proteomics [go to page]({{ site.baseurl }}/resources/sample-preparation/plasma/)
+Protocols for plasma and serum protein preparation for shotgun proteomics [go to page]({{ site.baseurl }}/resources/protocols/plasma/)
 
 ## Tag based affinity protocols {#tagaffinity}
 
@@ -130,7 +130,7 @@ less common and a bit tricky.. BD recently made the decision to exit the Free Fl
 ## UWPR links and downloads
 
 - [Cell lysis and IP (xlsx)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_Immunoprecipitation.xlsx)
-- [Plasma protein preparation page]({{ site.baseurl }}/resources/sample-preparation/plasma/)
+- [Plasma protein preparation page]({{ site.baseurl }}/resources/protocols/plasma/)
 - [Glycopeptide Isolation (xlsx)]({{ site.baseurl }}/docs/protocols02/UWPR_Protocol_Glycopeptide_Isolation.xlsx)
 - [TissuePrep_and_CellFractionation (xlsx)]({{ site.baseurl }}/docs/protocols01/UWPR_Protocol_TissuePrep_and_CellFractionation.xlsx)
 - [In-gel digest page]({{ site.baseurl }}/resources/protocols/ingeldigestion/)
