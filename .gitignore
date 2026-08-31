@@ -23,6 +23,9 @@
 !*.ttf
 !*.woff
 !*.woff2
+!*.ems
+!*.zip
+!*.pptx
 
 # Jekyll files
 !*.yml

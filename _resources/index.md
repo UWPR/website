@@ -33,15 +33,16 @@ fractionation, and column preparation.
 
 ## [Data Analysis]({{ site.baseurl }}/resources/data-analysis/)
 
-References for interpreting LC-MS data, including common background ions and contaminants.
+References for interpreting LC-MS data.
 
 ## [Reagents & Consumables]({{ site.baseurl }}/resources/consumables/)
 
 Part lists, standards, and consumables used on the UWPR systems.
 
-## [For Laboratories & Cores]({{ site.baseurl }}/resources/cores/)
+## [For MS Laboratories & Cores]({{ site.baseurl }}/resources/cores/)
 
-Build-it-yourself hardware from the UWPR: the NSI source and the column-packing pressure cell.
+Hardware designs and reference material from the UWPR: the NSI source, the
+column-packing pressure cell, and common background ions.
 
 ## [Safety]({{ site.baseurl }}/resources/safety/)
 

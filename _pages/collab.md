@@ -75,4 +75,4 @@ Short and long term storage of the acquired files is the sole responsibility of 
 
 ## Other local core facilities {#facilities}
 
-A list of other [local and commercial core facilities]({{ site.baseurl }}/corefacilities/) that may help with your mass spec or proteomics needs.
+A list of other [local and commercial core facilities]({{ site.baseurl }}/collab/corefacilities/) that may help with your mass spec or proteomics needs.

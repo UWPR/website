@@ -25,4 +25,4 @@ Here's the [direct link to the password reset page](https://proteomicsresource.w
 - [Sample Submission Form (xls)](https://proteomicsresource.washington.edu/pr/costcenter_resources/UWPR%20sample%20submission%20form.xlsx)
 - [UWPR publications page]({{ site.baseurl }}/publications/)
 - [ABRF guidelines for authorship](https://abrf.org/authorship-guidelines)
-- [Local core facilities page]({{ site.baseurl }}/corefacilities/)
+- [Local core facilities page]({{ site.baseurl }}/collab/corefacilities/)
