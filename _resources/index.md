@@ -28,7 +28,8 @@ peptide cleanup.
 
 ## [Protocols & Methods]({{ site.baseurl }}/resources/protocols/)
 
-Step-by-step bench protocols and LC-MS setup procedures.
+Step-by-step bench protocols for sample preparation, digestion, peptide
+fractionation, and column preparation.
 
 ## [Data Analysis]({{ site.baseurl }}/resources/data-analysis/)
 

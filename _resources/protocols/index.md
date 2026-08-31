@@ -1,13 +1,18 @@
 ---
 title: "Protocols & Methods"
 permalink: /resources/protocols/
+redirect_from:
+  - /resources/protocols/lcms-setup/
+  - /methods/protocols05/
 classes: no_sidebar
 layout: single
 toc: false
 author_profile: false
 ---
 
-*Step-by-step bench protocols and LC-MS setup procedures*
+*Step-by-step bench protocols used at the UWPR*
+
+These protocols cover sample preparation, protein digestion, peptide fractionation, and capillary column preparation, available as pages on this site or as downloadable PDF documents.
 
 ## Sample Preparation
 
@@ -26,9 +31,7 @@ author_profile: false
 
 - [Peptide fractionation and cleanup (pdf)]({{ site.baseurl }}/assets/docs/protocols04/UWPR_Protocols_Peptide_Fractionation_and_Cleanup.pdf): several peptide cleanup and separation protocols including C18, SCX, and avidin
 
-## LC-MS
+## Column Preparation
 
-- [LC-MS Setup]({{ site.baseurl }}/resources/protocols/lcms-setup/)
-
-Instrument-specific method setup guides (Vanquish Neo, EASY-nLC, Astral method templates)
-are being reorganized and will appear here.
+- [Packing capillary columns (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Packing_Capillary_Columns.pdf)
+- [Making a fritted fused silica (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Fritted_Fused_Silica.pdf)

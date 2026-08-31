@@ -172,7 +172,7 @@ Targeted quantitation using selected reaction monitoring (SRM) with a triple qua
 
 SRM quantitation is extremely sensitive, reliable, and suitable for analyzing large numbers of samples. SRM can also be used to perform absolute quantitation of targeted proteins by incorporation of appropriate stable isotope-labeled peptides as internal standards. Method development to determine the best transitions can be very extensive.
 
-See the UWPR targeted proteomics [SRM page]({{ site.baseurl }}/resources/knowledgebase/MRM/) for more detailed information.
+See the UWPR targeted proteomics [SRM page]({{ site.baseurl }}/resources/knowledgebase/SRM/) for more detailed information.
 
 ## Targeted Quantification SIM {#SIM}
 

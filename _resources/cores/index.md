@@ -14,3 +14,10 @@ author_profile: false
   assembly instructions are free to download.
 - [UWPR Pressure Cell]({{ site.baseurl }}/resources/cores/pressurecell/):
   a pressure cell for packing capillary columns and pre-columns.
+- [LC plumbing examples (pdf)]({{ site.baseurl }}/assets/docs/protocols05/LC_plumbing.pdf):
+  plumbing examples from the UWPR LC-MS systems.
+- [Setting up alternate EASY-nLC solvent filters (pdf)]({{ site.baseurl }}/assets/docs/instruments/EASYnLC_SolventBottleFilters.pdf)
+- [UWPR N2 switch for low flow applications (pdf)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_N2_source_switch.pdf)
+- [MS direct infusion line (pdf)]({{ site.baseurl }}/assets/docs/protocols05/MS_Direct_Infusion_Line.pdf)
+- [Common Mass Spec Background Ions]({{ site.baseurl }}/resources/data-analysis/esi_background_ions/)
+- [Mass Spec Background Ions: Repeating Units]({{ site.baseurl }}/resources/data-analysis/esi_background_ions_repeat_units/)
