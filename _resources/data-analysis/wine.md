@@ -1,6 +1,8 @@
 ---
 title: "Setting up ReAdW and Wine"
-permalink: /tools/wine/
+permalink: /resources/data-analysis/wine/
+redirect_from:
+  - /tools/wine/
 layout: single
 toc: true
 toc_sticky: true

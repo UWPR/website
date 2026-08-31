@@ -13,8 +13,10 @@ The UWPR shares the hardware designs, setup guides, and reference material below
 
 ## Useful Information
 
+- [Amino Acid Mass Table]({{ site.baseurl }}/resources/data-analysis/masses/)
 - [Common Mass Spec Background Ions]({{ site.baseurl }}/resources/cores/esi_background_ions/)
 - [Mass Spec Background Ions: Repeating Units]({{ site.baseurl }}/resources/cores/esi_background_ions_repeat_units/)
+- [Common mass spec contaminants (xls)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
 
 ## LC and Columns
 

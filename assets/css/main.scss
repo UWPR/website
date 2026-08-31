@@ -224,6 +224,14 @@
   margin-top: 0.25em;
 }
 
+/* Statistical equations. Applied via {: .equation} IALs: indented
+   monospace lines so formulas stand apart from the running text. */
+.page__content .equation {
+  font-family: $monospace;
+  font-size: 0.8em;
+  margin: 0.5em 0 1em 2em;
+}
+
 /* Digestion enzyme table (protein digestion page): keep the Suppliers
    column narrow so the description column gets the width; the vendor
    links wrap onto multiple lines instead. */
