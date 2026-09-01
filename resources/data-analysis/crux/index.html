@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Proxeon’s ProteinCenter - University of Washington Proteomics Resource</title>
+<!-- begin _includes/seo.html --><title>Running Crux at UWPR - University of Washington Proteomics Resource</title>
 <meta name="description" content="Web site for the University of Washington’s Proteomics Resource">
 
 
@@ -18,8 +18,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="University of Washington Proteomics Resource">
-<meta property="og:title" content="Proxeon’s ProteinCenter">
-<meta property="og:url" content="https://proteomicsresource.washington.edu/tools/proteincenter/">
+<meta property="og:title" content="Running Crux at UWPR">
+<meta property="og:url" content="https://proteomicsresource.washington.edu/resources/data-analysis/crux/">
 
 
   <meta property="og:description" content="Web site for the University of Washington’s Proteomics Resource">
@@ -35,7 +35,7 @@
 
 
 
-<link rel="canonical" href="https://proteomicsresource.washington.edu/tools/proteincenter/">
+<link rel="canonical" href="https://proteomicsresource.washington.edu/resources/data-analysis/crux/">
 
 
 
@@ -166,10 +166,13 @@
       <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
       <meta itemprop="position" content="1" />
     </li><span class="sep">/</span><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="/tools/" itemprop="item"><span itemprop="name">Data Analysis Tools</span></a>
+            <a href="/resources/" itemprop="item"><span itemprop="name">Resources</span></a>
             <meta itemprop="position" content="2" />
+          </li><span class="sep">/</span><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/resources/data-analysis/" itemprop="item"><span itemprop="name">Data Analysis</span></a>
+            <meta itemprop="position" content="3" />
           </li><span class="sep">/</span>
-    <li class="current">Proxeon's ProteinCenter</li>
+    <li class="current">Running Crux at UWPR</li>
   </ol>
 </nav>
 
@@ -181,7 +184,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Proxeon’s ProteinCenter">
+    <meta itemprop="headline" content="Running Crux at UWPR">
     
     
     
@@ -190,7 +193,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://proteomicsresource.washington.edu/tools/proteincenter/" itemprop="url">Proxeon’s ProteinCenter
+            <a href="https://proteomicsresource.washington.edu/resources/data-analysis/crux/" itemprop="url">Running Crux at UWPR
 </a>
           </h1>
           
@@ -201,38 +204,44 @@
 
       <section class="page__content" itemprop="text">
         
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              
-            </nav>
-          </aside>
-        
-        <ul>
-  <li><a href="http://uwpr.proteincenter.proxeon.com/">UWPR ProteinCenter login</a></li>
-  <li><a href="http://uwpr.proteincenter.proxeon.com/ProXweb/Help/Manual/">ProteinCenter manual</a></li>
-</ul>
+        <p><em>Instructions for running the Crux toolkit on UWPR systems</em></p>
 
-<p>The UWPR is pleased to have a partnership with Proxeon which gives our Resource researchers access to Proxeon’s <a href="http://www.proxeon.com/productrange/data_interpretation/introduction/">ProteinCenter</a> software. Please visit the ProteinCenter link above to learn more about all the features available in ProteinCenter.</p>
+<ol>
+  <li>
+    <p>Do not run Crux on the “tephra” head node of our cluster. Instead, ssh into sage (the Genome Sciences department cluster front end) or tephra (the UWPR cluster front end) and type <code class="language-plaintext highlighter-rouge">qlogin</code>. This gets you a shell on a cluster node with more resources (memory and CPU) than the head nodes.</p>
+  </li>
+  <li>
+    <p>Set up your environment to run Crux with the following module command (some of these modules may be deprecated now). As a shortcut, paste it into your .bashrc file:</p>
 
-<p>ProteinCenter nicely complements the set of software tools currently used and being developed at the UWPR. The software facilitates data interpretation, multiple run comparisons, and allows a biologist to quickly drill down and find the answers to the questions that they want to discover from their proteomics datasets. This is all accomplished via a web based user interface that you can access from any desktop with a web browser. The interface is layed out intuitively, has rich functionality, and, most importantly, is easy to use.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module load modules modules-init modules-gs/prod gmp/latest mpfr/latest mpc/latest gcc/latest
+</code></pre></div>    </div>
 
-<p>UWPR collaborators that are interested in using ProteinCenter to interpret their data should contact Jimmy Eng &lt;engj@ u.washington.edu&gt; for an account.</p>
+    <p>Next, log into a cluster node and request 14 GB of free memory (tephra nodes have 16 GB of total RAM):</p>
 
-<p>We would like to thank Christian Ingrell and the Proxeon team for choosing the UWPR to be a ProteinCenter reference site.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qlogin -l h_vmem=14G
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>The binary is named “crux”. Type it without arguments to see the usage statement. To see what version of Crux is installed (version 3.2-91fd064 as of 2020/04/30):</p>
 
-<p>Current version os of 09/18/2014: Software Version 3.13.2003, Build RELEASE_3_13_2003.1</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>crux version
+</code></pre></div>    </div>
 
-<p>03/24/2010 - Version 3.2 updates includes:</p>
+    <p>You will likely run commands like:</p>
 
-<ul>
-  <li>Heatmaps to display quantitative data on a protein or biological annotation level</li>
-  <li>Expression profiling on annotation level, e.g. KEGG pathways – match your quantitative data on pathways</li>
-  <li>Direct support of the iProphet xml-format</li>
-  <li>Improvement in support of MaxQuant</li>
-  <li>Improvement in support of Spectrum Mill - now most used modifications are recognized</li>
-  <li>Improvement in support of CSV-format - now encode modification in peptide sequence</li>
-</ul>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>crux spectral-count ...
+crux percolator ...
+crux tide-search ...
+crux comet ...
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Crux documentation and tutorials are at <a href="https://crux.ms/">crux.ms</a>.</p>
+  </li>
+  <li>
+    <p>For Crux questions, ask on the <a href="https://groups.google.com/g/crux-users">crux-users mailing list</a>.</p>
+  </li>
+</ol>
 
         
       </section>

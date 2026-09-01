@@ -79,7 +79,7 @@
 
   </head>
 
-  <body class="layout--single no_sidebar">
+  <body class="layout--single no_sidebar wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -198,16 +198,11 @@
 
       <section class="page__content" itemprop="text">
         
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#online-toolscalculators">Online Tools/Calculators</a></li><li><a href="#msms-database-search-tools">MS/MS database search tools</a></li><li><a href="#software-tools-and-protocols-from-other-resources">Software tools and protocols from other resources:</a></li><li><a href="#crosslinking">CrossLinking</a></li><li><a href="#miscellaneous">Miscellaneous</a></li><li><a href="#msms-database-search-info">MS/MS database search info:</a></li><li><a href="#uwpr-computing-resources">UWPR computing resources</a></li></ul>
-            </nav>
-          </aside>
-        
         <p><em>A collection of computational tools and links</em></p>
 
-<h3 id="online-toolscalculators">Online Tools/Calculators</h3>
+<p>Online calculators, viewers, and downloadable utilities developed or hosted by the UWPR for analyzing mass spectrometry data.</p>
+
+<h2 id="online-tools-and-calculators">Online Tools and Calculators</h2>
 
 <ul>
   <li><a href="https://proteomicsresource.gs.washington.edu/cgi-bin/fragment.cgi">MS/MS fragmentation calculator</a></li>
@@ -215,62 +210,16 @@
   <li><a href="https://proteomicsresource.gs.washington.edu/cgi-bin/calcisotopes.cgi">Isotope distribution calculator</a></li>
   <li><a href="https://proteomicsresource.gs.washington.edu/cgi-bin/element.cgi">Elemental mass calculator</a></li>
   <li><a href="https://proteomicsresource.gs.washington.edu/cgi-bin/motif_search.cgi">Peptide motif finder</a></li>
-  <li><a href="https://proteomicsresource.washington.edu/lorikeet/">Lorikeet Spectrum viewer</a></li>
+  <li><a href="https://proteomicsresource.washington.edu/lorikeet/">Lorikeet spectrum viewer</a></li>
   <li><a href="https://proteomicsresource.washington.edu/lorikeet/html/specview-koina.html">Koina (Prosit, ms2pip, AlphaPeptDeep) spectrum prediction viewer</a></li>
-  <li><a href="/tools/masses/">Table of relevant masses (amino acids, elements)</a></li>
 </ul>
 
-<h3 id="msms-database-search-tools">MS/MS database search tools</h3>
-
-<p>Various MS/MS database search tools are available at our UWPR systems. Search results are typically processed through the Trans-Proteomic Pipeline.</p>
+<h2 id="additional-tools-and-downloads">Additional Tools and Downloads</h2>
 
 <ul>
-  <li><a href="https://uwpr.github.io/Comet/">Comet</a> (<a href="/tools/comet_commands/">local linux commands</a>)</li>
-  <li><a href="/tools/xtandem/">X!Tandem</a></li>
-  <li><a href="http://cruxtoolkit.sourceforge.net">Crux</a> (<a href="/tools/crux/">local run info</a>)</li>
+  <li><a href="https://proteomicsresource.washington.edu/tools/RawMeat_1007.exe">RawMeat</a> is a nice Thermo raw file diagnostic tool developed by the now-defunct Vast Scientific. RawMeat requires Thermo’s MSFileReader library to be installed. MSFileReader can be downloaded by creating an account with <a href="https://thermo.flexnetoperations.com/control/thmo/login">Thermo Fisher Scientific</a>. Once registered, you will find the software under “Other Software Releases”.</li>
+  <li><a href="https://proteomicsresource.washington.edu/tools/uniprot.contam.zip">Zip file of contaminant protein sequences</a> based on the <a href="https://www.thegpm.org/crap/">GPM’s cRAP database</a>. Updated 2022/06/21 to current UniProt sequences. Separated into bovine, human, yeast, chicken, E. coli, and others.</li>
 </ul>
-
-<h3 id="software-tools-and-protocols-from-other-resources">Software tools and protocols from other resources:</h3>
-
-<ul>
-  <li><a href="https://skyline.ms/project/home/software/Skyline/begin.view">Skyline: targeted proteomics environment</a></li>
-  <li><a href="http://brucelab.gs.washington.edu/xlinkdb/">XLink-DB: database and software tools for storing and visualizing protein interaction topology data</a></li>
-  <li><a href="http://proxl-ms.org">Proxl Protein Cross-Linking Database</a></li>
-</ul>
-
-<h3 id="crosslinking">CrossLinking</h3>
-
-<ul>
-  <li><a href="http://proxl-ms.org">ProXL</a></li>
-  <li><a href="http://xlinkdb.gs.washington.edu/xlinkdb/">XlinkDB</a></li>
-</ul>
-
-<h3 id="miscellaneous">Miscellaneous</h3>
-
-<ul>
-  <li><a href="/tools/primer/">A quick primer</a> on how to interpret peptide ID results processed at UWPR</li>
-  <li><a href="https://proteomicsresource.washington.edu/docs/ms22dta.zip">Simple .ms2 to .dta command line converter (zip of source + binaries)</a></li>
-  <li><a href="/docs/ms22mgf.c">Simple .ms2 to .mgf command line converter (C source)</a></li>
-  <li><a href="https://proteomicsresource.washington.edu/docs/libra_condition_files.zip">Here are TPP Libra condition files</a> for iTRAQ and TMT.</li>
-  <li><a href="/tools/wine/">ReAdW under Wine</a> Thermo to mzXML conversions under linux.</li>
-  <li><a href="https://proteomicsresource.washington.edu/tools/RawMeat_1007.exe">RawMeat</a> is a nice Thermo raw file diagnostic tool developed by the now defunct Vast Scientific. RawMeat requires Thermo’s MSFileReader library to be installed. MSFileReader can be downloaded by creating an account with <a href="https://thermo.flexnetoperations.com/control/thmo/login">ThermoFischer Scientific</a>. Once registered you will find the software under “Other Software Releases”.</li>
-  <li><a href="/tools/Abacus/">Instructions on running Abacus</a> spectral count tool on UWPR systems. Here is <a href="/tools/adjnsaf/">ChatGPT’s description of what ADJNSAF is</a>.</li>
-  <li><a href="https://proteomicsresource.washington.edu/tools/uniprot.contam.zip">zip file containing contaminant protein sequences</a> based on the <a href="https://www.thegpm.org/crap/">GPM’s cRAP database</a>. Updated 2022/06/21 to current UniProt sequences. Separated into bovine, human, yeast, chicken, E. coli, and others.</li>
-  <li>Historic public datasets from ISB. These both include 18 protein mixture datasets as published in <a href="https://pubmed.ncbi.nlm.nih.gov/12143966/">Keller et al., Omics, 2002</a> (<a href="https://proteomicsresource.washington.edu/tools/18MixPublicDatasets/2002_Omics_mixture/">dataset1</a>) and <a href="https://pubmed.ncbi.nlm.nih.gov/17711323/">Klimek et al., JPR, 2008</a> (<a href="https://proteomicsresource.washington.edu/tools/18MixPublicDatasets/StandardProteinMix/">dataset2</a>). These files are not posted online for direct download in order to avoid constant download from data crawlers so contact us for a link to the files.</li>
-</ul>
-
-<h3 id="msms-database-search-info">MS/MS database search info:</h3>
-
-<ul>
-  <li>Search engine comparisons: <a href="http://www3.interscience.wiley.com/journal/110574802/abstract">link2</a>, <a href="http://www.mcponline.org/content/6/9/1599.full">link3 (only OMSSA searched 3+ spectra!)</a>, <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2801774/">link4</a>, <a href="http://pubs.acs.org/doi/abs/10.1021/pr900780s">link5</a>, <a href="http://pubs.acs.org/doi/abs/10.1021/pr200052c">link6</a></li>
-  <li>Be wary of searching with too narrow a precursor tolerance (even if your mass spectrometer can measure that accurately). It’s an issue with all search tools. <a href="http://pubs.acs.org/doi/abs/10.1021/pr101003r">This paper nicely touches on the problem</a> and <a href="http://pubs.acs.org/doi/abs/10.1021/pr200726c">here’s a rebuttal</a>. And Phil Wilmarth has <a href="https://pwilmart.github.io/blog/2021/04/22/Parent-ion-tolerance">a nice blog post</a> about the benefits of using a wide precursor window.</li>
-  <li>Be wary of multiple-stage searches like X!Tandem’s refinement mode or the hot-spot searching that Paragon does. Not that these searches are innately bad but rather one should be educated on the search strategy and what it means. If one searches a bazillion spectra against subset proteins X, Y, and Z in the 2nd pass, don’t be surprised to find many matches (real or spurious) to proteins X, Y and Z. Think of it as a self-fulfilling prophecy. Here’s an interesting paper and follow-up touching on the problem and proposing solutions to the target-decoy strategy with these types of searches: <a href="http://pubs.acs.org/doi/abs/10.1021/pr900256v">paper1</a>, <a href="http://pubs.acs.org/doi/abs/10.1021/pr101143m">paper2</a></li>
-</ul>
-
-<h3 id="uwpr-computing-resources">UWPR computing resources</h3>
-
-<p>The computing hardware these tools run on is described on the
-<a href="/facility/computing/">Computing Resources page</a>.</p>
 
         
       </section>
