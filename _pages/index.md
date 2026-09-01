@@ -16,21 +16,21 @@ feature_row:
   - image_path: /assets/images/collaborate.png
     #class: white
     alt: "collaborate"
-    #title: "Collaborate"
+    title: "Collaborate"
     excerpt: "UWPR provides UW researchers with analytical and instructional expertise in proteomics techniques and data analysis."
     url: /collab/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/resources.png
     alt: "facility"
-    #title: "Facility"
+    title: "Facility"
     excerpt: "Learn more about UWPR's state of the art LC-MS instrumentation and computational resources."
     url: /facility/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/methods.png
     alt: "resources"
-    #title: "Resources"
+    title: "Resources"
     excerpt: "A broad reference for shotgun proteomics: knowledgebase, sample preparation, protocols, data analysis, consumables, and safety."
     url: /resources/
     btn_label: "Read More"
@@ -39,21 +39,21 @@ feature_row:
 feature_row2:
   - image_path: /assets/images/tools.png
     alt: "tools"
-    #title: "Tools"
+    title: "Data Analysis Tools"
     excerpt: "Information on software, utilities, and related resources available at the UWPR to analyze and visualize proteomics data."
     url: /tools/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/publications.png
     alt: "publications"
-    #title: "Publications"
+    title: "Publications"
     excerpt: "The UWPR supports a wide range of proteomics research. A collection of the publications is available here."
-    url: /pubs/
+    url: /publications/
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/contact.png
     alt: "contact"
-    #title: "Contact"
+    title: "Contact"
     excerpt: "Interested in contacting or visiting the UWPR? Find phone and email contacts, address, and shuttle information here."
     url: /contact/
     btn_label: "Read More"

@@ -16,13 +16,13 @@ author_profile: false
 
 The two primary analyses performed at the UWPR are shotgun (bottom-up) proteomics and targeted quantitative proteomics.
 
-For targeted proteomics, data is classically acquired on triple quadrupole instruments and typically analyzed using the [Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) software suite. There is extensive documentation on the Skyline website, along with tutorials and videos. A nice thing about Skyline is that its development happens here at UW, in the MacCoss lab in Genome Sciences (in the Foege building on South Campus).
+For targeted proteomics, data is classically acquired on triple quadrupole instruments and typically analyzed using the [Skyline](https://skyline.ms/project/home/software/Skyline/begin.view) software suite. There is extensive documentation on the Skyline website, along with tutorials and videos.
 
 Shotgun analysis involves peptide identification via MS/MS database searching. Popular commercial tools are [Thermo's Proteome Discoverer](http://www.thermoscientific.com/en/product/proteome-discoverer-software.html) and [Proteome Software's Scaffold](https://www.proteomesoftware.com/). Free tools such as [MaxQuant](https://maxquant.org/) and [FragPipe](https://fragpipe.nesvilab.org/) are widely used for peptide identification, quantification, and more.
 
 To use the same tools we use here at the UWPR, you can learn about the [Trans-Proteomic Pipeline (TPP)](http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP), originally developed in the Aebersold group at ISB. There is a [support forum](https://groups.google.com/forum/#!forum/spctools-discuss) for your questions.
 
-## Getting to your processed data
+## Getting to your processed data (UWPR users only)
 
 Shotgun data processed by the UWPR for you will typically entail a [Comet](https://uwpr.github.io/Comet/) database search followed by Trans-Proteomic Pipeline (TPP) analysis using PeptideProphet ([Ref 1](#ref1)) and ProteinProphet ([Ref 2](#ref2)). Aimed at someone new to UWPR proteomics analysis, this is a brief tutorial on how to start looking at your data.
 
@@ -34,7 +34,7 @@ Click on the "View Data" link, which brings up a page that looks like this:
 
 ![data links]({{ site.baseurl }}/assets/primer/pic1.png)
 
-Clicking on these links will prompt you to authenticate again using the same user name and password that gets you into your UWPR project page. If you are sure you are using the same login credentials but still cannot access the data links, [please try the instructions on this page]({{ site.baseurl }}/tools/password/).
+Clicking on these links will prompt you to authenticate again using the same user name and password that gets you into your UWPR project page. If you are sure you are using the same login credentials but still cannot access the data links, [contact us]({{ site.baseurl }}/contact/).
 
 ## Checking PeptideProphet score distributions
 
