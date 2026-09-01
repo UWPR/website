@@ -21,7 +21,7 @@ PPS Silent Surfactant is no longer available from Agilent or Abcam (formerly Exp
 ### Materials
 
 All solvents should be HPLC grade. NEVER use pipette tips when transferring acids above 2% in concentration.  
-[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Avoid%20Contaminations.pdf)
+[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Avoid%20Contaminations.pdf)
 
 1.  PPS Silent Surfactant (Expedeon, part # 21011, 1 mg vial, or part # 21010, 10 mg vial; Agilent, part # 400500, 1 mg vials, or part # 400501, 10 mg vial)
 2.  Ammonium bicarbonate (Fisher, part # A643-500); stock solution: 500 mM in H₂O (NH₄HCO₃ (79.1 g/mol): 3.955 g/100 mL); prepare the 50 mM, pH 7.8, working solution fresh

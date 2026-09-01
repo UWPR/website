@@ -20,15 +20,15 @@ Pressure cells are designed to pack and load microbore capillaries, such as poly
 
 The documents below will help you set up your own packing station and pack or load columns. You can order the machined parts from eMachineShop (or any other machine shop) or buy a pressure cell from one of the commercial sources below. The column packing and fritted fused silica protocols are on the [Protocols & Methods page]({{ site.baseurl }}/resources/protocols/), and the parts we use are listed on the [Reagents & Consumables page]({{ site.baseurl }}/resources/consumables/).
 
-- [UWPR pressure cell for packing capillary columns (pdf)]({{ site.baseurl }}/assets/docs/pressurecell/UWPR_Pressure_Cell_for_packing_capillary_columns.pdf)
-- [UWPR pressure cell material list (xls)]({{ site.baseurl }}/assets/docs/pressurecell/UWPR_Pressure_Cell_Material_List.xls)
+- [UWPR pressure cell for packing capillary columns (pdf)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_Pressure_Cell_for_packing_capillary_columns.pdf)
+- [UWPR pressure cell material list (xls)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_Pressure_Cell_Material_List.xls)
 
 ![]({{ site.baseurl }}/assets/images/pressurecell02.png)
 
 The files below are CAD drawings for the pressure cell body and lid. Download the free CAD software from [eMachineShop](https://www.emachineshop.com/) to view the files:
 
-- [UWPR pressure cell lid (ems)]({{ site.baseurl }}/assets/docs/pressurecell/UWPR_PressureCellLid.ems)
-- [UWPR pressure cell body (ems)]({{ site.baseurl }}/assets/docs/pressurecell/UWPR_PressureCellBody.ems)
+- [UWPR pressure cell lid (ems)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_PressureCellLid.ems)
+- [UWPR pressure cell body (ems)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_PressureCellBody.ems)
 
 ## Commercially available pressure cells
 

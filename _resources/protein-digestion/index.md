@@ -53,7 +53,7 @@ Dilution, washing, and detergent removal columns often do NOT remove enough dete
 | Sodium deoxycholate | Thermo Fisher (Pierce) | |
 
 Starting out with clean HPLC grade solvents and keeping them clean is very important.  
-[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Avoid%20Contaminations.pdf)
+[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Avoid%20Contaminations.pdf)
 
 ## Enzymatic Digestion {#digestion}
 

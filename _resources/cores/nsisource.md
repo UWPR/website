@@ -40,21 +40,21 @@ An alternative for using your own columns with the Thermo EASY-Spray source is t
 
 ## Source design documents
 
-- [NSI source details (pdf)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_NSI_SourceNew_2024.pdf)
-- [NSI source parts list (xlsx)]({{ site.baseurl }}/assets/docs/protocols05/NSI%20source%20New2024%20parts%20list.xlsx)
+- [NSI source details (pdf)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_NSI_SourceNew_2024.pdf)
+- [NSI source parts list (xlsx)]({{ site.baseurl }}/assets/docs/resources/cores/NSI%20source%20New2024%20parts%20list.xlsx)
 
 ## 3D printed parts
 
 When using stainless steel VHP fittings, we use a 3D printed carrier to prevent arcing. The zip files below contain the eMachineShop CAD files and the Ender 3 S1 Pro (Creality) project and gcode files.
 
-- [3D printed carrier (pdf)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_3Dprinted_Carrier.pdf)
-- [Files for printing the UWPR MicroCross carrier (zip)]({{ site.baseurl }}/assets/docs/nsisource/UWPR_Carrier_MicroCross.zip)
-- [Files for printing the ViperUnion carrier (zip)]({{ site.baseurl }}/assets/docs/nsisource/UWPR_Carrier_ViperUnion.zip)
+- [3D printed carrier (pdf)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_3Dprinted_Carrier.pdf)
+- [Files for printing the UWPR MicroCross carrier (zip)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_Carrier_MicroCross.zip)
+- [Files for printing the ViperUnion carrier (zip)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_Carrier_ViperUnion.zip)
 
 The holder below is designed to be used with the Thermo EASY-Spray Nano Emitter (ES993).
 
-- [3D printed holder for the Thermo EASY-Spray Nano Emitter (pdf)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_EASY_Spray_Emitter_Holder.pdf)
-- [Files for printing the UWPR EASY-Spray tip holder (zip)]({{ site.baseurl }}/assets/docs/nsisource/UWPR_EASYspray_Emitter.zip)
+- [3D printed holder for the Thermo EASY-Spray Nano Emitter (pdf)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_EASY_Spray_Emitter_Holder.pdf)
+- [Files for printing the UWPR EASY-Spray tip holder (zip)]({{ site.baseurl }}/assets/docs/resources/cores/UWPR_EASYspray_Emitter.zip)
 
 ## Images
 

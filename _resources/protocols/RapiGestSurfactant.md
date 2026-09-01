@@ -21,7 +21,7 @@ RapiGest SF is a reagent used to enhance enzymatic digestion of proteins, both i
 ### Materials
 
 All solvents should be HPLC grade. NEVER use pipette tips when transferring acids above 2% in concentration.  
-[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Avoid%20Contaminations.pdf)
+[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Avoid%20Contaminations.pdf)
 
 1.  RapiGest SF powder (Waters, part # 186001860, 5 pack of 1 mg vials)
 2.  Ammonium bicarbonate (Fisher, part # A643-500); stock solution: 500 mM in H₂O (NH₄HCO₃ (79.1 g/mol): 3.955 g/100 mL); prepare the 50 mM, pH 7.8, working solution fresh

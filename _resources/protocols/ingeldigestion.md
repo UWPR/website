@@ -19,12 +19,12 @@ Proteins separated by SDS-PAGE can be digested directly in the excised gel band 
 
 This protocol is for colloidal coomassie stained polyacrylamide gel slices and follows the classic Shevchenko method (see References 1 and 2).
 
-**Downloadable Document**: [Trypsin in-gel digestion of proteins (pdf)]({{ site.baseurl }}/assets/docs/protocols03/UWPR_Protocols_In_Gel_Digest.pdf)
+**Downloadable Document**: [Trypsin in-gel digestion of proteins (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/UWPR_Protocols_In_Gel_Digest.pdf)
 
 ### Materials
 
 All solvents should be HPLC grade. NEVER use pipette tips when transferring acids above 2% in concentration.  
-[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Avoid%20Contaminations.pdf)
+[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Avoid%20Contaminations.pdf)
 
 1.  Dithiothreitol DTT (Fisher, part # PI-20291); stock solution: 1 M in H₂O
 2.  Iodoacetamide IAA (Fisher, part # AC12227-0050); stock solution: 100 mM in H₂O (0.0185 g/mL; always prepare fresh, light sensitive)
@@ -73,7 +73,7 @@ Do not discard extracted gel pieces: if, for any reason, the digestion failed, i
 
 ## Additional Resources
 
-- [In-gel digest (pdf)]({{ site.baseurl }}/assets/docs/protocols03/UWPR_Protocols_In_Gel_Digest.pdf): in-gel digestion protocols
+- [In-gel digest (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/UWPR_Protocols_In_Gel_Digest.pdf): in-gel digestion protocols
 - [Thermo In-Gel Tryptic Digestion Kit (89871)](https://www.thermofisher.com/order/catalog/product/89871), with kit instructions available on the product page
 
 ### Mass Spec Compatible Stains

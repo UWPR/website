@@ -35,8 +35,3 @@ The full list, including retired instruments, is on the [Instruments page]({{ si
 
 The Proteomics Resource maintains dedicated servers and storage for data processing, described on the
 [Computing Resources page]({{ site.baseurl }}/facility/computing/).
-
-## For Grant Writers
-
-Additional details of the facility are provided in this
-[Word document]({{ site.baseurl }}/assets/docs/UWPR_Resources_for_Grant_Writing.docx) intended for grant writing.

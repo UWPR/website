@@ -25,13 +25,13 @@ These protocols cover sample preparation, protein digestion, peptide fractionati
 - [FASP Protocol]({{ site.baseurl }}/resources/protocols/FASPprotocols/)
 - [RapiGest SF Surfactant Protocol]({{ site.baseurl }}/resources/protocols/RapiGestSurfactant/)
 - [PPS Silent Surfactant Protocol]({{ site.baseurl }}/resources/protocols/PPS_SilentSurfactant/)
-- [Protein digestion protocols (pdf)]({{ site.baseurl }}/assets/docs/protocols03/UWPR_Protocols_Protein_Digestion_Protocols.pdf): several digestion protocols including trypsin and LysC
+- [Protein digestion protocols (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/UWPR_Protocols_Protein_Digestion_Protocols.pdf): several digestion protocols including trypsin and LysC
 
 ## Peptide Fractionation
 
-- [Peptide fractionation and cleanup (pdf)]({{ site.baseurl }}/assets/docs/protocols04/UWPR_Protocols_Peptide_Fractionation_and_Cleanup.pdf): several peptide cleanup and separation protocols including C18, SCX, and avidin
+- [Peptide fractionation and cleanup (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/UWPR_Protocols_Peptide_Fractionation_and_Cleanup.pdf): several peptide cleanup and separation protocols including C18, SCX, and avidin
 
 ## Column Preparation
 
-- [Packing capillary columns (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Packing_Capillary_Columns.pdf)
-- [Making a fritted fused silica (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Fritted_Fused_Silica.pdf)
+- [Packing capillary columns (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Packing_Capillary_Columns.pdf)
+- [Making a fritted fused silica (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Fritted_Fused_Silica.pdf)

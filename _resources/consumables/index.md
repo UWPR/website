@@ -56,7 +56,7 @@ Analytical columns use about 50 cm of 75 µm ID fused silica each; trap columns 
 
 ### Frits for trap columns
 
-See the [fritted fused silica protocol]({{ site.baseurl }}/assets/docs/protocols05/Fritted_Fused_Silica.pdf) for making Kasil frits.
+See the [fritted fused silica protocol]({{ site.baseurl }}/assets/docs/resources/protocols/Fritted_Fused_Silica.pdf) for making Kasil frits.
 
 | Part # | Item | Vendor | Notes |
 |---|---|---|---|

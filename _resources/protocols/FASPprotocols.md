@@ -21,7 +21,7 @@ The protocol below is similar to the one described by Ostasiewicz, Zielinska, Ma
 ### Materials
 
 All solvents should be HPLC grade. NEVER use pipette tips when transferring acids above 2% in concentration.  
-[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/protocols05/Avoid%20Contaminations.pdf)
+[Avoid Contaminations (pdf)]({{ site.baseurl }}/assets/docs/resources/protocols/Avoid%20Contaminations.pdf)
 
 1.  EMD Millipore Amicon Ultra-0.5 centrifugal filter units (Fisher, part # UFC501024)
 2.  Ammonium bicarbonate (Fisher, part # A643-500); stock solution: 500 mM in H₂O (NH₄HCO₃ (79.1 g/mol): 3.955 g/100 mL); prepare the 50 mM, pH 7.8, working solution fresh

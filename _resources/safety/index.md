@@ -25,13 +25,13 @@ All UWPR users must read and abide by the safety guidelines.
 ## UW Laboratory Safety Manual {#manual}
 
 - [UW Laboratory Safety Manual](https://www.ehs.washington.edu/resource/laboratory-safety-manual-510)
-- [Laboratory specific information (pdf)]({{ site.baseurl }}/assets/docs/safety/Laboratory-Specific-Information_UWPR.pdf)
-- [Laboratory specific emergency information (pdf)]({{ site.baseurl }}/assets/docs/safety/Laboratory-Specific-Emergency-Information_UWPR.pdf)
+- [Laboratory specific information (pdf)]({{ site.baseurl }}/assets/docs/resources/safety/Laboratory-Specific-Information_UWPR.pdf)
+- [Laboratory specific emergency information (pdf)]({{ site.baseurl }}/assets/docs/resources/safety/Laboratory-Specific-Emergency-Information_UWPR.pdf)
 
 ## Personal Protective Equipment (PPE) {#ppe}
 
 - [UW EH&S PPE page](https://www.ehs.washington.edu/workplace/personal-protective-equipment-ppe)
-- [UWPR PPE assessment (docx)]({{ site.baseurl }}/assets/docs/safety/UWPR_ppetool.docx)
+- [UWPR PPE assessment (docx)]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_ppetool.docx)
 
 ## Chemical inventory and SDS search {#msds}
 
@@ -45,26 +45,26 @@ See the [UW EH&S chemical SOP templates and guidelines](https://www.ehs.washingt
 
 | SOP (pdf) | Covers |
 |---|---|
-| [Organic acids]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_AceticAcid_FormicAcid_TrifluoroaceticAcid.pdf) | Acetic acid, formic acid, trifluoroacetic acid |
-| [Acetonitrile]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Acetonitrile.pdf) | Acetonitrile |
-| [Acutely toxic chemicals]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_acutelytoxics.pdf) | Buspirone hydrochloride, caffeine, dithiothreitol (DTT), FlexMix MS standards, iodoacetamide, Pierce calibrator solution, triple quad calibration solution |
-| [Butylamine]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Butylamine.pdf) | Butylamine |
-| [Flammable solvents]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Methanol_IPA_Ethanol.pdf) | Methanol, isopropanol, ethanol |
-| [Fluoranthene]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Fluoranthane.pdf) | Fluoranthene |
-| [Formamide]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Formamide.pdf) | Formamide |
-| [Gas cylinders]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Gascylinder.pdf) | Compressed gas cylinders |
-| [Hydrochloric acid]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_HydrochloricAcid.pdf) | Hydrochloric acid |
-| [Irritants]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Irritant.pdf) | Ammonium carbonate, calcium chloride dihydrate, cesium iodide, Lithisil 829 potassium lithium silicate solution, potassium silicate solution, silica gel |
-| [Irritants 2]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Irritant_2.pdf) | Iodoacetic acid, Laemmli sample buffer, PBS (phosphate buffered saline), tyrosine, Ultramark 1621 |
-| [Reserpine]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Reserpine.pdf) | Reserpine |
-| [SDS]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_SDS.pdf) | SDS (sodium dodecyl sulfate) |
-| [Trypsin]({{ site.baseurl }}/assets/docs/safety/UWPR_SOP_2025_Trypsin.pdf) | Trypsin |
+| [Organic acids]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_AceticAcid_FormicAcid_TrifluoroaceticAcid.pdf) | Acetic acid, formic acid, trifluoroacetic acid |
+| [Acetonitrile]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Acetonitrile.pdf) | Acetonitrile |
+| [Acutely toxic chemicals]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_acutelytoxics.pdf) | Buspirone hydrochloride, caffeine, dithiothreitol (DTT), FlexMix MS standards, iodoacetamide, Pierce calibrator solution, triple quad calibration solution |
+| [Butylamine]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Butylamine.pdf) | Butylamine |
+| [Flammable solvents]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Methanol_IPA_Ethanol.pdf) | Methanol, isopropanol, ethanol |
+| [Fluoranthene]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Fluoranthane.pdf) | Fluoranthene |
+| [Formamide]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Formamide.pdf) | Formamide |
+| [Gas cylinders]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Gascylinder.pdf) | Compressed gas cylinders |
+| [Hydrochloric acid]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_HydrochloricAcid.pdf) | Hydrochloric acid |
+| [Irritants]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Irritant.pdf) | Ammonium carbonate, calcium chloride dihydrate, cesium iodide, Lithisil 829 potassium lithium silicate solution, potassium silicate solution, silica gel |
+| [Irritants 2]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Irritant_2.pdf) | Iodoacetic acid, Laemmli sample buffer, PBS (phosphate buffered saline), tyrosine, Ultramark 1621 |
+| [Reserpine]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Reserpine.pdf) | Reserpine |
+| [SDS]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_SDS.pdf) | SDS (sodium dodecyl sulfate) |
+| [Trypsin]({{ site.baseurl }}/assets/docs/resources/safety/UWPR_SOP_2025_Trypsin.pdf) | Trypsin |
 
 ## Floor plan and fire safety evacuation plan (FSEP) {#floorplan}
 
-- [B59 mass spec lab floor plan (pdf)]({{ site.baseurl }}/assets/docs/safety/B59_online_safety_floor_plan.pdf) (also as [pptx]({{ site.baseurl }}/assets/docs/safety/B59_online_safety_floor_plan.pptx))
-- [SLU aerial campus evacuation staging locations, buildings C-S (pdf)]({{ site.baseurl }}/assets/docs/safety/SLU_Arial_Campus_Evac_Staging_Locations_BldgsC-S.pdf)
-- [2023 FSEP Building D (pdf)]({{ site.baseurl }}/assets/docs/safety/2023%20FSEP%20Building%20D%20(Updated%202.13.23).pdf)
+- [B59 mass spec lab floor plan (pdf)]({{ site.baseurl }}/assets/docs/resources/safety/B59_online_safety_floor_plan.pdf) (also as [pptx]({{ site.baseurl }}/assets/docs/resources/safety/B59_online_safety_floor_plan.pptx))
+- [SLU aerial campus evacuation staging locations, buildings C-S (pdf)]({{ site.baseurl }}/assets/docs/resources/safety/SLU_Arial_Campus_Evac_Staging_Locations_BldgsC-S.pdf)
+- [2023 FSEP Building D (pdf)]({{ site.baseurl }}/assets/docs/resources/safety/2023%20FSEP%20Building%20D%20(Updated%202.13.23).pdf)
 - [All SLU fire safety evacuation plans (FSEP)](https://depts.washington.edu/uwsom/administration-and-finance/home/slu-information) (UW NetID required)
 
 ## UW Accident Prevention Plan {#accidentprevention}

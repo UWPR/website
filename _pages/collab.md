@@ -14,7 +14,7 @@ The UWPR offers analytical and instructional expertise in state-of-the-art mass 
 
 Access to UWPR resources is through collaborations with [Resource members or affiliated research labs]({{ site.baseurl }}/contact/). We strongly recommend discussing your proteomics project and sample preparation with Resource members before preparing samples; see the sample preparation guidelines on our [Resources page]({{ site.baseurl }}/resources/).
 
-Using the resources requires the appropriate training and adherence to the usage [guidelines (pdf)]({{ site.baseurl }}/assets/docs/UWPR_Guidelines_selfServ.pdf). After the initial training (usually 4 to 6 hours) and several periods of supervised use, a researcher may operate an instrument independently with instructor approval. Training is instrument specific, takes place during your signed-up instrument time, and must be coordinated with UWPR staff.
+Using the resources requires the appropriate training and adherence to the usage [guidelines (pdf)]({{ site.baseurl }}/assets/docs/collab/UWPR_Guidelines_selfServ.pdf). After the initial training (usually 4 to 6 hours) and several periods of supervised use, a researcher may operate an instrument independently with instructor approval. Training is instrument specific, takes place during your signed-up instrument time, and must be coordinated with UWPR staff.
 
 The UWPR operates as a cost center: institutional users contribute to the upkeep of the resource through a recharge system, with rates based on operating costs and individual instrument usage. To keep operating costs low, collaborators supply all the consumables needed for sample preparation and mass spec analysis (LC columns, vials, etc., per the usage guidelines).
 
@@ -30,7 +30,7 @@ UW employees billing to a UW worktag (budget number) can choose between self ser
 
 ## Self Service {#selfservice}
 
-Download the [Self service guidelines (pdf)]({{ site.baseurl }}/assets/docs/UWPR_Guidelines_selfServ.pdf).
+Download the [Self service guidelines (pdf)]({{ site.baseurl }}/assets/docs/collab/UWPR_Guidelines_selfServ.pdf).
 
 - After submitting the project details and billing information, request sign-up privileges by email. Once access is granted, you can schedule up to 20 days (480 hours) of instrument time.
 - **Do NOT block instrument time unnecessarily. Your self sign-up rights can and will be revoked.**
@@ -42,12 +42,12 @@ Download the [Self service guidelines (pdf)]({{ site.baseurl }}/assets/docs/UWPR
 - If you finish early and clean up and return the key card before the next time block starts, unused instrument time is backed out to the end of your last acquisition (rounded up to the next full hour), but no further back than the end of the previous time block. The sign-up fee is not backed out. For example, if you sign up through Monday 10 am so you do not have to clean up during the weekend, and your last run finishes Saturday morning, you will be charged through Sunday 6 pm.
 - If you cannot make it in and ask UWPR personnel to clean up for you, the full time block is charged and no time is backed out.
 - If you sign up into the weekend, be prepared to come in and clean up during the weekend in case someone signs up to use the instrument.
-- Provide your own consumables (columns and autosampler vials); download the list of [commonly used LC-MS consumables (xls)]({{ site.baseurl }}/assets/docs/protocols05/LC_MS_Consumables.xls).
+- Provide your own consumables (columns and autosampler vials); download the list of [commonly used LC-MS consumables (xls)]({{ site.baseurl }}/assets/docs/collab/LC_MS_Consumables.xls).
 - UWPR personnel can also help with your data analysis needs; contact us to discuss details.
 
 ## Full LC-MS Service {#fullservice}
 
-For small projects with a limited number of samples, we offer full LC-MS service ([guidelines (pdf)]({{ site.baseurl }}/assets/docs/UWPR_Guidelines_fullServ.pdf)): you prepare the samples, and UWPR personnel run the LC-MS analyses and can help with data analysis. Contact us if you need help with project design or sample preparation procedures. All samples must be submitted "mass spec ready", i.e. you do all the sample preparation.
+For small projects with a limited number of samples, we offer full LC-MS service ([guidelines (pdf)]({{ site.baseurl }}/assets/docs/collab/UWPR_Guidelines_fullServ.pdf)): you prepare the samples, and UWPR personnel run the LC-MS analyses and can help with data analysis. Contact us if you need help with project design or sample preparation procedures. All samples must be submitted "mass spec ready", i.e. you do all the sample preparation.
 
 To start the collaboration, submit the project details and billing information online. When your samples are ready, submit the [Sample Submission Form (xlsx)](https://proteomicsresource.washington.edu/pr/costcenter_resources/UWPR%20sample%20submission%20form.xlsx), which we also use to track experimental details for future reference, and coordinate with UWPR personnel to drop off the samples. Once we receive both the samples and the form, UWPR personnel will schedule the instrument time to analyze your samples.
 

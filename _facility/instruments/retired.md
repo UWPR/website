@@ -22,9 +22,6 @@ author_profile: false
 
 *Instruments formerly in service at the UWPR, kept here as a historical record.*
 
-Control software versions for these instruments are summarized in
-[this spreadsheet (.xls)]({{ site.baseurl }}/assets/docs/InstrumentSoftwareVersions.xls).
-
 ## LTQ {#ltq}
 
 ![]({{ site.baseurl }}/assets/images/instruments/ltq.jpg)
@@ -56,11 +53,6 @@ Hybrid instrument combining a linear ion trap with a 7 T FT-ICR mass analyzer
 (resolution 100,000 at m/z 400 in broadband mode). Supported CID, PQD, ECD, and IRMPD.
 
 - Installed 2/5/2007, upgraded to Ultra cell 10/5/2007
-
-UWPR guides:
-
-- [LTQ-FT Ultra ECD and IRMPD optimization (pdf)]({{ site.baseurl }}/assets/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_optimization.pdf)
-- [LTQ-FT Ultra ECD and IRMPD maintenance (pdf)]({{ site.baseurl }}/assets/docs/protocols05/LTQ_FTUltra_ECD_IRMPD_maintenance.pdf)
 
 ## LTQ-Orbitrap XL 1 and 2 {#ltqorbitrap}
 
@@ -124,6 +116,3 @@ Base collision energy equations (see the [SRM page]({{ site.baseurl }}/resources
 ## nanoAcquity {#nanoacquity}
 
 Waters nano-scale UPLC systems for peptide separations; eight units installed 2007–2010.
-
-- [nanoACQUITY Brochure (pdf)]({{ site.baseurl }}/assets/docs/nanoACQUITY-UPLC-Brochure.pdf)
-- [LC-MS setup procedure nanoAcquity (pdf)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_LC_MS_setup.pdf)

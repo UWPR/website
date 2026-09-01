@@ -25,4 +25,4 @@ Guides and reference material for analyzing LC-MS data on the UWPR systems, from
 ## Helpful Reference Tables
 
 - [Amino Acid Mass Table]({{ site.baseurl }}/resources/data-analysis/masses/)
-- [Common mass spec contaminants (xls)]({{ site.baseurl }}/assets/docs/protocols05/UWPR_CommonMassSpecContaminants.xls)
+- [Common mass spec contaminants (xls)]({{ site.baseurl }}/assets/docs/resources/data-analysis/UWPR_CommonMassSpecContaminants.xls)

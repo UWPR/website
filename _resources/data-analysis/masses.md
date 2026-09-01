@@ -10,7 +10,7 @@ classes: no_sidebar
 author_profile: false
 ---
 
-Here is the set of monoisotopic and average amino acid masses and elemental mass values used by the tools developed here. The amino acid masses are the sums of the elemental masses, and the elemental masses are from [Unimod](http://www.unimod.org/masses.html). You can also download [this spreadsheet]({{ site.baseurl }}/assets/docs/amino_acid_masses.xlsx), which calculates the average and monoisotopic masses for each amino acid from the listed elemental values (which you can change). Please [send me an email](mailto:engj@uw.edu) if you notice an error!
+Here is the set of monoisotopic and average amino acid masses and elemental mass values used by the tools developed here. The amino acid masses are the sums of the elemental masses, and the elemental masses are from [Unimod](http://www.unimod.org/masses.html). You can also download [this spreadsheet]({{ site.baseurl }}/assets/docs/resources/data-analysis/amino_acid_masses.xlsx), which calculates the average and monoisotopic masses for each amino acid from the listed elemental values (which you can change). Please [send me an email](mailto:engj@uw.edu) if you notice an error!
 
 Note that these are residue masses as they appear in a peptide or protein. Add the N-terminus (H) and C-terminus (OH) groups to calculate the neutral mass of the peptide or protein.
 
