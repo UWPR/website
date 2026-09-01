@@ -267,3 +267,56 @@
     }
   }
 }
+
+/* Section cards for hub/landing pages (Resources). Markup:
+   <div class="section-grid"> holding <a class="section-card"> tiles,
+   each with an icon, a .sc-title line, and a one-line blurb. */
+.page__content .section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 1.5em 0;
+
+  @media (max-width: 620px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.page__content .section-card {
+  display: block;
+  padding: 16px 20px;
+  border: 1px solid $border-color;
+  border-left: 4px solid $link-color;
+  border-radius: 6px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+    text-decoration: none;
+  }
+
+  i {
+    color: $link-color;
+    font-size: 1.2em;
+    width: 1.4em;
+    text-align: center;
+    margin-right: 0.35em;
+  }
+
+  .sc-title {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: $link-color;
+  }
+
+  p {
+    margin: 0.5em 0 0;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: $muted-text-color;
+  }
+}

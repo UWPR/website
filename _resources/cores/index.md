@@ -1,5 +1,5 @@
 ---
-title: "For MS Laboratories & Cores"
+title: "MS Laboratories & Cores"
 permalink: /resources/cores/
 classes: no_sidebar
 layout: single

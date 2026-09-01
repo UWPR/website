@@ -51,25 +51,3 @@ contact-sidebar:
         url: https://chem.washington.edu/facilities/mass-spectrometry-facility
       - title: "Northwest Metabolomics Research Center (NW-MRC)"
         url: https://northwestmetabolomicsorg.wpcomstaging.com/
-  - title: "Research Labs"
-    children:
-      - title: "Bruce"
-        url: http://brucelab.gs.washington.edu/
-      - title: "Bush"
-        url: http://depts.washington.edu/bushlab/
-      - title: "Heinecke"
-        url: https://uwmdi.org/labs/heinecke-lab/
-      - title: "Hoofnagle"
-        url: http://staff.washington.edu/ahoof
-      - title: "MacCoss"
-        url: http://proteome.gs.washington.edu/
-      - title: "Ong"
-        url: http://www.quantbiology.org
-      - title: "Riley"
-        url: https://www.riley-research.com/
-      - title: "Schweppe"
-        url: https://www.schweppelab.org/home
-      - title: "Vaisar"
-        url: https://uwmdi.org/labs/vaisar-laboratory/
-      - title: "Villen"
-        url: https://villenlab.gs.washington.edu/
