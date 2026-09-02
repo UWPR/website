@@ -2,8 +2,65 @@
 # Jekyll front-matter so this SCSS file is processed.
 ---
 
+/* ===================================================================
+   UWPR color theme: "Ion Navy" (applied 2026-09-01 for inspection).
+
+   Charcoal masthead and footer with deep navy links, buttons, and
+   accents. Chosen from the theme demo artifact; the other candidate
+   palettes (Husky Purple & Gold, Puget Deep Teal, Evergreen, Ion
+   Blue, Slate & Copper) are kept there for a possible later switch:
+   https://claude.ai/code/artifact/dc430d06-22a7-40b2-84c8-c8317950b2ff
+
+   These overrides MUST sit before the two @import lines: Minimal
+   Mistakes declares its variables with !default, so first set wins.
+   The masthead and footer blocks live at the end of this file since
+   the masthead has no dedicated color variable.
+   =================================================================== */
+$link-color: #1e3f86;
+$primary-color: #1e3f86;
+$text-color: #23272c;
+$border-color: #dde3ec;
+$footer-background-color: #22262b;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* Ion Navy: charcoal masthead (no MM variable covers it) and light
+   footer text so the charcoal footer stays legible. */
+.masthead {
+  background: #22262b;
+
+  .site-title,
+  .greedy-nav a {
+    color: #e6e9ed;
+  }
+
+  .greedy-nav {
+    background: transparent;
+  }
+
+  .greedy-nav a:hover {
+    color: #ffffff;
+  }
+}
+
+.page__footer {
+  color: #9aa3ad;
+
+  a {
+    color: #c7cdd3;
+  }
+}
+
+/* UWPR info cards (the home page "Our Mission" / "University of
+   Washington" boxes, the contact page address boxes) and the login
+   strip. Tinted from the active theme's link color so they follow
+   any theme swap; the legacy tan lived in assets/style/uwpr.css. */
+.uwpr-grid-item,
+.strip {
+  color: $text-color;
+  background-color: mix($link-color, #fff, 8%);
+}
 
 /* ===================================================================
    UWPR width override.
