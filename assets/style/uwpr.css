@@ -69,7 +69,7 @@ input[type="reset"] {
  
  
 .strip {
- background-color: #e9dcbe;
+ /* background color comes from the site theme; see main.scss */
  display: flex;
  justify-content: center;
  align-items: center;
@@ -103,8 +103,7 @@ input[type="reset"] {
 }
 
 .uwpr-grid-item {
-	color: #343434;
-    background-color: #e9dcbe;
+    /* colors come from the site theme; see main.scss */
     padding: 20px;
     border: none;
 }
