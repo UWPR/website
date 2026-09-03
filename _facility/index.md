@@ -10,7 +10,7 @@ author_profile: false
 
 *UWPR's state of the art instrumentation and equipment*
 
-[![]({{ site.baseurl }}/assets/images/B59_01.jpg)](#)
+![UWPR instrument room]({{ site.baseurl }}/assets/images/facility3.jpeg)
 
 The Proteomics Resource's instrument room is located in the basement of 850 Republican St. in ~3500 sq. ft. of lab space.
 

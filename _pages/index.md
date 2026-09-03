@@ -8,62 +8,58 @@ page_css:
 
 header:
  overlay_color: "#000"
- overlay_filter: "0.5"
- overlay_image: /assets/images/uwpr_logo.png
+ overlay_filter: "0.75"
+ overlay_image: /assets/images/source4.jpg
 excerpt: "The University of Washington’s Proteomics Resource (UWPR) is a proteomics facility whose mission is to advance proteomic technologies and apply these technologies to significant biological problems."
 
-feature_row:
-  - image_path: /assets/images/collaborate.png
-    #class: white
+home_cards:
+  - image_path: /assets/images/collaborate.jpg
     alt: "collaborate"
     title: "Collaborate"
     excerpt: "UWPR provides UW researchers with analytical and instructional expertise in proteomics techniques and data analysis."
     url: /collab/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/resources.png
+  - image_path: /assets/images/facility1.jpeg
     alt: "facility"
     title: "Facility"
     excerpt: "Learn more about UWPR's state of the art LC-MS instrumentation and computational resources."
     url: /facility/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/methods.png
+  - image_path: /assets/images/methods.jpg
     alt: "resources"
     title: "Resources"
     excerpt: "A broad reference for shotgun proteomics: knowledgebase, sample preparation, protocols, data analysis, consumables, and safety."
     url: /resources/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
-feature_row2:
-  - image_path: /assets/images/tools.png
+  - image_path: /assets/images/NUCKS.jpeg
     alt: "tools"
-    title: "Data Analysis Tools"
-    excerpt: "Information on software, utilities, and related resources available at the UWPR to analyze and visualize proteomics data."
+    title: "Tools"
+    excerpt: "Online calculators, spectrum viewers, and downloadable utilities developed or hosted by the UWPR for analyzing mass spectrometry data."
     url: /tools/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/publications.png
+  - image_path: /assets/images/publications.jpg
     alt: "publications"
     title: "Publications"
     excerpt: "The UWPR supports a wide range of proteomics research. A collection of the publications is available here."
     url: /publications/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/contact.png
+  - image_path: /assets/images/aboutus3.jpg
     alt: "contact"
     title: "Contact"
-    excerpt: "Interested in contacting or visiting the UWPR? Find phone and email contacts, address, and shuttle information here."
+    excerpt: "Contact or visit the UWPR. Address, shuttle, and contact information found here."
     url: /contact/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 
 ---
 
-{% include feature_row %}
-
-{% include feature_row id="feature_row2" %}
+<div class="home-cards">
+  {%- for card in page.home_cards %}
+  <div class="home-card">
+    <a class="home-card__media" href="{{ card.url | relative_url }}">
+      <img src="{{ card.image_path | relative_url }}" alt="{{ card.alt }}">
+      <span class="home-card__banner">{{ card.title }}</span>
+    </a>
+    <div class="home-card__body">{{ card.excerpt }}</div>
+    <div class="home-card__action">
+      <a href="{{ card.url | relative_url }}" class="btn btn--primary">Learn More</a>
+    </div>
+  </div>
+  {%- endfor %}
+</div>
 
 <div class="uwpr-grid">
  <div class="uwpr-grid-item">
