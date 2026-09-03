@@ -90,6 +90,7 @@
 
     
 
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -229,11 +230,11 @@
 
 <p>Links to your processed data appear at the bottom of your project page in the section “External Links to Data”.</p>
 
-<p><img src="/assets/primer/pic0.png" alt="external links" /></p>
+<p><img src="/assets/images/primer/pic0.png" alt="external links" /></p>
 
 <p>Click on the “View Data” link, which brings up a page that looks like this:</p>
 
-<p><img src="/assets/primer/pic1.png" alt="data links" /></p>
+<p><img src="/assets/images/primer/pic1.png" alt="data links" /></p>
 
 <p>Clicking on these links will prompt you to authenticate again using the same user name and password that gets you into your UWPR project page. If you are sure you are using the same login credentials but still cannot access the data links, <a href="/contact/">contact us</a>.</p>
 
@@ -241,11 +242,11 @@
 
 <p>The very first thing I always look at is PeptideProphet’s score distribution plots and how well the modeled positive and negative distributions fit the experimental data. To do this, click on the “pep.xml” file link for each analysis. This brings up the TPP’s PepXML Viewer below. Think of it as a grid of your raw search results where each row represents an MS/MS spectrum search result. You will see some scores, a spectrum name with the scan number and charge state encoded in it, a link to the spectrum viewer, the best (not necessarily correct) peptide match, a protein name (just one protein name is printed, but the peptide could match many), and the peptide mass. You can add or remove other columns of information.</p>
 
-<p><img src="/assets/primer/pic2.png" alt="pepXML page" width="850" /></p>
+<p><img src="/assets/images/primer/pic2.png" alt="pepXML page" width="850" /></p>
 
 <p>Then click on any of the probability score values in the leftmost column with the header “PROB”. They all bring up the same score distribution curves, so it does not matter which one you click on. You should see a set of model charts like the ones below. There is a lot of information here that is beyond this primer; your best resource for questions on PeptideProphet and these score distributions is the TPP’s <a href="https://groups.google.com/forum/#!forum/spctools-discuss">support forum</a>.</p>
 
-<p><img src="/assets/primer/pic3.png" alt="models page" width="850" /></p>
+<p><img src="/assets/images/primer/pic3.png" alt="models page" width="850" /></p>
 
 <p>The charts on the far left are the key indicators and what I use to judge whether or not the calculated probability values are worthwhile.</p>
 
@@ -253,15 +254,15 @@
 
 <p>Here are two examples of very good score distributions. The sensitivity/error curves are near ideal (you want them to hit the top right and bottom left corners). The black line in the second and third plots represents the histogram of search results, and you want to see a bimodal (two peak) distribution representing the bad hits (modeled by the red curve) and the good hits (modeled by the green curve). In these examples, it is clear that there are two peaks in the black score distribution and the positive distributions are big.</p>
 
-<p><img src="/assets/primer/score1.png" alt="good score distributions" />     <img src="/assets/primer/score2.png" alt="good score distributions" /></p>
+<p><img src="/assets/images/primer/score1.png" alt="good score distributions" />     <img src="/assets/images/primer/score2.png" alt="good score distributions" /></p>
 
 <p>Here are two examples of other good, perhaps more typical distributions. The positive distributions are not nearly as large as in the plots above, but they are clear positive distributions. In the plots on the right, the lines are jagged simply because the raw counts are so low. But even with these low counts, there is good separation between the positive and negative distributions (and this good separation is encapsulated in the good sensitivity/error plots).</p>
 
-<p><img src="/assets/primer/score3.png" alt="good score distributions" />     <img src="/assets/primer/score4.png" alt="good score distributions" /></p>
+<p><img src="/assets/images/primer/score3.png" alt="good score distributions" />     <img src="/assets/images/primer/score4.png" alt="good score distributions" /></p>
 
 <p>Here is an example of very poor score distributions. The sensitivity/error plots do not trend to the top right and bottom left corners, and there is simply no positive distribution. So if there are any good peptide IDs, their counts are very low.</p>
 
-<p><img src="/assets/primer/score5.png" alt="bad score distributions" />     <img src="/assets/primer/score7.png" alt="bad score distributions" /></p>
+<p><img src="/assets/images/primer/score5.png" alt="bad score distributions" />     <img src="/assets/images/primer/score7.png" alt="bad score distributions" /></p>
 
 <p>When the score distributions are as poor as in the third example above, I tend to ignore the calculated probability values, which means the protein probabilities are not reliable either (do not bother opening the prot.xml link). For such data, I end up sorting the peptide list in ascending order by the “expect” column (E-value or expectation value) and looking at the best scoring identifications. In contrast to PeptideProphet probabilities, which are calculated by analyzing the entire run, the E-value is calculated on each individual spectrum search; smaller E-values are better. Think of it as related to a p-value, but with the definition that it is the expected number of random identifications that score as well as or better than the current peptide’s score. By observation of Comet scores and the spectral annotations, E-values in the range of 10<sup>-8</sup> or smaller are usually very good, while spectra with scores in the 10<sup>-4</sup> range and higher start to look more noisy and suspect. And there are always exceptions (like a good looking spectrum match with a poorer E-value). Note that there is an issue where extremely poor matches of, say, a single fragment ion can generate low E-values, so always glance at the “IONS” column as well; any entries with just 1 or 2 fragment matches, e.g. “1/20”, indicate a poor match.</p>
 
@@ -270,71 +271,71 @@
 <p>Both the pep.xml and prot.xml viewers allow you to filter the data. For example, in order to target a specific false discovery rate, you can look up the appropriate probability score cutoff. In the pep.xml viewer, click on any probability score and then click on “Sens/Error Tables”. Look at the “Error Table” and the “Error_Rate” column, which represents the false discovery rate. If you want to filter the results at a 1% or a 5% false discovery rate, find the “min_prob” minimum probability that corresponds to the 0.01 or 0.05 “Error_Rate” value. Now you can filter your results with this minimum probability cutoff to target your specific false discovery rate. (Use the global error rate values and ignore those specific to each charge state.) Click on the images below for a larger view of the filtering workflows.</p>
 
 <p>pep.xml FDR filtering:
-<a href="/assets/primer/pepxml_filter.png"><img src="/assets/primer/pepxml_filter.png" alt="pepXML filtering" width="600" /></a>
+<a href="/assets/images/primer/pepxml_filter.png"><img src="/assets/images/primer/pepxml_filter.png" alt="pepXML filtering" width="600" /></a>
 prot.xml FDR filtering:
-<a href="/assets/primer/protxml_filter.png"><img src="/assets/primer/protxml_filter.png" alt="protXML filtering" width="600" /></a></p>
+<a href="/assets/images/primer/protxml_filter.png"><img src="/assets/images/primer/protxml_filter.png" alt="protXML filtering" width="600" /></a></p>
 
 <h2 id="viewing-annotated-spectra">Viewing annotated spectra</h2>
 
 <p>To visualize annotated spectra using the <a href="https://github.com/UWPR/Lorikeet">Lorikeet</a> viewer, click on the links in the “IONS” column of the PepXML Viewer. Here are three examples of good MS/MS spectra with good peptide matches.</p>
 
-<p><img src="/assets/primer/spectrum1.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum1.png" alt="ms/ms spectrum" width="600" /></p>
 
-<p><img src="/assets/primer/spectrum2.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum2.png" alt="ms/ms spectrum" width="600" /></p>
 
-<p><img src="/assets/primer/spectrum3.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum3.png" alt="ms/ms spectrum" width="600" /></p>
 
 <p>These are examples of very poor MS/MS spectra.</p>
 
-<p><img src="/assets/primer/spectrum4.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum4.png" alt="ms/ms spectrum" width="600" /></p>
 
-<p><img src="/assets/primer/spectrum5.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum5.png" alt="ms/ms spectrum" width="600" /></p>
 
-<p><img src="/assets/primer/spectrum6.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum6.png" alt="ms/ms spectrum" width="600" /></p>
 
 <p>These peptide-spectrum matches got poor scores but might seem plausible if you squint your eyes hard enough. This reflects the fact that mass spectra are not binary (correct/incorrect) data, so identifications and identification confidence are also not black and white.</p>
 
-<p><img src="/assets/primer/spectrum7.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum7.png" alt="ms/ms spectrum" width="600" /></p>
 
-<p><img src="/assets/primer/spectrum8.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum8.png" alt="ms/ms spectrum" width="600" /></p>
 
-<p><img src="/assets/primer/spectrum9.png" alt="ms/ms spectrum" width="600" /></p>
+<p><img src="/assets/images/primer/spectrum9.png" alt="ms/ms spectrum" width="600" /></p>
 
 <h2 id="protein-level-results">Protein-level results</h2>
 
 <p>The prot.xml link brings up the ProteinProphet viewer. This is a protein centric view of the data and should only be looked at after you validate that the peptide score distributions are not horrible. Here is what the ProteinProphet viewer looks like:</p>
 
-<p><img src="/assets/primer/prot1.png" alt="protXML view" width="850" /></p>
+<p><img src="/assets/images/primer/prot1.png" alt="protXML view" width="850" /></p>
 
 <p>Scrolling down the list, you start seeing protein “groups”, which are usually isoforms grouped together (but sometimes they are unrelated proteins that simply share sequence homology):</p>
 
-<p><img src="/assets/primer/prot2.png" alt="protXML view" width="850" /></p>
+<p><img src="/assets/images/primer/prot2.png" alt="protXML view" width="850" /></p>
 
 <p>Clicking on the far left column for a particular protein entry brings up these peptide details:</p>
 
-<p><img src="/assets/primer/prot3.png" alt="protXML view" width="850" /></p>
+<p><img src="/assets/images/primer/prot3.png" alt="protXML view" width="850" /></p>
 
 <p>Clicking on the group entry number brings up the group details below, where the shaded boxes represent peptide IDs across the proteins in the group. As you can see, entry “sp|O00159-3|MYO1C-3_HUMAN” contains every peptide identified across this set of 5 proteins, whereas the other 4 proteins match a subset of those peptides. This is why “sp|O00159-3|MYO1C-3_HUMAN” has a probability of 1.0000 while the other 4 proteins have a probability of 0.0000. This does not mean that the other proteins are not present in your sample; there is no way to know this from the peptide data. The ProteinProphet software apportions the probability values across the simplest list of proteins that can explain the identified peptides, which in this case is that single protein entry; that is simply the convention its authors decided to take. All 5 proteins are still part of the protein group, and any or all of them might be present irrespective of the individual assigned protein probabilities.</p>
 
-<p><img src="/assets/primer/prot4.png" alt="protein group" width="850" /></p>
+<p><img src="/assets/images/primer/prot4.png" alt="protein group" width="850" /></p>
 
 <h2 id="exporting-spreadsheets">Exporting spreadsheets</h2>
 
 <p>For the pep.xml link, after you choose “Export Spreadsheet”, go back to the “Summary” tab. In the header, you should now see an “exported spreadsheet to:” text with a hypertext link to the .xls file (which is really just a tab-delimited text file); see the image below. Click on the link to download the .xls file and open it in Excel.</p>
 
-<p><img src="/assets/primer/excel1.png" alt="pepXML export" width="850" /></p>
+<p><img src="/assets/images/primer/excel1.png" alt="pepXML export" width="850" /></p>
 
 <p>It is a little more convoluted to get the exported file from the prot.xml view. Once you hit the “Export to XLS” button in the protein view, you end up with something like this:</p>
 
-<p><img src="/assets/primer/excel2.png" alt="protXML export" width="850" /></p>
+<p><img src="/assets/images/primer/excel2.png" alt="protXML export" width="850" /></p>
 
 <h2 id="tmt-and-itraq-quantification-libra">TMT and iTRAQ quantification (Libra)</h2>
 
-<p>For TMT or iTRAQ labeled samples, the tool that extracts the reporter ion signals is the Libra tool. Assuming the 6-plex TMT reagent was used, the resulting quantitative values are reported as Libra1 through Libra6, corresponding to the reporter ions from 126 through 131. The quantitative peptide and protein values are displayed as below, and the actual values are exported into the tab-delimited text files as described above. <a href="/assets/primer/libra_info.html">Here is the documentation, from back in 2006, that the Libra developers put together</a> describing what it does.</p>
+<p>For TMT or iTRAQ labeled samples, the tool that extracts the reporter ion signals is the Libra tool. Assuming the 6-plex TMT reagent was used, the resulting quantitative values are reported as Libra1 through Libra6, corresponding to the reporter ions from 126 through 131. The quantitative peptide and protein values are displayed as below, and the actual values are exported into the tab-delimited text files as described above. <a href="/assets/images/primer/libra_info.html">Here is the documentation, from back in 2006, that the Libra developers put together</a> describing what it does.</p>
 
-<p><img src="/assets/primer/libra1.png" alt="pepXML Libra" width="850" /></p>
+<p><img src="/assets/images/primer/libra1.png" alt="pepXML Libra" width="850" /></p>
 
-<p><img src="/assets/primer/libra2.png" alt="protXML Libra" width="850" /></p>
+<p><img src="/assets/images/primer/libra2.png" alt="protXML Libra" width="850" /></p>
 
 <h2 id="filtering-out-contaminants">Filtering out contaminants</h2>
 
@@ -345,7 +346,7 @@ prot.xml FDR filtering:
 
 <p>Pasted into the filter, it looks like this:</p>
 
-<p><img src="/assets/primer/filtercontam.png" alt="contaminant filter" /></p>
+<p><img src="/assets/images/primer/filtercontam.png" alt="contaminant filter" /></p>
 
 <h2 id="references">References</h2>
 
